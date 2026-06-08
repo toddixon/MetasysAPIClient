@@ -1,0 +1,158 @@
+{
+  "self": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/commands",
+  "items": [
+    {
+      "id": "commandIdEnumSet.archiveCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/commands/commandIdEnumSet.archiveCommand",
+      "title": "Archive",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.resetDeviceCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/commands/commandIdEnumSet.resetDeviceCommand",
+      "title": "Reset Device",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.changeAuditClassCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/commands/commandIdEnumSet.changeAuditClassCommand",
+      "title": "Change Audit Enabled Class Level",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "parameters": {
+            "type": "array",
+            "metasysType": "list",
+            "items": [
+              {
+                "id": "commandParmsEnumSet.valueCmdparm",
+                "title": "Value",
+                "metasysType": "ulong",
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 4,
+                "default": 2
+              }
+            ],
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.updateFlashUsageCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/commands/commandIdEnumSet.updateFlashUsageCommand",
+      "title": "Update Flash Usage",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.routeSamplesCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/commands/commandIdEnumSet.routeSamplesCommand",
+      "title": "Route Samples",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.rediscoverTextStringsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/commands/commandIdEnumSet.rediscoverTextStringsCommand",
+      "title": "Rediscover Text Strings",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    }
+  ],
+  "effectivePermissions": {
+    "canInvoke": [
+      "commandIdEnumSet.archiveCommand",
+      "commandIdEnumSet.resetDeviceCommand",
+      "commandIdEnumSet.changeAuditClassCommand",
+      "commandIdEnumSet.updateFlashUsageCommand",
+      "commandIdEnumSet.routeSamplesCommand",
+      "commandIdEnumSet.rediscoverTextStringsCommand"
+    ]
+  }
+}

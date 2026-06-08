@@ -1,0 +1,11 @@
+{
+  "id": "6d66b44c-7aa5-5e8a-9150-0ab6ee0bfe8a",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "extension",
+  "name": "Flash Usage Alarm",
+  "label": "Flash Usage Alarm",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Flash Usage Alarm",
+  "objectType": "objectTypeEnumSet.aaClass",
+  "objectTypeVersion": "1.0"
+}

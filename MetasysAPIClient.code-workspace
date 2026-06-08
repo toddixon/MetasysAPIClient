@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+		{
+			"path": "/home/toddixon/.copilot"
+
+		}
+
+	],
+	"settings": {
+		"postman.settings.dotenv-detection-notification-visibility": false
+	}
+}

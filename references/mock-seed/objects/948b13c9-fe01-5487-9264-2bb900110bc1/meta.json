@@ -1,0 +1,11 @@
+{
+  "id": "948b13c9-fe01-5487-9264-2bb900110bc1",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "COMPSP",
+  "label": "COMPSP",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.COMPSP",
+  "objectType": "objectTypeEnumSet.avMapperClass",
+  "objectTypeVersion": "1.0"
+}

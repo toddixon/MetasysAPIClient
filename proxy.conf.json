@@ -1,0 +1,12 @@
+{
+  "/api": {
+    "target": "https://DESKTOP-VM",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "headers": {
+      "Origin": "https://DESKTOP-VM",
+      "Referer": "https://DESKTOP-VM"
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "self": "https://desktop-vm/api/v6/objects/f9ebbd47-6b25-5cac-af0e-2dd933113b0d/commands",
+  "items": [
+    {
+      "id": "commandIdEnumSet.inServiceCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/f9ebbd47-6b25-5cac-af0e-2dd933113b0d/commands/commandIdEnumSet.inServiceCommand",
+      "title": "In Service",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.outOfServiceCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/f9ebbd47-6b25-5cac-af0e-2dd933113b0d/commands/commandIdEnumSet.outOfServiceCommand",
+      "title": "Out of Service",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "parameters": {
+            "type": "array",
+            "metasysType": "list",
+            "items": [
+              {
+                "id": "commandParmsEnumSet.valueCmdparm",
+                "title": "Value",
+                "enumSetSource": "attributeEnumSet.statesText",
+                "numberOfStates": 2,
+                "allOf": [
+                  {
+                    "type": "string",
+                    "metasysType": "enum",
+                    "lastMember": "offonEnumSet.1"
+                  },
+                  {
+                    "$ref": "https://desktop-vm/api/v6/schemas/enums/offonEnumSet"
+                  }
+                ],
+                "default": "offonEnumSet.0"
+              }
+            ],
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.temporaryOutOfServiceCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/f9ebbd47-6b25-5cac-af0e-2dd933113b0d/commands/commandIdEnumSet.temporaryOutOfServiceCommand",
+      "title": "Temporary Out of Service",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "parameters": {
+            "type": "array",
+            "metasysType": "list",
+            "items": [
+              {
+                "id": "commandParmsEnumSet.valueCmdparm",
+                "title": "Value",
+                "enumSetSource": "attributeEnumSet.statesText",
+                "numberOfStates": 2,
+                "allOf": [
+                  {
+                    "type": "string",
+                    "metasysType": "enum",
+                    "lastMember": "offonEnumSet.1"
+                  },
+                  {
+                    "$ref": "https://desktop-vm/api/v6/schemas/enums/offonEnumSet"
+                  }
+                ],
+                "default": "offonEnumSet.0"
+              },
+              {
+                "id": "commandParmsEnumSet.hoursCmdparm",
+                "title": "Hours",
+                "metasysType": "ulong",
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100,
+                "default": 0
+              },
+              {
+                "id": "commandParmsEnumSet.minutesCmdparm",
+                "title": "Minutes",
+                "metasysType": "ulong",
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 59,
+                "default": 0
+              }
+            ],
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.enableAlarmsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/f9ebbd47-6b25-5cac-af0e-2dd933113b0d/commands/commandIdEnumSet.enableAlarmsCommand",
+      "title": "Enable Alarms",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.disableAlarmsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/f9ebbd47-6b25-5cac-af0e-2dd933113b0d/commands/commandIdEnumSet.disableAlarmsCommand",
+      "title": "Disable Alarms",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    }
+  ],
+  "effectivePermissions": {
+    "canInvoke": [
+      "commandIdEnumSet.inServiceCommand",
+      "commandIdEnumSet.outOfServiceCommand",
+      "commandIdEnumSet.temporaryOutOfServiceCommand",
+      "commandIdEnumSet.enableAlarmsCommand",
+      "commandIdEnumSet.disableAlarmsCommand"
+    ]
+  }
+}

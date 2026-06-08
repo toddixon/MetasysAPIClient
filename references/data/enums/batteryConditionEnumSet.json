@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Battery Condition",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/batteryConditionEnumSet",
+  "setId": 175,
+  "oneOf": [
+    {
+      "const": "batteryConditionEnumSet.bcBatteryGood",
+      "title": "Good",
+      "memberId": 0
+    },
+    {
+      "const": "batteryConditionEnumSet.bcBatteryService",
+      "title": "Service",
+      "memberId": 1
+    },
+    {
+      "const": "batteryConditionEnumSet.bcBatteryReplace",
+      "title": "Replace",
+      "memberId": 2
+    },
+    {
+      "const": "batteryConditionEnumSet.bcBatteryDefective",
+      "title": "Defective",
+      "memberId": 3
+    }
+  ]
+}

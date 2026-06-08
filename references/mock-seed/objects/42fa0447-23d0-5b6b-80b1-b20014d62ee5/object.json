@@ -1,0 +1,46 @@
+{
+  "objectType": "objectTypeEnumSet.siteClass",
+  "parentUrl": null,
+  "networkDeviceUrl": "https://desktop-vm/api/v6/networkDevices/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "item": {
+    "id": "42fa0447-23d0-5b6b-80b1-b20014d62ee5",
+    "name": "DESKTOP-VM",
+    "label": "$site",
+    "itemReference": "DESKTOP-VM:DESKTOP-VM/$site",
+    "objectType": "objectTypeEnumSet.siteClass",
+    "classification": "site"
+  },
+  "schema": {
+    "type": "object",
+    "title": "$site",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "label": {
+        "type": "string"
+      },
+      "itemReference": {
+        "type": "string"
+      },
+      "objectType": {
+        "type": "string"
+      },
+      "objectTypeVersion": {
+        "type": "string"
+      },
+      "classification": {
+        "type": "string"
+      }
+    }
+  },
+  "views": [
+    {
+      "id": "viewNameEnumSet.focusView"
+    }
+  ],
+  "effectivePermissions": {}
+}

@@ -1,0 +1,308 @@
+{
+  "objectType": "objectTypeEnumSet.ethIpClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "item": {
+    "id": "5924901f-01ac-5235-83d6-35556856b1ae",
+    "name": "Eth IP DataLink",
+    "label": "Eth IP DataLink",
+    "itemReference": "DESKTOP-VM:NS-NAE01/Eth IP DataLink",
+    "objectType": "objectTypeEnumSet.ethIpClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.ethIpClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "deviceAddress": "C0A808B8BAC0",
+    "broadcastAddress": "C0A808FFBAC0",
+    "addressLength": 6,
+    "networkAddress": 1001,
+    "maxApduLength": 1024,
+    "apduSegmentTimeout": 4000,
+    "apduTimeout": 6000,
+    "apduRetries": 4,
+    "bacnetIpPort": 47808,
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "attrChangeCount": 10,
+    "defaultAttribute": null
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "ETH IP",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 64
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ]
+      },
+      "objectCategory": {
+        "title": "Authorization Category",
+        "category": "attributeCategoryEnumSet.objectCategoryCategory",
+        "numberOfStates": 250,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=modifyItems"
+          }
+        ]
+      },
+      "deviceAddress": {
+        "title": "Device Address",
+        "readOnly": true,
+        "format": "hex",
+        "type": "string",
+        "metasysType": "octetString"
+      },
+      "broadcastAddress": {
+        "title": "Broadcast Address",
+        "readOnly": true,
+        "format": "hex",
+        "type": "string",
+        "metasysType": "octetString"
+      },
+      "addressLength": {
+        "title": "Address Length",
+        "readOnly": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "networkAddress": {
+        "title": "Configured Network Number",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 65534
+      },
+      "maxApduLength": {
+        "title": "Max APDU Length",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "apduSegmentTimeout": {
+        "title": "APDU Segment Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "apduTimeout": {
+        "title": "APDU Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "apduRetries": {
+        "title": "APDU Retries",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "bacnetIpPort": {
+        "title": "BACnet UDP Port",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "itemReference": {
+        "title": "Item Reference",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.objectNameCategory",
+        "type": "string",
+        "metasysType": "string"
+      },
+      "version": {
+        "title": "Version",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.versionStructCategory",
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "major": {
+            "metasysType": "byte",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "title": "Major"
+          },
+          "minor": {
+            "metasysType": "byte",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "title": "Minor"
+          }
+        }
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Focus",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Object",
+              "properties": [
+                "name",
+                "description",
+                "bacnetObjectType",
+                "objectCategory"
+              ],
+              "id": "viewGroupEnumSet.objectGrp"
+            },
+            {
+              "title": "Setup",
+              "properties": [
+                "deviceAddress",
+                "broadcastAddress",
+                "addressLength",
+                "networkAddress",
+                "maxApduLength",
+                "apduSegmentTimeout",
+                "apduTimeout",
+                "apduRetries",
+                "bacnetIpPort"
+              ],
+              "id": "viewGroupEnumSet.setupGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [
+            {
+              "title": "Engineering Values",
+              "properties": [
+                "itemReference",
+                "version",
+                "id"
+              ],
+              "id": "viewGroupEnumSet.engValuesGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        },
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.focusView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "self": "https://desktop-vm/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/commands",
+  "items": [
+    {
+      "id": "commandIdEnumSet.latchStatisticsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/commands/commandIdEnumSet.latchStatisticsCommand",
+      "title": "Latch Statistics",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.clearStatisticsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/commands/commandIdEnumSet.clearStatisticsCommand",
+      "title": "Clear Statistics",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    }
+  ],
+  "effectivePermissions": {
+    "canInvoke": [
+      "commandIdEnumSet.latchStatisticsCommand",
+      "commandIdEnumSet.clearStatisticsCommand"
+    ]
+  }
+}

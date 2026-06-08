@@ -1,0 +1,11 @@
+{
+  "id": "d05c73da-e239-5c27-895c-9bec3467d105",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "RM-ELEC",
+  "label": "RM-ELEC",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.RM-ELEC",
+  "objectType": "objectTypeEnumSet.aiMapperClass",
+  "objectTypeVersion": "1.0"
+}

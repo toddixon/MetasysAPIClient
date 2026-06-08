@@ -1,0 +1,41 @@
+<mat-dialog-content class="dialog__content">
+  <span class="event__message">
+    {{data.message}}
+  </span>
+
+
+
+  <p class="event__data">
+    @for(name of objNames; track $index) {
+    <strong>{{name}}</strong>
+    @if(!$last) {
+    {{', '}}
+    }
+    }
+  </p>
+
+
+  <mat-divider vertical="false"></mat-divider>
+
+  <mat-dialog-actions class="dialog__buttons">
+    <button matButton="outlined" class="event__button" [disabled]="disableActions() && data.pause$?.value == true"
+      matDialogClose="Cancel">{{'Cancel'}}</button>
+
+    <button matButton="filled" class="event__button" [disabled]="disableActions()"
+      (click)="doSomethingFn()">{{data.doSomething}}</button>
+
+    @if(data.ignore) {
+    <button matButton="filled" class="event__button" [disabled]="disableActions()"
+      [matDialogClose]="data.ignore">{{data.ignore}}</button>
+    }
+
+  </mat-dialog-actions>
+
+
+</mat-dialog-content>
+
+@if(progress$ | async; as progress) {
+<!-- <span>Status: {{progress.percentage}}, total: {{progress.total}}, completed: {{progress.completed}}<br> success: {{progress.successes}}, errors:
+  {{progress.errors}}</span> -->
+<mat-progress-bar mode="determinate" [value]="progress.percentage"></mat-progress-bar>
+}

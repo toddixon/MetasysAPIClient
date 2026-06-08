@@ -1,0 +1,30 @@
+{
+    "total": 2,
+    "next": null,
+    "previous": null,
+    "items": [
+        {
+            "id": "07ee0a1c-a574-5d15-83e5-cfb29a8be91c",
+            "itemReference": "DESKTOP-VM:DESKTOP-VM/Home.Floor 1",
+            "name": "Floor 1",
+            "type": "spaceTypesEnumSet.floor",
+            "self": "https://desktop-vm/api/v6/spaces/07ee0a1c-a574-5d15-83e5-cfb29a8be91c",
+            "parentUrl": "https://desktop-vm/api/v6/spaces/2f98c56e-b556-560a-8dbe-0e02b10029be",
+            "spacesUrl": "https://desktop-vm/api/v6/spaces/07ee0a1c-a574-5d15-83e5-cfb29a8be91c/spaces",
+            "equipmentUrl": "https://desktop-vm/api/v6/spaces/07ee0a1c-a574-5d15-83e5-cfb29a8be91c/equipment",
+            "networkDevicesUrl": "https://desktop-vm/api/v6/spaces/07ee0a1c-a574-5d15-83e5-cfb29a8be91c/networkDevices"
+        },
+        {
+            "id": "687d35e7-e6e5-5bbc-a6e3-a71230fd9c03",
+            "itemReference": "DESKTOP-VM:DESKTOP-VM/Home.Floor 2",
+            "name": "Floor 2",
+            "type": "spaceTypesEnumSet.floor",
+            "self": "https://desktop-vm/api/v6/spaces/687d35e7-e6e5-5bbc-a6e3-a71230fd9c03",
+            "parentUrl": "https://desktop-vm/api/v6/spaces/2f98c56e-b556-560a-8dbe-0e02b10029be",
+            "spacesUrl": "https://desktop-vm/api/v6/spaces/687d35e7-e6e5-5bbc-a6e3-a71230fd9c03/spaces",
+            "equipmentUrl": "https://desktop-vm/api/v6/spaces/687d35e7-e6e5-5bbc-a6e3-a71230fd9c03/equipment",
+            "networkDevicesUrl": "https://desktop-vm/api/v6/spaces/687d35e7-e6e5-5bbc-a6e3-a71230fd9c03/networkDevices"
+        }
+    ],
+    "self": "https://desktop-vm/api/v6/networkDevices/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/spaces?page=1&pageSize=100&sort=name"
+}

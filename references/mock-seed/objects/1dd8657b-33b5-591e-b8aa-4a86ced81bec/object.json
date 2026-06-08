@@ -1,0 +1,3751 @@
+{
+  "objectType": "objectTypeEnumSet.adsClass",
+  "objectTypeVersion": "46.0",
+  "parentUrl": "https://mock.local/api/v6/objects/42fa0447-23d0-5b6b-80b1-b20014d62ee5",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "item": {
+    "id": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+    "name": "DESKTOP-VM",
+    "label": "DESKTOP-VM",
+    "itemReference": "DESKTOP-VM:DESKTOP-VM",
+    "objectType": "objectTypeEnumSet.adsClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.bacdeviceClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "modelName": "ADS",
+    "localTime": {
+      "hour": 16,
+      "minute": 32,
+      "second": 17,
+      "hundredth": 21
+    },
+    "localDate": {
+      "year": 2026,
+      "month": "monthEnumSet.monthApr",
+      "dayOfMonth": "bacnetDayOfMonthEnumSet.bdom21",
+      "dayOfWeek": "dayOfWeekEnumSet.tuesday"
+    },
+    "firmwareVersion": "14.1.3.30",
+    "version": {
+      "major": 46,
+      "minor": 0
+    },
+    "archiveDate": {
+      "year": 2026,
+      "month": "monthEnumSet.monthApr",
+      "dayOfMonth": "bacnetDayOfMonthEnumSet.bdom19",
+      "dayOfWeek": "dayOfWeekEnumSet.sunday"
+    },
+    "maxMessageBuffer": 994,
+    "maxApduLength": 1024,
+    "apduSegmentTimeout": 10000,
+    "apduTimeout": 10000,
+    "apduRetries": 4,
+    "internodeCommTimer": 120,
+    "unboundReferences": [
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-35.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-06.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-32.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-15.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-17.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-19.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-10.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-30.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-13.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-27.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-28.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-05.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-21.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-33.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-34.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-22.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-20.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-26.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-11.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-31.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-23.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-25.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-18.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-24.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-36.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-04.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-37.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-14.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-29.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-08.HTG-O"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-39.ECONSWO-SP"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-38.ECONSWO-SP"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-39.CLG-EN"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-38.CLG-EN"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/Programming.AHU-1 CLG-EN OASPT",
+        "referencedObject": {
+          "objectUrl": "https://desktop-vm/api/v6/objects/8473f35b-2ee0-5d55-b057-3a6e41e67391"
+        }
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/Programming.AHU-2 CLG-EN OASPT",
+        "referencedObject": {
+          "objectUrl": "https://desktop-vm/api/v6/objects/a03d83d8-6135-5225-b7a8-70bcb3dd83e1"
+        }
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/Programming",
+        "referencedObject": {
+          "objectUrl": "https://desktop-vm/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209"
+        }
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-39.EFF-OCC"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-38.EFF-OCC"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-39.OCC-SCHEDULE"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-38.OCC-SCHEDULE"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-39.BATH EF-1 CTRL"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-12.OA-T"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-39.OA-T"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-37.ZNT-SP"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-35.ZNT-SP"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-34.ZNT-SP"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-33.ZNT-SP"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-30.ZNT-SP"
+      },
+      {
+        "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.FEC-29.ZNT-SP"
+      }
+    ],
+    "duplicateReferences": [],
+    "fipsComplianceStatus": "noOfComplianceStateEnumSet.nonCompliantUnlicensed",
+    "patchConfig": [],
+    "ldapsEnabled": false,
+    "ldapUpnEnabled": false,
+    "graphic": null,
+    "graphicAlias": null,
+    "almSnoozeTime": 5,
+    "enableApplicationGenAudit": false,
+    "auditEnabledClasLev": 2,
+    "addAdsrepos": [],
+    "adsRepositoriesStatus": [],
+    "allowOffSiteRepositoryStorage": false,
+    "sampleRate": 0,
+    "serviceTime": 66,
+    "numberOfNxesReporting": 2,
+    "transferBufferFullWorstNxe": 0,
+    "hostName": "",
+    "jciExceptionSchedule": "weeklySchedPurgeEnumSet.wsAutoDelete31Days",
+    "bacnetObjectCacheExposed": "bacnetObjectCacheExposedEnumSet.boceIncludeInList",
+    "jciSystemStatus": "jciSystemStatusEnumSet.jciOperational",
+    "attrChangeCount": 227,
+    "defaultAttribute": "attributeEnumSet.jciSystemStatus",
+    "emailEnabled": true,
+    "smtpServerHost": {
+      "hostName": "",
+      "ipAddress": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "smtpPort": 25,
+    "mailAuthType": "emailAuthEnumSet.eatNone",
+    "smtpUserName": "",
+    "smtpPassword": "**********",
+    "popServerHostname": "",
+    "popUserName": "",
+    "popPassword": "**********",
+    "failEmailAddr": null,
+    "emailDdaDiagnostics": "",
+    "sslEmailEnabled": false,
+    "sslEmailIgnoreErrors": false,
+    "emailDda": [],
+    "jciIpCommMode": "ipCommModeEnumSet.bacnetIpOnlyMode",
+    "enableBacnetScDecryptionFeature": false,
+    "operationalCertStatus": {
+      "startDate": null,
+      "endDate": null,
+      "startTime": null,
+      "endTime": null,
+      "subjectCn": "",
+      "issuerCn": "",
+      "skid": "0000000000000000000000000000000000000000",
+      "akid": "0000000000000000000000000000000000000000",
+      "fingerprint": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "cpuUsage": 4.87258482,
+    "memoryUsage": 82.1006546,
+    "objectMemoryUsage": 176,
+    "objectCount": 304,
+    "trendMemoryUsage": 0,
+    "repositoryStatus": "repositoryStatusEnumSet.repStatusOk",
+    "timeBetweenBufferReads": 66,
+    "alarmRate": 1,
+    "auditRate": 21,
+    "networkTolerance": "errorToleranceEnumSet.errTolLow",
+    "detectionInterval": 0,
+    "transportFailureRate": [],
+    "maximumIntermittentFailurePeriod": [],
+    "averageIntermittentFailurePeriod": [],
+    "outgoingEventRate": 0,
+    "incomingEventRate": 12,
+    "incomingAuditRate": 9,
+    "covReceivesPerMinute": 0,
+    "covTransmitsPerMinute": 0,
+    "bacnetBroadcastReceiveRate": 0,
+    "registrationUsage": 0,
+    "dataUsage": 2.20000005,
+    "dataCollectionRate": 0,
+    "traceCategoryAll": "traceLevelEnumsSet.traceLevelOff",
+    "traceCategoryOsGeneral": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryCov": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryDevlist": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryMce": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryMmsHttp": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryBacnetInt": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryGsi": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryNts": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryTrend": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryLntmReq": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryLoadBal": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryUserDict": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryOsTransportimpl": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryOsMsgdispatcher": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryOsApitaskinterface": "traceLevelEnumsSet.traceLevelError",
+    "traceCategoryAdvanceHelpers": "traceLevelEnumsSet.traceLevelError",
+    "smnpEnabled": false,
+    "snmpVersion": "snmpVersionEnumSet.snmpVer1",
+    "snmpMgmtDev": {
+      "hostName": "",
+      "ipAddress": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "portNumber": 161,
+    "contactPerson": "",
+    "readCommunity": "public",
+    "writeCommunity": "",
+    "snmpDda": [],
+    "snmpMessageFormat": "snmpMessageFormatEnumSet.snmpMsgFrmtString",
+    "syslogEnabled": false,
+    "syslogDda": [],
+    "printerEnabled": true,
+    "printerDda": [],
+    "protocolRevision": 19,
+    "pagerDialupConfig": {
+      "connUsing": "modemTypeEnumSet.internalModemType",
+      "phoneNum": "",
+      "redialAttempts": 3,
+      "redialTime": "redialDelayEnumSet.second1Delay",
+      "hangUpTime": "idleTimeEnumSet.minute1Idle",
+      "redialIfDropped": true,
+      "pagerDatabits": "pagerDatabitsEnumSet.pagerDatabits7",
+      "pagerParity": "pagerParityEnumSet.pagerParityEven",
+      "pagerStopbits": "pagerStopbitsEnumSet.pagerStopbits1",
+      "password": "000000"
+    },
+    "displayObjGenAudit": true,
+    "localSiteServer": "DESKTOP-VM",
+    "adsConnType": "adsConnectionTypeEnumSet.lanAdsConnection",
+    "adsDialPri": 255,
+    "adsDelivTime": {
+      "hour": 0,
+      "minute": 15,
+      "second": 0,
+      "hundredth": 0
+    },
+    "lanStatus": "networkStatusEnumSet.disconnectedNetworkStatus",
+    "pagerDialStat": "networkStatusEnumSet.disconnectedNetworkStatus",
+    "pagerDda": [],
+    "defAdsRepos": {
+      "hostName": "DESKTOP-VM",
+      "ipAddress": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "defAdsConnType": "adsConnectionTypeEnumSet.lanAdsConnection",
+    "defAdsDialPri": 255,
+    "defAdsDelivTime": {
+      "hour": 0,
+      "minute": 15,
+      "second": 0,
+      "hundredth": 0
+    },
+    "siteData": true,
+    "dstStartDate": {
+      "year": 2027,
+      "month": "monthEnumSet.monthMar",
+      "dayOfMonth": "bacnetDayOfMonthEnumSet.bdom14",
+      "dayOfWeek": "any"
+    },
+    "dstStartTime": {
+      "hour": 2,
+      "minute": 0,
+      "second": 0,
+      "hundredth": 0
+    },
+    "dstEndDate": {
+      "year": 2026,
+      "month": "monthEnumSet.monthNov",
+      "dayOfMonth": "bacnetDayOfMonthEnumSet.bdom1",
+      "dayOfWeek": "any"
+    },
+    "dstEndTime": {
+      "hour": 2,
+      "minute": 0,
+      "second": 0,
+      "hundredth": 0
+    },
+    "baseDownloadAvailable": 9,
+    "alarmCount": 3,
+    "ddaDiagnostics": "",
+    "isValidated": false,
+    "siteDirectorOnline": true,
+    "transferAllSamples": false,
+    "fileName": {
+      "path": "userdictionary.xml",
+      "refFlag": false,
+      "expFlag": false,
+      "references": []
+    },
+    "isAuthenticatedWithSite": true,
+    "region": "regionEnumSet.regionNorthAmerica",
+    "eventLostReset": false,
+    "ackForwardEnable": false,
+    "eventActionFull": "actionWhenFullEnumSet.rolloverActionWhenFull",
+    "auditActionFull": "actionWhenFullEnumSet.rolloverActionWhenFull",
+    "showPreloginBanner": false,
+    "advancedSecurityEnabled": false,
+    "preloginBannerMarkup": [],
+    "processIdList": [],
+    "processUnmappedObjAlarms": false,
+    "alarmDisabled": false,
+    "customerGuid": "",
+    "plantGuid": "",
+    "preloginBannerAttrType": "warningBannerEnumSet.warningBannerNone",
+    "isBacnetScLicensed": false,
+    "caCertificatesStatus": [],
+    "csrCreationTime": {
+      "date": null,
+      "time": null
+    },
+    "csrEtag": "",
+    "siteDirectorCommunicationProtocol": {
+      "mmsCommIpVersion": "siteDirectorCommProtocolEnumSet.siteDirectorCommProtocolUnspecified",
+      "soapCommIpVersion": "siteDirectorCommProtocolEnumSet.siteDirectorCommProtocolUnspecified"
+    },
+    "networkAddress": 1001,
+    "objectMemory": 0,
+    "overloadThreshold": 50,
+    "duplicateDeviceIdentifiers": [],
+    "computerName": "DESKTOP-VM",
+    "domainName": "",
+    "completionDomains": [],
+    "dhcpEnabled": true,
+    "ipAddress": [
+      192,
+      168,
+      8,
+      185
+    ],
+    "ipMask": [
+      255,
+      255,
+      255,
+      0
+    ],
+    "ipRouterAddress": [
+      [
+        192,
+        168,
+        8,
+        1
+      ]
+    ],
+    "obtainDnsAddrAuto": false,
+    "dnsServerIpAddrs": [
+      [
+        192,
+        168,
+        8,
+        1
+      ]
+    ],
+    "deviceIpv6Address": null,
+    "deviceIpv6PrefixLength": null,
+    "deviceIpv6DefaultGateway": null,
+    "deviceIpv6AutoAddressingEnable": null,
+    "enabledInternetProtocols": "enabledInternetProtocolsEnumSet.enabledProtocolsIpv4",
+    "obtainIpv6DnsAddressAutomatically": null,
+    "deviceIpv6DnsServer": null,
+    "ethernetMacAddress": [
+      0,
+      21,
+      93,
+      8,
+      100,
+      5
+    ],
+    "bacnetIpPort": 47808,
+    "sntpServer": false,
+    "devTimeSrvrs": [],
+    "timeSyncPeriod": "timeSyncEnumSet.ts1Hour",
+    "timeSyncMethod": "timeSyncMethodTypeEnumSet.timeSyncMethodTypeWindows",
+    "multicastGroupAddress": [
+      224,
+      0,
+      1,
+      1
+    ],
+    "multicastPort": 123,
+    "multicastTtl": 3,
+    "multicastHeartbeat": 5,
+    "securityLevel": "securityEnumSet.mediumSecurity",
+    "pubSiteSrvrHost": "DESKTOP-VM",
+    "siteSecurityLevel": "securityLevelEnumSet.encryptedOnly",
+    "certRenewalPeriod": 60,
+    "siteBacnetScPrimaryHubUri": "wss://DESKTOP-VM:1443",
+    "siteBacnetScFailoverHubUri": "",
+    "siteSecurePortNumber": 1443,
+    "systemStatus": "bacnetDeviceStatusEnumSet.operational",
+    "location": "",
+    "vendorName": "JCI",
+    "vendorId": 5,
+    "protocolVersion": 1,
+    "extendedProtoVer": 60003,
+    "applSwVersion": "",
+    "databaseRevision": 55,
+    "objectList": [
+      {
+        "instance": 5,
+        "bacnetObjectType": "objectTypeEnumSet.bacdeviceClass"
+      },
+      {
+        "instance": 3000013,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000030,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000042,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000043,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000079,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000080,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000092,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000093,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000136,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000137,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000273,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000274,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000279,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000281,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000282,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000283,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000380,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000383,
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+      },
+      {
+        "instance": 3000018,
+        "bacnetObjectType": "objectTypeEnumSet.bacBvClass"
+      },
+      {
+        "instance": 3000086,
+        "bacnetObjectType": "objectTypeEnumSet.bacBvClass"
+      },
+      {
+        "instance": 3000098,
+        "bacnetObjectType": "objectTypeEnumSet.bacBvClass"
+      },
+      {
+        "instance": 3000134,
+        "bacnetObjectType": "objectTypeEnumSet.bacBvClass"
+      },
+      {
+        "instance": 3000021,
+        "bacnetObjectType": "objectTypeEnumSet.bacCalendarClass"
+      },
+      {
+        "instance": 3000029,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000033,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000041,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000084,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000090,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000091,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000096,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000135,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000271,
+        "bacnetObjectType": "objectTypeEnumSet.bacProgramClass"
+      },
+      {
+        "instance": 3000019,
+        "bacnetObjectType": "objectTypeEnumSet.bacScheduleClass"
+      },
+      {
+        "instance": 3000256,
+        "bacnetObjectType": "objectTypeEnumSet.bacAveragingClass"
+      },
+      {
+        "instance": 3000036,
+        "bacnetObjectType": "objectTypeEnumSet.bacMvClass"
+      },
+      {
+        "instance": 3000034,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000047,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000048,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000078,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000138,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000139,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000154,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000202,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000204,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000205,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000250,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000251,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000258,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000259,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000276,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000277,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000280,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000284,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000285,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000286,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000386,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 3000393,
+        "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+      },
+      {
+        "instance": 4128771,
+        "bacnetObjectType": "objectTypeEnumSet.bacNetworkPortClass"
+      },
+      {
+        "instance": 4128772,
+        "bacnetObjectType": "objectTypeEnumSet.bacNetworkPortClass"
+      }
+    ],
+    "protocolSerSupport": [
+      [
+        "protocolSerSupportEnumSet.pssAcknowledgeAlarm",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssConfirmedCovNotify",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssComfirmEventNotify",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssGetAlarmSummary",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssGetEnrollmentSum",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssSubscribeCov",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssAtomicReadFile",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssAtomicWriteFile",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssAddListElement",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssRemoveListElement",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssCreateObject",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssDeleteObject",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReadProperty",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReadPropertyCond",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReadPropertyMult",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWriteProperty",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWritePropertyMult",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssDeviceCommControl",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssConfirmPrivateXfer",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssConfirmTextMessage",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReinitializeDevice",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssVtOpen",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssVtClose",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssVtData",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssAuthenticate",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssRequestKey",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssIAm",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssIHave",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfCovNotify",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfEventNotify",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfPrivateXfer",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfTextMessage",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssTimeSynchronization",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWhoHas",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWhoIs",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReadRange",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUtcTimeSync",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssLifeSafetyOper",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssSubscribeCovProp",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssGetEventInfo",
+        true
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWriteGroup",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssSubscribeCovPropMult",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssConfirmedCovNotifyMult",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfCovNotifyMult",
+        false
+      ]
+    ],
+    "protocolObjSupport": [
+      [
+        "objectTypeEnumSet.bacAiClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAoClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAvClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacBiClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacBoClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacBvClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacCalendarClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacCommandClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacdeviceClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacEvntEnrolClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacFileClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacGroupClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacLoopClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacMiClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacMoClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacNotificClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacProgramClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacScheduleClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAveragingClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacMvClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacTrendLogClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacLspClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacLszClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAccumulatorClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacPulseConverterClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacEventLogClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacGlobalGroupClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacTrendLogMultipleClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacLoadControlClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacStructuredViewClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAccessDoorClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacTimerClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAccessCredentialClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAccessPointClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAccessRightsClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAccessUserClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAccessZoneClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacCredentialDataInputClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacNetworkSecurityClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacBitstringValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacCharacterstringValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacDatePatternValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacDateValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacDatetimePatternValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacDatetimeValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacIntegerValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacLargeAnalogValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacOctetstringValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacPositiveIntegerValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacTimePatternValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacTimeValueClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacNotificationForwarderClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAlertEnrollmentClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacChannelClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacLightingOutputClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacBinaryLightingOutputClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacNetworkPortClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacElevatorGroupClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacEscalatorClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacLiftClass",
+        false
+      ]
+    ],
+    "jciDeviceUuid": "9D21C000228E0329873500155D086405",
+    "datalinkOid": 2,
+    "segmentation": "segmentSupportEnumSet.segmentedBoth",
+    "maxSegmentsAccepted": 123,
+    "routingMode": "routingModeEnumSet.rmRoutingFullDisable",
+    "deviceRoutingProtocolPairs": [
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpMstp",
+        true
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpIp",
+        true
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpIpExtLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpSc",
+        true
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpScExtLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpIpExtLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpSc",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpScExtLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpExtLanSc",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpExtLanScExternalLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsScScExtLan",
+        false
+      ]
+    ],
+    "deviceRoutingBroadcastPairs": [
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpMstp",
+        true
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpIp",
+        true
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpIpExtLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpSc",
+        true
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsMstpScExtLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpIpExtLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpSc",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpScExtLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpExtLanSc",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsIpExtLanScExternalLan",
+        false
+      ],
+      [
+        "deviceRoutingProtocolPairsEnumSet.routingProtocolsScScExtLan",
+        false
+      ]
+    ],
+    "mstpApduLength": null,
+    "activeCovSubscriptions": [],
+    "bacnetEncodeType": "bacnetEncodingEnumSet.utf8Encoding",
+    "bacnetCommPasswd": "?????",
+    "bacnetCompat": false,
+    "deviceAddrBinding": [],
+    "protocolServicesToEliminate": [
+      [
+        "protocolSerSupportEnumSet.pssAcknowledgeAlarm",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssConfirmedCovNotify",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssComfirmEventNotify",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssGetAlarmSummary",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssGetEnrollmentSum",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssSubscribeCov",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssAtomicReadFile",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssAtomicWriteFile",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssAddListElement",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssRemoveListElement",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssCreateObject",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssDeleteObject",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReadProperty",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReadPropertyCond",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReadPropertyMult",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWriteProperty",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWritePropertyMult",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssDeviceCommControl",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssConfirmPrivateXfer",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssConfirmTextMessage",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReinitializeDevice",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssVtOpen",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssVtClose",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssVtData",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssAuthenticate",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssRequestKey",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssIAm",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssIHave",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfCovNotify",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfEventNotify",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfPrivateXfer",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfTextMessage",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssTimeSynchronization",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWhoHas",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWhoIs",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssReadRange",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUtcTimeSync",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssLifeSafetyOper",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssSubscribeCovProp",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssGetEventInfo",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssWriteGroup",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssSubscribeCovPropMult",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssConfirmedCovNotifyMult",
+        false
+      ],
+      [
+        "protocolSerSupportEnumSet.pssUnconfCovNotifyMult",
+        false
+      ]
+    ],
+    "classesToEliminate": [
+      [
+        "objectTypeEnumSet.bacAiClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAoClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAvClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacBiClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacBoClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacBvClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacCalendarClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacCommandClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacdeviceClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacEvntEnrolClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacFileClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacGroupClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacLoopClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacMiClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacMoClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacNotificClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacProgramClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacScheduleClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAveragingClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacMvClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacTrendLogClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacLspClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacLszClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAccumulatorClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacPulseConverterClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacEventLogClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacGlobalGroupClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacTrendLogMultipleClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacLoadControlClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacStructuredViewClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAccessDoorClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacTimerClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAccessCredentialClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAccessPointClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAccessRightsClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAccessUserClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacAccessZoneClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacCredentialDataInputClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacNetworkSecurityClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacBitstringValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacCharacterstringValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacDatePatternValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacDateValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacDatetimePatternValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacDatetimeValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacIntegerValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacLargeAnalogValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacOctetstringValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacPositiveIntegerValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacTimePatternValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacTimeValueClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacNotificationForwarderClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacAlertEnrollmentClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacChannelClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacLightingOutputClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacBinaryLightingOutputClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacNetworkPortClass",
+        false
+      ],
+      [
+        "objectTypeEnumSet.bacElevatorGroupClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacEscalatorClass",
+        true
+      ],
+      [
+        "objectTypeEnumSet.bacLiftClass",
+        true
+      ]
+    ],
+    "emulate3rdPartyDevice": false,
+    "bacnetSite": false,
+    "restartNotificationRecipients": [
+      [
+        "recipientChoiceEnumSet.recipientAddress",
+        [
+          1,
+          {
+            "networkNumber": [
+              "bacnetBroadcastTransmissionFormEnumSet.bacBroadcastLocal",
+              0
+            ],
+            "ipAddress": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "udpPort": 0
+          }
+        ]
+      ]
+    ],
+    "timeOfDeviceRestart": {
+      "date": {
+        "year": 2026,
+        "month": "monthEnumSet.monthApr",
+        "dayOfMonth": "bacnetDayOfMonthEnumSet.bdom18",
+        "dayOfWeek": "dayOfWeekEnumSet.saturday"
+      },
+      "time": {
+        "hour": 16,
+        "minute": 12,
+        "second": 29,
+        "hundredth": 0
+      }
+    },
+    "lastRestartReason": "bacRestartReasonEnumSet.brrWarmstart",
+    "sendIAmRate": null,
+    "bacnetRoutedMessagesRate": 0,
+    "whoIsPeriod": 60,
+    "whoIsRecipients": [],
+    "configFiles": [],
+    "lastRestoreTime": [
+      2,
+      {
+        "date": {
+          "year": 2026,
+          "month": "monthEnumSet.monthFeb",
+          "dayOfMonth": "bacnetDayOfMonthEnumSet.bdom14",
+          "dayOfWeek": "dayOfWeekEnumSet.saturday"
+        },
+        "time": {
+          "hour": 14,
+          "minute": 1,
+          "second": 33,
+          "hundredth": 0
+        }
+      }
+    ],
+    "backupFailTimeout": 120,
+    "backupPreparationTime": 60,
+    "restorePreparationTime": 60,
+    "restoreCompletionTime": 1200,
+    "backupAndRestoreState": "bacnetBackupStateEnumSet.bbsIdle",
+    "calendarTimeStamp": 1771077693,
+    "utcOffsetOverride": null,
+    "utcOffset": 480,
+    "dstStatus": true,
+    "timeZone": "timeZoneEnumSet.pacificTime",
+    "deviceTimeZone": "timeZoneEnumSet.pacificTime",
+    "localTimeZone": "timeZoneEnumSet.pacificTime",
+    "standardTimeOffset": 0,
+    "daylightSavingTimeOffset": -60,
+    "standardTimeStart": {
+      "month": 11,
+      "week": 1,
+      "day": 0,
+      "hour": 2,
+      "minute": 0
+    },
+    "daylightSavingTimeStart": {
+      "month": 3,
+      "week": 2,
+      "day": 0,
+      "hour": 2,
+      "minute": 0
+    },
+    "acceptBacnetTimeSync": true,
+    "lastBacnetTimeSyncRcved": {
+      "date": null,
+      "time": null
+    },
+    "maxManager": null,
+    "maxInfoFrames": null,
+    "timeSyncRecipients": [],
+    "utcTimeSynchronizationRecipients": [],
+    "timeSynchronizationInterval": 0,
+    "alignIntervals": false,
+    "intervalOffset": 0,
+    "supervisorDeviceOnline": false,
+    "supervisorOfflineTimeout": 15,
+    "nextAvailableOid": 3000468,
+    "devObjectIdentifier": 5,
+    "basUnitSystem": "unitSetEnumSet.ip",
+    "archiveTime": {
+      "hour": 16,
+      "minute": 12,
+      "second": 26,
+      "hundredth": 13
+    },
+    "archiveStatus": 477,
+    "irrelevantCount": 304,
+    "maxObjectMemory": 0,
+    "totalRecordCount": 951,
+    "recordCount": 951,
+    "hasUnboundReferences": false,
+    "surrogateCacheCnt": 0,
+    "surrogateCacheMax": 100,
+    "numberSurrogates": 204,
+    "sysRamResource": 0,
+    "objengQueResource": 0,
+    "cpuUseResource": 0,
+    "protEngInResource": 0,
+    "protEngOutResource": 0,
+    "lastIdleSample": 97.6785812,
+    "flashUsage": 11.6626968,
+    "estimatedFlashAvailable": 7.95035744,
+    "allocatedPoolSize": 1000,
+    "aloSiz": 2000,
+    "aloLargest": 5000,
+    "acquiredPoolSize": 3000,
+    "acqSiz": 4000,
+    "alqLargest": 5000,
+    "loadedClasses": [
+      {
+        "classId": "objectTypeEnumSet.adsClass",
+        "version": {
+          "major": 46,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.matlabAppClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.ethIpClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.scNetworkPortClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacpeClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.enterpriseConnectionClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.avClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bvClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.mvClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.scheduleClass",
+        "version": {
+          "major": 3,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.optimalStartClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.intlClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.pulseMeterClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.totaClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.toteClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.totrClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.trendLogNoextensionClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.trendLogClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.calendarClass",
+        "version": {
+          "major": 3,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.aaClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.maClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.containerClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.notificationClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.dataBroadcastClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.autoShutdownClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.graphicClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.trendStudyClass",
+        "version": {
+          "major": 1,
+          "minor": 1
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.mcClass",
+        "version": {
+          "major": 2,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.eeClass",
+        "version": {
+          "major": 2,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bgrpClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.navTreeClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.resourceFileClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.signalSelectClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.globalDataClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.mstpManagerClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.metasysMstpClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.fieldDeviceClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.ipFieldDeviceClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.avMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bvMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.msvMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.aiMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.aoMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.biMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.boMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.pcMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.trendMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.notificationClassMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.calendarMapperClass",
+        "version": {
+          "major": 2,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.scheduleMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.npMapperClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.systemClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.dllrClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.fileClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.binaryLoadClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.multistateLoadClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.analogLoadClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.flexAccumulatorClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.solarClockClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.averagingClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.ieiejEdmClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.ieiejGlcClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.ieiejEdcClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.sdClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.loopClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.xamlGraphicClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetPointSharedClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetAiClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetAoClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetAvClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetBiClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetBoClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetBvClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetCalendarClass",
+        "version": {
+          "major": 2,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetCommandClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetDeviceClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetEvntEnrolClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetGroupClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetLoopClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetMiClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetMoClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetMvClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetNotificClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetPulseConverterClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetScheduleClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetLspClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetLszClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetAccumulatorClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetAveragingClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetTrendLogClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetTrendLogExtClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetTrendLogMultipleClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetEdmClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetEdcClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetGlcClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetProgramClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetLoadControlClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetPositiveIntegerValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetIntegerValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetCharacterstringValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetLightingOutputClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetLargeAnalogValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetDatetimeValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetDateValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetTimeValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetDatetimePatternValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetDatePatternValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetTimePatternValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetBitstringValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetOctetstringValueClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetChannelClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetNetworkPortClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetTimerClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetStructuredViewClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetNotificationForwarderClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetGlobalGroupClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetFileClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetEventLogClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetBinaryLightingOutputClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetAlertEnrollmentClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.bacnetIntegrationClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.fieldBusClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.vndIntegrationClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.vndControllerClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.vndAiClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.vndAoClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.vndBiClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.vndBoClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.vndMiClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      },
+      {
+        "classId": "objectTypeEnumSet.vndMoClass",
+        "version": {
+          "major": 1,
+          "minor": 0
+        }
+      }
+    ],
+    "assetVersions": [
+      {
+        "assetName": "Base Libraries",
+        "version": {
+          "majorReleaseId": 9,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 10004,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "MMS Communications",
+        "version": {
+          "majorReleaseId": 9,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 4156,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "OS API",
+        "version": {
+          "majorReleaseId": 9,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 6318,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "Object Runtime Environment",
+        "version": {
+          "majorReleaseId": 10,
+          "minorReleaseId": 1,
+          "patchId": 0,
+          "majorBuildId": 4711,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "BACnet Communications",
+        "version": {
+          "majorReleaseId": 11,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 5695,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "Object Runtime Environment Features",
+        "version": {
+          "majorReleaseId": 9,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 5244,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "Point IO",
+        "version": {
+          "majorReleaseId": 9,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 6090,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "Serial Communicats",
+        "version": {
+          "majorReleaseId": 9,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 3856,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "Tool Library",
+        "version": {
+          "majorReleaseId": 10,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 6289,
+          "minorBuildId": 0
+        }
+      },
+      {
+        "assetName": "Integrations",
+        "version": {
+          "majorReleaseId": 7,
+          "minorReleaseId": 0,
+          "patchId": 0,
+          "majorBuildId": 12795,
+          "minorBuildId": 0
+        }
+      }
+    ],
+    "startupPhaseDiag": [
+      {
+        "startupPhase": "oreStartupPhaseEnumSet.coldStartPhase",
+        "duration": 253
+      },
+      {
+        "startupPhase": "oreStartupPhaseEnumSet.warmStartPhase",
+        "duration": 74
+      },
+      {
+        "startupPhase": "oreStartupPhaseEnumSet.startupPhase",
+        "duration": 10007
+      },
+      {
+        "startupPhase": "oreStartupPhaseEnumSet.enableCommPhase",
+        "duration": 475
+      },
+      {
+        "startupPhase": "oreStartupPhaseEnumSet.startInputsPhase",
+        "duration": 132622
+      },
+      {
+        "startupPhase": "oreStartupPhaseEnumSet.restartLogicPhase",
+        "duration": 0
+      },
+      {
+        "startupPhase": "oreStartupPhaseEnumSet.featureStartPhase",
+        "duration": 6
+      },
+      {
+        "startupPhase": "oreStartupPhaseEnumSet.enableFieldCmdsPhase",
+        "duration": 3
+      }
+    ],
+    "startupDiagnostics": {
+      "objId": 122,
+      "referenceName": "NS-NAE01/FC-1.FEC-08.ZN-T",
+      "classId": 237,
+      "methodId": 1118,
+      "status": 476
+    },
+    "loadBalancerLevel": "loadLevelEnumSet.llGreen",
+    "timerDbSize": 250000,
+    "timerUsed": 78,
+    "timerPeak": 212,
+    "timerMsgsAborted": 0,
+    "bacnetOidAllocated": 304,
+    "bacnetOidUsed": 304,
+    "signPriDbSize": 1200000,
+    "signPriUsed": 346,
+    "signPriPeak": 346,
+    "treeRevison": 3040112766,
+    "defaultBaseUnits": "baseUnitsEnumSet.imperialUnits",
+    "memoryAddressStyle": "memoryAddressingEnumSet.intelByteOrder",
+    "manualDisableSw": false,
+    "userNameIsBacnetObjName": false,
+    "objectName": "DESKTOP-VM",
+    "enabled": true,
+    "executionPriority": "executionPriorityEnumSet.normalPriority",
+    "objectIdentifier": {
+      "instance": 5,
+      "bacnetObjectType": "objectTypeEnumSet.bacdeviceClass"
+    },
+    "propertyList": [
+      "attributeEnumSet.protocolRevision",
+      "attributeEnumSet.pagerDialupConfig",
+      "attributeEnumSet.mailAuthType",
+      "attributeEnumSet.popServerHostname",
+      "attributeEnumSet.popUserName",
+      "attributeEnumSet.popPassword",
+      "attributeEnumSet.sslEmailEnabled",
+      "attributeEnumSet.sslEmailIgnoreErrors",
+      "attributeEnumSet.emailEnabled",
+      "attributeEnumSet.almSnoozeTime",
+      "attributeEnumSet.auditEnabledClasLev",
+      "attributeEnumSet.localSiteServer",
+      "attributeEnumSet.printerDda",
+      "attributeEnumSet.printerEnabled",
+      "attributeEnumSet.addAdsrepos",
+      "attributeEnumSet.adsRepositoriesStatus",
+      "attributeEnumSet.serviceTime",
+      "attributeEnumSet.numberOfNxesReporting",
+      "attributeEnumSet.transferBufferFullWorstNxe",
+      "attributeEnumSet.hostName",
+      "attributeEnumSet.adsConnType",
+      "attributeEnumSet.adsDialPri",
+      "attributeEnumSet.adsDelivTime",
+      "attributeEnumSet.pagerDialStat",
+      "attributeEnumSet.graphic",
+      "attributeEnumSet.graphicAlias",
+      "attributeEnumSet.pagerDda",
+      "attributeEnumSet.dstStartDate",
+      "attributeEnumSet.dstStartTime",
+      "attributeEnumSet.dstEndDate",
+      "attributeEnumSet.dstEndTime",
+      "attributeEnumSet.outgoingEventRate",
+      "attributeEnumSet.incomingEventRate",
+      "attributeEnumSet.incomingAuditRate",
+      "attributeEnumSet.alarmCount",
+      "attributeEnumSet.ddaDiagnostics",
+      "attributeEnumSet.emailDdaDiagnostics",
+      "attributeEnumSet.covReceivesPerMinute",
+      "attributeEnumSet.covTransmitsPerMinute",
+      "attributeEnumSet.isValidated",
+      "attributeEnumSet.siteDirectorOnline",
+      "attributeEnumSet.transferAllSamples",
+      "attributeEnumSet.timeBetweenBufferReads",
+      "attributeEnumSet.repositoryStatus",
+      "attributeEnumSet.sampleRate",
+      "attributeEnumSet.alarmRate",
+      "attributeEnumSet.auditRate",
+      "attributeEnumSet.isAuthenticatedWithSite",
+      "attributeEnumSet.region",
+      "attributeEnumSet.trendMemoryUsage",
+      "attributeEnumSet.ackForwardEnable",
+      "attributeEnumSet.eventActionFull",
+      "attributeEnumSet.auditActionFull",
+      "attributeEnumSet.allowOffSiteRepositoryStorage",
+      "attributeEnumSet.processIdList",
+      "attributeEnumSet.processUnmappedObjAlarms",
+      "attributeEnumSet.registrationUsage",
+      "attributeEnumSet.dataUsage",
+      "attributeEnumSet.dataCollectionRate",
+      "attributeEnumSet.customerGuid",
+      "attributeEnumSet.plantGuid",
+      "attributeEnumSet.syslogEnabled",
+      "attributeEnumSet.syslogDda",
+      "attributeEnumSet.fipsComplianceStatus",
+      "attributeEnumSet.jciIpCommMode",
+      "attributeEnumSet.isBacnetScLicensed",
+      "attributeEnumSet.enableBacnetScDecryptionFeature",
+      "attributeEnumSet.operationalCertStatus",
+      "attributeEnumSet.caCertificatesStatus",
+      "attributeEnumSet.csrCreationTime",
+      "attributeEnumSet.csrEtag",
+      "attributeEnumSet.patchConfig",
+      "attributeEnumSet.traceCategoryAll",
+      "attributeEnumSet.traceCategoryOsGeneral",
+      "attributeEnumSet.traceCategoryCov",
+      "attributeEnumSet.traceCategoryDevlist",
+      "attributeEnumSet.traceCategoryMce",
+      "attributeEnumSet.traceCategoryMmsHttp",
+      "attributeEnumSet.traceCategoryBacnetInt",
+      "attributeEnumSet.traceCategoryGsi",
+      "attributeEnumSet.traceCategoryNts",
+      "attributeEnumSet.traceCategoryTrend",
+      "attributeEnumSet.traceCategoryLntmReq",
+      "attributeEnumSet.traceCategoryLoadBal",
+      "attributeEnumSet.traceCategoryUserDict",
+      "attributeEnumSet.traceCategoryOsTransportimpl",
+      "attributeEnumSet.traceCategoryOsMsgdispatcher",
+      "attributeEnumSet.traceCategoryOsApitaskinterface",
+      "attributeEnumSet.traceCategoryAdvanceHelpers",
+      "attributeEnumSet.computerName",
+      "attributeEnumSet.domainName",
+      "attributeEnumSet.completionDomains",
+      "attributeEnumSet.dhcpEnabled",
+      "attributeEnumSet.ipAddress",
+      "attributeEnumSet.ipMask",
+      "attributeEnumSet.ipRouterAddress",
+      "attributeEnumSet.obtainDnsAddrAuto",
+      "attributeEnumSet.dnsServerIpAddrs",
+      "attributeEnumSet.deviceIpv6Address",
+      "attributeEnumSet.deviceIpv6PrefixLength",
+      "attributeEnumSet.deviceIpv6DefaultGateway",
+      "attributeEnumSet.deviceIpv6AutoAddressingEnable",
+      "attributeEnumSet.enabledInternetProtocols",
+      "attributeEnumSet.obtainIpv6DnsAddressAutomatically",
+      "attributeEnumSet.deviceIpv6DnsServer",
+      "attributeEnumSet.bacnetIpPort",
+      "attributeEnumSet.smnpEnabled",
+      "attributeEnumSet.snmpVersion",
+      "attributeEnumSet.snmpMgmtDev",
+      "attributeEnumSet.portNumber",
+      "attributeEnumSet.snmpMessageFormat",
+      "attributeEnumSet.contactPerson",
+      "attributeEnumSet.readCommunity",
+      "attributeEnumSet.writeCommunity",
+      "attributeEnumSet.snmpDda",
+      "attributeEnumSet.smtpServerHost",
+      "attributeEnumSet.smtpPort",
+      "attributeEnumSet.smtpPassword",
+      "attributeEnumSet.smtpUserName",
+      "attributeEnumSet.failEmailAddr",
+      "attributeEnumSet.emailDda",
+      "attributeEnumSet.sntpServer",
+      "attributeEnumSet.multicastHeartbeat",
+      "attributeEnumSet.internodeCommTimer",
+      "attributeEnumSet.networkTolerance",
+      "attributeEnumSet.detectionInterval",
+      "attributeEnumSet.transportFailureRate",
+      "attributeEnumSet.maximumIntermittentFailurePeriod",
+      "attributeEnumSet.averageIntermittentFailurePeriod",
+      "attributeEnumSet.siteSecurityLevel",
+      "attributeEnumSet.certRenewalPeriod",
+      "attributeEnumSet.systemStatus",
+      "attributeEnumSet.location",
+      "attributeEnumSet.vendorName",
+      "attributeEnumSet.vendorId",
+      "attributeEnumSet.protocolVersion",
+      "attributeEnumSet.modelName",
+      "attributeEnumSet.extendedProtoVer",
+      "attributeEnumSet.applSwVersion",
+      "attributeEnumSet.firmwareVersion",
+      "attributeEnumSet.databaseRevision",
+      "attributeEnumSet.objectList",
+      "attributeEnumSet.protocolSerSupport",
+      "attributeEnumSet.protocolObjSupport",
+      "attributeEnumSet.jciDeviceUuid",
+      "attributeEnumSet.segmentation",
+      "attributeEnumSet.maxSegmentsAccepted",
+      "attributeEnumSet.apduSegmentTimeout",
+      "attributeEnumSet.apduTimeout",
+      "attributeEnumSet.apduRetries",
+      "attributeEnumSet.maxApduLength",
+      "attributeEnumSet.maxMessageBuffer",
+      "attributeEnumSet.routingMode",
+      "attributeEnumSet.deviceRoutingProtocolPairs",
+      "attributeEnumSet.deviceRoutingBroadcastPairs",
+      "attributeEnumSet.activeCovSubscriptions",
+      "attributeEnumSet.bacnetEncodeType",
+      "attributeEnumSet.bacnetCommPasswd",
+      "attributeEnumSet.bacnetObjectCacheExposed",
+      "attributeEnumSet.deviceAddrBinding",
+      "attributeEnumSet.restartNotificationRecipients",
+      "attributeEnumSet.timeOfDeviceRestart",
+      "attributeEnumSet.lastRestartReason",
+      "attributeEnumSet.bacnetBroadcastReceiveRate",
+      "attributeEnumSet.bacnetRoutedMessagesRate",
+      "attributeEnumSet.whoIsPeriod",
+      "attributeEnumSet.whoIsRecipients",
+      "attributeEnumSet.configFiles",
+      "attributeEnumSet.lastRestoreTime",
+      "attributeEnumSet.backupFailTimeout",
+      "attributeEnumSet.backupPreparationTime",
+      "attributeEnumSet.restorePreparationTime",
+      "attributeEnumSet.restoreCompletionTime",
+      "attributeEnumSet.backupAndRestoreState",
+      "attributeEnumSet.localTime",
+      "attributeEnumSet.localDate",
+      "attributeEnumSet.utcOffset",
+      "attributeEnumSet.dstStatus",
+      "attributeEnumSet.timeZone",
+      "attributeEnumSet.deviceTimeZone",
+      "attributeEnumSet.localTimeZone",
+      "attributeEnumSet.acceptBacnetTimeSync",
+      "attributeEnumSet.lastBacnetTimeSyncRcved",
+      "attributeEnumSet.timeSyncRecipients",
+      "attributeEnumSet.utcTimeSynchronizationRecipients",
+      "attributeEnumSet.timeSynchronizationInterval",
+      "attributeEnumSet.alignIntervals",
+      "attributeEnumSet.intervalOffset",
+      "attributeEnumSet.supervisorDeviceOnline",
+      "attributeEnumSet.supervisorOfflineTimeout",
+      "attributeEnumSet.nextAvailableOid",
+      "attributeEnumSet.devObjectIdentifier",
+      "attributeEnumSet.jciExceptionSchedule",
+      "attributeEnumSet.basUnitSystem",
+      "attributeEnumSet.jciSystemStatus",
+      "attributeEnumSet.archiveDate",
+      "attributeEnumSet.archiveTime",
+      "attributeEnumSet.archiveStatus",
+      "attributeEnumSet.objectCount",
+      "attributeEnumSet.objectMemoryUsage",
+      "attributeEnumSet.hasUnboundReferences",
+      "attributeEnumSet.surrogateCacheCnt",
+      "attributeEnumSet.surrogateCacheMax",
+      "attributeEnumSet.sysRamResource",
+      "attributeEnumSet.objengQueResource",
+      "attributeEnumSet.cpuUseResource",
+      "attributeEnumSet.protEngInResource",
+      "attributeEnumSet.protEngOutResource",
+      "attributeEnumSet.cpuUsage",
+      "attributeEnumSet.lastIdleSample",
+      "attributeEnumSet.flashUsage",
+      "attributeEnumSet.estimatedFlashAvailable",
+      "attributeEnumSet.memoryUsage",
+      "attributeEnumSet.assetVersions",
+      "attributeEnumSet.loadBalancerLevel",
+      "attributeEnumSet.timerDbSize",
+      "attributeEnumSet.timerUsed",
+      "attributeEnumSet.timerPeak",
+      "attributeEnumSet.timerMsgsAborted",
+      "attributeEnumSet.bacnetOidAllocated",
+      "attributeEnumSet.bacnetOidUsed",
+      "attributeEnumSet.signPriDbSize",
+      "attributeEnumSet.signPriUsed",
+      "attributeEnumSet.signPriPeak",
+      "attributeEnumSet.defaultBaseUnits",
+      "attributeEnumSet.itemReference",
+      "attributeEnumSet.name",
+      "attributeEnumSet.description",
+      "attributeEnumSet.status",
+      "attributeEnumSet.enabled",
+      "attributeEnumSet.executionPriority",
+      "attributeEnumSet.objectCategory",
+      "attributeEnumSet.alarmState"
+    ],
+    "internalOid": 1,
+    "deviceName": {
+      "objectReference": "DESKTOP-VM:DESKTOP-VM",
+      "referencedObject": {
+        "objectName": "DESKTOP-VM",
+        "objectUrl": "https://desktop-vm/api/v6/objects/1dd8657b-33b5-591e-b8aa-4a86ced81bec"
+      }
+    },
+    "referenceCount": 4,
+    "isContainer": true,
+    "childList": [
+      {
+        "functionalName": "Name List",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128768,
+          "bacnetObjectType": "objectTypeEnumSet.namelistClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Guaranteed Write",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128769,
+          "bacnetObjectType": "objectTypeEnumSet.guaranteedWriteClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "BACnet Protocol Eng",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128770,
+          "bacnetObjectType": "objectTypeEnumSet.bacpeClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "Eth IP DataLink",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128771,
+          "bacnetObjectType": "objectTypeEnumSet.bacNetworkPortClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "SC Network Port",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128772,
+          "bacnetObjectType": "objectTypeEnumSet.bacNetworkPortClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "Operational Credentials",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128773,
+          "bacnetObjectType": "objectTypeEnumSet.operationalCredClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Subscription Server",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128774,
+          "bacnetObjectType": "objectTypeEnumSet.subscriptionServerClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Subscription Client",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128775,
+          "bacnetObjectType": "objectTypeEnumSet.subscriptionClientClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Device Diagnostic",
+        "referenceName": null,
+        "childOid": {
+          "instance": 1,
+          "bacnetObjectType": "objectTypeEnumSet.diagClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "COV Collector",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128776,
+          "bacnetObjectType": "objectTypeEnumSet.covCollectorClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Tool Test",
+        "referenceName": null,
+        "childOid": {
+          "instance": 1,
+          "bacnetObjectType": "objectTypeEnumSet.soTestClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Discovery",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128777,
+          "bacnetObjectType": "objectTypeEnumSet.discoveryClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "MMS Interface",
+        "referenceName": null,
+        "childOid": {
+          "instance": 1,
+          "bacnetObjectType": "objectTypeEnumSet.mmsInterfaceClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Access Ctrl Mgr",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128778,
+          "bacnetObjectType": "objectTypeEnumSet.accessCtrlMgrClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "HEC1",
+        "referenceName": null,
+        "childOid": {
+          "instance": 1,
+          "bacnetObjectType": "objectTypeEnumSet.heavyEquipContrClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "HEC2",
+        "referenceName": null,
+        "childOid": {
+          "instance": 2,
+          "bacnetObjectType": "objectTypeEnumSet.heavyEquipContrClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "HEC3",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3,
+          "bacnetObjectType": "objectTypeEnumSet.heavyEquipContrClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "HEC4",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4,
+          "bacnetObjectType": "objectTypeEnumSet.heavyEquipContrClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "HEC5",
+        "referenceName": null,
+        "childOid": {
+          "instance": 5,
+          "bacnetObjectType": "objectTypeEnumSet.heavyEquipContrClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Event Router",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128779,
+          "bacnetObjectType": "objectTypeEnumSet.eventRouterClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "$site",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000000,
+          "bacnetObjectType": "objectTypeEnumSet.siteClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "$FacilityGraphics",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000001,
+          "bacnetObjectType": "objectTypeEnumSet.containerClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "Energy",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000005,
+          "bacnetObjectType": "objectTypeEnumSet.containerClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "Programming",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000006,
+          "bacnetObjectType": "objectTypeEnumSet.containerClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "Schedule",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000007,
+          "bacnetObjectType": "objectTypeEnumSet.containerClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "Event Rate Alarm",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000002,
+          "bacnetObjectType": "objectTypeEnumSet.aaClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "Sample Rate Alarm",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000003,
+          "bacnetObjectType": "objectTypeEnumSet.aaClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "BACnet Broadcast Rcv Rate Alarm",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000004,
+          "bacnetObjectType": "objectTypeEnumSet.aaClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "BACnet IP",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000008,
+          "bacnetObjectType": "objectTypeEnumSet.bacnetIntegrationClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "BBMD",
+        "referenceName": null,
+        "childOid": {
+          "instance": 4128781,
+          "bacnetObjectType": "objectTypeEnumSet.broadcastManagementClass"
+        },
+        "isReference": false,
+        "internal": true
+      },
+      {
+        "functionalName": "Graphics",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000016,
+          "bacnetObjectType": "objectTypeEnumSet.containerClass"
+        },
+        "isReference": false,
+        "internal": false
+      }
+    ],
+    "pmiRefresh": null,
+    "internal": false,
+    "archiveObject": true,
+    "commandList": [
+      "commandIdEnumSet.archiveCommand",
+      "commandIdEnumSet.changeAuditClassCommand",
+      "commandIdEnumSet.routeSamplesCommand",
+      "commandIdEnumSet.rediscoverTextStringsCommand",
+      "commandIdEnumSet.activateChangesCommand"
+    ],
+    "objectCanNotBeDeleted": false,
+    "objectOrder": 0
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "ADS",
+    "version": "46.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "printerEnabled": {
+        "title": "Printer Enabled",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "printerDda": {
+        "title": "Printer DDA",
+        "category": "attributeCategoryEnumSet.tableCategory",
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "object",
+          "metasysType": "struct",
+          "properties": {
+            "printer": {
+              "category": "attributeCategoryEnumSet.hostnameCategory",
+              "type": "string",
+              "metasysType": "string",
+              "maxLength": 80,
+              "title": "Printer"
+            },
+            "fontface": {
+              "category": "attributeCategoryEnumSet.hostnameCategory",
+              "type": "string",
+              "metasysType": "string",
+              "maxLength": 80,
+              "title": "Font Face"
+            },
+            "fontsize": {
+              "metasysType": "ushort",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 72,
+              "title": "Font Size"
+            },
+            "orientation": {
+              "numberOfStates": 2,
+              "allOf": [
+                {
+                  "type": "string",
+                  "metasysType": "enum",
+                  "lastMember": "orientationEnumSet.landscapeOrientation"
+                },
+                {
+                  "$ref": "https://desktop-vm/api/v6/schemas/enums/orientationEnumSet"
+                }
+              ],
+              "title": "Orientation"
+            },
+            "lineout": {
+              "metasysType": "ushort",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 60,
+              "title": "Line Out"
+            },
+            "timeout": {
+              "metasysType": "ushort",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 60,
+              "title": "Timeout"
+            },
+            "printingPriority": {
+              "metasysType": "byte",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 255,
+              "title": "Printing Priority Threshold"
+            },
+            "retries": {
+              "metasysType": "byte",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 10,
+              "title": "Retries"
+            },
+            "enabled": {
+              "type": "boolean",
+              "metasysType": "bool",
+              "title": "Enabled"
+            },
+            "filters": {
+              "category": "attributeCategoryEnumSet.ddaFiltersCategory",
+              "type": "array",
+              "metasysType": "listof",
+              "items": {
+                "type": "object",
+                "metasysType": "struct",
+                "properties": {
+                  "item": {
+                    "numberOfStates": 11,
+                    "allOf": [
+                      {
+                        "type": "string",
+                        "metasysType": "enum",
+                        "lastMember": "msgFilterItemsEnumSet.equipmentFilter"
+                      },
+                      {
+                        "$ref": "https://desktop-vm/api/v6/schemas/enums/msgFilterItemsEnumSet"
+                      }
+                    ],
+                    "title": "Item"
+                  },
+                  "operator": {
+                    "numberOfStates": 6,
+                    "allOf": [
+                      {
+                        "type": "string",
+                        "metasysType": "enum",
+                        "lastMember": "operatorsEnumSet.greaterOrEqualToOperator"
+                      },
+                      {
+                        "$ref": "https://desktop-vm/api/v6/schemas/enums/operatorsEnumSet"
+                      }
+                    ],
+                    "title": "Operator"
+                  },
+                  "value": {
+                    "metasysType": "list",
+                    "title": "Value"
+                  }
+                }
+              },
+              "title": "Event Filters"
+            },
+            "format": {
+              "type": "array",
+              "metasysType": "flags",
+              "maxItems": 9,
+              "minItems": 9,
+              "items": {
+                "type": "array",
+                "items": [
+                  {
+                    "$ref": "https://desktop-vm/api/v6/schemas/enums/msgFormatItemsEnumSet"
+                  },
+                  {
+                    "type": "boolean"
+                  }
+                ]
+              },
+              "uniqueItems": true,
+              "title": "Format"
+            }
+          }
+        }
+      },
+      "jciSystemStatus": {
+        "title": "JCI System Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 45,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "jciSystemStatusEnumSet.jciNonOperational"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/jciSystemStatusEnumSet"
+          }
+        ]
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Printer",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "printerEnabled",
+                "printerDda"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        },
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "jciSystemStatus",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.printerView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": false,
+    "canModify": true
+  }
+}

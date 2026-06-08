@@ -1,0 +1,14 @@
+<span class="event__message">
+  {{data.message}}:<br>
+  @for(name of objNames; track $index) {
+  <strong>{{name}}</strong>
+  }
+</span>
+<mat-divider vertical="false"></mat-divider>
+<!-- <span matSnackBarActions>
+</span> -->
+<span matSnackBarActions class="snacbar__buttons">
+  <button matButton="elevated" class="event__button"
+    (click)="data.res$?.next(data.doSomething)">{{data.doSomething}}</button>
+  <!-- <button matButton="elevated" class="event__button" (click)="data.res$.next(data.ignore)">{{data.ignore}}</button> -->
+</span>

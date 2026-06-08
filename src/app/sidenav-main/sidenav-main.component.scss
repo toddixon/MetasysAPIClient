@@ -1,0 +1,227 @@
+@use '../../vars.scss' as *;
+@use '../../mixins.scss' as mixins;
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+
+  // >*:not(router-outlet):not(.nav-tree__links) {
+  //   flex: 1 1 auto;
+  //   display: block;
+  //   overflow-y: auto;
+  // }
+}
+
+.nav-tree__links {
+  display: inherit;
+  background-color: $dark-grey;
+  justify-content: space-between;
+  flex: 0 0 auto;
+
+  >a {
+    display: inherit;
+    flex-direction: column;
+    font-size: large;
+    color: $dark-grey-0;
+    text-decoration: none;
+    background-color: $dark-grey;
+    align-items: center;
+    padding: 1em;
+    flex: 1 1 0;
+
+    >mat-icon {
+      @include mixins.icon-color($dark-grey-1);
+    }
+
+    &.active {
+      background-color: $ocean-blue;
+      color: $light-grey;
+
+      >mat-icon {
+        @include mixins.icon-color($light-grey);
+      }
+    }
+  }
+
+  a:hover:not(.active) {
+    background-color: $dark-grey-0;
+    color: $dark-grey-1;
+  }
+}
+
+.nav-tree__operations {
+  position: relative;
+  padding: 0.5em 0;
+  padding-inline: 0.5em;
+  display: flex;
+  box-shadow: 4px 4px 4px $dark-grey-2;
+  gap: 5px;
+  z-index: 10;
+
+  >button {
+    @include mixins.icon-button($light-grey, $dark-grey-1);
+  }
+
+  >.button-align--right {
+    margin-left: auto;
+    display: flex;
+
+    >mat-spinner {
+      align-self: center;
+    }
+  }
+
+  >.flex-spacer {
+    flex: 1 1 auto
+  }
+
+}
+
+.object-tree__button {
+  @include mixins.icon-button($light-grey, $dark-grey-1);
+
+}
+
+.animation--enter {
+  animation: expand-in 0.5s;
+}
+
+.animation--leave {
+  animation: shrink-out 0.5s;
+}
+
+
+@keyframes shrink-out {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+
+  to {
+    position: absolute;
+    transform: rotate(360deg) scale(0);
+  }
+}
+
+@keyframes expand-in {
+  from {
+    position: absolute;
+    transform: rotate(0deg) scale(0);
+  }
+
+  to {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Copy progress panel
+// ---------------------------------------------------------------------------
+.copy-progress-panel {
+  padding: 0.5em 0.75em;
+  background-color: $dark-grey;
+  border-bottom: 1px solid $dark-grey-2;
+  font-size: 0.8rem;
+  color: $dark-grey-1;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 0.25em;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    font-weight: 600;
+    color: $light-grey;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.7rem;
+  }
+
+  &__counts {
+    color: $dark-grey-1;
+  }
+
+  &__current {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: $light-grey;
+    margin-bottom: 0.25em;
+  }
+
+  &__summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 0.25em;
+  }
+
+  &__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2em;
+
+    mat-icon {
+      font-size: 0.9rem;
+      width: 0.9rem;
+      height: 0.9rem;
+    }
+
+    &--success { color: #66bb6a; }
+    &--error   { color: #ef5350; }
+    &--skipped { color: $dark-grey-1; }
+  }
+
+  &__depth-note {
+    margin-left: auto;
+    font-size: 0.7rem;
+    color: $dark-grey-1;
+    cursor: default;
+  }
+
+  &__failed-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.4em;
+    margin-top: 0.25em;
+    padding: 0.2em 0;
+    border-top: 1px solid $dark-grey-2;
+  }
+
+  &__failed-name {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ef5350;
+    flex: 1 1 auto;
+
+    mat-icon {
+      font-size: 0.9rem;
+      width: 0.9rem;
+      height: 0.9rem;
+      flex-shrink: 0;
+    }
+  }
+
+  &__failed-children {
+    color: $dark-grey-1;
+    font-size: 0.7rem;
+    margin-left: 0.2em;
+  }
+
+  &__retry-btn {
+    @include mixins.icon-button($light-grey, $dark-grey-1);
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BACnet Network Type",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/bacnetNetworkTypeEnumSet",
+  "setId": 1838,
+  "oneOf": [
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeEthernet",
+      "title": "Ethernet",
+      "memberId": 0
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeArcnet",
+      "title": "ARCnet",
+      "memberId": 1
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeMstp",
+      "title": "MSTP",
+      "memberId": 2
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypePtp",
+      "title": "PTP (Point-to-Point)",
+      "memberId": 3
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeLontalk",
+      "title": "LonTalk",
+      "memberId": 4
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeIpv4",
+      "title": "IPv4",
+      "memberId": 5
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeZigbee",
+      "title": "Zigbee",
+      "memberId": 6
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeVirtual",
+      "title": "Virtual",
+      "memberId": 7
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeReserved",
+      "title": "Reserved",
+      "memberId": 8
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeIpv6",
+      "title": "IPv6",
+      "memberId": 9
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeSerial",
+      "title": "Serial",
+      "memberId": 10
+    },
+    {
+      "const": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeBacnetSc",
+      "title": "Secure Connect",
+      "memberId": 11
+    }
+  ]
+}

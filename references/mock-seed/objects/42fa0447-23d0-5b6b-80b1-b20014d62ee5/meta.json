@@ -1,0 +1,10 @@
+{
+  "id": "42fa0447-23d0-5b6b-80b1-b20014d62ee5",
+  "parentId": null,
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "site",
+  "name": "DESKTOP-VM",
+  "label": "$site",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/$site",
+  "objectType": "objectTypeEnumSet.siteClass"
+}

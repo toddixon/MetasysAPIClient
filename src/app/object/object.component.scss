@@ -1,0 +1,296 @@
+@use '../../vars.scss' as *;
+
+:host {
+  display: block;
+  // background-color: $light-blue;
+  // cursor: pointer;
+}
+
+.object-tree__node {
+  display: flex;
+  position: relative;
+  margin-bottom: 0.3em;
+
+}
+
+.node__item {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  user-select: none; //!
+  background-color: $dark-grey;
+  padding-left: 0.5em;
+  width: fit-content;
+  border-radius: 5px;
+
+  .node__lebel {
+    line-height: 1.8em;
+    padding: 0 1em 0 0.5em;
+  }
+
+
+  .node__status-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #c62828;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+    // Anchor to top of flex row so it sits at the icon's top-right when visible
+    align-self: flex-start;
+    // Hidden: zero footprint, no layout impact
+    width: 0;
+    height: 0;
+    margin: 0;
+    opacity: 0;
+    pointer-events: none;
+    will-change: width, height, opacity, margin;
+    // Enter: bouncy spring (fires from this pre-change state)
+    transition:
+      width 220ms cubic-bezier(.17, 1.4, .4, 1),
+      height 220ms cubic-bezier(.17, 1.4, .4, 1),
+      opacity 160ms ease,
+      margin 220ms cubic-bezier(.17, 1.4, .4, 1);
+
+    &.is-visible {
+      width: 18px;
+      height: 18px;
+      // Overlap icon 6px on the left, raise 4px above centre to sit at icon top-right
+      margin-left: -6px;
+      margin-top: -4px;
+      opacity: 1;
+      pointer-events: auto;
+      // Leave: quick ease-in (fires from this pre-change state)
+      transition:
+        width 140ms ease-in,
+        height 140ms ease-in,
+        opacity 120ms ease-in,
+        margin 140ms ease-in;
+    }
+
+    .node__status-badge__icon {
+      font-size: 12px;
+      width: 12px;
+      height: 12px;
+      line-height: 12px;
+      color: white;
+      flex-shrink: 0;
+    }
+  }
+
+  &:not(.picker-mode) {
+
+    // &:hover:not(.selected), &:hover:not(.displayed) {
+    &:hover:not(.displayed) {
+      cursor: pointer;
+      transform: translateY(-2px);
+      transition: transform 160ms ease, box-shadow 160ms ease;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+      z-index: 3;
+    }
+
+    &.selected {
+      outline: 3px solid white //$light-blue;
+    }
+
+    &.displayed {
+      cursor: default;
+      background-color: $light-blue;
+      color: $light-grey;
+      transition: background-color 50ms ease;
+
+    }
+
+    &.node__item--disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+      transform: none !important;
+      box-shadow: none !important;
+    }
+  }
+
+  &.picker-mode {
+    
+  }
+
+
+
+
+}
+
+.node-expand-subtree__button~.node__item {
+  margin-left: 2rem;
+}
+
+.node-expand-subtree__button {
+  display: flex;
+  background: none;
+  border: none;
+  cursor: pointer;
+  justify-self: center;
+  align-self: center;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0.25rem;
+  width: 2.2rem;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+
+  animation: slide-in-right 100ms ease;
+
+  .icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  mat-icon {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 100ms cubic-bezier(.2, .9, .2, 1), opacity 180ms ease;
+    will-change: opacity, transform;
+    line-height: 1;
+  }
+
+  .icon-add {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+
+  .icon-remove {
+    opacity: 0;
+    transform: translateY(0) scale(0.85) rotate(-100deg);
+  }
+
+  &.toggled {
+    .icon-add {
+      opacity: 0;
+      transform: translateY(0) scale(0.85) rotate(20deg);
+    }
+
+    .icon-remove {
+      opacity: 1;
+      transform: translateY(0) scale(1) rotate(0deg);
+    }
+  }
+
+}
+
+.icon--small {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+}
+
+
+.object--child-indent {
+  margin-left: 2.5em;
+}
+
+.object--child-indent.animate-in {
+  animation-name: fall-in;
+  animation-duration: 360ms;
+  animation-timing-function: cubic-bezier(.2, .9, .25, 1);
+  animation-fill-mode: both;
+  will-change: transform, opacity;
+  transform-origin: top center;
+  opacity: 0;
+}
+
+.object--child-indent.animate-in:nth-of-type(1) {
+  animation-delay: 0ms;
+}
+
+.object--child-indent.animate-in:nth-of-type(2) {
+  animation-delay: 40ms;
+}
+
+.object--child-indent.animate-in:nth-of-type(3) {
+  animation-delay: 80ms;
+}
+
+.object--child-indent.animate-in:nth-of-type(4) {
+  animation-delay: 120ms;
+}
+
+.object--child-indent.animate-in:nth-of-type(5) {
+  animation-delay: 160ms;
+}
+
+.object--child-indent.animate-in:nth-of-type(6) {
+  animation-delay: 200ms;
+}
+
+.object--child-indent.animate-in:nth-of-type(7) {
+  animation-delay: 240ms;
+}
+
+.object--child-indent.animate-in:nth-of-type(8) {
+  animation-delay: 280ms;
+}
+
+@keyframes slide-in-right {
+  from {
+    z-index: -10;
+    transform: translateX(50%) scaleX(0);
+    /* Starts off-screen to the left */
+    opacity: 0;
+    /* Starts invisible */
+  }
+
+  to {
+    z-index: inherit;
+    transform: translateX(0) scaleX(1);
+    /* Slides to its original position */
+    opacity: 1;
+    /* Becomes fully visible */
+  }
+}
+
+@keyframes fall-in {
+  0% {
+    z-index: -10;
+    transform: translateY(-18px) scaleY(0.985);
+    opacity: 0;
+  }
+
+  100% {
+    z-index: inherit;
+    transform: translateY(0) scaleY(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fall-out {
+  0% {
+    z-index: inherit;
+    transform: translateY(0) scaleY(1);
+    opacity: 1;
+  }
+
+  100% {
+    z-index: -10;
+    transform: translateY(-18px) scaleY(0.985);
+    opacity: 0;
+  }
+}
+
+.animate-out {
+  animation-name: fall-out;
+  animation-duration: 200ms;
+  animation-timing-function: cubic-bezier(.75, 0, .8, .25);
+  animation-fill-mode: both;
+  will-change: transform, opacity;
+  transform-origin: top center;
+}

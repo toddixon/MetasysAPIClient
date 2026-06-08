@@ -1,0 +1,169 @@
+[     641ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:4200/api/v6/refreshToken:0
+[     642ms] [ERROR] Error refreshing token:, 401 @ http://localhost:4200/main.js:4571
+[     649ms] [ERROR] No access token found @ http://localhost:4200/main.js:4656
+[ 1070394ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1070395ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070396ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070396ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070397ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070397ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c/commands Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070398ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1070399ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070400ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070400ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1070400ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070401ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070401ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/0da922c6-186a-5b3d-a17d-c66a9d444ba4/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1070401ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070402ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/0da922c6-186a-5b3d-a17d-c66a9d444ba4/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070402ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070402ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070403ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/schemas/enums/controllerStatusEnumSet Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070403ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070404ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070404ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1070405ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070405ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070406ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070406ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070406ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1070407ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070407ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070408ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070408ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070409ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/009f8dad-15bf-50fa-b79f-3104db6e2ae2/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1070409ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070409ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/009f8dad-15bf-50fa-b79f-3104db6e2ae2/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1070410ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1070410ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/schemas/enums/objectStatusEnumSet Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078364ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078365ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078366ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078366ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078367ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078367ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078368ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078368ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078369ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078369ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/0da922c6-186a-5b3d-a17d-c66a9d444ba4/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078370ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078370ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/0da922c6-186a-5b3d-a17d-c66a9d444ba4/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078370ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078371ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078371ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078372ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078372ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078373ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078373ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/9c144161-b537-5ddb-994b-69b8b8a9b84f/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078374ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078374ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/9c144161-b537-5ddb-994b-69b8b8a9b84f/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078374ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078375ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/5924901f-01ac-5235-83d6-35556856b1ae/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078375ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078375ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/5924901f-01ac-5235-83d6-35556856b1ae/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078376ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078376ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078377ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/6d66b44c-7aa5-5e8a-9150-0ab6ee0bfe8a/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078377ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078377ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/6d66b44c-7aa5-5e8a-9150-0ab6ee0bfe8a/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078377ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/3e4eaf8f-9927-597f-bf78-75040e674078/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078378ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078378ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/3e4eaf8f-9927-597f-bf78-75040e674078/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078379ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/5f1d345e-bf0c-51ff-ad7a-ed60f1655a12/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078379ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078379ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/5f1d345e-bf0c-51ff-ad7a-ed60f1655a12/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078380ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/e7f45298-d31a-5efc-bd21-e1e767e209ec/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078380ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078381ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/e7f45298-d31a-5efc-bd21-e1e767e209ec/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078381ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/416cc825-7832-5935-b817-7d8103c54d4d/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078381ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078381ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/416cc825-7832-5935-b817-7d8103c54d4d/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078382ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078382ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078383ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078383ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078383ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078384ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078384ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078384ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/009f8dad-15bf-50fa-b79f-3104db6e2ae2/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078385ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078385ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/009f8dad-15bf-50fa-b79f-3104db6e2ae2/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078386ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078386ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/batch Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 1078386ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects: 0 undefined @ http://localhost:4200/main.js:3997
+[ 1078386ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 1078387ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450200ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450202ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450219ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450221ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450238ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450240ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450258ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450260ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450277ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450279ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450297ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450299ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450318ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450321ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450336ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450338ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450354ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450356ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450373ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450375ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450393ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450395ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450414ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450416ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5450435ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5450437ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5451004ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451006ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451022ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451025ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451040ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451043ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451059ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451062ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451084ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451087ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451105ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451108ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451124ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451125ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451141ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451143ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451159ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451160ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451179ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451181ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5451232ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451233ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5451251ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451252ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5451268ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451269ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5451313ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451315ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5451349ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451351ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5451370ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451371ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5451396ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451398ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5451426ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451429ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5451449ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[ 5451452ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5462817ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ http://localhost:4200/api/v6/objects/495317ec-38ca-51b1-84a6-b3a7d182f688/objects:0
+[ 5462819ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149
+[ 5462820ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/495317ec-38ca-51b1-84a6-b3a7d182f688/objects Status: 504 RetryCount: 1 @ http://localhost:4200/main.js:3992
+[ 5463060ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ http://localhost:4200/api/v6/objects/495317ec-38ca-51b1-84a6-b3a7d182f688/objects:0
+[ 5463062ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/495317ec-38ca-51b1-84a6-b3a7d182f688/objects Status: 504 RetryCount: 2 @ http://localhost:4200/main.js:3992
+[ 5463297ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ http://localhost:4200/api/v6/objects/495317ec-38ca-51b1-84a6-b3a7d182f688/objects:0
+[ 5463298ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/495317ec-38ca-51b1-84a6-b3a7d182f688/objects Status: 504 RetryCount: 3 @ http://localhost:4200/main.js:3992
+[ 5463555ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ http://localhost:4200/api/v6/objects/495317ec-38ca-51b1-84a6-b3a7d182f688/objects:0
+[ 5463561ms] [ERROR] [ERROR] Request Failed: Endpoint: http://localhost:4200/api/v6/objects/495317ec-38ca-51b1-84a6-b3a7d182f688/objects Status: 504 @ http://localhost:4200/main.js:3997
+[ 5463569ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=acff2365:3149

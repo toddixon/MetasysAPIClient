@@ -1,0 +1,11 @@
+{
+  "id": "a378e3b8-1f32-56e5-939a-8696b5c832c1",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "DOOR1-S",
+  "label": "DOOR1-S",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.DOOR1-S",
+  "objectType": "objectTypeEnumSet.biMapperClass",
+  "objectTypeVersion": "1.0"
+}

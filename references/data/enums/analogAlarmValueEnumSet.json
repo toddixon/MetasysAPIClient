@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Analog Alarm Value",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/analogAlarmValueEnumSet",
+  "setId": 24,
+  "oneOf": [
+    {
+      "const": "analogAlarmValueEnumSet.anaNormal",
+      "title": "Normal",
+      "memberId": 0
+    },
+    {
+      "const": "analogAlarmValueEnumSet.anaLoWarn",
+      "title": "Low Warning",
+      "memberId": 1
+    },
+    {
+      "const": "analogAlarmValueEnumSet.anaHiWarn",
+      "title": "High Warning",
+      "memberId": 2
+    },
+    {
+      "const": "analogAlarmValueEnumSet.anaLoAlarm",
+      "title": "Low Alarm",
+      "memberId": 3
+    },
+    {
+      "const": "analogAlarmValueEnumSet.anaHiAlarm",
+      "title": "High Alarm",
+      "memberId": 4
+    },
+    {
+      "const": "analogAlarmValueEnumSet.anaAboveSetpoint",
+      "title": "Above Setpoint",
+      "memberId": 5
+    },
+    {
+      "const": "analogAlarmValueEnumSet.anaBelowSetpoint",
+      "title": "Below Setpoint",
+      "memberId": 6
+    },
+    {
+      "const": "analogAlarmValueEnumSet.anaUnoccupied",
+      "title": "Unoccupied",
+      "memberId": 7
+    }
+  ]
+}

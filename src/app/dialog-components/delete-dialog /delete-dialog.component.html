@@ -1,0 +1,118 @@
+<mat-dialog-content class="dialog__content">
+  <span class="event__message">
+    {{data.message}}
+  </span>
+
+  <table priorityTable class="operation__table" mat-table [fixedLayout]="false" [dataSource]="objectOperations"
+    [trackBy]="trackById">
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element" [ngClass]="'text-wrap: nowrap;'"> {{element.name}} </td>
+    </ng-container>
+    <!-- Reference Column -->
+    <ng-container matColumnDef="reference">
+      <th mat-header-cell *matHeaderCellDef> Reference </th>
+      <td mat-cell *matCellDef="let element"> {{element.reference}} </td>
+    </ng-container>
+    <!-- Status Column -->
+    <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef> Status </th>
+      <td mat-cell *matCellDef="let element" class="status-cell">
+        {{ element.status == 'Success' ? 'Deleted' : element.status }}
+        @if (element.status === 'Error') {
+          <mat-icon class="status-info-icon"
+            [matTooltip]="element.message || 'An error occurred'"
+            matTooltipPosition="right">
+            info
+          </mat-icon>
+        }
+      </td>
+    </ng-container>
+    <!-- Actions Column -->
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let element">
+        @if (element.status === 'Error' && data.retryFn) {
+          <button mat-icon-button [disabled]="disableButtons()" (click)="retryItem(element)" matTooltip="Retry">
+            <mat-icon>refresh</mat-icon>
+          </button>
+        }
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="objectOperationColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: objectOperationColumns;" [ngClass]="getStatusClass(row.status)"></tr>
+  </table>
+
+  @if (ignoredNodes.length > 0) {
+    <mat-divider vertical="false"></mat-divider>
+
+    <div class="dialog__warning-section">
+      <span class="dialog__warning-title">
+        <strong>Ignored selections</strong> — the following child node{{ ignoredNodes.length > 1 ? 's were' : ' was' }} selected but will not be explicitly deleted. {{ ignoredNodes.length > 1 ? 'Their parents are' : 'Its parent is' }} already queued for deletion, which will remove the parent and all of its children.
+      </span>
+      <ul class="dialog__ignored-list">
+        @for (node of ignoredNodes; track node.id) {
+          <li>{{ node.name }} <span class="dialog__item-ref">({{ node.itemReference }})</span></li>
+        }
+      </ul>
+    </div>
+
+    @for (entry of parentChildrenEntries; track entry.parentName) {
+      <mat-divider vertical="false"></mat-divider>
+      <div class="dialog__warning-section">
+        <span class="dialog__warning-title">
+          <strong>All direct children of "{{ entry.parentName }}"</strong> that will be deleted:
+        </span>
+        <ul class="dialog__ignored-list">
+          @for (child of entry.children; track child.id) {
+            <li>{{ child.name }} <span class="dialog__item-ref">({{ child.itemReference }})</span></li>
+          }
+        </ul>
+      </div>
+    }
+  }
+
+  <mat-divider vertical="false"></mat-divider>
+  <!-- <div ngClass="display: flex"> -->
+  <span> Completed: {{progress().completed}},
+    Success:
+    {{progress().successes}}, Errors:
+    {{progress().errors}}</span>
+  <mat-dialog-actions class="dialog__buttons">
+
+    @if(data.pause$ && !allProcessed()) {
+    @if(!disableButtons()) {
+    <!-- @if(!data.pause$.closed) { -->
+    <button matButton="filled" class="event__button" animate.enter="animation--enter" animate.leave="animation--leave"
+      (click)="doSomethingFn()">{{data.doSomething}}</button>
+    <!-- } -->
+    } @else {
+
+    @if(progress().completed != progress().total) {
+    <button matButton="filled" class="event__button" animate.enter="animation--enter" animate.leave="animation--leave"
+      (click)="data.pause$.next(!data.pause$.value)">{{data.pause$.value
+      ? 'Resume' : 'Stop'}}</button>
+    }
+
+    }
+    }
+    <!-- @else {
+    <button matButton="filled" class="event__button" [disabled]="deleteStarted()"
+      (click)="doSomethingFn()">{{data.doSomething}}</button>
+
+    } -->
+
+    <button matButton="outlined" class="event__button" [disabled]="disableButtons() && data.pause$?.value != true"
+      matDialogClose="Cancel">{{(progress().completed == progress().total) ? 'Close': 'Cancel'}}</button>
+
+
+  </mat-dialog-actions>
+  <!-- </div> -->
+
+
+</mat-dialog-content>
+
+<mat-progress-bar class="mat-progress-bar-overrides" mode="determinate"
+  [value]="progress().percentage"></mat-progress-bar>

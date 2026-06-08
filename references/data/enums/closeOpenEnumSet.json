@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Close Open",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/closeOpenEnumSet",
+  "setId": 180,
+  "oneOf": [
+    {
+      "const": "closeOpenEnumSet.0",
+      "title": "Close",
+      "memberId": 0
+    },
+    {
+      "const": "closeOpenEnumSet.1",
+      "title": "Open",
+      "memberId": 1
+    },
+    {
+      "const": "closeOpenEnumSet.2",
+      "title": "Hold",
+      "memberId": 2
+    }
+  ]
+}

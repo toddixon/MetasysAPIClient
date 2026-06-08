@@ -1,0 +1,242 @@
+{
+  "objectType": "objectTypeEnumSet.biMapperClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "item": {
+    "id": "a378e3b8-1f32-56e5-939a-8696b5c832c1",
+    "name": "DOOR1-S",
+    "label": "DOOR1-S",
+    "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.DOOR1-S",
+    "objectType": "objectTypeEnumSet.biMapperClass",
+    "status": "objectStatusEnumSet.osOffline",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "Door 1 Status",
+    "bacnetObjectType": "objectTypeEnumSet.bacBiClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "outOfService": false,
+    "reliability": "reliabilityEnumSet.communicationsFailure",
+    "outOfServiceExpirationTime": {
+      "date": null,
+      "time": null
+    },
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "cosCount": 0,
+    "cosTime": {
+      "date": null,
+      "time": null
+    },
+    "elapsedActiveTime": 0,
+    "activeTimeReset": {
+      "date": null,
+      "time": null
+    },
+    "stateCountReset": {
+      "date": null,
+      "time": null
+    },
+    "statesText": "twostateEnumSet.closeOpenEnumSet",
+    "statesTextErrorStatus": "statusEnumSet.ok",
+    "presentValue": "closeOpenEnumSet.0",
+    "attrChangeCount": 30,
+    "defaultAttribute": "attributeEnumSet.presentValue",
+    "instanceNumber": 9436,
+    "remoteDeviceAddress": "10",
+    "sabMacAddr": null,
+    "slot": null,
+    "deviceType": "",
+    "offline": true
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "BI Mapper",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "instanceNumber": {
+        "title": "Instance Number",
+        "readOnly": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "remoteDeviceAddress": {
+        "title": "Remote Device Addr",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "sabMacAddr": {
+        "title": "SA Bus MAC Address",
+        "readOnly": true,
+        "metasysType": "byte",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 0,
+        "maximum": 255
+      },
+      "slot": {
+        "title": "Slot",
+        "readOnly": true,
+        "metasysType": "byte",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 0,
+        "maximum": 255
+      },
+      "deviceType": {
+        "title": "Device Type",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 20
+      },
+      "offline": {
+        "title": "Offline",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "presentValue": {
+        "title": "Present Value",
+        "dynamic": true,
+        "enumSetSource": "attributeEnumSet.statesText",
+        "numberOfStates": 2,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "closeOpenEnumSet.1"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/closeOpenEnumSet"
+          }
+        ]
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Hardware",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Setup",
+              "properties": [
+                "instanceNumber",
+                "remoteDeviceAddress",
+                "sabMacAddr",
+                "slot",
+                "deviceType"
+              ],
+              "id": "viewGroupEnumSet.setupGrp"
+            },
+            {
+              "title": "Status",
+              "properties": [
+                "offline"
+              ],
+              "id": "viewGroupEnumSet.statusGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        },
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "presentValue",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.hardwareView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "No/Yes",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/noYesEnumSet",
+  "setId": 854,
+  "oneOf": [
+    {
+      "const": "noYesEnumSet.fanNo",
+      "title": "No",
+      "memberId": 0
+    },
+    {
+      "const": "noYesEnumSet.fanYes",
+      "title": "Yes",
+      "memberId": 1
+    }
+  ]
+}

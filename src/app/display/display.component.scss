@@ -1,0 +1,120 @@
+:host {
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.display__wrapper {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  padding: 4em 0 0 4em;
+  overflow-y: auto;
+
+  &--multi {
+    padding: 1.5em 2em;
+    display: grid;
+    /* 2 cols when container ≥ ~760px, drops to 1 col below that */
+    grid-template-columns: repeat(auto-fill, minmax(clamp(380px, calc(50% - 0.75rem), 100%), 1fr));
+    /* Masonry: tiny row unit; JS sets grid-row-end: span N per card */
+    grid-auto-rows: 8px;
+    column-gap: 1.5rem;
+    row-gap: 0; /* row spacing is baked into each card's span calculation */
+    align-items: start;
+  }
+}
+
+.display__empty-state {
+  align-self: center;
+  text-align: center;
+}
+
+.display__item-card {
+  .display__wrapper--multi & {
+    border: 1px solid var(--mat-sys-outline-variant, rgba(0, 0, 0, 0.12));
+    border-radius: 8px;
+    padding: 1em 1.25em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    min-width: 0; /* prevent grid blowout */
+    isolation: isolate; /* contain stacking context; prevents animation overflow into adjacent cards */
+  }
+}
+
+
+.display__none-selected {
+  user-select: none;
+  font-size: large;
+  font-weight: 500;
+}
+
+.diaplay-view__buttons {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.display-content__header {
+  display: flex;
+  align-items: center;
+}
+
+
+.child-items__wrapper {}
+
+.collapsible {
+  transform-origin: top;
+  transform: scaleY(0);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.collapsible.open {
+  transform-origin: top;
+  transform: scaleY(1);
+  opacity: 1;
+  transition: transform 1s ease, opacity 0.3s ease;
+}
+
+.expand-in {
+  animation-name: expand-in;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.2, .9, .25, 1);
+  animation-fill-mode: both;
+}
+
+.retract-out {
+  animation-name: retract-out;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.2, .9, .25, 1);
+  animation-fill-mode: both;
+}
+
+@keyframes expand-in {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes retract-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+.display-skeleton-loader--size {
+  height: 3em;
+  width: 6em;
+}

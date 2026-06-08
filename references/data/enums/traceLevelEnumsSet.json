@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TRACE LEVELS",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/traceLevelEnumsSet",
+  "setId": 3448,
+  "oneOf": [
+    {
+      "const": "traceLevelEnumsSet.traceLevelOff",
+      "title": "Off",
+      "memberId": 0
+    },
+    {
+      "const": "traceLevelEnumsSet.traceLevelError",
+      "title": "Error",
+      "memberId": 1
+    },
+    {
+      "const": "traceLevelEnumsSet.traceLevelWarning",
+      "title": "Warning",
+      "memberId": 2
+    },
+    {
+      "const": "traceLevelEnumsSet.traceLevelInfo",
+      "title": "Info",
+      "memberId": 3
+    },
+    {
+      "const": "traceLevelEnumsSet.traceLevelVerbose",
+      "title": "Verbose",
+      "memberId": 4
+    }
+  ]
+}

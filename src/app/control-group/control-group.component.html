@@ -1,0 +1,323 @@
+<!-- @for(controlGroup of view.views; track controlGroup.id) { -->
+<mat-divider vertical="false" />
+<!-- Get the 'groupTypeEnumSet.keyGrpType' group and have it stick to the top -->
+<form class="display-group" [formGroup]="group.group">
+
+  <h3 class="display-group__title">{{group.title}}</h3>
+
+  <div class="display-group__controls">
+
+  </div>
+  @for(field of group.properties; track field) {
+  @let control = getControl(group.group, field);
+  @if (isFormGroup(control)) {
+  <div class="control__row control__row--group">
+    <span class="control__name">{{control.title}}</span>
+
+    <div class="control__row--nested">
+      @if (control.contextualEditor) {
+      <button mat-icon-button type="button" matPrefix [attr.aria-label]="'Select ' + control.title"
+        (click)="requestObjectReferencePicker($event, control)">
+        <mat-icon>account_tree</mat-icon>
+      </button>
+      }
+
+      <div class="nested-group__fields" [formGroupName]="field">
+        @for (entry of getGroupControlEntries(control); track entry.key) {
+        @let subCtrl = entry.value;
+        <div class="control__row control__row--nested">
+          <!-- <span class="control__name">{{subCtrl.title}}</span> -->
+          @if (isObservable(subCtrl.type)) {
+          @if (subCtrl.type | async; as enumType) {
+          <mat-form-field appearance="fill" class="control__field--nested">
+
+
+            @if (subCtrl.readonly) {
+            <input matInput [formControlName]="entry.key" [value]="getSetMember(subCtrl.value, enumType)" readonly />
+            } @else {
+            <mat-select [formControlName]="entry.key">
+              @for (member of enumType; track member.memberId) {
+              <mat-option [value]="member.const">{{ member.title }}</mat-option>
+              }
+            </mat-select>
+            }
+          </mat-form-field>
+          } @else {
+          <ngx-skeleton-loader [theme]="ngxSkeletonThemes.valueBoxWide"></ngx-skeleton-loader>
+          }
+          } @else {
+          <mat-form-field appearance="fill" class="control__field--nested">
+
+            <input matInput [formControlName]="entry.key" [readonly]="subCtrl.readonly" />
+          </mat-form-field>
+          @if (hasControlErrors(subCtrl)) {
+          <mat-error>{{ getFirstControlErrorMessage(subCtrl) }}</mat-error>
+          }
+          }
+        </div>
+        }
+      </div>
+
+    </div>
+
+  </div>
+  } @else {
+  <div class="control__row">
+    <span class="control__name">{{control.title}}</span>
+    @if (isFormArray(control)) {
+    <div class="list-control">
+      <div class="list-control__header">
+        <span>{{ control.title }}</span>
+        @if (!control.readonly) {
+        <button mat-stroked-button type="button" [disabled]="!canAddArrayItem(control, group.group)"
+          (click)="addArrayItem($event, control)">
+          <mat-icon>add</mat-icon>
+          Add item
+        </button>
+        }
+      </div>
+
+      @if (getArrayItems(control).length === 0) {
+      <span class="list-control__empty">No entries</span>
+      }
+
+      @if (hasControlErrors(control)) {
+      <span class="list-control__error-message">{{ getFirstControlErrorMessage(control) }}</span>
+      }
+
+          <mat-accordion class="list-control__accordion" [formArrayName]="field">
+            @for (itemGroup of getArrayItems(control); track $index) {
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title class="list-control__title">{{ getArrayItemTitle(control, $index) }}</mat-panel-title>
+                @if (hasArrayItemErrors(itemGroup)) {
+                <mat-icon class="list-control__error-icon">error</mat-icon>
+                }
+                @if (!control.readonly) {
+                <button mat-icon-button type="button" class="list-control__remove-icon" (click)="removeArrayItem($event, control, $index)">
+                  <mat-icon>remove_circle</mat-icon>
+                </button>
+                }
+              </mat-expansion-panel-header>
+
+              <div class="list-control__item-group" [formGroupName]="$index">
+                @for (entry of getGroupControlEntries(itemGroup); track entry.key) {
+                @let subCtrl = entry.value;
+                @if (isObservable(subCtrl.type)) {
+                @if (subCtrl.type | async; as itemType) {
+                <mat-form-field appearance="fill" class="list-control__field">
+                  <mat-label>{{ subCtrl.title || entry.key }}</mat-label>
+                  @if (subCtrl.readonly || !!control.readonly) {
+                  <input matInput [formControlName]="entry.key" [value]="getSetMember(subCtrl.value, itemType)"
+                    readonly />
+                  } @else {
+                  <mat-select [formControlName]="entry.key">
+                    @for (member of itemType; track member.memberId) {
+                    <mat-option [value]="member.const">{{ member.title }}</mat-option>
+                    }
+                  </mat-select>
+                  }
+                  @if (hasControlErrors(subCtrl)) {
+                  <mat-error>{{ getFirstControlErrorMessage(subCtrl) }}</mat-error>
+                  }
+                </mat-form-field>
+                } @else {
+                <ngx-skeleton-loader [theme]="ngxSkeletonThemes.valueBoxWide"></ngx-skeleton-loader>
+                }
+                } @else {
+                <mat-form-field appearance="fill" class="list-control__field">
+                  <mat-label>{{ subCtrl.title || entry.key }}</mat-label>
+                  <input matInput [formControlName]="entry.key" [readonly]="subCtrl.readonly || !!control.readonly" />
+                  @if (hasControlErrors(subCtrl)) {
+                  <mat-error>{{ getFirstControlErrorMessage(subCtrl) }}</mat-error>
+                  }
+                </mat-form-field>
+                }
+                }
+              </div>
+            </mat-expansion-panel>
+            }
+          </mat-accordion>
+
+    </div>
+    } @else {
+    @if(isObservable(control.type)) {
+    @if(control.type | async; as type) {
+    <mat-form-field appearance="fill">
+      @if(control.readonly) {
+      <input matInput [formControlName]="field" [value]="getSetMember(control.value, type)" />
+      } @else {
+      <mat-select #matSelect [formControlName]="field" placeholder="Click to add">
+        <!-- <mat-select-trigger>
+          <span class="select-value">{{ getSetMember(control.value, type) }}</span>
+          <mat-icon class="select-icon mat-form-field-animations-enabled">star</mat-icon>
+        </mat-select-trigger> -->
+
+        @for(member of type; track member.memberId) {
+        <mat-option [value]="member.const">
+          {{ member.title || "-- None --"}}
+        </mat-option>
+        }
+        <!-- @if(control.dirty) { -->
+        <mat-icon matSuffix (click)="resetControl($event, control)">undo</mat-icon>
+        <!-- } -->
+      </mat-select>
+      }
+
+
+      <!-- @if(control.dynamic){
+      <mat-icon matSuffix>dynamic_form</mat-icon>
+      } -->
+
+      <!-- @if(!isProd) {
+      <div matSuffix>
+        <span>Type Members: {{type.length}}</span>
+        <span>Member Selected: {{getSetMember(control.value, type)}}</span>
+      </div>
+      } -->
+
+    </mat-form-field>
+
+
+    } @else {
+    <ngx-skeleton-loader [theme]="ngxSkeletonThemes.valueBoxWide"></ngx-skeleton-loader>
+    }
+
+    } @else {
+    @if(isFloatType(control.type) || control.type =='float') {
+    <app-float-input-slider-control [control]="control"></app-float-input-slider-control>
+
+    } @else if (hasContextualEditor(control)) {
+    <mat-form-field appearance="fill">
+      <mat-label>{{field}}</mat-label>
+      <input matInput [value]="getObjectReferenceDisplayValue(control)" readonly />
+      <button mat-icon-button matPrefix type="button" [attr.aria-label]="'Select ' + control.title"
+        (click)="requestObjectReferencePicker($event, control)">
+        <mat-icon>{{ control.contextualEditor?.selectionMode === 'multi' ? 'playlist_add' : 'account_tree' }}</mat-icon>
+      </button>
+    </mat-form-field>
+
+
+    } @else {
+
+    @switch (getControlType(control.type)) {
+
+    @case ('date') {
+    <mat-form-field appearance="fill">
+      <mat-label>{{field}}</mat-label>
+      <input matInput [matDatepicker]="datePicker" [formControlName]="field" [readonly]="control.readonly">
+      @if (!control.readonly) {
+      <mat-datepicker-toggle matIconSuffix [for]="datePicker"></mat-datepicker-toggle>
+      }
+      <mat-datepicker #datePicker></mat-datepicker>
+      @if(control.dynamic){
+      <mat-icon matSuffix>dynamic_form</mat-icon>
+      }
+    </mat-form-field>
+    }
+
+    @case ('time') {
+    <mat-form-field appearance="fill">
+      <mat-label>{{field}}</mat-label>
+      <input matInput [matTimepicker]="timePicker" [formControlName]="field" [readonly]="control.readonly">
+      @if (!control.readonly) {
+      <mat-timepicker-toggle matIconSuffix [for]="timePicker"></mat-timepicker-toggle>
+      }
+      <mat-timepicker #timePicker></mat-timepicker>
+      @if(control.dynamic){
+      <mat-icon matSuffix>dynamic_form</mat-icon>
+      }
+    </mat-form-field>
+    }
+
+    @case('struct') {
+    <!-- @let loginfo = logTemplateInfo(control); -->
+    <mat-form-field appearance="fill">
+      <mat-label>{{field}}</mat-label>
+      @switch (control.name) {
+      @case ('overrideExpirationTime') {
+      <input matInput type="text" [formControlName]="field" />
+
+      }
+      @case ('version') {
+      <input matInput type="text" [formControlName]="field" />
+
+      }
+      @case ('octetString') {
+      <!--* Create a new pipe that formats octet strings: 'FFFFFFFFBAC0' => 'FF-FF-FF-FF-BA-C0' -->
+      <input matInput type="text" [formControlName]="field" />
+
+      }
+      @default {
+      <input matInput type="text" [formControlName]="field" />
+
+      }
+      }
+      @if(control.dynamic){
+      <mat-icon matSuffix>dynamic_form</mat-icon>
+      }
+    </mat-form-field>
+    }
+
+    @case ('string') {
+    <mat-form-field appearance="fill">
+      <mat-label>{{field}}</mat-label>
+      <textarea matInput type="text" cdkTextareaAutosize cdkAutosizeMinRows="1" cdkAutosizeMaxRows="10"
+        [formControlName]="field"></textarea>
+      @if(control.dynamic){
+      <mat-icon matSuffix>dynamic_form</mat-icon>
+      }
+    </mat-form-field>
+    }
+    @case ('float') {
+    <span>HOW IS IT A FLOAT???</span>
+    <app-float-input-slider-control [control]="control"></app-float-input-slider-control>
+    } @case('ulong') {
+    <app-float-input-slider-control [control]="control"></app-float-input-slider-control>
+    } @case ('bool') {
+    <mat-checkbox [formControlName]="field">
+      {{field}}
+    </mat-checkbox>
+    }
+
+
+    @default {
+    <mat-form-field appearance="fill">
+      <mat-label>{{field}}</mat-label>
+      <input matInput type="text" [formControlName]="field" [value]="control.value">
+      @if(control.dynamic){
+      <mat-icon matSuffix>dynamic_form</mat-icon>
+      }
+    </mat-form-field>
+    }
+    }
+    }
+
+    @if (hasControlErrors(control)) {
+    <mat-error>{{ getFirstControlErrorMessage(control) }}</mat-error>
+    }
+
+
+
+    }
+    }
+
+    <!-- @if(!isProd) {
+    <div class="dev__flex-item">
+      <span>Name: {{field}}</span>
+      <br>
+      <span>readOnly: {{control.readonly ?? 'false'}}</span>
+      <br>
+      <span>metasysType: {{control.type}}</span>
+      <br>
+      <span>value: {{control.value}}</span>
+    </div>
+    } -->
+
+  </div> <!-- /display-group__controls -->
+
+  }
+
+  }<!-- END control loop -->
+</form>
+<!-- } END controlGroup loop -->

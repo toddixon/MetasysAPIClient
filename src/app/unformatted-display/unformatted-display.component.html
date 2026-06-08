@@ -1,0 +1,101 @@
+<!-- @for (view of item; track view.itm.id) { -->
+
+<!-- @if(view.itm.item.defaultAttribute && view.itm.item?.defaultAttribute !== null) { -->
+<div class="display__folder">
+  <!-- <span class="display-content__header"><strong>{{displayItem.itm.item.name}}</strong></span> -->
+  <!-- @if(attribute) { -->
+  <!-- @if(displayItem.attribute$ | async; as attribute) {
+  <div class="display-content__header">
+    <pre #objectData [innerHTML]="getPrettyJson(attribute)" class="json-viewer"></pre>
+  </div>
+  } @else {
+  <ngx-skeleton-loader class="" [theme]="ngxSkeletonTheme" [appearance]="'square'"></ngx-skeleton-loader>
+  }
+  <mat-divider></mat-divider> -->
+</div>
+
+
+<div>
+  <!-- <h2>{{displayItem.itm.name}}</h2> -->
+  <!-- @if(displayItem.node$ | async; as node) {
+  <div class="display-content__header">
+    <button mat-icon-button (click)="hidden0.set(!hidden0())">
+      <mat-icon>{{hidden0()? 'add' : 'remove' }}</mat-icon>
+    </button>
+    <span><strong>Object Children
+      </strong></span>
+  </div>
+  <pre #objectData [hidden]="hidden0()" [innerHTML]="getPrettyJson(node)" class="json-viewer"></pre>
+  <mat-divider></mat-divider>
+  } -->
+</div>
+
+<div>
+  <div class="display-content__header">
+    <button mat-icon-button (click)="hidden1.set(!hidden1())">
+      <mat-icon>{{hidden1()? 'add' : 'remove' }}</mat-icon>
+    </button>
+    <span><strong>Object Structure
+      </strong></span>
+  </div>
+  <!-- <pre #objectData [hidden]="hidden1()" animation.enter="collapsible.open" animation.leave="collapsible"
+    [innerHTML]="getPrettyJson(displayItem.itm)" class="json-viewer"></pre> -->
+  <mat-divider></mat-divider>
+</div>
+
+<!-- @if(displayItem.schema$ | async; as data) {
+<mat-divider></mat-divider>
+<div>
+  <div class="display-content__header">
+    <button mat-icon-button (click)="otherData.hidden = !otherData.hidden">
+      <mat-icon>{{otherData.hidden? 'add' : 'remove' }}</mat-icon>
+    </button>
+    <span><strong>Schema</strong></span>
+  </div>
+  <pre #otherData [innerHTML]="getPrettyJson(data)" class="json-viewer" [hidden]=""></pre>
+</div>
+} @else {
+<div>
+  <ngx-skeleton-loader count="1" appearance="square"></ngx-skeleton-loader>
+</div>
+} -->
+
+<!-- <div>{{displayItem.itm.classification}}</div>
+@if(displayItem.itm.samples) {
+<mat-divider></mat-divider>
+<div>
+  @if(displayItem.itm.samples | async; as samples) {
+  <div class="display-content__header">
+    <button mat-icon-button (click)="sampleData.hidden = !sampleData.hidden">
+      <mat-icon>{{sampleData.hidden? 'add' : 'remove' }}</mat-icon>
+    </button>
+    <span><strong>Sample Data</strong></span>
+  </div>
+  <pre #sampleData [innerHTML]="getPrettyJson(samples)" class="json-viewer" [hidden]=""></pre>
+  } @else {
+  <div>
+    <ngx-skeleton-loader count="1" appearance="square"></ngx-skeleton-loader>
+  </div>
+  }
+</div>
+} -->
+
+<!-- @if(itm.objectType == 'objectTypeEnumSet.containerClass') {
+      <mat-divider></mat-divider>
+      <div class="display__folder">
+        @if(navTreeService.navTreeCache.get(itm.item!.id) | async; as folder) {
+        <div class="child-items__wrapper">
+          <strong>Child Items</strong>
+          <ul>
+            @for (item of folder.items; track item.id) {
+            <li>{{item.id}}</li>
+            }
+          </ul>
+        </div>
+        } @else {
+        <span>Empty</span>
+        }
+      </div>
+    
+      } -->
+<!-- } -->

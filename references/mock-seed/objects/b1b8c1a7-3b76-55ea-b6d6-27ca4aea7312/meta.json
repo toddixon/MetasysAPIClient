@@ -1,0 +1,11 @@
+{
+  "id": "b1b8c1a7-3b76-55ea-b6d6-27ca4aea7312",
+  "parentId": "86fdc3b8-901b-514f-a7cf-cfdb40da9d1f",
+  "networkDeviceId": "86fdc3b8-901b-514f-a7cf-cfdb40da9d1f",
+  "classification": "extension",
+  "name": "Alarm - Present Value",
+  "label": "Alarm - Present Value",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM-copy2.Alarm - Present Value",
+  "objectType": "objectTypeEnumSet.maClass",
+  "objectTypeVersion": "1.0"
+}

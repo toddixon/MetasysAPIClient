@@ -1,0 +1,11 @@
+{
+  "id": "266ff9ea-27b2-5e4f-b193-ecb65a10849f",
+  "parentId": "cdde5a35-8039-58ca-9a24-a8d2e769a3f8",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "object",
+  "name": "AHU-1 Signal Select",
+  "label": "AHU-1 Signal Select",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.NAE01.AHU-1.AHU-1 Signal Select",
+  "objectType": "objectTypeEnumSet.signalSelectClass",
+  "objectTypeVersion": "1.0"
+}

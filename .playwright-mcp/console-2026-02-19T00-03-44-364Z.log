@@ -1,0 +1,80 @@
+[  142300ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142314ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects:0
+[  142319ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142328ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects:0
+[  142331ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142340ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  142432ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142434ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142440ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142444ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142449ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142451ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  142453ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142456ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142460ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142466ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects:0
+[  142467ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects:0
+[  142469ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142471ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects:0
+[  142478ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142483ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142487ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142491ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  142492ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142494ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142497ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  142499ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142501ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142505ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142508ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  142510ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142512ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  142516ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142518ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142522ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  142557ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142560ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142673ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects:0
+[  142675ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142685ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142688ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142697ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects:0
+[  142720ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142745ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142747ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142750ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142755ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142762ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects:0
+[  142767ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142771ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142773ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects:0
+[  142782ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142787ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects:0
+[  142789ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142796ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  142802ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142804ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  142905ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects:0
+[  142909ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  142919ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142920ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  142949ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects:0
+[  142952ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  142987ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  142999ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  143009ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  143024ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  143029ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects:0
+[  143038ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  143045ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  143054ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  143062ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects:0
+[  143065ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects:0
+[  143069ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  143075ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  143077ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  143094ms] [ERROR] [ERROR] Request Failed: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 @ http://localhost:4200/main.js:3982
+[  143103ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  418001ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[  418016ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?includeSchema=true Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3977

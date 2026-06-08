@@ -1,0 +1,11 @@
+{
+  "id": "c311d77f-c1e2-56d1-846e-be6798ae29d6",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "Notification",
+  "label": "Notification",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.Notification",
+  "objectType": "objectTypeEnumSet.notificationClassMapperClass",
+  "objectTypeVersion": "1.0"
+}

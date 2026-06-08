@@ -1,0 +1,199 @@
+{
+  "objectType": "objectTypeEnumSet.fieldDeviceClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/86fdc3b8-901b-514f-a7cf-cfdb40da9d1f",
+  "item": {
+    "id": "86fdc3b8-901b-514f-a7cf-cfdb40da9d1f",
+    "name": "",
+    "label": "M4-CGM-copy2",
+    "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM-copy2",
+    "objectType": "objectTypeEnumSet.fieldDeviceClass",
+    "status": "objectStatusEnumSet.osOffline",
+    "alarmState": "objectStatusEnumSet.osOffline",
+    "presentValue": "controllerStatusEnumSet.csOffline",
+    "attrChangeCount": 24,
+    "defaultAttribute": "attributeEnumSet.presentValue",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.fieldDeviceClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "jciSystemStatus": "jciSystemStatusEnumSet.jciOperational",
+    "enabled": true,
+    "inTest": false,
+    "offline": true,
+    "vendorName": "",
+    "modelName": "",
+    "firmwareVersion": "",
+    "startupCodeVersion": "",
+    "fixedBootVersion": "",
+    "pcode": "",
+    "location": "",
+    "covMinSendTime": 15,
+    "localTime": {
+      "hundredth": 0
+    },
+    "localDate": null,
+    "utcOffset": 0,
+    "dstStatus": false,
+    "graphic": null,
+    "graphicAlias": null,
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "cpuUsage": 0,
+    "flashUsage": 0,
+    "memoryUsage": 0,
+    "objectMemoryUsage": 0,
+    "objectCount": 0,
+    "hasUnboundReferences": false,
+    "instanceNumber": 0,
+    "macAddress": 4,
+    "disableAutoAlarm": false
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "JCI Family BACnet Device",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "instanceNumber": {
+        "title": "Instance Number",
+        "readOnly": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "macAddress": {
+        "title": "JCI MAC Address",
+        "readOnly": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 4,
+        "maximum": 127
+      },
+      "disableAutoAlarm": {
+        "title": "Disable Automatic Alarming",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "presentValue": {
+        "title": "Present Value",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 5,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "controllerStatusEnumSet.csCommEnable"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/controllerStatusEnumSet"
+          }
+        ]
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Hardware",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Network",
+              "properties": [
+                "instanceNumber",
+                "macAddress",
+                "disableAutoAlarm"
+              ],
+              "id": "viewGroupEnumSet.networkGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        },
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "presentValue",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.hardwareView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

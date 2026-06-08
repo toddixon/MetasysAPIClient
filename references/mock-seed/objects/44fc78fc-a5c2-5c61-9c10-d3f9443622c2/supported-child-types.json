@@ -1,0 +1,268 @@
+[
+  {
+    "objectType": "mvClass",
+    "description": "MV",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "mcClass",
+    "description": "Multiple Command",
+    "version": "2.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "intlClass",
+    "description": "Interlock",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "calendarClass",
+    "description": "Calendar",
+    "version": "2.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "avClass",
+    "description": "AV",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bvClass",
+    "description": "BV",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "optimalStartClass",
+    "description": "Optimal Start",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "containerClass",
+    "description": "Folder",
+    "version": "1.0",
+    "classification": "folder",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "globalDataClass",
+    "description": "Global Data",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "signalSelectClass",
+    "description": "Signal Select",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "pulseMeterClass",
+    "description": "Pulse Meter",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "autoShutdownClass",
+    "description": "Auto Shutdown",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "eeClass",
+    "description": "Event Enrollment",
+    "version": "2.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bgrpClass",
+    "description": "Group",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "fieldBusClass",
+    "description": "Field Bus MSTP",
+    "version": "1.0",
+    "classification": "integration",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "flexAccumulatorClass",
+    "description": "Accumulator",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "ieiejEdmClass",
+    "description": "Electric Demand Monitoring",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "ieiejEdcClass",
+    "description": "Electric Demand Control",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "ieiejGlcClass",
+    "description": "Generator Load Control",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "solarClockClass",
+    "description": "Solar Clock",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "scheduleClass",
+    "description": "Schedule",
+    "version": "2.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "loopClass",
+    "description": "Loop",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "n2Class",
+    "description": "N2 Trunk",
+    "version": "1.0",
+    "classification": "integration",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "notificationClass",
+    "description": "Notification",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "dataBroadcastClass",
+    "description": "Data Broadcast",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "systemClass",
+    "description": "Program",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetIntegrationClass",
+    "description": "BACnet Integration",
+    "version": "1.0",
+    "classification": "integration",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "trendStudyClass",
+    "description": "Trend Study",
+    "version": "1.1",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "lonIntegrationClass",
+    "description": "LON Trunk",
+    "version": "1.0",
+    "classification": "integration",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "vndIntegrationClass",
+    "description": "VND Integration",
+    "version": "1.0",
+    "classification": "integration",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "trendLogNoextensionClass",
+    "description": "Trend Log",
+    "version": "1.0",
+    "classification": "object",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "trendLogClass",
+    "description": "Trend",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "maClass",
+    "description": "Alarm",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "aaClass",
+    "description": "Alarm",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "averagingClass",
+    "description": "Averaging",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "totaClass",
+    "description": "Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "toteClass",
+    "description": "Event Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "totrClass",
+    "description": "Runtime Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  }
+]

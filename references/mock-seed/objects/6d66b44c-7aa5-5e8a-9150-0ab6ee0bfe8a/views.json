@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Configuration",
+    "views": [
+      {
+        "title": "Key",
+        "views": [
+          {
+            "title": "None",
+            "properties": [
+              "presentValue",
+              "status",
+              "attrChangeCount",
+              "defaultAttribute"
+            ],
+            "id": "viewGroupEnumSet.noGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.keyGrpType"
+      }
+    ],
+    "id": "viewNameEnumSet.configView"
+  }
+]

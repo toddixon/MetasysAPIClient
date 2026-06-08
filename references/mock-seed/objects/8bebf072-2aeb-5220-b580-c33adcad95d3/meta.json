@@ -1,0 +1,11 @@
+{
+  "id": "8bebf072-2aeb-5220-b580-c33adcad95d3",
+  "parentId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "folder",
+  "name": "Energy",
+  "label": "Energy",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Energy",
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0"
+}

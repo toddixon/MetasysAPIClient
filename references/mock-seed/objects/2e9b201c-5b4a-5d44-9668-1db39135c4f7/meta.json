@@ -1,0 +1,11 @@
+{
+  "id": "2e9b201c-5b4a-5d44-9668-1db39135c4f7",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "CURRENT1-O",
+  "label": "CURRENT1-O",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.CURRENT1-O",
+  "objectType": "objectTypeEnumSet.aoMapperClass",
+  "objectTypeVersion": "1.0"
+}

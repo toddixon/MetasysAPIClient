@@ -1,0 +1,50 @@
+<mat-toolbar class="application-toolbar">
+  <button matIconButton (click)="sidenav.toggle()" aria-label="Toggle sidenav button">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span class="application-toolbar__header">
+    Metasys API Client
+  </span>
+  <span class="example-spacer"></span>
+  @let heartbeatCount = streamHeartbeats$ | async;
+  <span class="server-heatbeat__display">{{`Server Heartbeat Count: ${heartbeatCount}`}}</span>
+  <button matIconButton class="example-icon favorite-icon" aria-label="View trends button">
+    <mat-icon>trending_up</mat-icon>
+  </button>
+  <button matIconButton aria-label="Stream debug" (click)="openStreamDebug()">
+    <mat-icon>stream</mat-icon>
+  </button>
+  <button matIconButton class="example-icon" aria-label="Settings button" [matMenuTriggerFor]="menu">
+    <mat-icon>settings</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item disabled>
+      <mat-icon>build</mat-icon>
+      <span>Config</span>
+    </button>
+    <button mat-menu-item (click)="onLogoutClick()">
+      <mat-icon>logout</mat-icon>
+      <span>Logout</span>
+    </button>
+    <!-- @if(isDev) {
+    <button mat-menu-item (click)="authService.refreshToken()">
+      <mat-icon class="dev-mat-menu-overrieds">refresh</mat-icon>
+      <span class="dev-label">Refresh Token</span>
+    </button>
+    } -->
+  </mat-menu>
+</mat-toolbar>
+
+<mat-sidenav-container autosize class="sidenav-container" hasBackdrop="false">
+  <mat-sidenav #sidenav class="sidenav" mode="side" opened="true" fixedTopGap="64" [style.width.px]="sideNavWidth">
+    <div class="sidenav__content">
+      <app-sidenav-main (copyItemEvent)="onCopyEvent($event)" />
+      <!-- <app-sidenav-main (copyItemEvent)="onCopyEmit($event)" /> -->
+      <div class="resizer" #resizer cdkDrag cdkDragLockAxis="x" (cdkDragStarted)="onDragStart($event)"
+        (cdkDragMoved)="onDragMoved($event)" (cdkDragEnded)="onDragEnd($event)"></div>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content class="sidenav-content__app-chat">
+    <app-display #displayComponent></app-display>
+  </mat-sidenav-content>
+</mat-sidenav-container>

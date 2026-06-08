@@ -1,0 +1,97 @@
+{
+  "self": "https://desktop-vm/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/commands",
+  "items": [
+    {
+      "id": "commandIdEnumSet.latchStatisticsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/commands/commandIdEnumSet.latchStatisticsCommand",
+      "title": "Latch Statistics",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.clearStatisticsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/commands/commandIdEnumSet.clearStatisticsCommand",
+      "title": "Clear Statistics",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.initiateDirectConnectionsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/commands/commandIdEnumSet.initiateDirectConnectionsCommand",
+      "title": "Initiate Direct Connections",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.deleteCertificatesCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/commands/commandIdEnumSet.deleteCertificatesCommand",
+      "title": "Delete Certificates",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    }
+  ],
+  "effectivePermissions": {
+    "canInvoke": [
+      "commandIdEnumSet.latchStatisticsCommand",
+      "commandIdEnumSet.clearStatisticsCommand",
+      "commandIdEnumSet.initiateDirectConnectionsCommand",
+      "commandIdEnumSet.deleteCertificatesCommand"
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+<div class="nav-tree__links">
+  <a [routerLink]="['/home/objects']" [routerLinkActive]="'active'">
+    <mat-icon class="icon-button--inactive">account_tree</mat-icon>
+    <span>Objects</span>
+  </a>
+  <a [routerLink]="['/home/spaces']" class="" [routerLinkActive]="'active'">
+    <mat-icon>holiday_village</mat-icon>
+    <span>Spaces</span>
+  </a>
+</div>
+<div>
+  <div class="nav-tree__operations">
+    @let selected = selected$ | async;
+    <button matIconButton [disabled]="selected?.length == 0 || operationLoading()" (click)="onAddClick()">
+      <mat-icon>add</mat-icon>
+    </button>
+    <mat-divider vertical="true"></mat-divider>
+
+    @if(!loadingCopyData()) {
+    <button matIconButton class="multiline-tooltip" [disabled]="selected?.length == 0 || operationLoading()"
+      [matTooltip]="toolBarMessages().copy" animate.enter="animation--enter" animate.leave="animation--leave"
+      (click)="onCopyClick()">
+      <mat-icon>content_copy</mat-icon>
+    </button>
+    } @else {
+    <mat-spinner mode="indeterminate" animate.enter="animation--enter" animate.leave="animation--leave" [diameter]="36"
+      [strokeWidth]="6"></mat-spinner>
+    }
+
+    @if(!objectOpsService.fetchingPasteData()) {
+    <button matIconButton class="multiline-tooltip" [disabled]="objectOpsService.clipboard().length === 0 || operationLoading()"
+      [matTooltip]="toolBarMessages().paste" animate.enter="animation--enter" animate.leave="animation--leave"
+      (click)="onPasteClick()">
+
+      @if(objectOpsService.clipboard().length > 0 && !pasteAllowed()) {
+      <mat-icon>content_paste_off</mat-icon>
+      } @else {
+      <mat-icon>content_paste</mat-icon>
+      }
+
+    </button>
+    } @else {
+    <mat-spinner mode="indeterminate" animate.enter="animation--enter" animate.leave="animation--leave" [diameter]="36"
+      [strokeWidth]="6"></mat-spinner>
+    }
+
+    <mat-divider vertical="true"></mat-divider>
+    <span class="flex-spacer"></span>
+    <div class="button-align--right">
+      @if(!loadingDeleteData()) {
+      <!-- <button matIconButton class="button-align--right" animate.enter="animation--enter" -->
+      <button matIconButton class="object-tree__button" animate.enter="animation--enter"
+        animate.leave="animation--leave" [disabled]="selected?.length == 0 || operationLoading()"
+        [matTooltip]="toolBarMessages().delete" (click)="onDeleteClick()">
+        <mat-icon>delete</mat-icon>
+      </button>
+      } @else {
+      <mat-spinner mode="indeterminate" animate.enter="animation--enter" animate.leave="animation--leave"
+        [diameter]="36" [strokeWidth]="6"></mat-spinner>
+      }
+
+    </div>
+  </div>
+
+  @if(pasteInProgress()) {
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  }
+
+  <!-- @let copyProgress = objectOpsService.copyProgress(); -->
+  <!-- @if(copyProgress) {
+  <div class="copy-progress-panel">
+    <div class="copy-progress-panel__header">
+      <span class="copy-progress-panel__title">
+        Copy
+        @if(!copyProgress.done) {
+        <mat-spinner mode="indeterminate" [diameter]="14" [strokeWidth]="2"></mat-spinner>
+        }
+      </span>
+      <span class="copy-progress-panel__counts">
+        {{ copyProgress.completed }}&thinsp;/&thinsp;{{ copyProgress.total }}
+      </span>
+    </div>
+
+    @if(!copyProgress.done && copyProgress.currentObjectName) {
+    <div class="copy-progress-panel__current" [matTooltip]="copyProgress.currentObjectName">
+      {{ copyProgress.currentObjectName }}
+    </div>
+    }
+
+    @if(copyProgress.done) {
+    <div class="copy-progress-panel__summary">
+      <span class="copy-progress-panel__badge copy-progress-panel__badge--success">
+        <mat-icon>check_circle</mat-icon>{{ copyProgress.successCount }}
+      </span>
+      @if(copyProgress.errorCount > 0) {
+      <span class="copy-progress-panel__badge copy-progress-panel__badge--error">
+        <mat-icon>error</mat-icon>{{ copyProgress.errorCount }}
+      </span>
+      }
+      @if(copyProgress.skippedCount > 0) {
+      <span class="copy-progress-panel__badge copy-progress-panel__badge--skipped">
+        <mat-icon>block</mat-icon>{{ copyProgress.skippedCount }} skipped
+      </span>
+      }
+      <span class="copy-progress-panel__depth-note"
+        [matTooltip]="'Max depth: ' + copyProgress.configuredDepth + ' levels'">
+        depth&thinsp;≤&thinsp;{{ copyProgress.configuredDepth }}
+      </span>
+    </div>
+
+    @for(entry of copyProgressFailedEntries(); track entry[0]) {
+    <div class="copy-progress-panel__failed-item">
+      <span class="copy-progress-panel__failed-name" [matTooltip]="entry[1].rootState.errorMessage ?? ''">
+        <mat-icon>warning</mat-icon>{{ entry[1].rootState.name }}
+        @if(entry[1].skippedDescendants.length > 0) {
+        <span class="copy-progress-panel__failed-children">
+          +{{ entry[1].skippedDescendants.length }} skipped
+        </span>
+        }
+      </span>
+      <button matIconButton class="copy-progress-panel__retry-btn"
+        matTooltip="Retry this subtree"
+        (click)="onRetryCopySubtree(entry[0])">
+        <mat-icon>replay</mat-icon>
+      </button>
+    </div>
+    }
+    }
+  </div>
+  } -->
+</div>
+
+
+<div style="visibility:hidden;position:fixed" [style.left]="contextMenuPosition.x" [style.top]="contextMenuPosition.y"
+  [matMenuTriggerFor]="nodeContextMenu">
+</div>
+
+<mat-menu #nodeContextMenu="matMenu">
+  <button mat-menu-item [disabled]="selected?.length == 0 || operationLoading()" (click)="onViewClick()">
+    <mat-icon>preview</mat-icon> View
+  </button>
+  <button mat-menu-item [disabled]="selected?.length == 0 || operationLoading()" (click)="onCopyClick()">
+    <mat-icon>content_copy</mat-icon> Copy
+  </button>
+  <button mat-menu-item [disabled]="objectOpsService.clipboard().length === 0 || operationLoading()" (click)="onPasteClick()">
+    @if(objectOpsService.clipboard().length > 0 && !pasteAllowed()) {
+    <mat-icon>content_paste_off</mat-icon>
+    } @else {
+    <mat-icon>content_paste</mat-icon>
+    }
+    Paste
+  </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [disabled]="selected?.length == 0 || operationLoading()" (click)="onDeleteClick()">
+    <mat-icon>delete</mat-icon> Delete
+  </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item (click)="onRefreshNodeClick()">
+    <mat-icon>refresh</mat-icon> Refresh Node
+  </button>
+</mat-menu>
+
+<router-outlet />

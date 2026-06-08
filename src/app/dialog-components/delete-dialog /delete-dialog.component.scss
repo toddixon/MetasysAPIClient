@@ -1,0 +1,103 @@
+@use '../../../animations.scss' as a;
+
+
+
+$max-height: 70vh;
+$max-width: 50vw;
+
+.dialog__content {
+  max-height: $max-height;
+  // max-width: $max-width;
+}
+
+.dialog__buttons {
+  display: flex;
+  gap: 10px;
+
+}
+
+.event__message {
+  font-size: 1.2em;
+}
+
+.event__data {
+  margin-top: 0.5em;
+}
+
+.operation__table {
+  // text-wrap: nowrap;
+  max-height: 300px;
+  // display: block;
+  overflow-y: auto;
+}
+
+.mat-mdc-header-cell {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+tr.mat-mds-row {
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+tr.status-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+tr.status-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+tr.status-deleting {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+
+.animation--enter {
+
+  @include a.animate(expandFadeIn, 200ms, ease);
+}
+
+.animation--leave {
+  @include a.animate(shrinkFadeOut, 200ms, ease);
+}
+
+.dialog__warning-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 0;
+}
+
+.dialog__warning-title {
+  font-size: 0.9em;
+}
+
+.dialog__ignored-list {
+  margin: 4px 0 0 0;
+  padding-left: 1.4em;
+  font-size: 0.85em;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.status-cell {
+  // display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.status-info-icon {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  opacity: 0.75;
+  cursor: default;
+  flex-shrink: 0;
+}
+

@@ -1,0 +1,11 @@
+{
+  "id": "09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5",
+  "parentId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "object",
+  "name": "BACnet Protocol Eng",
+  "label": "BACnet Protocol Eng",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/BACnet Protocol Eng",
+  "objectType": "objectTypeEnumSet.bacpeClass",
+  "objectTypeVersion": "1.0"
+}

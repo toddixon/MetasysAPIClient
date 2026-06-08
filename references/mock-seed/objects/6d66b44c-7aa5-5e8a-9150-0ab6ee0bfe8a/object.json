@@ -1,0 +1,187 @@
+{
+  "objectType": "objectTypeEnumSet.aaClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "item": {
+    "id": "6d66b44c-7aa5-5e8a-9150-0ab6ee0bfe8a",
+    "name": "Flash Usage Alarm",
+    "label": "Flash Usage Alarm",
+    "itemReference": "DESKTOP-VM:NS-NAE01/Flash Usage Alarm",
+    "objectType": "objectTypeEnumSet.aaClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.aaClass",
+    "presentValue": "analogAlarmValueEnumSet.anaNormal",
+    "input": 4.58439016,
+    "eventEnable": true,
+    "reportDelayActive": false,
+    "reportDelay": 0,
+    "enabled": true,
+    "reliability": "reliabilityEnumSet.reliable",
+    "time": null,
+    "date": null,
+    "errorLog": {
+      "inputReferenceStatus": "reliabilityEnumSet.reliable",
+      "setpointReferenceStatus": "reliabilityEnumSet.noInput",
+      "coolingSetpointReferenceStatus": "reliabilityEnumSet.noInput",
+      "heatingSetpointReferenceStatus": "reliabilityEnumSet.noInput",
+      "occupancyReferenceStatus": "reliabilityEnumSet.noInput"
+    },
+    "highAlarmLimit": 100,
+    "highWarningLimit": null,
+    "coolingSetpoint": null,
+    "heatingSetpoint": null,
+    "lowWarningLimit": null,
+    "lowAlarmLimit": null,
+    "setpointReference": null,
+    "warningReference": 0,
+    "coolingSetpointReference": null,
+    "heatingSetpointReference": null,
+    "occupancyReference": null,
+    "unoccupiedState": "occupancyEffectiveEnumSet.effectiveOccupancyOccupied",
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "inputReference": {
+      "objectReference": "DESKTOP-VM:NS-NAE01",
+      "referencedObject": {
+        "objectUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+        "attributeUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/attributes/presentValue",
+        "objectName": "NAE01"
+      },
+      "attribute": "attributeEnumSet.flashUsage"
+    },
+    "differential": 5,
+    "highWarningOffset": null,
+    "lowWarningOffset": null,
+    "delayTimerActive": false,
+    "delayTime": 0,
+    "faultAckPending": false,
+    "faultAckRequired": true,
+    "faultTime": null,
+    "faultDate": null,
+    "faultPriority": 70,
+    "offnormAckPending": false,
+    "offnormAckRequired": false,
+    "offnormTime": null,
+    "offnormDate": null,
+    "offnormPriority": 120,
+    "normAckPending": false,
+    "normAckRequired": false,
+    "normTime": null,
+    "normDate": null,
+    "normPriority": 200,
+    "alarmMessageText": "Flash Usage",
+    "graphic": null,
+    "graphicAlias": null,
+    "attrChangeCount": 37,
+    "defaultAttribute": "attributeEnumSet.presentValue"
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "Analog Alarm",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "presentValue": {
+        "title": "Present Value",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 8,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "analogAlarmValueEnumSet.anaUnoccupied"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/analogAlarmValueEnumSet"
+          }
+        ]
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "presentValue",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

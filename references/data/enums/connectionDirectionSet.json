@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Connection Value Direction",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/connectionDirectionSet",
+  "setId": 3102,
+  "oneOf": [
+    {
+      "const": "connectionDirectionSet.sendsValueTo",
+      "title": "Sends Value To",
+      "memberId": 0
+    },
+    {
+      "const": "connectionDirectionSet.receivesValueFrom",
+      "title": "Receives Value From",
+      "memberId": 1
+    },
+    {
+      "const": "connectionDirectionSet.notConnected",
+      "title": "Not Connected",
+      "memberId": 2
+    }
+  ]
+}

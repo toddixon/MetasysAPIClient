@@ -1,0 +1,349 @@
+{
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "Field Bus MSTP",
+    "version": "1.0",
+    "$id": "https://desktop-vm/api/v6/schemas/objectTypes/fieldBusClass",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400,
+        "default": ""
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 64
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ],
+        "default": "objectTypeEnumSet.fieldBusClass"
+      },
+      "objectCategory": {
+        "title": "Authorization Category",
+        "category": "attributeCategoryEnumSet.objectCategoryCategory",
+        "numberOfStates": 250,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=modifyConfigItems"
+          }
+        ],
+        "default": "objectCategoryEnumSet.generalCategory"
+      },
+      "maxManager": {
+        "title": "Max Manager",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 4,
+        "maximum": 127,
+        "default": 127
+      },
+      "maxApduLength": {
+        "title": "Max APDU Length",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 128,
+        "maximum": 65535,
+        "unit": {
+          "id": "bytes",
+          "title": "bytes"
+        },
+        "default": 480
+      },
+      "apduTimeout": {
+        "title": "APDU Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1000,
+        "maximum": 65535,
+        "unit": {
+          "id": "milsecs",
+          "title": "ms"
+        },
+        "default": 6000
+      },
+      "apduSegmentTimeout": {
+        "title": "APDU Segment Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1000,
+        "maximum": 65535,
+        "unit": {
+          "id": "milsecs",
+          "title": "ms"
+        },
+        "default": 8000
+      },
+      "apduRetries": {
+        "title": "APDU Retries",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 10,
+        "default": 3
+      },
+      "periodicUpdate": {
+        "title": "Periodic Update",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        },
+        "default": 20
+      },
+      "pageSize": {
+        "title": "Page Size",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 10,
+        "maximum": 65535,
+        "default": 1000
+      },
+      "pollDelay": {
+        "title": "Poll Delay",
+        "metasysType": "byte",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 10,
+        "maximum": 50,
+        "unit": {
+          "id": "milsecs",
+          "title": "ms"
+        }
+      },
+      "count": {
+        "title": "Count",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535,
+        "default": 0
+      },
+      "syncTime": {
+        "title": "Synchronize Time",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": true
+      },
+      "syncTz": {
+        "title": "Synchronize Time Zone",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": true
+      },
+      "discoverAllAsBacnet": {
+        "title": "Discover All As General BACnet Device",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": false
+      },
+      "requestedVendorId": {
+        "title": "Requested Vendor ID",
+        "metasysType": "ushort",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "internodeCommTimer": {
+        "title": "Internode Comm Timer",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255,
+        "default": 30
+      },
+      "executionPriority": {
+        "title": "Execution Priority",
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "executionPriorityEnumSet.lifeSafetyPriority"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/executionPriorityEnumSet"
+          }
+        ],
+        "default": "executionPriorityEnumSet.normalPriority"
+      },
+      "trunkNumber": {
+        "title": "Trunk Number",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 20,
+        "default": 1
+      },
+      "baudRateSelection": {
+        "title": "Baud Rate Selection",
+        "numberOfStates": 6,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "mstpdlBaudRateEnumSet.mstpdlBaud76800"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/mstpdlBaudRateEnumSet"
+          }
+        ],
+        "default": "mstpdlBaudRateEnumSet.mstpdlBaudAuto"
+      },
+      "networkAddress": {
+        "title": "Configured Network Number",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 65534,
+        "default": 2000
+      }
+    },
+    "required": [
+      "name",
+      "objectCategory",
+      "maxManager",
+      "maxApduLength",
+      "apduTimeout",
+      "apduSegmentTimeout",
+      "apduRetries",
+      "periodicUpdate",
+      "pageSize",
+      "syncTime",
+      "syncTz",
+      "discoverAllAsBacnet",
+      "internodeCommTimer",
+      "executionPriority",
+      "trunkNumber",
+      "baudRateSelection",
+      "networkAddress"
+    ]
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Object",
+              "properties": [
+                "name",
+                "description",
+                "bacnetObjectType",
+                "objectCategory"
+              ],
+              "id": "viewGroupEnumSet.objectGrp"
+            },
+            {
+              "title": "Communication",
+              "properties": [
+                "maxManager",
+                "maxApduLength",
+                "apduTimeout",
+                "apduSegmentTimeout",
+                "apduRetries",
+                "periodicUpdate",
+                "pageSize",
+                "pollDelay",
+                "count",
+                "syncTime",
+                "syncTz",
+                "discoverAllAsBacnet",
+                "requestedVendorId",
+                "internodeCommTimer"
+              ],
+              "id": "viewGroupEnumSet.communicationGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [
+            {
+              "title": "Execution",
+              "properties": [
+                "executionPriority"
+              ],
+              "id": "viewGroupEnumSet.executionGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    },
+    {
+      "title": "Hardware",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Setup",
+              "properties": [
+                "trunkNumber",
+                "baudRateSelection",
+                "networkAddress"
+              ],
+              "id": "viewGroupEnumSet.setupGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.hardwareView"
+    }
+  ]
+}

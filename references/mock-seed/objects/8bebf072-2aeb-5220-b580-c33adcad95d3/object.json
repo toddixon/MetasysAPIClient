@@ -1,0 +1,589 @@
+{
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "item": {
+    "id": "8bebf072-2aeb-5220-b580-c33adcad95d3",
+    "name": "Energy",
+    "label": "Energy",
+    "itemReference": "DESKTOP-VM:DESKTOP-VM/Energy",
+    "objectType": "objectTypeEnumSet.containerClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "attrChangeCount": 7,
+    "defaultAttribute": null,
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.containerClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "userNameIsBacnetObjName": false,
+    "objectName": "DESKTOP-VM/Energy",
+    "enabled": true,
+    "executionPriority": "executionPriorityEnumSet.normalPriority",
+    "objectIdentifier": {
+      "instance": 3000005,
+      "bacnetObjectType": "objectTypeEnumSet.containerClass"
+    },
+    "propertyList": [
+      "attributeEnumSet.itemReference",
+      "attributeEnumSet.name",
+      "attributeEnumSet.description",
+      "attributeEnumSet.status",
+      "attributeEnumSet.enabled",
+      "attributeEnumSet.executionPriority",
+      "attributeEnumSet.objectCategory",
+      "attributeEnumSet.alarmState"
+    ],
+    "internalOid": 73,
+    "deviceName": {
+      "objectReference": "DESKTOP-VM:DESKTOP-VM",
+      "referencedObject": {
+        "objectName": "DESKTOP-VM",
+        "objectUrl": "https://desktop-vm/api/v6/objects/1dd8657b-33b5-591e-b8aa-4a86ced81bec"
+      }
+    },
+    "referenceCount": 1,
+    "isContainer": false,
+    "childList": [],
+    "pmiRefresh": null,
+    "internal": false,
+    "archiveObject": true,
+    "commandList": [],
+    "objectCanNotBeDeleted": false,
+    "objectOrder": 0
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "Folder",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "itemReference": {
+        "title": "Item Reference",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.objectNameCategory",
+        "type": "string",
+        "metasysType": "string"
+      },
+      "userNameIsBacnetObjName": {
+        "title": "User Name Is BACnet Obj Name",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400
+      },
+      "objectName": {
+        "title": "Object Name",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.noEditInUiCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 731
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 255
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "enabled": {
+        "title": "Enabled",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "executionPriority": {
+        "title": "Execution Priority",
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "executionPriorityEnumSet.lifeSafetyPriority"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/executionPriorityEnumSet"
+          }
+        ]
+      },
+      "objectCategory": {
+        "title": "Authorization Category",
+        "category": "attributeCategoryEnumSet.objectCategoryCategory",
+        "numberOfStates": 250,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=modifyItems"
+          }
+        ]
+      },
+      "alarmState": {
+        "title": "Alarm State",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ]
+      },
+      "objectIdentifier": {
+        "title": "Object Identifier",
+        "readOnly": true,
+        "metasysType": "bacOid",
+        "oneOf": [
+          {
+            "$ref": "#bacoid"
+          }
+        ]
+      },
+      "propertyList": {
+        "title": "Property List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "allOf": [
+            {
+              "type": "string",
+              "metasysType": "enum"
+            },
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+            }
+          ]
+        }
+      },
+      "objectType": {
+        "title": "JCI Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ]
+      },
+      "internalOid": {
+        "title": "Internal OID",
+        "readOnly": true,
+        "type": "integer",
+        "metasysType": "oid",
+        "minimum": 0
+      },
+      "deviceName": {
+        "title": "Device Name",
+        "readOnly": true,
+        "metasysType": "objectReference",
+        "oneOf": [
+          {
+            "$ref": "#object-reference"
+          }
+        ]
+      },
+      "referenceCount": {
+        "title": "Reference Count",
+        "readOnly": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "version": {
+        "title": "Version",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.versionStructCategory",
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "major": {
+            "metasysType": "byte",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "title": "Major"
+          },
+          "minor": {
+            "metasysType": "byte",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "title": "Minor"
+          }
+        }
+      },
+      "isContainer": {
+        "title": "Is Container",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "childList": {
+        "title": "Child List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "object",
+          "metasysType": "struct",
+          "properties": {
+            "functionalName": {
+              "type": "string",
+              "metasysType": "string",
+              "title": "Functional Name"
+            },
+            "referenceName": {
+              "metasysType": "objectReference",
+              "oneOf": [
+                {
+                  "$ref": "#object-reference"
+                }
+              ],
+              "title": "Reference Name"
+            },
+            "childOid": {
+              "metasysType": "bacOid",
+              "oneOf": [
+                {
+                  "$ref": "#bacoid"
+                }
+              ],
+              "title": "Child OID"
+            },
+            "isReference": {
+              "type": "boolean",
+              "metasysType": "bool",
+              "title": "Is Reference"
+            },
+            "internal": {
+              "type": "boolean",
+              "metasysType": "bool",
+              "title": "Internal"
+            }
+          }
+        }
+      },
+      "pmiRefresh": {
+        "title": "PMI Refresh",
+        "readOnly": true,
+        "dynamic": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      },
+      "internal": {
+        "title": "Internal",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "archiveObject": {
+        "title": "Archive Object",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "commandList": {
+        "title": "Command List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "allOf": [
+            {
+              "type": "string",
+              "metasysType": "enum"
+            },
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/commandIdEnumSet"
+            }
+          ]
+        },
+        "maxItems": 50
+      },
+      "objectCanNotBeDeleted": {
+        "title": "Object Can Not Be Deleted",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "objectOrder": {
+        "title": "Object Order",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      }
+    },
+    "definitions": {
+      "bacoid": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#bacoid",
+        "title": "BACoid data type",
+        "type": "object",
+        "metasysType": "bacOid",
+        "properties": {
+          "bacnetObjectType": {
+            "type": "string",
+            "metasysType": "enum",
+            "readOnly": true,
+            "oneOf": [
+              {
+                "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+              }
+            ],
+            "metasysEnum": "objectTypeEnumSet"
+          },
+          "instance": {
+            "type": "integer",
+            "metasysType": "ulong",
+            "minimum": 0,
+            "maximum": 4194303
+          },
+          "referencedObject": {
+            "type": "object",
+            "properties": {
+              "objectReference": {
+                "type": "string",
+                "metasysType": "string",
+                "format": "fully-qualified-reference"
+              },
+              "objectName": {
+                "type": "string",
+                "metasysType": "string"
+              },
+              "objectUrl": {
+                "type": "string",
+                "metasysType": "string",
+                "format": "uri"
+              }
+            },
+            "readOnly": true
+          }
+        },
+        "required": [
+          "bacnetObjectType",
+          "instance"
+        ],
+        "additionalProperties": false
+      },
+      "object-reference": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#object-reference",
+        "title": "Object reference data type",
+        "type": "object",
+        "oneOf": [
+          {
+            "properties": {
+              "objectReference": {
+                "format": "fully-qualified-reference",
+                "type": "string"
+              },
+              "referencedObject": {
+                "type": "object",
+                "properties": {
+                  "objectName": {
+                    "type": "string"
+                  },
+                  "objectUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "readOnly": true
+              }
+            },
+            "required": [
+              "objectReference"
+            ]
+          },
+          {
+            "properties": {
+              "objectBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              },
+              "deviceAddress": {
+                "readOnly": true,
+                "type": "string"
+              },
+              "deviceBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "objectBACoid"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Snapshot Focus",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "itemReference",
+                "userNameIsBacnetObjName",
+                "name",
+                "objectName",
+                "description",
+                "status",
+                "enabled",
+                "executionPriority",
+                "objectCategory",
+                "alarmState",
+                "bacnetObjectType",
+                "objectIdentifier",
+                "propertyList",
+                "objectType",
+                "internalOid",
+                "deviceName",
+                "referenceCount",
+                "version",
+                "isContainer",
+                "childList",
+                "pmiRefresh",
+                "internal",
+                "archiveObject",
+                "defaultAttribute",
+                "attrChangeCount",
+                "commandList",
+                "objectCanNotBeDeleted",
+                "objectOrder"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.ssFocusView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

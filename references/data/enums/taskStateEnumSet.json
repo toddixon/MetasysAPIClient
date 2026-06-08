@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Task State",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/taskStateEnumSet",
+  "setId": 1867,
+  "oneOf": [
+    {
+      "const": "taskStateEnumSet.taskStateNotInitialized",
+      "title": "Not Initialized",
+      "memberId": 0
+    },
+    {
+      "const": "taskStateEnumSet.taskStateShuttingDown",
+      "title": "Shutting Down",
+      "memberId": 1
+    },
+    {
+      "const": "taskStateEnumSet.taskStateStarting",
+      "title": "Starting",
+      "memberId": 2
+    },
+    {
+      "const": "taskStateEnumSet.taskStateRunning",
+      "title": "Running",
+      "memberId": 3
+    },
+    {
+      "const": "taskStateEnumSet.taskStateShutdownComplete",
+      "title": "Shutdown Complete",
+      "memberId": 4
+    },
+    {
+      "const": "taskStateEnumSet.taskStateFatalError",
+      "title": "Fatal Error",
+      "memberId": 5
+    }
+  ]
+}

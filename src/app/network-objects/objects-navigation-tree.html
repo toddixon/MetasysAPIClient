@@ -1,0 +1,14 @@
+<div class="nav-tree__container scrollbar--styling" [class.nav-tree__container--picker]="pickerMode">
+  @if(navTree$ | async; as nodes) {
+  <div>
+    <app-object [item]="nodes" [selectableObjectTypes]="selectableObjectTypes"
+      [disableNonMatchingSelection]="disableNonMatchingSelection" [forceMultiSelect]="forceMultiSelect"
+      [pickerMode]="pickerMode">
+    </app-object>
+  </div>
+  } @else {
+  <div class="mat-spinner__container">
+    <mat-spinner mode="indeterminate" class="mat-spinner--centered"></mat-spinner>
+  </div>
+  }
+</div>

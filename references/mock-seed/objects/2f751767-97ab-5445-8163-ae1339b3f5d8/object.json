@@ -1,0 +1,1680 @@
+{
+  "objectType": "objectTypeEnumSet.ethIpClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "item": {
+    "id": "2f751767-97ab-5445-8163-ae1339b3f5d8",
+    "name": "Eth IP DataLink",
+    "label": "Eth IP DataLink",
+    "itemReference": "DESKTOP-VM:DESKTOP-VM/Eth IP DataLink",
+    "objectType": "objectTypeEnumSet.ethIpClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.bacNetworkPortClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "networkType": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeIpv4",
+    "protocolLevel": "bacnetProtocolLevelEnumSet.bacnetProtocolLevelBacnetAppl",
+    "ethernetPortInUse": "ethernetPortTypeEnumSet.ethernetPortInternal",
+    "bacnetIpMode": "bacnetIpModeEnumSet.bacnetIpModeNormal",
+    "networkAddress": 1001,
+    "networkNumberQuality": "networkNumberQualityEnumSet.networkNumberQualityConfigured",
+    "deviceAddress": "C0A808B9BAC0",
+    "broadcastAddress": "C0A808FFBAC0",
+    "addressLength": 6,
+    "bacnetIpAddress": [
+      192,
+      168,
+      8,
+      185
+    ],
+    "bacnetIpUdpPort": 47808,
+    "ipDefaultGateway": [
+      192,
+      168,
+      8,
+      1
+    ],
+    "ipSubnetMask": [
+      255,
+      255,
+      255,
+      0
+    ],
+    "ipDnsServer": [
+      [
+        192,
+        168,
+        8,
+        1
+      ]
+    ],
+    "ipDhcpEnable": true,
+    "apduLength": 1024,
+    "linkSpeed": 0,
+    "bbmdBroadcastDistributionTable": [],
+    "bbmdForeignDeviceTable": [],
+    "changesPending": false,
+    "jciNpoAttributesRequiringActivation": [],
+    "bacnetCommand": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdIdle",
+    "outOfService": false,
+    "statusFlags": [
+      [
+        "bacstatusFlagsEnumSet.inAlarmEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.faultEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.overridenEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.outOfServiceEnum",
+        false
+      ]
+    ],
+    "reliability": "reliabilityEnumSet.reliable",
+    "networkNumber": 1001,
+    "jciNpoApduSegmentTimeout": 10000,
+    "jciNpoApduTimeout": 10000,
+    "jciNpoApduRetries": 4,
+    "dnsRefreshPeriod": 20,
+    "bbmdAcceptFdRegistrations": false,
+    "internodeCommTimer": 120,
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "attrChangeCount": 33,
+    "defaultAttribute": null,
+    "resetDate": {
+      "year": 2026,
+      "month": "monthEnumSet.monthApr",
+      "dayOfMonth": "bacnetDayOfMonthEnumSet.bdom21",
+      "dayOfWeek": "dayOfWeekEnumSet.tuesday"
+    },
+    "resetTime": {
+      "hour": 16,
+      "minute": 10,
+      "second": 39,
+      "hundredth": 40
+    },
+    "messageTransmits": 0,
+    "messageReceives": 0,
+    "broadcastTransmits": 0,
+    "broadcastReceives": 0,
+    "retryAttempts": 0,
+    "transmitFailures": 653,
+    "discardedFrames": 0,
+    "maxApduLength": 1024,
+    "apduSegmentTimeout": 10000,
+    "apduTimeout": 10000,
+    "apduRetries": 4,
+    "protEngOutResource": 0,
+    "datalinkType": 347,
+    "covThreshold": 10,
+    "covCount": 0,
+    "peakCovCount": 0,
+    "peakCovCacheCount": 0,
+    "sendOk": false,
+    "manager": true,
+    "dataRecordDelete": false,
+    "bacnetMacAddress": "C0A808B9BAC0",
+    "jciNpoChangesPendingBitstring": 0,
+    "userNameIsBacnetObjName": false,
+    "objectName": "DESKTOP-VM/Eth IP DataLink",
+    "enabled": true,
+    "executionPriority": "executionPriorityEnumSet.normalPriority",
+    "objectIdentifier": {
+      "instance": 4128771,
+      "bacnetObjectType": "objectTypeEnumSet.bacNetworkPortClass"
+    },
+    "propertyList": [
+      "attributeEnumSet.networkAddress",
+      "attributeEnumSet.deviceAddress",
+      "attributeEnumSet.broadcastAddress",
+      "attributeEnumSet.addressLength",
+      "attributeEnumSet.resetTime",
+      "attributeEnumSet.resetDate",
+      "attributeEnumSet.messageTransmits",
+      "attributeEnumSet.messageReceives",
+      "attributeEnumSet.broadcastTransmits",
+      "attributeEnumSet.broadcastReceives",
+      "attributeEnumSet.retryAttempts",
+      "attributeEnumSet.transmitFailures",
+      "attributeEnumSet.discardedFrames",
+      "attributeEnumSet.protEngOutResource",
+      "attributeEnumSet.networkType",
+      "attributeEnumSet.bacnetIpAddress",
+      "attributeEnumSet.changesPending",
+      "attributeEnumSet.protocolLevel",
+      "attributeEnumSet.bacnetCommand",
+      "attributeEnumSet.outOfService",
+      "attributeEnumSet.ethernetPortInUse",
+      "attributeEnumSet.bacnetIpMode",
+      "attributeEnumSet.bbmdAcceptFdRegistrations",
+      "attributeEnumSet.linkSpeed",
+      "attributeEnumSet.bacnetIpUdpPort",
+      "attributeEnumSet.ipDefaultGateway",
+      "attributeEnumSet.bacnetMacAddress",
+      "attributeEnumSet.ipDnsServer",
+      "attributeEnumSet.bbmdBroadcastDistributionTable",
+      "attributeEnumSet.dnsRefreshPeriod",
+      "attributeEnumSet.networkNumber",
+      "attributeEnumSet.apduLength",
+      "attributeEnumSet.networkNumberQuality",
+      "attributeEnumSet.ipSubnetMask",
+      "attributeEnumSet.ipDhcpEnable",
+      "attributeEnumSet.statusFlags",
+      "attributeEnumSet.reliability",
+      "attributeEnumSet.bbmdForeignDeviceTable",
+      "attributeEnumSet.jciNpoChangesPendingBitstring",
+      "attributeEnumSet.jciNpoApduSegmentTimeout",
+      "attributeEnumSet.jciNpoApduTimeout",
+      "attributeEnumSet.jciNpoApduRetries",
+      "attributeEnumSet.jciNpoAttributesRequiringActivation",
+      "attributeEnumSet.itemReference",
+      "attributeEnumSet.name",
+      "attributeEnumSet.description",
+      "attributeEnumSet.status",
+      "attributeEnumSet.enabled",
+      "attributeEnumSet.executionPriority",
+      "attributeEnumSet.objectCategory",
+      "attributeEnumSet.alarmState"
+    ],
+    "internalOid": 2,
+    "deviceName": {
+      "objectReference": "DESKTOP-VM:DESKTOP-VM",
+      "referencedObject": {
+        "objectName": "DESKTOP-VM",
+        "objectUrl": "https://desktop-vm/api/v6/objects/1dd8657b-33b5-591e-b8aa-4a86ced81bec"
+      }
+    },
+    "referenceCount": 1,
+    "isContainer": false,
+    "childList": [],
+    "pmiRefresh": null,
+    "internal": false,
+    "archiveObject": true,
+    "commandList": [
+      "commandIdEnumSet.latchStatisticsCommand",
+      "commandIdEnumSet.clearStatisticsCommand"
+    ],
+    "objectCanNotBeDeleted": true,
+    "objectOrder": 0
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "ETH IP",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "networkAddress": {
+        "title": "Configured Network Number",
+        "metasysType": "ushort",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 1,
+        "maximum": 65534
+      },
+      "deviceAddress": {
+        "title": "Device Address",
+        "readOnly": true,
+        "format": "hex",
+        "type": "string",
+        "metasysType": "octetString"
+      },
+      "broadcastAddress": {
+        "title": "Broadcast Address",
+        "readOnly": true,
+        "format": "hex",
+        "type": "string",
+        "metasysType": "octetString"
+      },
+      "addressLength": {
+        "title": "Address Length",
+        "readOnly": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "maxApduLength": {
+        "title": "Max APDU Length",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "apduSegmentTimeout": {
+        "title": "APDU Segment Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1000,
+        "maximum": 65535,
+        "unit": {
+          "id": "milsecs",
+          "title": "ms"
+        }
+      },
+      "apduTimeout": {
+        "title": "APDU Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1000,
+        "maximum": 65535,
+        "unit": {
+          "id": "milsecs",
+          "title": "ms"
+        }
+      },
+      "apduRetries": {
+        "title": "APDU Retries",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 10
+      },
+      "resetTime": {
+        "title": "Reset Time",
+        "readOnly": true,
+        "dynamic": true,
+        "oneOf": [
+          {
+            "allOf": [
+              {
+                "$ref": "#metasys-time"
+              },
+              {
+                "required": [
+                  "hour",
+                  "minute",
+                  "second"
+                ],
+                "display": [
+                  "hour",
+                  "minute",
+                  "second"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "time"
+      },
+      "resetDate": {
+        "title": "Reset Date",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "date",
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object",
+            "metasysType": "date",
+            "properties": {
+              "year": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "metasysType": "ushort",
+                    "minimum": 1900,
+                    "maximum": 2154
+                  },
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "minimum": 0,
+                    "maximum": 254
+                  }
+                ]
+              },
+              "month": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "minimum": 1,
+                    "maximum": 12
+                  },
+                  {
+                    "allOf": [
+                      {
+                        "type": "string",
+                        "metasysType": "enum",
+                        "lastMember": "monthEnumSet.monthDec"
+                      },
+                      {
+                        "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dayOfMonth": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "minimum": 1,
+                    "maximum": 31
+                  },
+                  {
+                    "allOf": [
+                      {
+                        "type": "string",
+                        "metasysType": "enum",
+                        "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                      },
+                      {
+                        "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dayOfWeek": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "minimum": 1,
+                    "maximum": 7
+                  },
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "const": 255
+                  },
+                  {
+                    "type": "string",
+                    "metasysType": "string",
+                    "const": "any"
+                  },
+                  {
+                    "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "year",
+              "month",
+              "dayOfMonth"
+            ],
+            "display": [
+              "year",
+              "month",
+              "dayOfMonth"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "messageTransmits": {
+        "title": "Message Transmits",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "messageReceives": {
+        "title": "Message Receives",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "broadcastTransmits": {
+        "title": "Broadcast Transmits",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "broadcastReceives": {
+        "title": "Broadcast Receives",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "retryAttempts": {
+        "title": "Retry Attempts",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "transmitFailures": {
+        "title": "Transmit Failures",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "discardedFrames": {
+        "title": "Discarded Frames",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "protEngOutResource": {
+        "title": "Protocol Eng OutQue Resource",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "datalinkType": {
+        "title": "Datalink Type",
+        "readOnly": true,
+        "metasysType": "short",
+        "type": "integer",
+        "minimum": -32768,
+        "maximum": 32767
+      },
+      "covThreshold": {
+        "title": "COV Threshold",
+        "metasysType": "short",
+        "type": "integer",
+        "minimum": -32768,
+        "maximum": 32767
+      },
+      "internodeCommTimer": {
+        "title": "Internode Comm Timer",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "covCount": {
+        "title": "COV Count",
+        "readOnly": true,
+        "metasysType": "short",
+        "type": "integer",
+        "minimum": -32768,
+        "maximum": 32767
+      },
+      "peakCovCount": {
+        "title": "Peak COV Count",
+        "readOnly": true,
+        "metasysType": "short",
+        "type": "integer",
+        "minimum": -32768,
+        "maximum": 32767
+      },
+      "peakCovCacheCount": {
+        "title": "Peak COV Cache Count",
+        "readOnly": true,
+        "metasysType": "short",
+        "type": "integer",
+        "minimum": -32768,
+        "maximum": 32767
+      },
+      "sendOk": {
+        "title": "Send OK",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "manager": {
+        "title": "Manager",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "dataRecordDelete": {
+        "title": "Data Record Delete",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "networkType": {
+        "title": "Network Type",
+        "readOnly": true,
+        "numberOfStates": 12,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeBacnetSc"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetNetworkTypeEnumSet"
+          }
+        ]
+      },
+      "bacnetIpAddress": {
+        "title": "IP Address",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.ipAddressCategory",
+        "type": "array",
+        "metasysType": "array",
+        "items": {
+          "metasysType": "byte",
+          "oneOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "minimum": 0,
+          "maximum": 255
+        },
+        "maxItems": 4,
+        "minItems": 4
+      },
+      "changesPending": {
+        "title": "Changes Pending",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "protocolLevel": {
+        "title": "Protocol Level",
+        "readOnly": true,
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "bacnetProtocolLevelEnumSet.bacnetNetworkPortCmdRestartSubordinateDiscovery"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetProtocolLevelEnumSet"
+          }
+        ]
+      },
+      "bacnetCommand": {
+        "title": "Command",
+        "numberOfStates": 8,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdRestartPort"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetNetworkPortCmdEnumSet"
+          }
+        ]
+      },
+      "outOfService": {
+        "title": "Out Of Service",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "ethernetPortInUse": {
+        "title": "Ethernet Port In Use",
+        "readOnly": true,
+        "numberOfStates": 2,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "ethernetPortTypeEnumSet.ethernetPortExternalLan"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/ethernetPortTypeEnumSet"
+          }
+        ]
+      },
+      "bacnetIpMode": {
+        "title": "BACnet IP Mode",
+        "readOnly": true,
+        "numberOfStates": 3,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "bacnetIpModeEnumSet.bacnetIpModeBbmd"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetIpModeEnumSet"
+          }
+        ]
+      },
+      "bbmdAcceptFdRegistrations": {
+        "title": "BBMD Accept F. D. Registrations",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "linkSpeed": {
+        "title": "Link Speed",
+        "readOnly": true,
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -3.40282347e+38,
+        "maximum": 3.40282347e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "unit": {
+          "id": "bacnetBitsPerSecond",
+          "title": "bits per second"
+        }
+      },
+      "bacnetIpUdpPort": {
+        "title": "BACnet IP UDP Port",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "ipDefaultGateway": {
+        "title": "IP Default Gateway",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.ipAddressCategory",
+        "type": "array",
+        "metasysType": "array",
+        "items": {
+          "metasysType": "byte",
+          "oneOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "minimum": 0,
+          "maximum": 255
+        },
+        "maxItems": 4,
+        "minItems": 4
+      },
+      "bacnetMacAddress": {
+        "title": "MAC Address",
+        "readOnly": true,
+        "format": "hex",
+        "type": "string",
+        "metasysType": "octetString"
+      },
+      "ipDnsServer": {
+        "title": "IP DNS Server",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "category": "attributeCategoryEnumSet.ipAddressCategory",
+          "type": "array",
+          "metasysType": "array",
+          "items": {
+            "metasysType": "byte",
+            "oneOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "minimum": 0,
+            "maximum": 255
+          },
+          "maxItems": 4,
+          "minItems": 4
+        }
+      },
+      "bbmdBroadcastDistributionTable": {
+        "title": "BBMD Broadcast Distribution Table",
+        "category": "attributeCategoryEnumSet.tableCategory",
+        "oneOf": [
+          {
+            "type": "array"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "listof",
+        "items": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "metasysType": "struct",
+          "properties": {
+            "hostName": {
+              "type": "string",
+              "metasysType": "string",
+              "title": "Host",
+              "category": "attributeCategoryEnumSet.hostnameOrIpaddrCategory",
+              "oneOf": [
+                {
+                  "format": "hostname",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                {
+                  "format": "ipv4"
+                }
+              ]
+            },
+            "udpPort": {
+              "metasysType": "ushort",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 65535,
+              "title": "UDP Port"
+            },
+            "ipMask": {
+              "type": "string",
+              "metasysType": "string",
+              "format": "ipv4",
+              "category": "attributeCategoryEnumSet.ipAddressCategory",
+              "title": "IP Broadcast Mask"
+            }
+          },
+          "required": [
+            "hostName",
+            "udpPort"
+          ]
+        }
+      },
+      "dnsRefreshPeriod": {
+        "title": "DNS Refresh Period",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 1440,
+        "unit": {
+          "id": "minute",
+          "title": "minutes"
+        }
+      },
+      "networkNumber": {
+        "title": "Pending Network Number",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65534
+      },
+      "apduLength": {
+        "title": "APDU Length",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 50,
+        "maximum": 65535
+      },
+      "networkNumberQuality": {
+        "title": "Network Number Quality",
+        "readOnly": true,
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "networkNumberQualityEnumSet.networkNumberQualityConfigured"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/networkNumberQualityEnumSet"
+          }
+        ]
+      },
+      "ipSubnetMask": {
+        "title": "IP Subnet Mask",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.ipAddressCategory",
+        "type": "array",
+        "metasysType": "array",
+        "items": {
+          "metasysType": "byte",
+          "oneOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "minimum": 0,
+          "maximum": 255
+        },
+        "maxItems": 4,
+        "minItems": 4
+      },
+      "ipDhcpEnable": {
+        "title": "IP DHCP Enable",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "statusFlags": {
+        "title": "Status Flags",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "flags",
+        "maxItems": 4,
+        "minItems": 4,
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/bacstatusFlagsEnumSet"
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "uniqueItems": true
+      },
+      "reliability": {
+        "title": "Reliability",
+        "readOnly": true,
+        "numberOfStates": 116,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "reliabilityEnumSet.invalidValueForApplication"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/reliabilityEnumSet"
+          }
+        ]
+      },
+      "bbmdForeignDeviceTable": {
+        "title": "BBMD Foreign Device Table",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.tableCategory",
+        "oneOf": [
+          {
+            "type": "array"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "listof",
+        "items": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "metasysType": "struct",
+          "properties": {
+            "ipAddress": {
+              "category": "attributeCategoryEnumSet.ipAddressCategory",
+              "type": "array",
+              "metasysType": "array",
+              "items": {
+                "metasysType": "byte",
+                "oneOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "minimum": 0,
+                "maximum": 255
+              },
+              "maxItems": 4,
+              "minItems": 4,
+              "title": "IP Address"
+            },
+            "udpPort": {
+              "metasysType": "ushort",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 65535,
+              "title": "UDP Port"
+            },
+            "bbmdFdTimeToLive": {
+              "metasysType": "ushort",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 65535,
+              "title": "Time to Live"
+            },
+            "bbmdFdRemainingTimeToLive": {
+              "metasysType": "ushort",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 65535,
+              "title": "Remaining Time to Live"
+            }
+          }
+        }
+      },
+      "jciNpoChangesPendingBitstring": {
+        "title": "JCI Network Port Changes Pending Bitstring",
+        "readOnly": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "jciNpoApduSegmentTimeout": {
+        "title": "JCI Network Port APDU Segment Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "jciNpoApduTimeout": {
+        "title": "JCI Network Port APDU Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "jciNpoApduRetries": {
+        "title": "JCI Network Port APDU Retries",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 10
+      },
+      "jciNpoAttributesRequiringActivation": {
+        "title": "Pending Attributes Requiring Activation",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "allOf": [
+            {
+              "type": "string",
+              "metasysType": "enum"
+            },
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+            }
+          ]
+        }
+      },
+      "itemReference": {
+        "title": "Item Reference",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.objectNameCategory",
+        "type": "string",
+        "metasysType": "string"
+      },
+      "userNameIsBacnetObjName": {
+        "title": "User Name Is BACnet Obj Name",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400
+      },
+      "objectName": {
+        "title": "Object Name",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.noEditInUiCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 731
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 255
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "enabled": {
+        "title": "Enabled",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "executionPriority": {
+        "title": "Execution Priority",
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "executionPriorityEnumSet.lifeSafetyPriority"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/executionPriorityEnumSet"
+          }
+        ]
+      },
+      "objectCategory": {
+        "title": "Authorization Category",
+        "category": "attributeCategoryEnumSet.objectCategoryCategory",
+        "numberOfStates": 250,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=modifyItems"
+          }
+        ]
+      },
+      "alarmState": {
+        "title": "Alarm State",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ]
+      },
+      "objectIdentifier": {
+        "title": "Object Identifier",
+        "readOnly": true,
+        "metasysType": "bacOid",
+        "oneOf": [
+          {
+            "$ref": "#bacoid"
+          }
+        ]
+      },
+      "propertyList": {
+        "title": "Property List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "allOf": [
+            {
+              "type": "string",
+              "metasysType": "enum"
+            },
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+            }
+          ]
+        }
+      },
+      "objectType": {
+        "title": "JCI Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ]
+      },
+      "internalOid": {
+        "title": "Internal OID",
+        "readOnly": true,
+        "type": "integer",
+        "metasysType": "oid",
+        "minimum": 0
+      },
+      "deviceName": {
+        "title": "Device Name",
+        "readOnly": true,
+        "metasysType": "objectReference",
+        "oneOf": [
+          {
+            "$ref": "#object-reference"
+          }
+        ]
+      },
+      "referenceCount": {
+        "title": "Reference Count",
+        "readOnly": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "version": {
+        "title": "Version",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.versionStructCategory",
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "major": {
+            "metasysType": "byte",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "title": "Major"
+          },
+          "minor": {
+            "metasysType": "byte",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "title": "Minor"
+          }
+        }
+      },
+      "isContainer": {
+        "title": "Is Container",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "childList": {
+        "title": "Child List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "object",
+          "metasysType": "struct",
+          "properties": {
+            "functionalName": {
+              "type": "string",
+              "metasysType": "string",
+              "title": "Functional Name"
+            },
+            "referenceName": {
+              "metasysType": "objectReference",
+              "oneOf": [
+                {
+                  "$ref": "#object-reference"
+                }
+              ],
+              "title": "Reference Name"
+            },
+            "childOid": {
+              "metasysType": "bacOid",
+              "oneOf": [
+                {
+                  "$ref": "#bacoid"
+                }
+              ],
+              "title": "Child OID"
+            },
+            "isReference": {
+              "type": "boolean",
+              "metasysType": "bool",
+              "title": "Is Reference"
+            },
+            "internal": {
+              "type": "boolean",
+              "metasysType": "bool",
+              "title": "Internal"
+            }
+          }
+        }
+      },
+      "pmiRefresh": {
+        "title": "PMI Refresh",
+        "readOnly": true,
+        "dynamic": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      },
+      "internal": {
+        "title": "Internal",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "archiveObject": {
+        "title": "Archive Object",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "commandList": {
+        "title": "Command List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "allOf": [
+            {
+              "type": "string",
+              "metasysType": "enum"
+            },
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/commandIdEnumSet"
+            }
+          ]
+        },
+        "maxItems": 50
+      },
+      "objectCanNotBeDeleted": {
+        "title": "Object Can Not Be Deleted",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "objectOrder": {
+        "title": "Object Order",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      }
+    },
+    "definitions": {
+      "metasys-time": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#metasys-time",
+        "title": "time",
+        "description": "Metasys time",
+        "type": "object",
+        "properties": {
+          "hour": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 23,
+            "description": "Hour"
+          },
+          "minute": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 59,
+            "description": "Minute"
+          },
+          "second": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 59,
+            "description": "Second"
+          },
+          "hundredth": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 99,
+            "description": "Hundredths"
+          }
+        },
+        "additionalProperties": false
+      },
+      "metasys-date": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#metasys-date",
+        "title": "date",
+        "description": "Metasys Date",
+        "type": "object",
+        "properties": {
+          "year": {
+            "type": "integer",
+            "description": "Year"
+          },
+          "month": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12,
+            "description": "Month"
+          },
+          "dayOfMonth": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 31,
+            "description": "Day of Month"
+          },
+          "dayOfWeek": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7,
+            "description": "Day of Week"
+          }
+        },
+        "additionalProperties": false
+      },
+      "bacoid": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#bacoid",
+        "title": "BACoid data type",
+        "type": "object",
+        "metasysType": "bacOid",
+        "properties": {
+          "bacnetObjectType": {
+            "type": "string",
+            "metasysType": "enum",
+            "readOnly": true,
+            "oneOf": [
+              {
+                "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+              }
+            ],
+            "metasysEnum": "objectTypeEnumSet"
+          },
+          "instance": {
+            "type": "integer",
+            "metasysType": "ulong",
+            "minimum": 0,
+            "maximum": 4194303
+          },
+          "referencedObject": {
+            "type": "object",
+            "properties": {
+              "objectReference": {
+                "type": "string",
+                "metasysType": "string",
+                "format": "fully-qualified-reference"
+              },
+              "objectName": {
+                "type": "string",
+                "metasysType": "string"
+              },
+              "objectUrl": {
+                "type": "string",
+                "metasysType": "string",
+                "format": "uri"
+              }
+            },
+            "readOnly": true
+          }
+        },
+        "required": [
+          "bacnetObjectType",
+          "instance"
+        ],
+        "additionalProperties": false
+      },
+      "object-reference": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#object-reference",
+        "title": "Object reference data type",
+        "type": "object",
+        "oneOf": [
+          {
+            "properties": {
+              "objectReference": {
+                "format": "fully-qualified-reference",
+                "type": "string"
+              },
+              "referencedObject": {
+                "type": "object",
+                "properties": {
+                  "objectName": {
+                    "type": "string"
+                  },
+                  "objectUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "readOnly": true
+              }
+            },
+            "required": [
+              "objectReference"
+            ]
+          },
+          {
+            "properties": {
+              "objectBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              },
+              "deviceAddress": {
+                "readOnly": true,
+                "type": "string"
+              },
+              "deviceBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "objectBACoid"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Snapshot Focus",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "networkAddress",
+                "deviceAddress",
+                "broadcastAddress",
+                "addressLength",
+                "maxApduLength",
+                "apduSegmentTimeout",
+                "apduTimeout",
+                "apduRetries",
+                "resetTime",
+                "resetDate",
+                "messageTransmits",
+                "messageReceives",
+                "broadcastTransmits",
+                "broadcastReceives",
+                "retryAttempts",
+                "transmitFailures",
+                "discardedFrames",
+                "protEngOutResource",
+                "datalinkType",
+                "covThreshold",
+                "internodeCommTimer",
+                "covCount",
+                "peakCovCount",
+                "peakCovCacheCount",
+                "sendOk",
+                "manager",
+                "dataRecordDelete",
+                "networkType",
+                "bacnetIpAddress",
+                "changesPending",
+                "protocolLevel",
+                "bacnetCommand",
+                "outOfService",
+                "ethernetPortInUse",
+                "bacnetIpMode",
+                "bbmdAcceptFdRegistrations",
+                "linkSpeed",
+                "bacnetIpUdpPort",
+                "ipDefaultGateway",
+                "bacnetMacAddress",
+                "ipDnsServer",
+                "bbmdBroadcastDistributionTable",
+                "dnsRefreshPeriod",
+                "networkNumber",
+                "apduLength",
+                "networkNumberQuality",
+                "ipSubnetMask",
+                "ipDhcpEnable",
+                "statusFlags",
+                "reliability",
+                "bbmdForeignDeviceTable",
+                "jciNpoChangesPendingBitstring",
+                "jciNpoApduSegmentTimeout",
+                "jciNpoApduTimeout",
+                "jciNpoApduRetries",
+                "jciNpoAttributesRequiringActivation",
+                "itemReference",
+                "userNameIsBacnetObjName",
+                "name",
+                "objectName",
+                "description",
+                "status",
+                "enabled",
+                "executionPriority",
+                "objectCategory",
+                "alarmState",
+                "bacnetObjectType",
+                "objectIdentifier",
+                "propertyList",
+                "objectType",
+                "internalOid",
+                "deviceName",
+                "referenceCount",
+                "version",
+                "isContainer",
+                "childList",
+                "pmiRefresh",
+                "internal",
+                "archiveObject",
+                "defaultAttribute",
+                "attrChangeCount",
+                "commandList",
+                "objectCanNotBeDeleted",
+                "objectOrder"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.ssFocusView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

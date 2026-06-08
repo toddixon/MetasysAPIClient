@@ -1,0 +1,25 @@
+{
+  "name": "metasys-mock-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "dev": "tsx watch --inspect=9229 src/server.ts",
+    "seed": "tsx src/seed.ts",
+    "refresh": "tsx src/export-snapshots.ts",
+    "reset-db": "rm -f ./data/metasys-mock.db && npm run seed"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.1.1",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.3"
+  }
+}

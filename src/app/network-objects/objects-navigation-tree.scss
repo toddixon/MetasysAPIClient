@@ -1,0 +1,42 @@
+@use '../../vars.scss' as *;
+
+:host {
+  font-size: small;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+
+  &.picker-mode {
+    background-color: $light-grey;
+  }
+}
+
+app-object {
+  margin: 0.5em;
+  color: inherit;
+}
+
+.mat-spinner__container {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: anchor-center;
+}
+
+.nav-tree__container {
+  overflow: auto;
+  width: 100%;
+  display: flex;
+
+  &.nav-tree__container--picker {
+    background-color: $light-grey;
+    border: 1px solid rgba($dark-grey-2, 0.4);
+    border-radius: 8px;
+    padding: 0.35rem;
+    box-sizing: border-box;
+  }
+}
+
+
+
+// Remove scrollbar for Conversations component side nav

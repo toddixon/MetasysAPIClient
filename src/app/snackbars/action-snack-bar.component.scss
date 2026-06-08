@@ -1,0 +1,16 @@
+// @use '../../styles.scss' as *;
+
+
+:host {
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // gap: 1em;
+  // @include snackbar-warn
+}
+
+.snacbar__buttons {
+  display: flex;
+  gap: 10px;
+
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Hardware",
+    "views": [
+      {
+        "title": "Basic",
+        "views": [
+          {
+            "title": "Setup",
+            "properties": [
+              "instanceNumber",
+              "remoteDeviceAddress"
+            ],
+            "id": "viewGroupEnumSet.setupGrp"
+          },
+          {
+            "title": "Status",
+            "properties": [
+              "offline"
+            ],
+            "id": "viewGroupEnumSet.statusGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.basicGrpType"
+      },
+      {
+        "title": "Advanced",
+        "views": [],
+        "id": "groupTypeEnumSet.advancedGrpType"
+      },
+      {
+        "title": "Key",
+        "views": [
+          {
+            "title": "None",
+            "properties": [
+              "status",
+              "attrChangeCount",
+              "defaultAttribute"
+            ],
+            "id": "viewGroupEnumSet.noGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.keyGrpType"
+      }
+    ],
+    "id": "viewNameEnumSet.hardwareView"
+  }
+]

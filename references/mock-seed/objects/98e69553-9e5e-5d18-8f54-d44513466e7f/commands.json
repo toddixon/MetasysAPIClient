@@ -1,0 +1,187 @@
+{
+  "self": "https://desktop-vm/api/v6/objects/98e69553-9e5e-5d18-8f54-d44513466e7f/commands",
+  "items": [
+    {
+      "id": "commandIdEnumSet.inServiceCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/98e69553-9e5e-5d18-8f54-d44513466e7f/commands/commandIdEnumSet.inServiceCommand",
+      "title": "In Service",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.outOfServiceCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/98e69553-9e5e-5d18-8f54-d44513466e7f/commands/commandIdEnumSet.outOfServiceCommand",
+      "title": "Out of Service",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "parameters": {
+            "type": "array",
+            "metasysType": "list",
+            "items": [
+              {
+                "id": "commandParmsEnumSet.valueCmdparm",
+                "title": "Value",
+                "displayPrecisionSource": "displayPrecision",
+                "maxPresValueSource": "maxPresValue",
+                "minPresValueSource": "minPresValue",
+                "unitsSource": "units",
+                "metasysType": "float",
+                "type": "number",
+                "minimum": -1.69999998e+38,
+                "maximum": 1.69999998e+38,
+                "displayPrecision": {
+                  "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+                  "displayMultipleOf": 0.1
+                },
+                "default": 0
+              }
+            ],
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.temporaryOutOfServiceCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/98e69553-9e5e-5d18-8f54-d44513466e7f/commands/commandIdEnumSet.temporaryOutOfServiceCommand",
+      "title": "Temporary Out of Service",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "parameters": {
+            "type": "array",
+            "metasysType": "list",
+            "items": [
+              {
+                "id": "commandParmsEnumSet.valueCmdparm",
+                "title": "Value",
+                "displayPrecisionSource": "displayPrecision",
+                "maxPresValueSource": "maxPresValue",
+                "minPresValueSource": "minPresValue",
+                "unitsSource": "units",
+                "metasysType": "float",
+                "type": "number",
+                "minimum": -1.69999998e+38,
+                "maximum": 1.69999998e+38,
+                "displayPrecision": {
+                  "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+                  "displayMultipleOf": 0.1
+                },
+                "default": 0
+              },
+              {
+                "id": "commandParmsEnumSet.hoursCmdparm",
+                "title": "Hours",
+                "metasysType": "ulong",
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100,
+                "default": 0
+              },
+              {
+                "id": "commandParmsEnumSet.minutesCmdparm",
+                "title": "Minutes",
+                "metasysType": "ulong",
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 59,
+                "default": 0
+              }
+            ],
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.enableAlarmsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/98e69553-9e5e-5d18-8f54-d44513466e7f/commands/commandIdEnumSet.enableAlarmsCommand",
+      "title": "Enable Alarms",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.disableAlarmsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/98e69553-9e5e-5d18-8f54-d44513466e7f/commands/commandIdEnumSet.disableAlarmsCommand",
+      "title": "Disable Alarms",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    }
+  ],
+  "effectivePermissions": {
+    "canInvoke": [
+      "commandIdEnumSet.inServiceCommand",
+      "commandIdEnumSet.outOfServiceCommand",
+      "commandIdEnumSet.temporaryOutOfServiceCommand",
+      "commandIdEnumSet.enableAlarmsCommand",
+      "commandIdEnumSet.disableAlarmsCommand"
+    ]
+  }
+}

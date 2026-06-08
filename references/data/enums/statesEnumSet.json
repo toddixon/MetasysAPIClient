@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "States",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/statesEnumSet",
+  "setId": 102,
+  "oneOf": [
+    {
+      "const": "statesEnumSet.state0",
+      "title": "State 0",
+      "memberId": 0
+    },
+    {
+      "const": "statesEnumSet.state1",
+      "title": "State 1",
+      "memberId": 1
+    },
+    {
+      "const": "statesEnumSet.state2",
+      "title": "State 2",
+      "memberId": 2
+    },
+    {
+      "const": "statesEnumSet.state3",
+      "title": "State 3",
+      "memberId": 3
+    },
+    {
+      "const": "statesEnumSet.state4",
+      "title": "State 4",
+      "memberId": 4
+    },
+    {
+      "const": "statesEnumSet.state5",
+      "title": "State 5",
+      "memberId": 5
+    },
+    {
+      "const": "statesEnumSet.state6",
+      "title": "State 6",
+      "memberId": 6
+    },
+    {
+      "const": "statesEnumSet.state7",
+      "title": "State 7",
+      "memberId": 7
+    },
+    {
+      "const": "statesEnumSet.state8",
+      "title": "State 8",
+      "memberId": 8
+    },
+    {
+      "const": "statesEnumSet.state9",
+      "title": "State 9",
+      "memberId": 9
+    },
+    {
+      "const": "statesEnumSet.state10",
+      "title": "State 10",
+      "memberId": 10
+    },
+    {
+      "const": "statesEnumSet.state11",
+      "title": "State 11",
+      "memberId": 11
+    },
+    {
+      "const": "statesEnumSet.state12",
+      "title": "State 12",
+      "memberId": 12
+    },
+    {
+      "const": "statesEnumSet.state13",
+      "title": "State 13",
+      "memberId": 13
+    },
+    {
+      "const": "statesEnumSet.state14",
+      "title": "State 14",
+      "memberId": 14
+    },
+    {
+      "const": "statesEnumSet.state15",
+      "title": "State 15",
+      "memberId": 15
+    },
+    {
+      "const": "statesEnumSet.state16",
+      "title": "State 16",
+      "memberId": 16
+    },
+    {
+      "const": "statesEnumSet.state17",
+      "title": "State 17",
+      "memberId": 17
+    },
+    {
+      "const": "statesEnumSet.state18",
+      "title": "State 18",
+      "memberId": 18
+    },
+    {
+      "const": "statesEnumSet.state19",
+      "title": "State 19",
+      "memberId": 19
+    },
+    {
+      "const": "statesEnumSet.state20",
+      "title": "State 20",
+      "memberId": 20
+    },
+    {
+      "const": "statesEnumSet.state21",
+      "title": "State 21",
+      "memberId": 21
+    },
+    {
+      "const": "statesEnumSet.state22",
+      "title": "State 22",
+      "memberId": 22
+    },
+    {
+      "const": "statesEnumSet.state23",
+      "title": "State 23",
+      "memberId": 23
+    },
+    {
+      "const": "statesEnumSet.state24",
+      "title": "State 24",
+      "memberId": 24
+    },
+    {
+      "const": "statesEnumSet.state25",
+      "title": "State 25",
+      "memberId": 25
+    },
+    {
+      "const": "statesEnumSet.state26",
+      "title": "State 26",
+      "memberId": 26
+    },
+    {
+      "const": "statesEnumSet.state27",
+      "title": "State 27",
+      "memberId": 27
+    },
+    {
+      "const": "statesEnumSet.state28",
+      "title": "State 28",
+      "memberId": 28
+    },
+    {
+      "const": "statesEnumSet.state29",
+      "title": "State 29",
+      "memberId": 29
+    },
+    {
+      "const": "statesEnumSet.state30",
+      "title": "State 30",
+      "memberId": 30
+    },
+    {
+      "const": "statesEnumSet.state31",
+      "title": "State 31",
+      "memberId": 31
+    }
+  ]
+}

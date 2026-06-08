@@ -1,0 +1,89 @@
+<!-- <mat-form-field class="control__input"> -->
+@let focused = controlFocused$ | async;
+@if(valueParameters) {
+<div class="input-and-slider__controls-v">
+  <mat-form-field class="control__input mat-form-field-with-slider-overrides" appearance="fill">
+    <input matInput #inputField class="input-remove-spin-buttons" type="number" [value]="control.value"
+      [formControl]="control" (focus)="inputFocused.set(true)" (blur)="inputFocused.set(false)"
+      [min]="valueParameters.minValue" [max]="valueParameters.maxValue" [step]="sliderSteps">
+
+
+    @if(focused) {
+
+    <div class="control__input-slider" animate.enter="slider-animation--in-h" animate.leave="slider-animation--out-h">
+      <mat-slider slider #sliderComponent class="mat-slider-overrides" [min]="inputField.min" [max]="inputField.max"
+        showTickMarks [step]="sliderSteps">
+        <input matSliderThumb #sliderThumb [formControl]="control" [value]="inputField.value"
+          (focus)="sliderFocused.set(true)" (blur)="sliderFocused.set(false)">
+      </mat-slider>
+    </div>
+
+    }
+
+    <!-- <mat-hint animate.enter="hint--enter" animate.leave="hint--leave">
+        The current selected priority will not take
+        effect</mat-hint> -->
+
+    @if (control.hasError('minValue')) {
+    <mat-error>Value cannot be less than {{ valueParameters.minValue }}</mat-error>
+    }
+    @if (control.hasError('maxValue')) {
+    <mat-error>Value cannot be greater than {{ valueParameters.maxValue }}</mat-error>
+    }
+  </mat-form-field>
+
+
+  <!-- <div class="details-box">
+
+    <input type="checkbox" (click)="showDetails.set(!showDetails())" [checked]="showDetails()">
+    @if(showDetails()) {
+    <div class="details-data">
+      <span><strong>Min</strong>: {{inputField.min}}, <strong>formatted</strong>: {{valueParameters.minValue |
+        number:'1.0-5'}}</span><br>
+      <span><strong>Max</strong>: {{inputField.max}} <strong>formatted</strong>: {{valueParameters.maxValue |
+        number:'1.0-5'}}</span>
+    </div>
+    }
+
+  </div> -->
+
+</div>
+} @else {
+<!-- @if(isFloatType(control.type)) {
+
+<mat-form-field #formField class="control__input">
+  @if(control.type.units) {
+  <mat-label>{{control.type.units}}</mat-label>
+  }
+  @if(control.type.precision) {
+  <input matInput type="number" [value]="control.value" [formControl]="control" appFloatPrecisionDisplayControl
+    [displayPrecision]="control.type.precision" [formField]="formField">
+
+  } @else {
+  <input matInput type="number" [value]="control.value" [formControl]="control">
+  }
+
+</mat-form-field>
+} @else {
+
+} -->
+
+<mat-form-field #formField class="control__input">
+  @if(isFloatType(control.type) && control.type.units) {
+  <mat-label>{{control.type.units}}</mat-label>
+  }
+  @if(isFloatType(control.type) && control.type.precision) {
+  <input matInput type="number" [value]="control.value" [formControl]="control" appFloatPrecisionDisplayControl
+    [displayPrecision]="control.type.precision" [controlValue]="control.value">
+
+  } @else {
+  <input matInput type="number" [value]="control.value" [formControl]="control">
+  }
+
+</mat-form-field>
+
+@if (control.hasError('required')) {
+<mat-error>Value cannot be empty</mat-error>
+}
+
+}

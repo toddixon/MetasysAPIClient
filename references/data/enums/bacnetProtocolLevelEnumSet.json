@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BACnet Protocol Level",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/bacnetProtocolLevelEnumSet",
+  "setId": 1839,
+  "oneOf": [
+    {
+      "const": "bacnetProtocolLevelEnumSet.bacnetProtocolLevelPhysical",
+      "title": "Physical",
+      "memberId": 0
+    },
+    {
+      "const": "bacnetProtocolLevelEnumSet.bacnetProtocolLevelProtocol",
+      "title": "Protocol",
+      "memberId": 1
+    },
+    {
+      "const": "bacnetProtocolLevelEnumSet.bacnetProtocolLevelBacnetAppl",
+      "title": "BACnet application",
+      "memberId": 2
+    },
+    {
+      "const": "bacnetProtocolLevelEnumSet.bacnetNetworkPortCmdRestartSubordinateDiscovery",
+      "title": "Non-BACnet application",
+      "memberId": 3
+    }
+  ]
+}

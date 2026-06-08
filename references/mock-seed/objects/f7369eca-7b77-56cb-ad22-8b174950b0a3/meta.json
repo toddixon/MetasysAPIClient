@@ -1,0 +1,11 @@
+{
+  "id": "f7369eca-7b77-56cb-ad22-8b174950b0a3",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "VOLT1-O",
+  "label": "VOLT1-O",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.VOLT1-O",
+  "objectType": "objectTypeEnumSet.aoMapperClass",
+  "objectTypeVersion": "1.0"
+}

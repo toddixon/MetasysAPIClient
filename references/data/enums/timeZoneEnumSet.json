@@ -1,0 +1,938 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Time Zone",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/timeZoneEnumSet",
+  "setId": 576,
+  "oneOf": [
+    {
+      "const": "timeZoneEnumSet.greenwichTime",
+      "title": "(UTC+00:00) Monrovia, Reykjavik",
+      "memberId": 1
+    },
+    {
+      "const": "timeZoneEnumSet.gmtTime",
+      "title": "(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London",
+      "memberId": 2
+    },
+    {
+      "const": "timeZoneEnumSet.wEuropeTime",
+      "title": "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",
+      "memberId": 3
+    },
+    {
+      "const": "timeZoneEnumSet.centralEuropeTime",
+      "title": "(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague",
+      "memberId": 4
+    },
+    {
+      "const": "timeZoneEnumSet.romanceTime",
+      "title": "(UTC+01:00) Brussels, Copenhagen, Madrid, Paris",
+      "memberId": 5
+    },
+    {
+      "const": "timeZoneEnumSet.centralEuropeanTime",
+      "title": "(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb",
+      "memberId": 6
+    },
+    {
+      "const": "timeZoneEnumSet.wCentralAfricaTime",
+      "title": "(UTC+01:00) West Central Africa",
+      "memberId": 7
+    },
+    {
+      "const": "timeZoneEnumSet.gtbTime",
+      "title": "(UTC+02:00) Athens, Bucharest",
+      "memberId": 8
+    },
+    {
+      "const": "timeZoneEnumSet.eEuropeTime",
+      "title": "(UTC+02:00) Chisinau",
+      "memberId": 9
+    },
+    {
+      "const": "timeZoneEnumSet.egyptTime",
+      "title": "(UTC+02:00) Cairo",
+      "memberId": 10
+    },
+    {
+      "const": "timeZoneEnumSet.southAfricaTime",
+      "title": "(UTC+02:00) Harare, Pretoria",
+      "memberId": 11
+    },
+    {
+      "const": "timeZoneEnumSet.fleTime",
+      "title": "(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius",
+      "memberId": 12
+    },
+    {
+      "const": "timeZoneEnumSet.israelTime",
+      "title": "(UTC+02:00) Jerusalem",
+      "memberId": 13
+    },
+    {
+      "const": "timeZoneEnumSet.arabicTime",
+      "title": "(UTC+03:00) Baghdad",
+      "memberId": 14
+    },
+    {
+      "const": "timeZoneEnumSet.arabTime",
+      "title": "(UTC+03:00) Kuwait, Riyadh",
+      "memberId": 15
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz2Time",
+      "title": "(UTC+04:00) Volgograd",
+      "memberId": 16
+    },
+    {
+      "const": "timeZoneEnumSet.eAfricaTime",
+      "title": "(UTC+03:00) Nairobi",
+      "memberId": 17
+    },
+    {
+      "const": "timeZoneEnumSet.iranTime",
+      "title": "(UTC+03:30) Tehran",
+      "memberId": 18
+    },
+    {
+      "const": "timeZoneEnumSet.arabianTime",
+      "title": "(UTC+04:00) Abu Dhabi, Muscat",
+      "memberId": 19
+    },
+    {
+      "const": "timeZoneEnumSet.caucasusTime",
+      "title": "(UTC+04:00) Yerevan",
+      "memberId": 20
+    },
+    {
+      "const": "timeZoneEnumSet.afghanistanTime",
+      "title": "(UTC+04:30) Kabul",
+      "memberId": 21
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz4Time",
+      "title": "(UTC+05:00) Ekaterinburg",
+      "memberId": 22
+    },
+    {
+      "const": "timeZoneEnumSet.westAsiaTime",
+      "title": "(UTC+05:00) Ashgabat, Tashkent",
+      "memberId": 23
+    },
+    {
+      "const": "timeZoneEnumSet.indiaTime",
+      "title": "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",
+      "memberId": 24
+    },
+    {
+      "const": "timeZoneEnumSet.nepalTime",
+      "title": "(UTC+05:45) Kathmandu",
+      "memberId": 25
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz5Time",
+      "title": "(UTC+07:00) Novosibirsk",
+      "memberId": 26
+    },
+    {
+      "const": "timeZoneEnumSet.centralAsiaTime",
+      "title": "(UTC+06:00) Astana",
+      "memberId": 27
+    },
+    {
+      "const": "timeZoneEnumSet.sriLankaTime",
+      "title": "(UTC+05:30) Sri Jayawardenepura",
+      "memberId": 28
+    },
+    {
+      "const": "timeZoneEnumSet.myanmarTime",
+      "title": "(UTC+06:30) Yangon (Rangoon)",
+      "memberId": 29
+    },
+    {
+      "const": "timeZoneEnumSet.seAsiaTime",
+      "title": "(UTC+07:00) Bangkok, Hanoi, Jakarta",
+      "memberId": 30
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz6Time",
+      "title": "(UTC+07:00) Krasnoyarsk",
+      "memberId": 31
+    },
+    {
+      "const": "timeZoneEnumSet.chinaTime",
+      "title": "(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi",
+      "memberId": 32
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz7Time",
+      "title": "(UTC+08:00) Irkutsk",
+      "memberId": 33
+    },
+    {
+      "const": "timeZoneEnumSet.singaporeTime",
+      "title": "(UTC+08:00) Kuala Lumpur, Singapore",
+      "memberId": 34
+    },
+    {
+      "const": "timeZoneEnumSet.wAustraliaTime",
+      "title": "(UTC+08:00) Perth",
+      "memberId": 35
+    },
+    {
+      "const": "timeZoneEnumSet.taipeiTime",
+      "title": "(UTC+08:00) Taipei",
+      "memberId": 36
+    },
+    {
+      "const": "timeZoneEnumSet.tokyoTime",
+      "title": "(UTC+09:00) Osaka, Sapporo, Tokyo",
+      "memberId": 37
+    },
+    {
+      "const": "timeZoneEnumSet.koreaTime",
+      "title": "(UTC+09:00) Seoul",
+      "memberId": 38
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz8Time",
+      "title": "(UTC+09:00) Yakutsk",
+      "memberId": 39
+    },
+    {
+      "const": "timeZoneEnumSet.cenAustraliaTime",
+      "title": "(UTC+09:30) Adelaide",
+      "memberId": 40
+    },
+    {
+      "const": "timeZoneEnumSet.ausCentralTime",
+      "title": "(UTC+09:30) Darwin",
+      "memberId": 41
+    },
+    {
+      "const": "timeZoneEnumSet.eAustraliaTime",
+      "title": "(UTC+10:00) Brisbane",
+      "memberId": 42
+    },
+    {
+      "const": "timeZoneEnumSet.ausEasternTime",
+      "title": "(UTC+10:00) Canberra, Melbourne, Sydney",
+      "memberId": 43
+    },
+    {
+      "const": "timeZoneEnumSet.westPacificTime",
+      "title": "(UTC+10:00) Guam, Port Moresby",
+      "memberId": 44
+    },
+    {
+      "const": "timeZoneEnumSet.tasmaniaTime",
+      "title": "(UTC+10:00) Hobart",
+      "memberId": 45
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz9Time",
+      "title": "(UTC+10:00) Vladivostok",
+      "memberId": 46
+    },
+    {
+      "const": "timeZoneEnumSet.centralPacificTime",
+      "title": "(UTC+11:00) Solomon Is., New Caledonia",
+      "memberId": 47
+    },
+    {
+      "const": "timeZoneEnumSet.newZealandTime",
+      "title": "(UTC+12:00) Auckland, Wellington",
+      "memberId": 48
+    },
+    {
+      "const": "timeZoneEnumSet.fijiTime",
+      "title": "(UTC+12:00) Fiji",
+      "memberId": 49
+    },
+    {
+      "const": "timeZoneEnumSet.tongaTime",
+      "title": "(UTC+13:00) Nuku'alofa",
+      "memberId": 50
+    },
+    {
+      "const": "timeZoneEnumSet.easternTime",
+      "title": "(UTC-05:00) Eastern Time (US & Canada)",
+      "memberId": 51
+    },
+    {
+      "const": "timeZoneEnumSet.caboVerdeTime",
+      "title": "(UTC-01:00) Cabo Verde Is.",
+      "memberId": 52
+    },
+    {
+      "const": "timeZoneEnumSet.centralTime",
+      "title": "(UTC-06:00) Central Time (US & Canada)",
+      "memberId": 53
+    },
+    {
+      "const": "timeZoneEnumSet.eSouthAmericaTime",
+      "title": "(UTC-03:00) Brasilia",
+      "memberId": 54
+    },
+    {
+      "const": "timeZoneEnumSet.saEasternTime",
+      "title": "(UTC-03:00) Cayenne, Fortaleza",
+      "memberId": 55
+    },
+    {
+      "const": "timeZoneEnumSet.greenlandTime",
+      "title": "(UTC-03:00) Greenland",
+      "memberId": 56
+    },
+    {
+      "const": "timeZoneEnumSet.mountainTime",
+      "title": "(UTC-07:00) Mountain Time (US & Canada)",
+      "memberId": 57
+    },
+    {
+      "const": "timeZoneEnumSet.pacificTime",
+      "title": "(UTC-08:00) Pacific Time (US & Canada)",
+      "memberId": 58
+    },
+    {
+      "const": "timeZoneEnumSet.saWesternTime",
+      "title": "(UTC-04:00) Georgetown,La Paz, Manaus, San Juan",
+      "memberId": 59
+    },
+    {
+      "const": "timeZoneEnumSet.pacificSaTime",
+      "title": "(UTC-04:00) Santiago",
+      "memberId": 60
+    },
+    {
+      "const": "timeZoneEnumSet.saPacificTime",
+      "title": "(UTC-05:00) Bogota, Lima, Quito",
+      "memberId": 61
+    },
+    {
+      "const": "timeZoneEnumSet.azoresTime",
+      "title": "(UTC-01:00) Azores",
+      "memberId": 62
+    },
+    {
+      "const": "timeZoneEnumSet.centralAmericaTime",
+      "title": "(UTC-06:00) Central America",
+      "memberId": 64
+    },
+    {
+      "const": "timeZoneEnumSet.midAtlanticTime",
+      "title": "(UTC-02:00) Mid-Atlantic - Old",
+      "memberId": 65
+    },
+    {
+      "const": "timeZoneEnumSet.mexicoTime",
+      "title": "(UTC-06:00) Mexico City",
+      "memberId": 66
+    },
+    {
+      "const": "timeZoneEnumSet.canadaCentralTime",
+      "title": "(UTC-06:00) Saskatchewan",
+      "memberId": 67
+    },
+    {
+      "const": "timeZoneEnumSet.usMountainTime",
+      "title": "(UTC-07:00) Arizona",
+      "memberId": 68
+    },
+    {
+      "const": "timeZoneEnumSet.newfoundlandTime",
+      "title": "(UTC-03:30) Newfoundland",
+      "memberId": 69
+    },
+    {
+      "const": "timeZoneEnumSet.atlanticTime",
+      "title": "(UTC-04:00) Atlantic Time (Canada)",
+      "memberId": 70
+    },
+    {
+      "const": "timeZoneEnumSet.alaskanTime",
+      "title": "(UTC-09:00) Alaska",
+      "memberId": 71
+    },
+    {
+      "const": "timeZoneEnumSet.hawaiianTime",
+      "title": "(UTC-10:00) Hawaii",
+      "memberId": 72
+    },
+    {
+      "const": "timeZoneEnumSet.samoaTime",
+      "title": "(UTC+13:00) Samoa",
+      "memberId": 73
+    },
+    {
+      "const": "timeZoneEnumSet.datelineTime",
+      "title": "(UTC-12:00) International Date Line West",
+      "memberId": 74
+    },
+    {
+      "const": "timeZoneEnumSet.mexico2Time",
+      "title": "(UTC-07:00) Chihuahua, La Paz, Mazatlan",
+      "memberId": 75
+    },
+    {
+      "const": "timeZoneEnumSet.azerbaijanTime",
+      "title": "(UTC+04:00) Baku",
+      "memberId": 76
+    },
+    {
+      "const": "timeZoneEnumSet.centralBrazilianTime",
+      "title": "(UTC-04:00) Cuiaba",
+      "memberId": 77
+    },
+    {
+      "const": "timeZoneEnumSet.centralMexicoTime",
+      "title": "(UTC-06:00) Central Time (Mexico)",
+      "memberId": 78
+    },
+    {
+      "const": "timeZoneEnumSet.georgianTime",
+      "title": "(UTC+04:00) Tbilisi",
+      "memberId": 79
+    },
+    {
+      "const": "timeZoneEnumSet.mountainMexicoTime",
+      "title": "(UTC-07:00) Mountain Time (Mexico)",
+      "memberId": 80
+    },
+    {
+      "const": "timeZoneEnumSet.namibiaTime",
+      "title": "(UTC+02:00) Windhoek",
+      "memberId": 81
+    },
+    {
+      "const": "timeZoneEnumSet.pacificMexicoTime",
+      "title": "(UTC-08:00) Baja California",
+      "memberId": 82
+    },
+    {
+      "const": "timeZoneEnumSet.jordanTime",
+      "title": "(UTC+02:00) Amman",
+      "memberId": 83
+    },
+    {
+      "const": "timeZoneEnumSet.middleEastTime",
+      "title": "(UTC+02:00) Beirut",
+      "memberId": 84
+    },
+    {
+      "const": "timeZoneEnumSet.montevideoTime",
+      "title": "(UTC-03:00) Montevideo",
+      "memberId": 86
+    },
+    {
+      "const": "timeZoneEnumSet.venezuelaTime",
+      "title": "(UTC-04:00) Caracas",
+      "memberId": 88
+    },
+    {
+      "const": "timeZoneEnumSet.argentinaTime",
+      "title": "(UTC-03:00) Buenos Aires",
+      "memberId": 89
+    },
+    {
+      "const": "timeZoneEnumSet.mauritiusTime",
+      "title": "(UTC+04:00) Port Louis",
+      "memberId": 90
+    },
+    {
+      "const": "timeZoneEnumSet.moroccoTime",
+      "title": "(UTC+01:00) Casablanca",
+      "memberId": 91
+    },
+    {
+      "const": "timeZoneEnumSet.pakistanTime",
+      "title": "(UTC+05:00) Islamabad, Karachi",
+      "memberId": 92
+    },
+    {
+      "const": "timeZoneEnumSet.paraguayTime",
+      "title": "(UTC-04:00) Asuncion",
+      "memberId": 93
+    },
+    {
+      "const": "timeZoneEnumSet.kamchatkaTime",
+      "title": "(UTC+12:00) Petropavlovsk-Kamchatsky",
+      "memberId": 94
+    },
+    {
+      "const": "timeZoneEnumSet.utcTime",
+      "title": "(UTC) Coordinated Universal Time",
+      "memberId": 95
+    },
+    {
+      "const": "timeZoneEnumSet.ulaanbaatarTime",
+      "title": "(UTC+08:00) Ulaanbaatar",
+      "memberId": 96
+    },
+    {
+      "const": "timeZoneEnumSet.bangladeshTime",
+      "title": "(UTC+06:00) Dhaka",
+      "memberId": 97
+    },
+    {
+      "const": "timeZoneEnumSet.utcPlus12Time",
+      "title": "(UTC+12:00) Coordinated Universal Time+12",
+      "memberId": 98
+    },
+    {
+      "const": "timeZoneEnumSet.utcMinus11Time",
+      "title": "(UTC-11:00) Coordinated Universal Time -11",
+      "memberId": 99
+    },
+    {
+      "const": "timeZoneEnumSet.utcMinus2Time",
+      "title": "(UTC-02:00) Coordinated Universal Time -02",
+      "memberId": 100
+    },
+    {
+      "const": "timeZoneEnumSet.syriaTime",
+      "title": "(UTC+02:00) Damascus",
+      "memberId": 101
+    },
+    {
+      "const": "timeZoneEnumSet.turkeyTime",
+      "title": "(UTC+03:00) Istanbul",
+      "memberId": 103
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz1Time",
+      "title": "(UTC+02:00) Kaliningrad",
+      "memberId": 104
+    },
+    {
+      "const": "timeZoneEnumSet.bahiaTime",
+      "title": "(UTC-03:00) Salvador",
+      "memberId": 105
+    },
+    {
+      "const": "timeZoneEnumSet.usEasternTime",
+      "title": "(UTC-05:00) Indiana (East)",
+      "memberId": 106
+    },
+    {
+      "const": "timeZoneEnumSet.libyaTime",
+      "title": "(UTC+02:00) Tripoli",
+      "memberId": 107
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz3Time",
+      "title": "(UTC+04:00) Izhevsk, Samara",
+      "memberId": 108
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz10Time",
+      "title": "(UTC+11:00) Chokurdakh",
+      "memberId": 109
+    },
+    {
+      "const": "timeZoneEnumSet.russiaTz11Time",
+      "title": "(UTC+12:00) Anadyr, Pepropavlovsk-Kamchatsky",
+      "memberId": 110
+    },
+    {
+      "const": "timeZoneEnumSet.belarusTime",
+      "title": "(UTC+03:00) Minsk",
+      "memberId": 111
+    },
+    {
+      "const": "timeZoneEnumSet.easternMexicoTime",
+      "title": "(UTC-05:00) Chetumal",
+      "memberId": 112
+    },
+    {
+      "const": "timeZoneEnumSet.northKoreaStandardTime",
+      "title": "(UTC+08:30) Pyongyang",
+      "memberId": 113
+    },
+    {
+      "const": "timeZoneEnumSet.aleutianTime",
+      "title": "(UTC-10:00) Aleutian Islands",
+      "memberId": 114
+    },
+    {
+      "const": "timeZoneEnumSet.marquesasStandardTime",
+      "title": "(UTC-09:30) Marquesas Islands",
+      "memberId": 115
+    },
+    {
+      "const": "timeZoneEnumSet.utcMinus09Time",
+      "title": "(UTC-09:00) Coordinated Universal Time-09",
+      "memberId": 116
+    },
+    {
+      "const": "timeZoneEnumSet.utcMinus08Time",
+      "title": "(UTC-08:00) Coordinated Universal Time-08",
+      "memberId": 117
+    },
+    {
+      "const": "timeZoneEnumSet.cubaTime",
+      "title": "(UTC-05:00) Havana",
+      "memberId": 118
+    },
+    {
+      "const": "timeZoneEnumSet.turksCaicosStandardTime",
+      "title": "(UTC-05:00) Turks and Caicos",
+      "memberId": 119
+    },
+    {
+      "const": "timeZoneEnumSet.saintPierreTime",
+      "title": "(UTC-03:00) Saint Pierre and Miquelon",
+      "memberId": 120
+    },
+    {
+      "const": "timeZoneEnumSet.tocantinsStandardTime",
+      "title": "(UTC-03:00) Araguaina",
+      "memberId": 121
+    },
+    {
+      "const": "timeZoneEnumSet.westBankTime",
+      "title": "(UTC+02:00) Gaza,Hebron",
+      "memberId": 122
+    },
+    {
+      "const": "timeZoneEnumSet.wMongoliaTime",
+      "title": "(UTC+07:00) Hovd",
+      "memberId": 123
+    },
+    {
+      "const": "timeZoneEnumSet.tomskKoreaStandardTime",
+      "title": "(UTC+07:00) Tomsk",
+      "memberId": 124
+    },
+    {
+      "const": "timeZoneEnumSet.australiaCentralWStandardTime",
+      "title": "(UTC+08:45) Eucla",
+      "memberId": 125
+    },
+    {
+      "const": "timeZoneEnumSet.lordHoweTime",
+      "title": "(UTC+10:30) Lord Howe Island",
+      "memberId": 126
+    },
+    {
+      "const": "timeZoneEnumSet.bougainvilleStandardTime",
+      "title": "(UTC+11:00) Bougainville Island",
+      "memberId": 127
+    },
+    {
+      "const": "timeZoneEnumSet.norfolkStandardTime",
+      "title": "(UTC+11:00) Norfolk Island",
+      "memberId": 128
+    },
+    {
+      "const": "timeZoneEnumSet.chathamIslandsTime",
+      "title": "(UTC+12:45) Chatham Islands",
+      "memberId": 129
+    },
+    {
+      "const": "timeZoneEnumSet.haitiStandardTime",
+      "title": "(UTC-05:00) Haiti",
+      "memberId": 130
+    },
+    {
+      "const": "timeZoneEnumSet.easterIslandTime",
+      "title": "(UTC-06:00) Easter Island",
+      "memberId": 131
+    },
+    {
+      "const": "timeZoneEnumSet.magadanTime",
+      "title": "(UTC+11:00) Magadan",
+      "memberId": 132
+    },
+    {
+      "const": "timeZoneEnumSet.kiritimatiTime",
+      "title": "(UTC+14:00) Kiritimati Island",
+      "memberId": 133
+    },
+    {
+      "const": "timeZoneEnumSet.gmtTimeNoDst",
+      "title": "(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London (No DST)",
+      "memberId": 1002
+    },
+    {
+      "const": "timeZoneEnumSet.wEuropeTimeNoDst",
+      "title": "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna (No DST)",
+      "memberId": 1003
+    },
+    {
+      "const": "timeZoneEnumSet.centralEuropeTimeNoDst",
+      "title": "(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague (No DST)",
+      "memberId": 1004
+    },
+    {
+      "const": "timeZoneEnumSet.romanceTimeNoDst",
+      "title": "(UTC+01:00) Brussels, Copenhagen, Madrid, Paris (No DST)",
+      "memberId": 1005
+    },
+    {
+      "const": "timeZoneEnumSet.centralEuropeanTimeNoDst",
+      "title": "(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb (No DST)",
+      "memberId": 1006
+    },
+    {
+      "const": "timeZoneEnumSet.gtbTimeNoDst",
+      "title": "(UTC+02:00) Athens, Bucharest (No DST)",
+      "memberId": 1008
+    },
+    {
+      "const": "timeZoneEnumSet.eEuropeTimeNoDst",
+      "title": "(UTC+02:00) Chisinau (No DST)",
+      "memberId": 1009
+    },
+    {
+      "const": "timeZoneEnumSet.fleTimeNoDst",
+      "title": "(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius (No DST)",
+      "memberId": 1012
+    },
+    {
+      "const": "timeZoneEnumSet.israelTimeNoDst",
+      "title": "(UTC+02:00) Jerusalem (No DST)",
+      "memberId": 1013
+    },
+    {
+      "const": "timeZoneEnumSet.iranTimeNoDst",
+      "title": "(UTC+03:30) Tehran (No DST)",
+      "memberId": 1018
+    },
+    {
+      "const": "timeZoneEnumSet.cenAustraliaTimeNoDst",
+      "title": "(UTC+09:30) Adelaide (No DST)",
+      "memberId": 1040
+    },
+    {
+      "const": "timeZoneEnumSet.ausEasternTimeNoDst",
+      "title": "(UTC+10:00) Canberra, Melbourne, Sydney (No DST)",
+      "memberId": 1043
+    },
+    {
+      "const": "timeZoneEnumSet.tasmaniaTimeNoDst",
+      "title": "(UTC+10:00) Hobart (No DST)",
+      "memberId": 1045
+    },
+    {
+      "const": "timeZoneEnumSet.newZealandTimeNoDst",
+      "title": "(UTC+12:00) Auckland, Wellington (No DST)",
+      "memberId": 1048
+    },
+    {
+      "const": "timeZoneEnumSet.fijiTimeNoDst",
+      "title": "(UTC+12:00) Fiji (No DST)",
+      "memberId": 1049
+    },
+    {
+      "const": "timeZoneEnumSet.easternTimeNoDst",
+      "title": "(UTC-05:00) Eastern Time (US & Canada) (No DST)",
+      "memberId": 1051
+    },
+    {
+      "const": "timeZoneEnumSet.centralTimeNoDst",
+      "title": "(UTC-06:00) Central Time (US & Canada) (No DST)",
+      "memberId": 1053
+    },
+    {
+      "const": "timeZoneEnumSet.eSouthAmericaTimeNoDst",
+      "title": "(UTC-03:00) Brasilia (No DST) [Deprecated]",
+      "memberId": 1054
+    },
+    {
+      "const": "timeZoneEnumSet.greenlandTimeNoDst",
+      "title": "(UTC-03:00) Greenland (No DST)",
+      "memberId": 1056
+    },
+    {
+      "const": "timeZoneEnumSet.mountainTimeNoDst",
+      "title": "(UTC-07:00) Mountain Time (US & Canada) (No DST)",
+      "memberId": 1057
+    },
+    {
+      "const": "timeZoneEnumSet.pacificTimeNoDst",
+      "title": "(UTC-08:00) Pacific Time (US & Canada) (No DST)",
+      "memberId": 1058
+    },
+    {
+      "const": "timeZoneEnumSet.pacificSaTimeNoDst",
+      "title": "(UTC-04:00) Santiago (No DST)",
+      "memberId": 1060
+    },
+    {
+      "const": "timeZoneEnumSet.azoresTimeNoDst",
+      "title": "(UTC-01:00) Azores (No DST)",
+      "memberId": 1062
+    },
+    {
+      "const": "timeZoneEnumSet.midAtlanticTimeNoDst",
+      "title": "(UTC-02:00) Mid-Atlantic - Old (No DST)",
+      "memberId": 1065
+    },
+    {
+      "const": "timeZoneEnumSet.mexicoTimeNoDst",
+      "title": "(UTC-06:00) Mexico City (No DST)",
+      "memberId": 1066
+    },
+    {
+      "const": "timeZoneEnumSet.newfoundlandTimeNoDst",
+      "title": "(UTC-03:30) Newfoundland (No DST)",
+      "memberId": 1069
+    },
+    {
+      "const": "timeZoneEnumSet.atlanticTimeNoDst",
+      "title": "(UTC-04:00) Atlantic Time (Canada) (No DST)",
+      "memberId": 1070
+    },
+    {
+      "const": "timeZoneEnumSet.alaskanTimeNoDst",
+      "title": "(UTC-09:00) Alaska (No DST)",
+      "memberId": 1071
+    },
+    {
+      "const": "timeZoneEnumSet.samoaTimeNoDst",
+      "title": "(UTC+13:00) Samoa (No DST)",
+      "memberId": 1073
+    },
+    {
+      "const": "timeZoneEnumSet.mexico2TimeNoDst",
+      "title": "(UTC-07:00) Chihuahua, La Paz, Mazatlan (No DST)",
+      "memberId": 1075
+    },
+    {
+      "const": "timeZoneEnumSet.azerbaijanTimeNoDst",
+      "title": "(UTC+04:00) Baku (No DST) [Deprecated]",
+      "memberId": 1076
+    },
+    {
+      "const": "timeZoneEnumSet.centralBrazilianTimeNoDst",
+      "title": "(UTC-04:00) Cuiaba (No DST) [Deprecated]",
+      "memberId": 1077
+    },
+    {
+      "const": "timeZoneEnumSet.centralMexicoTimeNoDst",
+      "title": "(UTC-06:00) Central Time (Mexico) (No DST)",
+      "memberId": 1078
+    },
+    {
+      "const": "timeZoneEnumSet.mountainMexicoTimeNoDst",
+      "title": "(UTC-07:00) Mountain Time (Mexico) (No DST)",
+      "memberId": 1080
+    },
+    {
+      "const": "timeZoneEnumSet.namibiaTimeNoDst",
+      "title": "(UTC+01:00) Windhoek (No DST)",
+      "memberId": 1081
+    },
+    {
+      "const": "timeZoneEnumSet.pacificMexicoTimeNoDst",
+      "title": "(UTC-08:00) Baja California (No DST)",
+      "memberId": 1082
+    },
+    {
+      "const": "timeZoneEnumSet.jordanTimeNoDst",
+      "title": "(UTC+02:00) Amman (No DST)",
+      "memberId": 1083
+    },
+    {
+      "const": "timeZoneEnumSet.middleEastTimeNoDst",
+      "title": "(UTC+02:00) Beirut (No DST)",
+      "memberId": 1084
+    },
+    {
+      "const": "timeZoneEnumSet.montevideoTimeNoDst",
+      "title": "(UTC-03:00) Montevideo (No DST) [Deprecated]",
+      "memberId": 1086
+    },
+    {
+      "const": "timeZoneEnumSet.moroccoTimeNoDst",
+      "title": "(UTC+01:00) Casablanca (No DST)",
+      "memberId": 1091
+    },
+    {
+      "const": "timeZoneEnumSet.paraguayTimeNoDst",
+      "title": "(UTC-04:00) Asuncion (No DST)",
+      "memberId": 1093
+    },
+    {
+      "const": "timeZoneEnumSet.kamchatkaTimeNoDst",
+      "title": "(UTC+12:00) Petropavlovsk-Kamchatsky (No DST)",
+      "memberId": 1094
+    },
+    {
+      "const": "timeZoneEnumSet.ulaanbaatarTimeNoDst",
+      "title": "(UTC+08:00) Ulaanbaatar (No DST)",
+      "memberId": 1096
+    },
+    {
+      "const": "timeZoneEnumSet.syriaTimeNoDst",
+      "title": "(UTC+02:00) Damascus (No DST)",
+      "memberId": 1101
+    },
+    {
+      "const": "timeZoneEnumSet.turkeyTimeNoDst",
+      "title": "(UTC+02:00) Istanbul (No DST)",
+      "memberId": 1103
+    },
+    {
+      "const": "timeZoneEnumSet.usEasternTimeNoDst",
+      "title": "(UTC-05:00) Indiana (East) (No DST)",
+      "memberId": 1106
+    },
+    {
+      "const": "timeZoneEnumSet.aleutianTimeNoDst",
+      "title": "(UTC-10:00) Aleutian Islands (No DST)",
+      "memberId": 1114
+    },
+    {
+      "const": "timeZoneEnumSet.cubaTimeNoDst",
+      "title": "(UTC-05:00) Havana (No DST)",
+      "memberId": 1118
+    },
+    {
+      "const": "timeZoneEnumSet.turksCaicosStandardTimeNoDst",
+      "title": "(UTC-05:00) Turks and Caicos (No DST)",
+      "memberId": 1119
+    },
+    {
+      "const": "timeZoneEnumSet.saintPierreTimeNoDst",
+      "title": "(UTC-03:00) Saint Pierre and Miquelon (No DST)",
+      "memberId": 1120
+    },
+    {
+      "const": "timeZoneEnumSet.westBankTimeNoDst",
+      "title": "(UTC+02:00) Gaza,Hebron (No DST)",
+      "memberId": 1122
+    },
+    {
+      "const": "timeZoneEnumSet.wMongoliaTimeNoDst",
+      "title": "(UTC+07:00) Hovd (No DST)",
+      "memberId": 1123
+    },
+    {
+      "const": "timeZoneEnumSet.lordHoweTimeNoDst",
+      "title": "(UTC+10:30) Lord Howe Island (No DST)",
+      "memberId": 1126
+    },
+    {
+      "const": "timeZoneEnumSet.norfolkStandardTimeNoDst",
+      "title": "(UTC+11:00) Norfolk Island (No DST)",
+      "memberId": 1128
+    },
+    {
+      "const": "timeZoneEnumSet.chathamIslandsTimeNoDst",
+      "title": "(UTC+12:45) Chatham Islands (No DST)",
+      "memberId": 1129
+    },
+    {
+      "const": "timeZoneEnumSet.haitiStandardTimeNoDst",
+      "title": "(UTC-05:00) Haiti (No DST)",
+      "memberId": 1130
+    },
+    {
+      "const": "timeZoneEnumSet.easterIslandTimeNoDst",
+      "title": "(UTC-06:00) Easter Island (No DST)",
+      "memberId": 1131
+    }
+  ]
+}

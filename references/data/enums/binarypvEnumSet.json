@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Inactive Active",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/binarypvEnumSet",
+  "setId": 6,
+  "oneOf": [
+    {
+      "const": "binarypvEnumSet.bacbinInactive",
+      "title": "Inactive",
+      "memberId": 0
+    },
+    {
+      "const": "binarypvEnumSet.bacbinActive",
+      "title": "Active",
+      "memberId": 1
+    },
+    {
+      "const": "binarypvEnumSet.bacbinHold",
+      "title": "Hold",
+      "memberId": 2
+    }
+  ]
+}

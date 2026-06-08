@@ -1,0 +1,11 @@
+{
+  "id": "0da922c6-186a-5b3d-a17d-c66a9d444ba4",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "folder",
+  "name": "Energy",
+  "label": "Energy",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Energy",
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0"
+}

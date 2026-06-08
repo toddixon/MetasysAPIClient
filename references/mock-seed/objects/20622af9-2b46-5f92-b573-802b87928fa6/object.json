@@ -1,0 +1,151 @@
+{
+  "objectType": "objectTypeEnumSet.aiMapperClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "item": {
+    "id": "20622af9-2b46-5f92-b573-802b87928fa6",
+    "name": "RM-TSOFT",
+    "label": "RM-TSOFT",
+    "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.RM-TSOFT",
+    "objectType": "objectTypeEnumSet.aiMapperClass",
+    "status": "objectStatusEnumSet.osUnreliable",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "Sideloop Temperature",
+    "bacnetObjectType": "objectTypeEnumSet.bacAiClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "outOfService": false,
+    "reliability": "reliabilityEnumSet.noInput",
+    "outOfServiceExpirationTime": {
+      "date": null,
+      "time": null
+    },
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "minPresValue": -50,
+    "maxPresValue": 250,
+    "units": "unitEnumSet.degF",
+    "displayPrecision": "displayPrecisionEnumSet.displayPrecisionPt1",
+    "covIncrement": 0.300000012,
+    "useCovMinSendTime": false,
+    "presentValue": 270994.063,
+    "attrChangeCount": 48,
+    "defaultAttribute": "attributeEnumSet.presentValue",
+    "instanceNumber": 10008,
+    "remoteDeviceAddress": "10",
+    "sabMacAddr": null,
+    "slot": 1,
+    "deviceType": "UI IN1",
+    "offline": false
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "AI Mapper",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "presentValue": {
+        "title": "Present Value",
+        "dynamic": true,
+        "displayPrecisionSource": "displayPrecision",
+        "maxPresValueSource": "maxPresValue",
+        "minPresValueSource": "minPresValue",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -50,
+        "maximum": 250,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "unit": {
+          "id": "degF",
+          "title": "deg F"
+        }
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "presentValue",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

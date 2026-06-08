@@ -1,0 +1,11 @@
+{
+  "id": "009f8dad-15bf-50fa-b79f-3104db6e2ae2",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "extension",
+  "name": "Event Rate Trend Log",
+  "label": "Event Rate Trend Log",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Event Rate Trend Log",
+  "objectType": "objectTypeEnumSet.trendLogClass",
+  "objectTypeVersion": "1.0"
+}

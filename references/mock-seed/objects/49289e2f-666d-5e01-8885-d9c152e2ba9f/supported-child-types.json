@@ -1,0 +1,261 @@
+[
+  {
+    "objectType": "containerClass",
+    "description": "Folder",
+    "version": "1.0",
+    "classification": "folder",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetAccumulatorClass",
+    "description": "Accumulator",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetPulseConverterClass",
+    "description": "Pulse Converter",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetTrendLogMultipleClass",
+    "description": "Trend Log Multiple",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetLoadControlClass",
+    "description": "Load Control",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetEdmClass",
+    "description": "Electric Demand Monitoring",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetEdcClass",
+    "description": "Electric Demand Control",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetGlcClass",
+    "description": "Generator Load Control",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetAiClass",
+    "description": "AI",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetAoClass",
+    "description": "AO",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetAvClass",
+    "description": "AV",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetBiClass",
+    "description": "BI",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetBoClass",
+    "description": "BO",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetBvClass",
+    "description": "BV",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetCalendarClass",
+    "description": "Calendar",
+    "version": "2.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetCommandClass",
+    "description": "Command",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetEvntEnrolClass",
+    "description": "Event Enrollment",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetGroupClass",
+    "description": "Group",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetLoopClass",
+    "description": "Loop",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetMiClass",
+    "description": "MI",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetMoClass",
+    "description": "MO",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetNotificClass",
+    "description": "Notification",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetProgramClass",
+    "description": "Program",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetScheduleClass",
+    "description": "Schedule",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetMvClass",
+    "description": "MV",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetLspClass",
+    "description": "Life Safety Point",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetLszClass",
+    "description": "Life Safety Zone",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetCharacterstringValueClass",
+    "description": "Characterstring Value",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetIntegerValueClass",
+    "description": "Integer Value",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetPositiveIntegerValueClass",
+    "description": "Positive Integer Value",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "trendLogClass",
+    "description": "Trend",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "maClass",
+    "description": "Alarm",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "aaClass",
+    "description": "Alarm",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "averagingClass",
+    "description": "Averaging",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "totaClass",
+    "description": "Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "toteClass",
+    "description": "Event Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "totrClass",
+    "description": "Runtime Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  }
+]

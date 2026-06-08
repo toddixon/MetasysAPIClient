@@ -1,0 +1,11 @@
+{
+  "id": "fba10b59-f3d9-58d5-b541-19d75967d806",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "fba10b59-f3d9-58d5-b541-19d75967d806",
+  "classification": "integration",
+  "name": "FC-1",
+  "label": "FC-1",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1",
+  "objectType": "objectTypeEnumSet.fieldBusClass",
+  "objectTypeVersion": "1.0"
+}

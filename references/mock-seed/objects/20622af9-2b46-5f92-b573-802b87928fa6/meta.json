@@ -1,0 +1,11 @@
+{
+  "id": "20622af9-2b46-5f92-b573-802b87928fa6",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "RM-TSOFT",
+  "label": "RM-TSOFT",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.RM-TSOFT",
+  "objectType": "objectTypeEnumSet.aiMapperClass",
+  "objectTypeVersion": "1.0"
+}

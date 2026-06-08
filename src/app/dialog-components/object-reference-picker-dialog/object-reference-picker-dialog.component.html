@@ -1,0 +1,58 @@
+<h2 mat-dialog-title>{{ data.title }}</h2>
+<h3 class='object-reference'>{{ data.itemData.itemReference }}</h3>
+
+<mat-dialog-content class="picker-dialog__content">
+  <p class="picker-dialog__hint">
+    @if (data.selectionMode === 'multi') {
+    Select one or more objects.
+    } @else {
+    Select a single object.
+    }
+  </p>
+
+  <app-network-objects [selectableObjectTypes]="data.objectTypes"
+    [disableNonMatchingSelection]="data.objectTypes.length > 0" [forceMultiSelect]="data.selectionMode === 'multi'"
+    [pickerMode]="true">
+  </app-network-objects>
+
+  <p class="picker-dialog__selection-summary">Selected: {{ selectionCount() }}</p>
+  @if(data.type === 'attributeReference') {
+  <div>
+    <h3>Attribute</h3>
+    <mat-form-field>
+      <mat-select [formControl]="attributeFormControl!" placeholder="Select an object">
+        @if(objectAttributes$ | async; as attributesObj) {
+        @for(attribute of attributesObj; track $index) {
+        <mat-option [value]="attribute.key">
+          {{ attribute.title }}
+        </mat-option>
+        } @empty {
+        <mat-option disabled>No attributes available</mat-option>
+        }
+
+        }
+      </mat-select>
+
+    </mat-form-field>
+
+  </div>
+
+  }
+</mat-dialog-content>
+
+<mat-dialog-actions align="end" class="picker-dialog__actions">
+  @if (data.allowClear) {
+  <button mat-flat-button color="warn" class="picker-dialog__clear-button" type="button" (click)="clearSelection()">
+    Clear reference
+  </button>
+  }
+  <button mat-button matDialogClose="">Cancel</button>
+  <button mat-flat-button color="primary" [disabled]="!canConfirmSelection() || fetchingAttributes()"
+    (click)="confirmSelection()">
+    Choose
+  </button>
+</mat-dialog-actions>
+
+@if(fetchingAttributes()) {
+<mat-progress-bar mode="indeterminate"></mat-progress-bar>
+}

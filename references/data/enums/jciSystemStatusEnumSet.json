@@ -1,0 +1,233 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JCI System Status",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/jciSystemStatusEnumSet",
+  "setId": 25,
+  "oneOf": [
+    {
+      "const": "jciSystemStatusEnumSet.codeDownloadRequired",
+      "title": "Main Download Req",
+      "memberId": 0
+    },
+    {
+      "const": "jciSystemStatusEnumSet.codeDownloadInProgress",
+      "title": "Code Download",
+      "memberId": 1
+    },
+    {
+      "const": "jciSystemStatusEnumSet.classCodeDownloadInProgress",
+      "title": "Class Code Download",
+      "memberId": 2
+    },
+    {
+      "const": "jciSystemStatusEnumSet.subclassDownloadInProgress",
+      "title": "Subclass Download",
+      "memberId": 3
+    },
+    {
+      "const": "jciSystemStatusEnumSet.instanceDownloadInProgress",
+      "title": "Instance Download",
+      "memberId": 4
+    },
+    {
+      "const": "jciSystemStatusEnumSet.startupInProgress",
+      "title": "Startup",
+      "memberId": 5
+    },
+    {
+      "const": "jciSystemStatusEnumSet.jciOperational",
+      "title": "Operational",
+      "memberId": 6
+    },
+    {
+      "const": "jciSystemStatusEnumSet.subclassUploadInProgress",
+      "title": "Subclass Upload",
+      "memberId": 7
+    },
+    {
+      "const": "jciSystemStatusEnumSet.instanceUploadInProgress",
+      "title": "Instance Upload",
+      "memberId": 8
+    },
+    {
+      "const": "jciSystemStatusEnumSet.onboardUploadInProgress",
+      "title": "Onboard Upload",
+      "memberId": 9
+    },
+    {
+      "const": "jciSystemStatusEnumSet.onboardDownloadInProgress",
+      "title": "Onboard Download",
+      "memberId": 10
+    },
+    {
+      "const": "jciSystemStatusEnumSet.bootCodeDownloadRequired",
+      "title": "Boot Download Req",
+      "memberId": 11
+    },
+    {
+      "const": "jciSystemStatusEnumSet.startupCodeDownloadRequired",
+      "title": "Start Download Req",
+      "memberId": 12
+    },
+    {
+      "const": "jciSystemStatusEnumSet.bootCodeDownloadInProgress",
+      "title": "Boot Code Download",
+      "memberId": 13
+    },
+    {
+      "const": "jciSystemStatusEnumSet.startupCodeDownloadInProgress",
+      "title": "Start Code Download",
+      "memberId": 14
+    },
+    {
+      "const": "jciSystemStatusEnumSet.instancesDeleted",
+      "title": "Instances Deleted",
+      "memberId": 15
+    },
+    {
+      "const": "jciSystemStatusEnumSet.dictionaryDownloadInProgress",
+      "title": "Dict Download",
+      "memberId": 16
+    },
+    {
+      "const": "jciSystemStatusEnumSet.dictionaryDownloadRequired",
+      "title": "Dict Download Req",
+      "memberId": 17
+    },
+    {
+      "const": "jciSystemStatusEnumSet.archiveDatabaseCrcError",
+      "title": "Device archive failed",
+      "memberId": 18
+    },
+    {
+      "const": "jciSystemStatusEnumSet.deviceResetNeeded",
+      "title": "Reset Needed",
+      "memberId": 19
+    },
+    {
+      "const": "jciSystemStatusEnumSet.deviceColdResetNeeded",
+      "title": "Cold Reset Needed",
+      "memberId": 20
+    },
+    {
+      "const": "jciSystemStatusEnumSet.partialInstanceLoadInProgress",
+      "title": "Partial Instance Load",
+      "memberId": 21
+    },
+    {
+      "const": "jciSystemStatusEnumSet.securityDatabaseArchiveInProgress",
+      "title": "Security Database Archive",
+      "memberId": 22
+    },
+    {
+      "const": "jciSystemStatusEnumSet.securityDatabaseBackupInProgress",
+      "title": "Security Database Backup",
+      "memberId": 23
+    },
+    {
+      "const": "jciSystemStatusEnumSet.securityDatabaseRestoreInProgress",
+      "title": "Security Database Restore",
+      "memberId": 24
+    },
+    {
+      "const": "jciSystemStatusEnumSet.securityDatabaseRestoreFailed",
+      "title": "Security Database Restore Failed",
+      "memberId": 25
+    },
+    {
+      "const": "jciSystemStatusEnumSet.deviceResetInProgress",
+      "title": "Device Reset in Progress",
+      "memberId": 26
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certDownloadInProgress",
+      "title": "Cert Download in Progress",
+      "memberId": 27
+    },
+    {
+      "const": "jciSystemStatusEnumSet.dbaseDownloadInProgress",
+      "title": "Database Download in Progress",
+      "memberId": 28
+    },
+    {
+      "const": "jciSystemStatusEnumSet.radioDownloadInProgress",
+      "title": "Radio Download in Progress",
+      "memberId": 29
+    },
+    {
+      "const": "jciSystemStatusEnumSet.archiveDownloadRequired",
+      "title": "Archive Download Required",
+      "memberId": 30
+    },
+    {
+      "const": "jciSystemStatusEnumSet.maxAppSizeExceeded",
+      "title": "Max Application Size Exceeded",
+      "memberId": 31
+    },
+    {
+      "const": "jciSystemStatusEnumSet.patchDownloadInProgress",
+      "title": "Patch Download In Progress",
+      "memberId": 32
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateDownloadInProgress",
+      "title": "Certificate Download In Progress",
+      "memberId": 33
+    },
+    {
+      "const": "jciSystemStatusEnumSet.onboardCertificateUploadInProgress",
+      "title": "Onboard Certificate Upload In Progress",
+      "memberId": 34
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateUploadInProgress",
+      "title": "Certificate Upload In Progress",
+      "memberId": 35
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateFilesCopyingFailed",
+      "title": "Error While Copying Certificate Files During Upload Download",
+      "memberId": 36
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateInstallationFailed",
+      "title": "Error While Installing Certificates",
+      "memberId": 37
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateHashNameGenerationFailed",
+      "title": "Error While Generating Hash Name For Certificate Files",
+      "memberId": 38
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateDestinationFolderCreationFailed",
+      "title": "Error While Creating Destination Folder For Certificate Upload/Download",
+      "memberId": 39
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateFileCorruptionError",
+      "title": "Error While Reading Certificate File For Hash Name Generation",
+      "memberId": 40
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateFileOpeningError",
+      "title": "Error While Opening Certificate File For Hash Name Generation",
+      "memberId": 41
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificatePemGenerationError",
+      "title": "Error While Getting PEM For Hash Name Generation",
+      "memberId": 42
+    },
+    {
+      "const": "jciSystemStatusEnumSet.certificateFileSizeError",
+      "title": "Error While Getting Certificate File Size For Hash Name Generation",
+      "memberId": 43
+    },
+    {
+      "const": "jciSystemStatusEnumSet.jciNonOperational",
+      "title": "Non-operational",
+      "memberId": 44
+    }
+  ]
+}

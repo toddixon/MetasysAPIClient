@@ -1,0 +1,11 @@
+{
+  "id": "23dec34d-5150-5788-a50b-ae6ef137df50",
+  "parentId": "f0ebe2fa-1d4b-52e9-8e32-bdcd6c613060",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "extension",
+  "name": "Alarm - Present Value",
+  "label": "Alarm1",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.BV1.Alarm1",
+  "objectType": "objectTypeEnumSet.maClass",
+  "objectTypeVersion": "1.0"
+}

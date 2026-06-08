@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Options",
+    "views": [
+      {
+        "title": "Basic",
+        "views": [
+          {
+            "title": "Control Source",
+            "properties": [
+              "localControl"
+            ],
+            "id": "viewGroupEnumSet.controlSourceGrp"
+          },
+          {
+            "title": "Default State",
+            "properties": [
+              "relinquishDefault",
+              "defaultValue"
+            ],
+            "id": "viewGroupEnumSet.defaultStateGrp"
+          },
+          {
+            "title": "Restart Options",
+            "properties": [
+              "restoreCommandPriority"
+            ],
+            "id": "viewGroupEnumSet.restartOptionsGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.basicGrpType"
+      },
+      {
+        "title": "Advanced",
+        "views": [],
+        "id": "groupTypeEnumSet.advancedGrpType"
+      },
+      {
+        "title": "Key",
+        "views": [
+          {
+            "title": "None",
+            "properties": [
+              "presentValue",
+              "status",
+              "attrChangeCount",
+              "defaultAttribute"
+            ],
+            "id": "viewGroupEnumSet.noGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.keyGrpType"
+      }
+    ],
+    "id": "viewNameEnumSet.optionsView"
+  }
+]

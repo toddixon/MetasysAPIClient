@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Printer",
+    "views": [
+      {
+        "title": "Basic",
+        "views": [
+          {
+            "title": "None",
+            "properties": [
+              "printerEnabled",
+              "printerDda"
+            ],
+            "id": "viewGroupEnumSet.noGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.basicGrpType"
+      },
+      {
+        "title": "Advanced",
+        "views": [],
+        "id": "groupTypeEnumSet.advancedGrpType"
+      },
+      {
+        "title": "Key",
+        "views": [
+          {
+            "title": "None",
+            "properties": [
+              "jciSystemStatus",
+              "status",
+              "attrChangeCount",
+              "defaultAttribute"
+            ],
+            "id": "viewGroupEnumSet.noGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.keyGrpType"
+      }
+    ],
+    "id": "viewNameEnumSet.printerView"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Object Mode",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/objectModeEnumSet",
+  "setId": 40530,
+  "oneOf": [
+    {
+      "const": "objectModeEnumSet.presentValueReadOnly",
+      "title": "Present Value Read Only",
+      "memberId": 0
+    },
+    {
+      "const": "objectModeEnumSet.presentValueWritableNoPriority",
+      "title": "Present Value Writable, No Priority",
+      "memberId": 1
+    },
+    {
+      "const": "objectModeEnumSet.presentValueWritableWithPriority",
+      "title": "Present Value Writable, With Priority",
+      "memberId": 2
+    }
+  ]
+}

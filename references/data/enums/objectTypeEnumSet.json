@@ -1,0 +1,4148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Object Type",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet",
+  "setId": 508,
+  "oneOf": [
+    {
+      "const": "objectTypeEnumSet.bacAiClass",
+      "title": "AI",
+      "memberId": 0
+    },
+    {
+      "const": "objectTypeEnumSet.bacAoClass",
+      "title": "AO",
+      "memberId": 1
+    },
+    {
+      "const": "objectTypeEnumSet.bacAvClass",
+      "title": "AV",
+      "memberId": 2
+    },
+    {
+      "const": "objectTypeEnumSet.bacBiClass",
+      "title": "BI",
+      "memberId": 3
+    },
+    {
+      "const": "objectTypeEnumSet.bacBoClass",
+      "title": "BO",
+      "memberId": 4
+    },
+    {
+      "const": "objectTypeEnumSet.bacBvClass",
+      "title": "BV",
+      "memberId": 5
+    },
+    {
+      "const": "objectTypeEnumSet.bacCalendarClass",
+      "title": "Calendar",
+      "memberId": 6
+    },
+    {
+      "const": "objectTypeEnumSet.bacCommandClass",
+      "title": "Command",
+      "memberId": 7
+    },
+    {
+      "const": "objectTypeEnumSet.bacdeviceClass",
+      "title": "Device",
+      "memberId": 8
+    },
+    {
+      "const": "objectTypeEnumSet.bacEvntEnrolClass",
+      "title": "Event Enrollment",
+      "memberId": 9
+    },
+    {
+      "const": "objectTypeEnumSet.bacFileClass",
+      "title": "File",
+      "memberId": 10
+    },
+    {
+      "const": "objectTypeEnumSet.bacGroupClass",
+      "title": "Group",
+      "memberId": 11
+    },
+    {
+      "const": "objectTypeEnumSet.bacLoopClass",
+      "title": "Loop",
+      "memberId": 12
+    },
+    {
+      "const": "objectTypeEnumSet.bacMiClass",
+      "title": "MI",
+      "memberId": 13
+    },
+    {
+      "const": "objectTypeEnumSet.bacMoClass",
+      "title": "MO",
+      "memberId": 14
+    },
+    {
+      "const": "objectTypeEnumSet.bacNotificClass",
+      "title": "Notification",
+      "memberId": 15
+    },
+    {
+      "const": "objectTypeEnumSet.bacProgramClass",
+      "title": "Program",
+      "memberId": 16
+    },
+    {
+      "const": "objectTypeEnumSet.bacScheduleClass",
+      "title": "Schedule",
+      "memberId": 17
+    },
+    {
+      "const": "objectTypeEnumSet.bacAveragingClass",
+      "title": "Averaging",
+      "memberId": 18
+    },
+    {
+      "const": "objectTypeEnumSet.bacMvClass",
+      "title": "MV",
+      "memberId": 19
+    },
+    {
+      "const": "objectTypeEnumSet.bacTrendLogClass",
+      "title": "Trend Log",
+      "memberId": 20
+    },
+    {
+      "const": "objectTypeEnumSet.bacLspClass",
+      "title": "Life Safety Point",
+      "memberId": 21
+    },
+    {
+      "const": "objectTypeEnumSet.bacLszClass",
+      "title": "Life Safety Zone",
+      "memberId": 22
+    },
+    {
+      "const": "objectTypeEnumSet.bacAccumulatorClass",
+      "title": "Accumulator",
+      "memberId": 23
+    },
+    {
+      "const": "objectTypeEnumSet.bacPulseConverterClass",
+      "title": "Pulse Converter",
+      "memberId": 24
+    },
+    {
+      "const": "objectTypeEnumSet.bacEventLogClass",
+      "title": "Event Log",
+      "memberId": 25
+    },
+    {
+      "const": "objectTypeEnumSet.bacGlobalGroupClass",
+      "title": "Global Group",
+      "memberId": 26
+    },
+    {
+      "const": "objectTypeEnumSet.bacTrendLogMultipleClass",
+      "title": "Trend Log Multiple",
+      "memberId": 27
+    },
+    {
+      "const": "objectTypeEnumSet.bacLoadControlClass",
+      "title": "Load Control",
+      "memberId": 28
+    },
+    {
+      "const": "objectTypeEnumSet.bacStructuredViewClass",
+      "title": "Structured View",
+      "memberId": 29
+    },
+    {
+      "const": "objectTypeEnumSet.bacAccessDoorClass",
+      "title": "Access Door",
+      "memberId": 30
+    },
+    {
+      "const": "objectTypeEnumSet.bacTimerClass",
+      "title": "Timer",
+      "memberId": 31
+    },
+    {
+      "const": "objectTypeEnumSet.bacAccessCredentialClass",
+      "title": "Access Credential",
+      "memberId": 32
+    },
+    {
+      "const": "objectTypeEnumSet.bacAccessPointClass",
+      "title": "Access Point",
+      "memberId": 33
+    },
+    {
+      "const": "objectTypeEnumSet.bacAccessRightsClass",
+      "title": "Access Rights",
+      "memberId": 34
+    },
+    {
+      "const": "objectTypeEnumSet.bacAccessUserClass",
+      "title": "Access User",
+      "memberId": 35
+    },
+    {
+      "const": "objectTypeEnumSet.bacAccessZoneClass",
+      "title": "Access Zone",
+      "memberId": 36
+    },
+    {
+      "const": "objectTypeEnumSet.bacCredentialDataInputClass",
+      "title": "Credential Data Input",
+      "memberId": 37
+    },
+    {
+      "const": "objectTypeEnumSet.bacNetworkSecurityClass",
+      "title": "Network Security",
+      "memberId": 38
+    },
+    {
+      "const": "objectTypeEnumSet.bacBitstringValueClass",
+      "title": "Bitstring Value",
+      "memberId": 39
+    },
+    {
+      "const": "objectTypeEnumSet.bacCharacterstringValueClass",
+      "title": "Characterstring Value",
+      "memberId": 40
+    },
+    {
+      "const": "objectTypeEnumSet.bacDatePatternValueClass",
+      "title": "Date Pattern Value",
+      "memberId": 41
+    },
+    {
+      "const": "objectTypeEnumSet.bacDateValueClass",
+      "title": "Date Value",
+      "memberId": 42
+    },
+    {
+      "const": "objectTypeEnumSet.bacDatetimePatternValueClass",
+      "title": "Datetime Pattern Value",
+      "memberId": 43
+    },
+    {
+      "const": "objectTypeEnumSet.bacDatetimeValueClass",
+      "title": "Datetime Value",
+      "memberId": 44
+    },
+    {
+      "const": "objectTypeEnumSet.bacIntegerValueClass",
+      "title": "Integer Value",
+      "memberId": 45
+    },
+    {
+      "const": "objectTypeEnumSet.bacLargeAnalogValueClass",
+      "title": "Large Analog Value",
+      "memberId": 46
+    },
+    {
+      "const": "objectTypeEnumSet.bacOctetstringValueClass",
+      "title": "Octetstring Value",
+      "memberId": 47
+    },
+    {
+      "const": "objectTypeEnumSet.bacPositiveIntegerValueClass",
+      "title": "Positive Integer Value",
+      "memberId": 48
+    },
+    {
+      "const": "objectTypeEnumSet.bacTimePatternValueClass",
+      "title": "Time Pattern Value",
+      "memberId": 49
+    },
+    {
+      "const": "objectTypeEnumSet.bacTimeValueClass",
+      "title": "Time Value",
+      "memberId": 50
+    },
+    {
+      "const": "objectTypeEnumSet.bacNotificationForwarderClass",
+      "title": "Notification Forwarder",
+      "memberId": 51
+    },
+    {
+      "const": "objectTypeEnumSet.bacAlertEnrollmentClass",
+      "title": "Alert Enrollment",
+      "memberId": 52
+    },
+    {
+      "const": "objectTypeEnumSet.bacChannelClass",
+      "title": "Channel",
+      "memberId": 53
+    },
+    {
+      "const": "objectTypeEnumSet.bacLightingOutputClass",
+      "title": "Lighting Output",
+      "memberId": 54
+    },
+    {
+      "const": "objectTypeEnumSet.bacBinaryLightingOutputClass",
+      "title": "Binary Lighting Output",
+      "memberId": 55
+    },
+    {
+      "const": "objectTypeEnumSet.bacNetworkPortClass",
+      "title": "Network Port",
+      "memberId": 56
+    },
+    {
+      "const": "objectTypeEnumSet.bacElevatorGroupClass",
+      "title": "Elevator Group",
+      "memberId": 57
+    },
+    {
+      "const": "objectTypeEnumSet.bacEscalatorClass",
+      "title": "Escalator",
+      "memberId": 58
+    },
+    {
+      "const": "objectTypeEnumSet.bacLiftClass",
+      "title": "Lift",
+      "memberId": 59
+    },
+    {
+      "const": "objectTypeEnumSet.bacNullClass",
+      "title": "Peer to Peer Disabled",
+      "memberId": 127
+    },
+    {
+      "const": "objectTypeEnumSet.stdClass",
+      "title": "Standard",
+      "memberId": 128
+    },
+    {
+      "const": "objectTypeEnumSet.bacpeClass",
+      "title": "BACPE",
+      "memberId": 129
+    },
+    {
+      "const": "objectTypeEnumSet.spanClass",
+      "title": "Electric Demand Monitoring",
+      "memberId": 130
+    },
+    {
+      "const": "objectTypeEnumSet.testClass",
+      "title": "Electric Demand Control",
+      "memberId": 131
+    },
+    {
+      "const": "objectTypeEnumSet.smoClass",
+      "title": "Generator Load Control",
+      "memberId": 132
+    },
+    {
+      "const": "objectTypeEnumSet.paClass",
+      "title": "PA",
+      "memberId": 133
+    },
+    {
+      "const": "objectTypeEnumSet.devClass",
+      "title": "DEV",
+      "memberId": 134
+    },
+    {
+      "const": "objectTypeEnumSet.subscriptionServerClass",
+      "title": "Subscription Server",
+      "memberId": 135
+    },
+    {
+      "const": "objectTypeEnumSet.surrogateDeviceClass",
+      "title": "Surrogate Device",
+      "memberId": 136
+    },
+    {
+      "const": "objectTypeEnumSet.dllrClass",
+      "title": "DLLR",
+      "memberId": 137
+    },
+    {
+      "const": "objectTypeEnumSet.loadClass",
+      "title": "Load",
+      "memberId": 138
+    },
+    {
+      "const": "objectTypeEnumSet.taskobjClass",
+      "title": "Taskobj",
+      "memberId": 139
+    },
+    {
+      "const": "objectTypeEnumSet.rampClass",
+      "title": "Ramp",
+      "memberId": 140
+    },
+    {
+      "const": "objectTypeEnumSet.mvClass",
+      "title": "JCI MV",
+      "memberId": 141
+    },
+    {
+      "const": "objectTypeEnumSet.namelistClass",
+      "title": "Namelist",
+      "memberId": 142
+    },
+    {
+      "const": "objectTypeEnumSet.connClass",
+      "title": "Conn",
+      "memberId": 143
+    },
+    {
+      "const": "objectTypeEnumSet.mcClass",
+      "title": "Multiple Command",
+      "memberId": 144
+    },
+    {
+      "const": "objectTypeEnumSet.heavyEquipContrClass",
+      "title": "Heavy Equip Contr",
+      "memberId": 145
+    },
+    {
+      "const": "objectTypeEnumSet.intlClass",
+      "title": "Interlock",
+      "memberId": 146
+    },
+    {
+      "const": "objectTypeEnumSet.n2AiClass",
+      "title": "N2 AI",
+      "memberId": 147
+    },
+    {
+      "const": "objectTypeEnumSet.n2BiClass",
+      "title": "N2 BI",
+      "memberId": 148
+    },
+    {
+      "const": "objectTypeEnumSet.n2AoClass",
+      "title": "N2 AO",
+      "memberId": 149
+    },
+    {
+      "const": "objectTypeEnumSet.n2BoClass",
+      "title": "N2 BO",
+      "memberId": 150
+    },
+    {
+      "const": "objectTypeEnumSet.n2MsiClass",
+      "title": "N2 MSI",
+      "memberId": 151
+    },
+    {
+      "const": "objectTypeEnumSet.n2MsoClass",
+      "title": "N2 MSO",
+      "memberId": 152
+    },
+    {
+      "const": "objectTypeEnumSet.n2PcClass",
+      "title": "N2 Pulse Counter",
+      "memberId": 153
+    },
+    {
+      "const": "objectTypeEnumSet.gdoClass",
+      "title": "Guaranteed Delivery",
+      "memberId": 154
+    },
+    {
+      "const": "objectTypeEnumSet.trendLogClass",
+      "title": "JCI Trend Log",
+      "memberId": 155
+    },
+    {
+      "const": "objectTypeEnumSet.aaClass",
+      "title": "Analog Alarm",
+      "memberId": 156
+    },
+    {
+      "const": "objectTypeEnumSet.mrClass",
+      "title": "Message Router",
+      "memberId": 157
+    },
+    {
+      "const": "objectTypeEnumSet.rsClass",
+      "title": "Report Server",
+      "memberId": 158
+    },
+    {
+      "const": "objectTypeEnumSet.operatorClass",
+      "title": "Operator",
+      "memberId": 159
+    },
+    {
+      "const": "objectTypeEnumSet.siteTestClass",
+      "title": "Site Test",
+      "memberId": 160
+    },
+    {
+      "const": "objectTypeEnumSet.calendarClass",
+      "title": "JCI Calendar",
+      "memberId": 161
+    },
+    {
+      "const": "objectTypeEnumSet.modemConfigClass",
+      "title": "Modem Config",
+      "memberId": 162
+    },
+    {
+      "const": "objectTypeEnumSet.aiClass",
+      "title": "JCI AI",
+      "memberId": 163
+    },
+    {
+      "const": "objectTypeEnumSet.aoClass",
+      "title": "JCI AO",
+      "memberId": 164
+    },
+    {
+      "const": "objectTypeEnumSet.avClass",
+      "title": "JCI AV",
+      "memberId": 165
+    },
+    {
+      "const": "objectTypeEnumSet.biClass",
+      "title": "JCI BI",
+      "memberId": 166
+    },
+    {
+      "const": "objectTypeEnumSet.boClass",
+      "title": "JCI BO",
+      "memberId": 167
+    },
+    {
+      "const": "objectTypeEnumSet.bvClass",
+      "title": "JCI BV",
+      "memberId": 168
+    },
+    {
+      "const": "objectTypeEnumSet.miClass",
+      "title": "JCI MI",
+      "memberId": 169
+    },
+    {
+      "const": "objectTypeEnumSet.moClass",
+      "title": "JCI MO",
+      "memberId": 170
+    },
+    {
+      "const": "objectTypeEnumSet.jciDeviceClass",
+      "title": "JCI Device",
+      "memberId": 171
+    },
+    {
+      "const": "objectTypeEnumSet.maClass",
+      "title": "Multistate Alarm",
+      "memberId": 172
+    },
+    {
+      "const": "objectTypeEnumSet.broadcastManagementClass",
+      "title": "Broadcast Management",
+      "memberId": 173
+    },
+    {
+      "const": "objectTypeEnumSet.optimalStartClass",
+      "title": "Optimal Start",
+      "memberId": 174
+    },
+    {
+      "const": "objectTypeEnumSet.destinationClass",
+      "title": "Destination",
+      "memberId": 175
+    },
+    {
+      "const": "objectTypeEnumSet.containerClass",
+      "title": "Folder",
+      "memberId": 176
+    },
+    {
+      "const": "objectTypeEnumSet.globalDataClass",
+      "title": "Global Data",
+      "memberId": 177
+    },
+    {
+      "const": "objectTypeEnumSet.signalSelectClass",
+      "title": "Signal Select",
+      "memberId": 178
+    },
+    {
+      "const": "objectTypeEnumSet.utilityProfileClass",
+      "title": "Utility Profile",
+      "memberId": 179
+    },
+    {
+      "const": "objectTypeEnumSet.printerClass",
+      "title": "Printer",
+      "memberId": 180
+    },
+    {
+      "const": "objectTypeEnumSet.pulseMeterClass",
+      "title": "Pulse Meter",
+      "memberId": 181
+    },
+    {
+      "const": "objectTypeEnumSet.remoteDestinationClass",
+      "title": "Remote Destination",
+      "memberId": 182
+    },
+    {
+      "const": "objectTypeEnumSet.collectionClass",
+      "title": "Collection",
+      "memberId": 183
+    },
+    {
+      "const": "objectTypeEnumSet.modDcuClass",
+      "title": "MicroTech II",
+      "memberId": 184
+    },
+    {
+      "const": "objectTypeEnumSet.n50Class",
+      "title": "NAE55-NIE59",
+      "memberId": 185
+    },
+    {
+      "const": "objectTypeEnumSet.autoShutdownClass",
+      "title": "Auto Shutdown",
+      "memberId": 186
+    },
+    {
+      "const": "objectTypeEnumSet.snapshotClass",
+      "title": "Snapshot",
+      "memberId": 187
+    },
+    {
+      "const": "objectTypeEnumSet.emailClass",
+      "title": "Email",
+      "memberId": 188
+    },
+    {
+      "const": "objectTypeEnumSet.lmoClass",
+      "title": "Lon Mapping Object",
+      "memberId": 189
+    },
+    {
+      "const": "objectTypeEnumSet.eeClass",
+      "title": "JCI Event Enrollment",
+      "memberId": 190
+    },
+    {
+      "const": "objectTypeEnumSet.bgrpClass",
+      "title": "BACnet Group",
+      "memberId": 191
+    },
+    {
+      "const": "objectTypeEnumSet.nae45Class",
+      "title": "NAE45-NIE49",
+      "memberId": 192
+    },
+    {
+      "const": "objectTypeEnumSet.nce35Class",
+      "title": "NCE35",
+      "memberId": 193
+    },
+    {
+      "const": "objectTypeEnumSet.fecClass",
+      "title": "FEC",
+      "memberId": 194
+    },
+    {
+      "const": "objectTypeEnumSet.fieldBusClass",
+      "title": "Field Bus MSTP",
+      "memberId": 195
+    },
+    {
+      "const": "objectTypeEnumSet.sensorActuatorBusClass",
+      "title": "Sensor/Actuator Bus",
+      "memberId": 196
+    },
+    {
+      "const": "objectTypeEnumSet.fieldDeviceClass",
+      "title": "JCI Family BACnet Device",
+      "memberId": 197
+    },
+    {
+      "const": "objectTypeEnumSet.mapperClass",
+      "title": "Mapper",
+      "memberId": 198
+    },
+    {
+      "const": "objectTypeEnumSet.fcpDeviceClass",
+      "title": "FCP Device",
+      "memberId": 199
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KIntegrationClass",
+      "title": "XL5K Integration",
+      "memberId": 200
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KControllerClass",
+      "title": "XL5K Controller",
+      "memberId": 201
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KAiClass",
+      "title": "XL5K AI",
+      "memberId": 202
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KAoClass",
+      "title": "XL5K AO",
+      "memberId": 203
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KBiClass",
+      "title": "XL5K BI",
+      "memberId": 204
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KBoClass",
+      "title": "XL5K BO",
+      "memberId": 205
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KMiClass",
+      "title": "XL5K MI",
+      "memberId": 206
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KMoClass",
+      "title": "XL5K MO",
+      "memberId": 207
+    },
+    {
+      "const": "objectTypeEnumSet.xl5KPcClass",
+      "title": "XL5K PC",
+      "memberId": 208
+    },
+    {
+      "const": "objectTypeEnumSet.flexAccumulatorClass",
+      "title": "Flex Accumulator",
+      "memberId": 209
+    },
+    {
+      "const": "objectTypeEnumSet.wrsClass",
+      "title": "Wireless Supervisor",
+      "memberId": 210
+    },
+    {
+      "const": "objectTypeEnumSet.wrxClass",
+      "title": "Wireless Receiver",
+      "memberId": 211
+    },
+    {
+      "const": "objectTypeEnumSet.wtsClass",
+      "title": "Wireless Sensor",
+      "memberId": 212
+    },
+    {
+      "const": "objectTypeEnumSet.supstatusClass",
+      "title": "Supervisor Status Primitive",
+      "memberId": 213
+    },
+    {
+      "const": "objectTypeEnumSet.ieiejEdmClass",
+      "title": "IEIEJ Electric Demand Monitoring",
+      "memberId": 214
+    },
+    {
+      "const": "objectTypeEnumSet.ieiejEdcClass",
+      "title": "IEIEJ Electric Demand Control",
+      "memberId": 215
+    },
+    {
+      "const": "objectTypeEnumSet.ieiejGlcClass",
+      "title": "IEIEJ Generator Load Control",
+      "memberId": 216
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetTrendClass",
+      "title": "BACnet Trend",
+      "memberId": 217
+    },
+    {
+      "const": "objectTypeEnumSet.eventLogClass",
+      "title": "Event Log",
+      "memberId": 218
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetRouterClass",
+      "title": "Router",
+      "memberId": 219
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetAccumulatorClass",
+      "title": "BACnet Accumulator",
+      "memberId": 220
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetPulseConverterClass",
+      "title": "BACnet Pulse Converter",
+      "memberId": 221
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetEventLogClass",
+      "title": "BACnet Event Log",
+      "memberId": 222
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetGlobalGroupClass",
+      "title": "BACnet Global Group",
+      "memberId": 223
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetTrendLogMultipleClass",
+      "title": "BACnet Trend Log Multiple",
+      "memberId": 224
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetLoadControlClass",
+      "title": "BACnet Load Control",
+      "memberId": 225
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetStructuredViewClass",
+      "title": "BACnet Structured View",
+      "memberId": 226
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetEdmClass",
+      "title": "BACnet EDM",
+      "memberId": 227
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetEdcClass",
+      "title": "BACnet EDC",
+      "memberId": 228
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetGlcClass",
+      "title": "BACnet GLC",
+      "memberId": 229
+    },
+    {
+      "const": "objectTypeEnumSet.guaranteedWriteClass",
+      "title": "Guaranteed Write",
+      "memberId": 230
+    },
+    {
+      "const": "objectTypeEnumSet.oreClass",
+      "title": "Object Runtime Environment",
+      "memberId": 231
+    },
+    {
+      "const": "objectTypeEnumSet.ipCommunicationClass",
+      "title": "IP Communication",
+      "memberId": 232
+    },
+    {
+      "const": "objectTypeEnumSet.yorktalkSubordinateClass",
+      "title": "YorkTalk Subordinate",
+      "memberId": 233
+    },
+    {
+      "const": "objectTypeEnumSet.assappClass",
+      "title": "Assapp",
+      "memberId": 234
+    },
+    {
+      "const": "objectTypeEnumSet.jciProprietaryClass",
+      "title": "JCI Proprietary",
+      "memberId": 235
+    },
+    {
+      "const": "objectTypeEnumSet.apClass",
+      "title": "Application",
+      "memberId": 236
+    },
+    {
+      "const": "objectTypeEnumSet.surrogateClass",
+      "title": "Surrogate",
+      "memberId": 237
+    },
+    {
+      "const": "objectTypeEnumSet.vmaClass",
+      "title": "VMA",
+      "memberId": 238
+    },
+    {
+      "const": "objectTypeEnumSet.boHwClass",
+      "title": "BO HW Output",
+      "memberId": 239
+    },
+    {
+      "const": "objectTypeEnumSet.aiHwClass",
+      "title": "AI HW Input",
+      "memberId": 240
+    },
+    {
+      "const": "objectTypeEnumSet.aoHwClass",
+      "title": "AO HW Output",
+      "memberId": 241
+    },
+    {
+      "const": "objectTypeEnumSet.biHwClass",
+      "title": "BI HW Input",
+      "memberId": 242
+    },
+    {
+      "const": "objectTypeEnumSet.ciHwClass",
+      "title": "CI HW Input",
+      "memberId": 243
+    },
+    {
+      "const": "objectTypeEnumSet.natClass",
+      "title": "NAT00",
+      "memberId": 244
+    },
+    {
+      "const": "objectTypeEnumSet.n1PcClass",
+      "title": "N1 PC",
+      "memberId": 245
+    },
+    {
+      "const": "objectTypeEnumSet.n2SubordinateClass",
+      "title": "N2 Subordinate",
+      "memberId": 246
+    },
+    {
+      "const": "objectTypeEnumSet.modbusSubordinateClass",
+      "title": "Modbus Subordinate",
+      "memberId": 247
+    },
+    {
+      "const": "objectTypeEnumSet.basInterfaceManagerClass",
+      "title": "BAS Interface Manager",
+      "memberId": 248
+    },
+    {
+      "const": "objectTypeEnumSet.solarClockClass",
+      "title": "Solar Clock",
+      "memberId": 249
+    },
+    {
+      "const": "objectTypeEnumSet.pracClass",
+      "title": "PRAC",
+      "memberId": 250
+    },
+    {
+      "const": "objectTypeEnumSet.paoHwClass",
+      "title": "PAO",
+      "memberId": 251
+    },
+    {
+      "const": "objectTypeEnumSet.pidClass",
+      "title": "PID",
+      "memberId": 252
+    },
+    {
+      "const": "objectTypeEnumSet.bipDlClass",
+      "title": "BACnet IP Routing Datalink Object",
+      "memberId": 253
+    },
+    {
+      "const": "objectTypeEnumSet.rcmdDevClass",
+      "title": "Room Command Module Device",
+      "memberId": 254
+    },
+    {
+      "const": "objectTypeEnumSet.diagClass",
+      "title": "Diag",
+      "memberId": 255
+    },
+    {
+      "const": "objectTypeEnumSet.cecEfficiencyClass",
+      "title": "CEC Efficiency Class",
+      "memberId": 256
+    },
+    {
+      "const": "objectTypeEnumSet.timerClass",
+      "title": "JCI Timer",
+      "memberId": 257
+    },
+    {
+      "const": "objectTypeEnumSet.rcmSsoClass",
+      "title": "RCM Server",
+      "memberId": 258
+    },
+    {
+      "const": "objectTypeEnumSet.daoHwClass",
+      "title": "DAO",
+      "memberId": 259
+    },
+    {
+      "const": "objectTypeEnumSet.ehsClass",
+      "title": "EHS",
+      "memberId": 260
+    },
+    {
+      "const": "objectTypeEnumSet.summaryClass",
+      "title": "Summary",
+      "memberId": 261
+    },
+    {
+      "const": "objectTypeEnumSet.ampDevClass",
+      "title": "Air Measuring Probe",
+      "memberId": 262
+    },
+    {
+      "const": "objectTypeEnumSet.scheduleClass",
+      "title": "JCI Schedule",
+      "memberId": 263
+    },
+    {
+      "const": "objectTypeEnumSet.loopClass",
+      "title": "JCI Loop",
+      "memberId": 264
+    },
+    {
+      "const": "objectTypeEnumSet.vmaBalancerClass",
+      "title": "VMA Balancer",
+      "memberId": 265
+    },
+    {
+      "const": "objectTypeEnumSet.ewmaClass",
+      "title": "EWMA",
+      "memberId": 266
+    },
+    {
+      "const": "objectTypeEnumSet.sfsmClass",
+      "title": "SFSM",
+      "memberId": 267
+    },
+    {
+      "const": "objectTypeEnumSet.sensorServerClass",
+      "title": "Sensor Server",
+      "memberId": 268
+    },
+    {
+      "const": "objectTypeEnumSet.fewiClass",
+      "title": "FEWI",
+      "memberId": 269
+    },
+    {
+      "const": "objectTypeEnumSet.workstationClass",
+      "title": "Workstation",
+      "memberId": 270
+    },
+    {
+      "const": "objectTypeEnumSet.zsClass",
+      "title": "N30",
+      "memberId": 271
+    },
+    {
+      "const": "objectTypeEnumSet.comtestClass",
+      "title": "Comtest",
+      "memberId": 272
+    },
+    {
+      "const": "objectTypeEnumSet.groupClass",
+      "title": "JCI Group",
+      "memberId": 273
+    },
+    {
+      "const": "objectTypeEnumSet.totaClass",
+      "title": "Analog Totalization",
+      "memberId": 274
+    },
+    {
+      "const": "objectTypeEnumSet.totrClass",
+      "title": "Runtime Totalization",
+      "memberId": 275
+    },
+    {
+      "const": "objectTypeEnumSet.toteClass",
+      "title": "Event Totalization",
+      "memberId": 276
+    },
+    {
+      "const": "objectTypeEnumSet.coretestClass",
+      "title": "Coretest",
+      "memberId": 277
+    },
+    {
+      "const": "objectTypeEnumSet.controllerClass",
+      "title": "Controller",
+      "memberId": 278
+    },
+    {
+      "const": "objectTypeEnumSet.qryaClass",
+      "title": "Query Agent",
+      "memberId": 279
+    },
+    {
+      "const": "objectTypeEnumSet.qrybClass",
+      "title": "Query Broker",
+      "memberId": 280
+    },
+    {
+      "const": "objectTypeEnumSet.nsAoClass",
+      "title": "Net Sensor AO",
+      "memberId": 281
+    },
+    {
+      "const": "objectTypeEnumSet.gatewayClass",
+      "title": "Gateway",
+      "memberId": 282
+    },
+    {
+      "const": "objectTypeEnumSet.odsNClass",
+      "title": "Workstation",
+      "memberId": 283
+    },
+    {
+      "const": "objectTypeEnumSet.cieClass",
+      "title": "CIE19",
+      "memberId": 284
+    },
+    {
+      "const": "objectTypeEnumSet.siteDataClass",
+      "title": "Site Data",
+      "memberId": 285
+    },
+    {
+      "const": "objectTypeEnumSet.siteClass",
+      "title": "Site",
+      "memberId": 286
+    },
+    {
+      "const": "objectTypeEnumSet.redundantClass",
+      "title": "Redundant",
+      "memberId": 287
+    },
+    {
+      "const": "objectTypeEnumSet.siteDeviceClass",
+      "title": "Site Device",
+      "memberId": 288
+    },
+    {
+      "const": "objectTypeEnumSet.pcCieClass",
+      "title": "CIE89",
+      "memberId": 289
+    },
+    {
+      "const": "objectTypeEnumSet.n2Class",
+      "title": "N2 Trunk",
+      "memberId": 290
+    },
+    {
+      "const": "objectTypeEnumSet.serialClass",
+      "title": "Serial",
+      "memberId": 291
+    },
+    {
+      "const": "objectTypeEnumSet.ethIpClass",
+      "title": "ETH IP",
+      "memberId": 292
+    },
+    {
+      "const": "objectTypeEnumSet.eth88023Class",
+      "title": "ETH 88023",
+      "memberId": 293
+    },
+    {
+      "const": "objectTypeEnumSet.vt100Class",
+      "title": "VT100",
+      "memberId": 294
+    },
+    {
+      "const": "objectTypeEnumSet.snoClass",
+      "title": "Status Notification",
+      "memberId": 295
+    },
+    {
+      "const": "objectTypeEnumSet.alarmWorxDestClass",
+      "title": "Alarm Worx Dest",
+      "memberId": 296
+    },
+    {
+      "const": "objectTypeEnumSet.pcAttrClass",
+      "title": "PC Attribute",
+      "memberId": 297
+    },
+    {
+      "const": "objectTypeEnumSet.pcSiteClass",
+      "title": "PC Site",
+      "memberId": 298
+    },
+    {
+      "const": "objectTypeEnumSet.pcServerClass",
+      "title": "PC Server",
+      "memberId": 299
+    },
+    {
+      "const": "objectTypeEnumSet.trendLogMultipleClass",
+      "title": "Trend Log Multiple",
+      "memberId": 300
+    },
+    {
+      "const": "objectTypeEnumSet.vrfIbClass",
+      "title": "VRF IB",
+      "memberId": 301
+    },
+    {
+      "const": "objectTypeEnumSet.vrfObClass",
+      "title": "VRF OB",
+      "memberId": 302
+    },
+    {
+      "const": "objectTypeEnumSet.tempoccClass",
+      "title": "Tempocc",
+      "memberId": 303
+    },
+    {
+      "const": "objectTypeEnumSet.lanRemoteDestClass",
+      "title": "LAN Remote Dest",
+      "memberId": 304
+    },
+    {
+      "const": "objectTypeEnumSet.latchClass",
+      "title": "Latch",
+      "memberId": 305
+    },
+    {
+      "const": "objectTypeEnumSet.mstpSubordinateClass",
+      "title": "MSTP Subordinate",
+      "memberId": 306
+    },
+    {
+      "const": "objectTypeEnumSet.mstpManagerClass",
+      "title": "MSTP Manager",
+      "memberId": 307
+    },
+    {
+      "const": "objectTypeEnumSet.internalDlClass",
+      "title": "Internal DL",
+      "memberId": 308
+    },
+    {
+      "const": "objectTypeEnumSet.velpidClass",
+      "title": "Velocity PID",
+      "memberId": 309
+    },
+    {
+      "const": "objectTypeEnumSet.displayClass",
+      "title": "Display",
+      "memberId": 310
+    },
+    {
+      "const": "objectTypeEnumSet.pagerClass",
+      "title": "Pager",
+      "memberId": 311
+    },
+    {
+      "const": "objectTypeEnumSet.refClass",
+      "title": "Reference",
+      "memberId": 312
+    },
+    {
+      "const": "objectTypeEnumSet.notificationClass",
+      "title": "JCI Notification",
+      "memberId": 313
+    },
+    {
+      "const": "objectTypeEnumSet.hostClass",
+      "title": "Host",
+      "memberId": 314
+    },
+    {
+      "const": "objectTypeEnumSet.panelClass",
+      "title": "Panel",
+      "memberId": 315
+    },
+    {
+      "const": "objectTypeEnumSet.termClass",
+      "title": "Terminal",
+      "memberId": 316
+    },
+    {
+      "const": "objectTypeEnumSet.counterClass",
+      "title": "Counter",
+      "memberId": 317
+    },
+    {
+      "const": "objectTypeEnumSet.readerClass",
+      "title": "Reader",
+      "memberId": 318
+    },
+    {
+      "const": "objectTypeEnumSet.dataBroadcastClass",
+      "title": "Data Broadcast",
+      "memberId": 319
+    },
+    {
+      "const": "objectTypeEnumSet.bacCommonClass",
+      "title": "BACnet Common",
+      "memberId": 320
+    },
+    {
+      "const": "objectTypeEnumSet.bacPointClass",
+      "title": "BACnet Point",
+      "memberId": 321
+    },
+    {
+      "const": "objectTypeEnumSet.persistNotificationClass",
+      "title": "Persist Notification",
+      "memberId": 322
+    },
+    {
+      "const": "objectTypeEnumSet.sssiClass",
+      "title": "Security Supervised Input",
+      "memberId": 323
+    },
+    {
+      "const": "objectTypeEnumSet.ssboClass",
+      "title": "Security Binary Output",
+      "memberId": 324
+    },
+    {
+      "const": "objectTypeEnumSet.ydcuClass",
+      "title": "York 50/90 DCU",
+      "memberId": 325
+    },
+    {
+      "const": "objectTypeEnumSet.mathClass",
+      "title": "Math",
+      "memberId": 326
+    },
+    {
+      "const": "objectTypeEnumSet.booleanClass",
+      "title": "Boolean",
+      "memberId": 327
+    },
+    {
+      "const": "objectTypeEnumSet.comparisonClass",
+      "title": "Comparison",
+      "memberId": 328
+    },
+    {
+      "const": "objectTypeEnumSet.muxClass",
+      "title": "Mux",
+      "memberId": 329
+    },
+    {
+      "const": "objectTypeEnumSet.abhClass",
+      "title": "ABH",
+      "memberId": 330
+    },
+    {
+      "const": "objectTypeEnumSet.dpClass",
+      "title": "DP",
+      "memberId": 331
+    },
+    {
+      "const": "objectTypeEnumSet.enthClass",
+      "title": "ENTH",
+      "memberId": 332
+    },
+    {
+      "const": "objectTypeEnumSet.pwsClass",
+      "title": "PWS",
+      "memberId": 333
+    },
+    {
+      "const": "objectTypeEnumSet.rhClass",
+      "title": "RH",
+      "memberId": 334
+    },
+    {
+      "const": "objectTypeEnumSet.wbClass",
+      "title": "WB",
+      "memberId": 335
+    },
+    {
+      "const": "objectTypeEnumSet.systemClass",
+      "title": "Control System",
+      "memberId": 336
+    },
+    {
+      "const": "objectTypeEnumSet.numericConstantClass",
+      "title": "Numeric Constant",
+      "memberId": 337
+    },
+    {
+      "const": "objectTypeEnumSet.enumConstantClass",
+      "title": "Enum Constant",
+      "memberId": 338
+    },
+    {
+      "const": "objectTypeEnumSet.releaseObjectClass",
+      "title": "Release Object",
+      "memberId": 339
+    },
+    {
+      "const": "objectTypeEnumSet.asyncDelayClass",
+      "title": "Async Delay",
+      "memberId": 340
+    },
+    {
+      "const": "objectTypeEnumSet.rateLimiterClass",
+      "title": "Rate Limiter",
+      "memberId": 341
+    },
+    {
+      "const": "objectTypeEnumSet.triggerClass",
+      "title": "Trigger Object",
+      "memberId": 342
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetIntegrationClass",
+      "title": "BACnet Integration",
+      "memberId": 343
+    },
+    {
+      "const": "objectTypeEnumSet.graphicClass",
+      "title": "Graphic",
+      "memberId": 344
+    },
+    {
+      "const": "objectTypeEnumSet.trendStudyClass",
+      "title": "Trend Study",
+      "memberId": 345
+    },
+    {
+      "const": "objectTypeEnumSet.n1IntegrationClass",
+      "title": "N1 Migration",
+      "memberId": 346
+    },
+    {
+      "const": "objectTypeEnumSet.ncmClass",
+      "title": "NCM",
+      "memberId": 347
+    },
+    {
+      "const": "objectTypeEnumSet.navTreeClass",
+      "title": "User View",
+      "memberId": 348
+    },
+    {
+      "const": "objectTypeEnumSet.lonIntegrationClass",
+      "title": "LON Trunk",
+      "memberId": 349
+    },
+    {
+      "const": "objectTypeEnumSet.lonControllerClass",
+      "title": "LON Controller",
+      "memberId": 350
+    },
+    {
+      "const": "objectTypeEnumSet.lonAiClass",
+      "title": "LON AI",
+      "memberId": 351
+    },
+    {
+      "const": "objectTypeEnumSet.lonAoClass",
+      "title": "LON AO",
+      "memberId": 352
+    },
+    {
+      "const": "objectTypeEnumSet.lonBiClass",
+      "title": "LON BI",
+      "memberId": 353
+    },
+    {
+      "const": "objectTypeEnumSet.lonBoClass",
+      "title": "LON BO",
+      "memberId": 354
+    },
+    {
+      "const": "objectTypeEnumSet.lonMsiClass",
+      "title": "LON MSI",
+      "memberId": 355
+    },
+    {
+      "const": "objectTypeEnumSet.lonMsoClass",
+      "title": "LON MSO",
+      "memberId": 356
+    },
+    {
+      "const": "objectTypeEnumSet.resourceFileClass",
+      "title": "Resource File",
+      "memberId": 357
+    },
+    {
+      "const": "objectTypeEnumSet.n50IntClass",
+      "title": "NIE55",
+      "memberId": 358
+    },
+    {
+      "const": "objectTypeEnumSet.gioClass",
+      "title": "GIO",
+      "memberId": 359
+    },
+    {
+      "const": "objectTypeEnumSet.flowClass",
+      "title": "Flow",
+      "memberId": 360
+    },
+    {
+      "const": "objectTypeEnumSet.sequencerClass",
+      "title": "Sequencer",
+      "memberId": 361
+    },
+    {
+      "const": "objectTypeEnumSet.timeClass",
+      "title": "Time",
+      "memberId": 362
+    },
+    {
+      "const": "objectTypeEnumSet.doorSequenceClass",
+      "title": "Door Sequence",
+      "memberId": 363
+    },
+    {
+      "const": "objectTypeEnumSet.accessControlClass",
+      "title": "Access Control",
+      "memberId": 364
+    },
+    {
+      "const": "objectTypeEnumSet.ck722DeviceClass",
+      "title": "CK722 Device",
+      "memberId": 365
+    },
+    {
+      "const": "objectTypeEnumSet.ssncClass",
+      "title": "Security Notification Class",
+      "memberId": 366
+    },
+    {
+      "const": "objectTypeEnumSet.dEClass",
+      "title": "Entity",
+      "memberId": 367
+    },
+    {
+      "const": "objectTypeEnumSet.dApClass",
+      "title": "Access Profile",
+      "memberId": 368
+    },
+    {
+      "const": "objectTypeEnumSet.dBClass",
+      "title": "Badge Identifier",
+      "memberId": 369
+    },
+    {
+      "const": "objectTypeEnumSet.dBmClass",
+      "title": "Biometric Identifier",
+      "memberId": 370
+    },
+    {
+      "const": "objectTypeEnumSet.dEgClass",
+      "title": "Entity Group",
+      "memberId": 371
+    },
+    {
+      "const": "objectTypeEnumSet.dIgClass",
+      "title": "Intrustion Group",
+      "memberId": 372
+    },
+    {
+      "const": "objectTypeEnumSet.dAgClass",
+      "title": "Access Group",
+      "memberId": 373
+    },
+    {
+      "const": "objectTypeEnumSet.dPeClass",
+      "title": "Panel Event",
+      "memberId": 374
+    },
+    {
+      "const": "objectTypeEnumSet.dIfClass",
+      "title": "Identifier Format",
+      "memberId": 375
+    },
+    {
+      "const": "objectTypeEnumSet.dCClass",
+      "title": "Common Data Record",
+      "memberId": 376
+    },
+    {
+      "const": "objectTypeEnumSet.p2KServerClass",
+      "title": "P2000 Server",
+      "memberId": 377
+    },
+    {
+      "const": "objectTypeEnumSet.p2KPanelClass",
+      "title": "P2000 Panel",
+      "memberId": 378
+    },
+    {
+      "const": "objectTypeEnumSet.p2KPortalClass",
+      "title": "P2000 Portal",
+      "memberId": 379
+    },
+    {
+      "const": "objectTypeEnumSet.p2KDoorClass",
+      "title": "P2000 Door",
+      "memberId": 380
+    },
+    {
+      "const": "objectTypeEnumSet.p2KBiClass",
+      "title": "P2000 BI",
+      "memberId": 381
+    },
+    {
+      "const": "objectTypeEnumSet.p2KBoClass",
+      "title": "P2000 BO",
+      "memberId": 382
+    },
+    {
+      "const": "objectTypeEnumSet.p2KReportClass",
+      "title": "P2000 Report",
+      "memberId": 383
+    },
+    {
+      "const": "objectTypeEnumSet.p2KHostEngineClass",
+      "title": "P2000 Host Engine",
+      "memberId": 384
+    },
+    {
+      "const": "objectTypeEnumSet.mmaClass",
+      "title": "Metasys MATLAB API",
+      "memberId": 385
+    },
+    {
+      "const": "objectTypeEnumSet.weatherCollectorClass",
+      "title": "Weather Collector",
+      "memberId": 386
+    },
+    {
+      "const": "objectTypeEnumSet.energyPriceCollectorClass",
+      "title": "Energy Price Collector",
+      "memberId": 387
+    },
+    {
+      "const": "objectTypeEnumSet.emManagerClass",
+      "title": "Equipment Model Manager",
+      "memberId": 388
+    },
+    {
+      "const": "objectTypeEnumSet.stringEvalClass",
+      "title": "String Evaluator",
+      "memberId": 389
+    },
+    {
+      "const": "objectTypeEnumSet.computedPointClass",
+      "title": "Computed Point",
+      "memberId": 390
+    },
+    {
+      "const": "objectTypeEnumSet.vnmClass",
+      "title": "Virtual Network Manager",
+      "memberId": 391
+    },
+    {
+      "const": "objectTypeEnumSet.vdmClass",
+      "title": "Virtual Device Manager",
+      "memberId": 392
+    },
+    {
+      "const": "objectTypeEnumSet.oasClass",
+      "title": "OAS",
+      "memberId": 393
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetRouterGatewayClass",
+      "title": "BACnet Router + Gateway",
+      "memberId": 394
+    },
+    {
+      "const": "objectTypeEnumSet.395",
+      "title": "NGE",
+      "memberId": 395
+    },
+    {
+      "const": "objectTypeEnumSet.resolveReferencesClass",
+      "title": "Resolve References",
+      "memberId": 396
+    },
+    {
+      "const": "objectTypeEnumSet.externalDataConnectorClass",
+      "title": "External Data Connector",
+      "memberId": 414
+    },
+    {
+      "const": "objectTypeEnumSet.mstpCntrlNpoClass",
+      "title": "MSTP Controller Network Port",
+      "memberId": 415
+    },
+    {
+      "const": "objectTypeEnumSet.n1PidlClass",
+      "title": "N1 PID Loop",
+      "memberId": 416
+    },
+    {
+      "const": "objectTypeEnumSet.n1AiClass",
+      "title": "N1 AI",
+      "memberId": 417
+    },
+    {
+      "const": "objectTypeEnumSet.n1BiClass",
+      "title": "N1 BI",
+      "memberId": 418
+    },
+    {
+      "const": "objectTypeEnumSet.n1AoClass",
+      "title": "N1 AO",
+      "memberId": 419
+    },
+    {
+      "const": "objectTypeEnumSet.n1BoClass",
+      "title": "N1 BO",
+      "memberId": 420
+    },
+    {
+      "const": "objectTypeEnumSet.n1MsiClass",
+      "title": "N1 MSI",
+      "memberId": 421
+    },
+    {
+      "const": "objectTypeEnumSet.n1MsoClass",
+      "title": "N1 MSO",
+      "memberId": 422
+    },
+    {
+      "const": "objectTypeEnumSet.n1CalendarClass",
+      "title": "N1 Calendar",
+      "memberId": 423
+    },
+    {
+      "const": "objectTypeEnumSet.n1ScheduleClass",
+      "title": "N1 Schedule",
+      "memberId": 424
+    },
+    {
+      "const": "objectTypeEnumSet.adsClass",
+      "title": "ADS",
+      "memberId": 425
+    },
+    {
+      "const": "objectTypeEnumSet.vndIntegrationClass",
+      "title": "VND Integration",
+      "memberId": 426
+    },
+    {
+      "const": "objectTypeEnumSet.vndControllerClass",
+      "title": "VND Controller",
+      "memberId": 427
+    },
+    {
+      "const": "objectTypeEnumSet.vndAiClass",
+      "title": "VND AI",
+      "memberId": 428
+    },
+    {
+      "const": "objectTypeEnumSet.vndAoClass",
+      "title": "VND AO",
+      "memberId": 429
+    },
+    {
+      "const": "objectTypeEnumSet.vndBiClass",
+      "title": "VND BI",
+      "memberId": 430
+    },
+    {
+      "const": "objectTypeEnumSet.vndBoClass",
+      "title": "VND BO",
+      "memberId": 431
+    },
+    {
+      "const": "objectTypeEnumSet.vndMiClass",
+      "title": "VND MI",
+      "memberId": 432
+    },
+    {
+      "const": "objectTypeEnumSet.vndMoClass",
+      "title": "VND MO",
+      "memberId": 433
+    },
+    {
+      "const": "objectTypeEnumSet.n2SharedClass",
+      "title": "N2 Shared",
+      "memberId": 434
+    },
+    {
+      "const": "objectTypeEnumSet.inputListFloatBlockClass",
+      "title": "Input List Float Block",
+      "memberId": 435
+    },
+    {
+      "const": "objectTypeEnumSet.inputListEnumBlockClass",
+      "title": "Input List Enumeration Block",
+      "memberId": 436
+    },
+    {
+      "const": "objectTypeEnumSet.inputListBoolBlockClass",
+      "title": "Input List Boolean Block",
+      "memberId": 437
+    },
+    {
+      "const": "objectTypeEnumSet.listAvClass",
+      "title": "JCI LIST AV",
+      "memberId": 438
+    },
+    {
+      "const": "objectTypeEnumSet.listMvClass",
+      "title": "JCI LIST MV",
+      "memberId": 439
+    },
+    {
+      "const": "objectTypeEnumSet.listBvClass",
+      "title": "JCI LIST BV",
+      "memberId": 440
+    },
+    {
+      "const": "objectTypeEnumSet.inputListBlockClass",
+      "title": "Input List Block",
+      "memberId": 441
+    },
+    {
+      "const": "objectTypeEnumSet.outputListBlockClass",
+      "title": "Output List Block",
+      "memberId": 442
+    },
+    {
+      "const": "objectTypeEnumSet.outputListFloatBlockClass",
+      "title": "Output List Float Block",
+      "memberId": 443
+    },
+    {
+      "const": "objectTypeEnumSet.outputListEnumBlockClass",
+      "title": "Output List Enumeration Block",
+      "memberId": 444
+    },
+    {
+      "const": "objectTypeEnumSet.outputListBoolBlockClass",
+      "title": "Output List Boolean Block",
+      "memberId": 445
+    },
+    {
+      "const": "objectTypeEnumSet.cdmConnectionClass",
+      "title": "Connections",
+      "memberId": 446
+    },
+    {
+      "const": "objectTypeEnumSet.listBlockClass",
+      "title": "List Block",
+      "memberId": 447
+    },
+    {
+      "const": "objectTypeEnumSet.nce25SmarcClass",
+      "title": "SNC",
+      "memberId": 448
+    },
+    {
+      "const": "objectTypeEnumSet.localHardwareClass",
+      "title": "Local Hardware",
+      "memberId": 449
+    },
+    {
+      "const": "objectTypeEnumSet.localApplicationClass",
+      "title": "Local Application",
+      "memberId": 450
+    },
+    {
+      "const": "objectTypeEnumSet.countClass",
+      "title": "Count",
+      "memberId": 451
+    },
+    {
+      "const": "objectTypeEnumSet.genericDeviceClass",
+      "title": "Generic Device",
+      "memberId": 452
+    },
+    {
+      "const": "objectTypeEnumSet.connectionClass",
+      "title": "Connection",
+      "memberId": 453
+    },
+    {
+      "const": "objectTypeEnumSet.unattendedDownloadMgrClass",
+      "title": "Unattended Download Manager",
+      "memberId": 454
+    },
+    {
+      "const": "objectTypeEnumSet.fxsncSmarcClass",
+      "title": "FXSNC",
+      "memberId": 455
+    },
+    {
+      "const": "objectTypeEnumSet.colaHwProxySvhClass",
+      "title": "COLA Hardware Proxy String Value",
+      "memberId": 456
+    },
+    {
+      "const": "objectTypeEnumSet.colaHwProxyAihClass",
+      "title": "COLA Hardware Proxy AI",
+      "memberId": 457
+    },
+    {
+      "const": "objectTypeEnumSet.colaHwProxyAohClass",
+      "title": "COLA Hardware Proxy AO",
+      "memberId": 458
+    },
+    {
+      "const": "objectTypeEnumSet.colaHwProxyAvhClass",
+      "title": "COLA Hardware Proxy AV",
+      "memberId": 459
+    },
+    {
+      "const": "objectTypeEnumSet.colaHwProxyBihClass",
+      "title": "COLA Hardware Proxy BI",
+      "memberId": 460
+    },
+    {
+      "const": "objectTypeEnumSet.colaHwProxyBohClass",
+      "title": "COLA Hardware Proxy BO",
+      "memberId": 461
+    },
+    {
+      "const": "objectTypeEnumSet.colaHwProxyBvhClass",
+      "title": "COLA Hardware Proxy BV",
+      "memberId": 462
+    },
+    {
+      "const": "objectTypeEnumSet.colaHwProxyMvhClass",
+      "title": "COLA Hardware Proxy MV",
+      "memberId": 463
+    },
+    {
+      "const": "objectTypeEnumSet.scAiClass",
+      "title": "Space Controller AI",
+      "memberId": 492
+    },
+    {
+      "const": "objectTypeEnumSet.scAoClass",
+      "title": "Space Controller AO",
+      "memberId": 493
+    },
+    {
+      "const": "objectTypeEnumSet.scAvClass",
+      "title": "Space Controller AV",
+      "memberId": 494
+    },
+    {
+      "const": "objectTypeEnumSet.scBiClass",
+      "title": "Space Controller BI",
+      "memberId": 495
+    },
+    {
+      "const": "objectTypeEnumSet.scBoClass",
+      "title": "Space Controller BO",
+      "memberId": 496
+    },
+    {
+      "const": "objectTypeEnumSet.scBvClass",
+      "title": "Space Controller BV",
+      "memberId": 497
+    },
+    {
+      "const": "objectTypeEnumSet.scMvClass",
+      "title": "Space Controller MV",
+      "memberId": 498
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetPointSharedClass",
+      "title": "BACnet Point Shared",
+      "memberId": 499
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetAiClass",
+      "title": "BACnet AI",
+      "memberId": 500
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetAoClass",
+      "title": "BACnet AO",
+      "memberId": 501
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetAvClass",
+      "title": "BACnet AV",
+      "memberId": 502
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetBiClass",
+      "title": "BACnet BI",
+      "memberId": 503
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetBoClass",
+      "title": "BACnet BO",
+      "memberId": 504
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetBvClass",
+      "title": "BACnet BV",
+      "memberId": 505
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetCalendarClass",
+      "title": "BACnet Calendar",
+      "memberId": 506
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetCommandClass",
+      "title": "BACnet Command",
+      "memberId": 507
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetDeviceClass",
+      "title": "General BACnet Device",
+      "memberId": 508
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetEvntEnrolClass",
+      "title": "BACnet Event Enrollm",
+      "memberId": 509
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetFileClass",
+      "title": "BACnet File",
+      "memberId": 510
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetGroupClass",
+      "title": "BACnet Grp",
+      "memberId": 511
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetLoopClass",
+      "title": "BACnet Loop",
+      "memberId": 512
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetMiClass",
+      "title": "BACnet MI",
+      "memberId": 513
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetMoClass",
+      "title": "BACnet MO",
+      "memberId": 514
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetNotificClass",
+      "title": "BACnet Notification",
+      "memberId": 515
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetProgramClass",
+      "title": "BACnet Program",
+      "memberId": 516
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetScheduleClass",
+      "title": "BACnet Schedule",
+      "memberId": 517
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetAveragingClass",
+      "title": "BACnet Averaging",
+      "memberId": 518
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetMvClass",
+      "title": "BACnet MV",
+      "memberId": 519
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetTrendLogClass",
+      "title": "BACnet Trend Log",
+      "memberId": 520
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetLspClass",
+      "title": "BACnet Life Safety Point",
+      "memberId": 521
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetLszClass",
+      "title": "BACnet Life Safety Zone",
+      "memberId": 522
+    },
+    {
+      "const": "objectTypeEnumSet.zntsetpointdeterminationClass",
+      "title": "ZN-T Setpoint Determination Primitive",
+      "memberId": 523
+    },
+    {
+      "const": "objectTypeEnumSet.occModeClass",
+      "title": "Occupancy Mode Determination Primitive",
+      "memberId": 524
+    },
+    {
+      "const": "objectTypeEnumSet.activityseqClass",
+      "title": "Activity Sequencer",
+      "memberId": 525
+    },
+    {
+      "const": "objectTypeEnumSet.inputFloatBlockClass",
+      "title": "Input Float Block",
+      "memberId": 526
+    },
+    {
+      "const": "objectTypeEnumSet.outputFloatBlockClass",
+      "title": "Output Float Block",
+      "memberId": 527
+    },
+    {
+      "const": "objectTypeEnumSet.inputEnumBlockClass",
+      "title": "Input Enumeration Bl",
+      "memberId": 528
+    },
+    {
+      "const": "objectTypeEnumSet.outputEnumBlockClass",
+      "title": "Output Enumeration B",
+      "memberId": 529
+    },
+    {
+      "const": "objectTypeEnumSet.inputBoolBlockClass",
+      "title": "Input Boolean Block",
+      "memberId": 530
+    },
+    {
+      "const": "objectTypeEnumSet.outputBoolBlockClass",
+      "title": "Output Boolean Block",
+      "memberId": 531
+    },
+    {
+      "const": "objectTypeEnumSet.summerWinterClass",
+      "title": "Summer Winter Compensation Primitive",
+      "memberId": 532
+    },
+    {
+      "const": "objectTypeEnumSet.lightingControlClass",
+      "title": "Lighting Control Primitive",
+      "memberId": 533
+    },
+    {
+      "const": "objectTypeEnumSet.ck200DevClass",
+      "title": "CK200 Device Object",
+      "memberId": 534
+    },
+    {
+      "const": "objectTypeEnumSet.logicBlockClass",
+      "title": "Logic Block",
+      "memberId": 535
+    },
+    {
+      "const": "objectTypeEnumSet.activityClass",
+      "title": "Control Activity",
+      "memberId": 536
+    },
+    {
+      "const": "objectTypeEnumSet.bluetoothClass",
+      "title": "Bluetooth LE",
+      "memberId": 537
+    },
+    {
+      "const": "objectTypeEnumSet.lastValueClass",
+      "title": "Last Value",
+      "memberId": 538
+    },
+    {
+      "const": "objectTypeEnumSet.reliabilityCheckClass",
+      "title": "Reliability Check Primitive",
+      "memberId": 539
+    },
+    {
+      "const": "objectTypeEnumSet.stateSelectionClass",
+      "title": "State Selection Primitive",
+      "memberId": 540
+    },
+    {
+      "const": "objectTypeEnumSet.fsmClass",
+      "title": "FSM Primitive",
+      "memberId": 541
+    },
+    {
+      "const": "objectTypeEnumSet.ecoSuitabilityClass",
+      "title": "Economizer Suitabili",
+      "memberId": 542
+    },
+    {
+      "const": "objectTypeEnumSet.commandHierarchyClass",
+      "title": "Command Hierarchy",
+      "memberId": 543
+    },
+    {
+      "const": "objectTypeEnumSet.downloadManagerClass",
+      "title": "Download Manager",
+      "memberId": 544
+    },
+    {
+      "const": "objectTypeEnumSet.downloadObjectClass",
+      "title": "Download Object",
+      "memberId": 545
+    },
+    {
+      "const": "objectTypeEnumSet.lineSegmentClass",
+      "title": "Line Segment Primitive",
+      "memberId": 546
+    },
+    {
+      "const": "objectTypeEnumSet.mceLoadTestClass",
+      "title": "MCE Load Test",
+      "memberId": 547
+    },
+    {
+      "const": "objectTypeEnumSet.elementClass",
+      "title": "Element Class",
+      "memberId": 548
+    },
+    {
+      "const": "objectTypeEnumSet.hwManagerClass",
+      "title": "HW Manager",
+      "memberId": 549
+    },
+    {
+      "const": "objectTypeEnumSet.packageClass",
+      "title": "Package",
+      "memberId": 550
+    },
+    {
+      "const": "objectTypeEnumSet.floatConstantClass",
+      "title": "Float Constant Primitive",
+      "memberId": 551
+    },
+    {
+      "const": "objectTypeEnumSet.booleanConstantClass",
+      "title": "Boolean Constant Primitive",
+      "memberId": 552
+    },
+    {
+      "const": "objectTypeEnumSet.fecHardwareManagerClass",
+      "title": "FEC Hardware Manager",
+      "memberId": 553
+    },
+    {
+      "const": "objectTypeEnumSet.fileClass",
+      "title": "File Class",
+      "memberId": 554
+    },
+    {
+      "const": "objectTypeEnumSet.controlPointClass",
+      "title": "Control Point Primitive",
+      "memberId": 555
+    },
+    {
+      "const": "objectTypeEnumSet.sensorClass",
+      "title": "Sensor Primitive",
+      "memberId": 556
+    },
+    {
+      "const": "objectTypeEnumSet.pmacClass",
+      "title": "PMAC Primitive",
+      "memberId": 557
+    },
+    {
+      "const": "objectTypeEnumSet.timer2Class",
+      "title": "Timer Primitive",
+      "memberId": 558
+    },
+    {
+      "const": "objectTypeEnumSet.boolean2Class",
+      "title": "Boolean Primitive",
+      "memberId": 559
+    },
+    {
+      "const": "objectTypeEnumSet.comparison2Class",
+      "title": "Comparison Primitive",
+      "memberId": 560
+    },
+    {
+      "const": "objectTypeEnumSet.math2Class",
+      "title": "Math Primitive",
+      "memberId": 561
+    },
+    {
+      "const": "objectTypeEnumSet.mux2Class",
+      "title": "Mux Primitive",
+      "memberId": 562
+    },
+    {
+      "const": "objectTypeEnumSet.abh2Class",
+      "title": "ABH Primitive",
+      "memberId": 563
+    },
+    {
+      "const": "objectTypeEnumSet.dp2Class",
+      "title": "DP Primitive",
+      "memberId": 564
+    },
+    {
+      "const": "objectTypeEnumSet.enth2Class",
+      "title": "ENTH Primitive",
+      "memberId": 565
+    },
+    {
+      "const": "objectTypeEnumSet.rh2Class",
+      "title": "RH Primitive",
+      "memberId": 566
+    },
+    {
+      "const": "objectTypeEnumSet.wb2Class",
+      "title": "WB Primitive",
+      "memberId": 567
+    },
+    {
+      "const": "objectTypeEnumSet.enumConstant2Class",
+      "title": "Enum Constant Primitive",
+      "memberId": 568
+    },
+    {
+      "const": "objectTypeEnumSet.rateLimiter2Class",
+      "title": "Rate Limiter Primitive",
+      "memberId": 569
+    },
+    {
+      "const": "objectTypeEnumSet.flow2Class",
+      "title": "Flow Primitive",
+      "memberId": 570
+    },
+    {
+      "const": "objectTypeEnumSet.sequencer2Class",
+      "title": "Sequencer Primitive",
+      "memberId": 571
+    },
+    {
+      "const": "objectTypeEnumSet.time2Class",
+      "title": "Time Primitive",
+      "memberId": 572
+    },
+    {
+      "const": "objectTypeEnumSet.span2Class",
+      "title": "Span Primitive",
+      "memberId": 573
+    },
+    {
+      "const": "objectTypeEnumSet.latch2Class",
+      "title": "Latch Primitive",
+      "memberId": 574
+    },
+    {
+      "const": "objectTypeEnumSet.sequenceClass",
+      "title": "Control Sequence",
+      "memberId": 575
+    },
+    {
+      "const": "objectTypeEnumSet.patmClass",
+      "title": "PATM Primitive",
+      "memberId": 576
+    },
+    {
+      "const": "objectTypeEnumSet.btcClass",
+      "title": "BTC",
+      "memberId": 577
+    },
+    {
+      "const": "objectTypeEnumSet.iomClass",
+      "title": "IOM",
+      "memberId": 578
+    },
+    {
+      "const": "objectTypeEnumSet.pmacPrepClass",
+      "title": "MSC Pre Processor Primitive",
+      "memberId": 579
+    },
+    {
+      "const": "objectTypeEnumSet.multistagectrlClass",
+      "title": "Multi-Stage Controller Primitive",
+      "memberId": 580
+    },
+    {
+      "const": "objectTypeEnumSet.freeCoolingClass",
+      "title": "Free Cooling Primitive",
+      "memberId": 581
+    },
+    {
+      "const": "objectTypeEnumSet.pidPreProcClass",
+      "title": "PID Pre Process",
+      "memberId": 582
+    },
+    {
+      "const": "objectTypeEnumSet.boconstructorClass",
+      "title": "BO Constructor",
+      "memberId": 583
+    },
+    {
+      "const": "objectTypeEnumSet.pvdcClass",
+      "title": "PVDC",
+      "memberId": 584
+    },
+    {
+      "const": "objectTypeEnumSet.stdsTblClass",
+      "title": "Standards Table Object",
+      "memberId": 585
+    },
+    {
+      "const": "objectTypeEnumSet.lmeTestObjectClass",
+      "title": "LME Test Object",
+      "memberId": 586
+    },
+    {
+      "const": "objectTypeEnumSet.statClass",
+      "title": "Statistic Primitive",
+      "memberId": 587
+    },
+    {
+      "const": "objectTypeEnumSet.ost2Class",
+      "title": "OST Primitive",
+      "memberId": 588
+    },
+    {
+      "const": "objectTypeEnumSet.rankCalcClass",
+      "title": "Rank Calc Primitive",
+      "memberId": 589
+    },
+    {
+      "const": "objectTypeEnumSet.mvoClass",
+      "title": "Multiple Value Output Primitive",
+      "memberId": 590
+    },
+    {
+      "const": "objectTypeEnumSet.totalizationClass",
+      "title": "Totalization Primitve",
+      "memberId": 591
+    },
+    {
+      "const": "objectTypeEnumSet.passthroughClass",
+      "title": "Pass Through Primitive",
+      "memberId": 592
+    },
+    {
+      "const": "objectTypeEnumSet.textClass",
+      "title": "Text Primitive",
+      "memberId": 593
+    },
+    {
+      "const": "objectTypeEnumSet.bsmClass",
+      "title": "Bounded Stepper Motor Output",
+      "memberId": 594
+    },
+    {
+      "const": "objectTypeEnumSet.exestatusClass",
+      "title": "Execution Status Primitive",
+      "memberId": 595
+    },
+    {
+      "const": "objectTypeEnumSet.remDevClass",
+      "title": "REM Dev",
+      "memberId": 597
+    },
+    {
+      "const": "objectTypeEnumSet.riomDevClass",
+      "title": "RIOM Dev",
+      "memberId": 598
+    },
+    {
+      "const": "objectTypeEnumSet.aiMapperClass",
+      "title": "AI Mapper",
+      "memberId": 599
+    },
+    {
+      "const": "objectTypeEnumSet.aoMapperClass",
+      "title": "AO Mapper",
+      "memberId": 600
+    },
+    {
+      "const": "objectTypeEnumSet.avMapperClass",
+      "title": "AV Mapper",
+      "memberId": 601
+    },
+    {
+      "const": "objectTypeEnumSet.biMapperClass",
+      "title": "BI Mapper",
+      "memberId": 602
+    },
+    {
+      "const": "objectTypeEnumSet.boMapperClass",
+      "title": "BO Mapper",
+      "memberId": 603
+    },
+    {
+      "const": "objectTypeEnumSet.bvMapperClass",
+      "title": "BV Mapper",
+      "memberId": 604
+    },
+    {
+      "const": "objectTypeEnumSet.msiMapperClass",
+      "title": "MSI Mapper",
+      "memberId": 605
+    },
+    {
+      "const": "objectTypeEnumSet.msvMapperClass",
+      "title": "MSV Mapper",
+      "memberId": 606
+    },
+    {
+      "const": "objectTypeEnumSet.commandMapperClass",
+      "title": "COMMAND Mapper",
+      "memberId": 607
+    },
+    {
+      "const": "objectTypeEnumSet.pcMapperClass",
+      "title": "MS/TP Pulse Counter",
+      "memberId": 608
+    },
+    {
+      "const": "objectTypeEnumSet.psClass",
+      "title": "Persistent Storage",
+      "memberId": 609
+    },
+    {
+      "const": "objectTypeEnumSet.pcNaeClass",
+      "title": "NAE85-LCS85-NIE89",
+      "memberId": 610
+    },
+    {
+      "const": "objectTypeEnumSet.pcNieClass",
+      "title": "NIE85",
+      "memberId": 611
+    },
+    {
+      "const": "objectTypeEnumSet.boxflowtestClass",
+      "title": "Box Flow Test",
+      "memberId": 612
+    },
+    {
+      "const": "objectTypeEnumSet.nae35Class",
+      "title": "NAE35-NIE39",
+      "memberId": 613
+    },
+    {
+      "const": "objectTypeEnumSet.reliabilityMergeClass",
+      "title": "Reliability Merge Primitive",
+      "memberId": 614
+    },
+    {
+      "const": "objectTypeEnumSet.bluetoothDlClass",
+      "title": "Bluetooth Datalink Object",
+      "memberId": 615
+    },
+    {
+      "const": "objectTypeEnumSet.testvalueClass",
+      "title": "Test Value Primitive",
+      "memberId": 616
+    },
+    {
+      "const": "objectTypeEnumSet.intrusionAreaClass",
+      "title": "Intrusion Area",
+      "memberId": 617
+    },
+    {
+      "const": "objectTypeEnumSet.intrusionZoneClass",
+      "title": "Intrusion Zone",
+      "memberId": 618
+    },
+    {
+      "const": "objectTypeEnumSet.intrusionAnnunciatorClass",
+      "title": "Intrusion Annunciator",
+      "memberId": 619
+    },
+    {
+      "const": "objectTypeEnumSet.intrusionKeypadDisplayClass",
+      "title": "Intrusion Keypad Display",
+      "memberId": 620
+    },
+    {
+      "const": "objectTypeEnumSet.antiPassbackClass",
+      "title": "Anti-Passback",
+      "memberId": 621
+    },
+    {
+      "const": "objectTypeEnumSet.occupancyClass",
+      "title": "Occupancy",
+      "memberId": 622
+    },
+    {
+      "const": "objectTypeEnumSet.antiLoiteringClass",
+      "title": "Anti-Loitering",
+      "memberId": 623
+    },
+    {
+      "const": "objectTypeEnumSet.s300TrunkClass",
+      "title": "S300 Trunk",
+      "memberId": 624
+    },
+    {
+      "const": "objectTypeEnumSet.s300HwModuleClass",
+      "title": "S300 Hardware Module",
+      "memberId": 625
+    },
+    {
+      "const": "objectTypeEnumSet.s300ReaderTerminalClass",
+      "title": "S300 Reader Terminal",
+      "memberId": 626
+    },
+    {
+      "const": "objectTypeEnumSet.nsdDevClass",
+      "title": "Net Sensor Device",
+      "memberId": 627
+    },
+    {
+      "const": "objectTypeEnumSet.nsAiClass",
+      "title": "Net Sensor AI",
+      "memberId": 628
+    },
+    {
+      "const": "objectTypeEnumSet.templateClass",
+      "title": "Template",
+      "memberId": 629
+    },
+    {
+      "const": "objectTypeEnumSet.templatesFolderClass",
+      "title": "Templates Folder",
+      "memberId": 630
+    },
+    {
+      "const": "objectTypeEnumSet.vavBalancerClass",
+      "title": "Vav Balancer",
+      "memberId": 631
+    },
+    {
+      "const": "objectTypeEnumSet.vsdDevClass",
+      "title": "Variable Speed Drive",
+      "memberId": 632
+    },
+    {
+      "const": "objectTypeEnumSet.standardDualDuctEndpointCalculationClass",
+      "title": "Standard Dual Duct Endpoint Calculation",
+      "memberId": 633
+    },
+    {
+      "const": "objectTypeEnumSet.addressClass",
+      "title": "Address",
+      "memberId": 634
+    },
+    {
+      "const": "objectTypeEnumSet.bdsoClass",
+      "title": "BDSO",
+      "memberId": 635
+    },
+    {
+      "const": "objectTypeEnumSet.cctSimDeviceClass",
+      "title": "CCT Simulation Device",
+      "memberId": 636
+    },
+    {
+      "const": "objectTypeEnumSet.controllerEventClass",
+      "title": "Controller Event",
+      "memberId": 637
+    },
+    {
+      "const": "objectTypeEnumSet.ethernetPortRedundancyClass",
+      "title": "Ethernet Port Redundancy",
+      "memberId": 638
+    },
+    {
+      "const": "objectTypeEnumSet.deliveryClass",
+      "title": "Delivery",
+      "memberId": 639
+    },
+    {
+      "const": "objectTypeEnumSet.rddevClass",
+      "title": "RDDEV",
+      "memberId": 640
+    },
+    {
+      "const": "objectTypeEnumSet.bifedClass",
+      "title": "BI FED",
+      "memberId": 641
+    },
+    {
+      "const": "objectTypeEnumSet.aofedClass",
+      "title": "AO FED",
+      "memberId": 642
+    },
+    {
+      "const": "objectTypeEnumSet.bofedClass",
+      "title": "BO FED",
+      "memberId": 643
+    },
+    {
+      "const": "objectTypeEnumSet.aifedClass",
+      "title": "AI FED",
+      "memberId": 644
+    },
+    {
+      "const": "objectTypeEnumSet.avfedClass",
+      "title": "AV FED",
+      "memberId": 645
+    },
+    {
+      "const": "objectTypeEnumSet.bvfedClass",
+      "title": "BV FED",
+      "memberId": 646
+    },
+    {
+      "const": "objectTypeEnumSet.mvfedClass",
+      "title": "MV FED",
+      "memberId": 647
+    },
+    {
+      "const": "objectTypeEnumSet.devHostClass",
+      "title": "DEV HOST",
+      "memberId": 648
+    },
+    {
+      "const": "objectTypeEnumSet.fedClass",
+      "title": "FED",
+      "memberId": 649
+    },
+    {
+      "const": "objectTypeEnumSet.cifedClass",
+      "title": "CI FED",
+      "memberId": 650
+    },
+    {
+      "const": "objectTypeEnumSet.nce25Class",
+      "title": "NCE25-NIE29",
+      "memberId": 651
+    },
+    {
+      "const": "objectTypeEnumSet.cabinetClass",
+      "title": "Cabinet",
+      "memberId": 652
+    },
+    {
+      "const": "objectTypeEnumSet.elevatorClass",
+      "title": "Elevator",
+      "memberId": 653
+    },
+    {
+      "const": "objectTypeEnumSet.koneIntegrationClass",
+      "title": "KONE Integration",
+      "memberId": 654
+    },
+    {
+      "const": "objectTypeEnumSet.koneControllerClass",
+      "title": "KONE Controller",
+      "memberId": 655
+    },
+    {
+      "const": "objectTypeEnumSet.otisIntegrationClass",
+      "title": "Otis Integration",
+      "memberId": 656
+    },
+    {
+      "const": "objectTypeEnumSet.otisControllerClass",
+      "title": "Otis Controller",
+      "memberId": 657
+    },
+    {
+      "const": "objectTypeEnumSet.analogLoadClass",
+      "title": "Analog Load",
+      "memberId": 658
+    },
+    {
+      "const": "objectTypeEnumSet.binaryLoadClass",
+      "title": "Binary Load",
+      "memberId": 659
+    },
+    {
+      "const": "objectTypeEnumSet.multistateLoadClass",
+      "title": "Multistate Load",
+      "memberId": 660
+    },
+    {
+      "const": "objectTypeEnumSet.subscriptionClientClass",
+      "title": "Subscription Client",
+      "memberId": 661
+    },
+    {
+      "const": "objectTypeEnumSet.zstackDlClass",
+      "title": "Zstack Dl",
+      "memberId": 662
+    },
+    {
+      "const": "objectTypeEnumSet.koneIpControllerClass",
+      "title": "KONE IP Controller",
+      "memberId": 663
+    },
+    {
+      "const": "objectTypeEnumSet.koneIpIntegrationClass",
+      "title": "KONE IP Integration",
+      "memberId": 664
+    },
+    {
+      "const": "objectTypeEnumSet.commonElevatorClass",
+      "title": "Common Elevator",
+      "memberId": 665
+    },
+    {
+      "const": "objectTypeEnumSet.koneElevatorClass",
+      "title": "KONE Elevator",
+      "memberId": 666
+    },
+    {
+      "const": "objectTypeEnumSet.otisElevatorClass",
+      "title": "Otis Elevator",
+      "memberId": 667
+    },
+    {
+      "const": "objectTypeEnumSet.koneIpCopClass",
+      "title": "KONE IP COP",
+      "memberId": 668
+    },
+    {
+      "const": "objectTypeEnumSet.koneIpDopClass",
+      "title": "KONE IP DOP",
+      "memberId": 669
+    },
+    {
+      "const": "objectTypeEnumSet.rioDevClass",
+      "title": "RIO DEV",
+      "memberId": 670
+    },
+    {
+      "const": "objectTypeEnumSet.raiClass",
+      "title": "RAI",
+      "memberId": 671
+    },
+    {
+      "const": "objectTypeEnumSet.raoClass",
+      "title": "RAO",
+      "memberId": 672
+    },
+    {
+      "const": "objectTypeEnumSet.rbiClass",
+      "title": "RBI",
+      "memberId": 673
+    },
+    {
+      "const": "objectTypeEnumSet.rboClass",
+      "title": "RBO",
+      "memberId": 674
+    },
+    {
+      "const": "objectTypeEnumSet.zigbeeDlClass",
+      "title": "ZigBee Datalink",
+      "memberId": 675
+    },
+    {
+      "const": "objectTypeEnumSet.metasysMstpClass",
+      "title": "Metasys MS/TP",
+      "memberId": 676
+    },
+    {
+      "const": "objectTypeEnumSet.averagingClass",
+      "title": "JCI Averaging",
+      "memberId": 677
+    },
+    {
+      "const": "objectTypeEnumSet.sicsCoordinatorClass",
+      "title": "SICS Coordinator",
+      "memberId": 678
+    },
+    {
+      "const": "objectTypeEnumSet.sicsZoneControllerClass",
+      "title": "SICS Zone Controller",
+      "memberId": 679
+    },
+    {
+      "const": "objectTypeEnumSet.sicsRemCoordClass",
+      "title": "SICS Remote Coordinator",
+      "memberId": 680
+    },
+    {
+      "const": "objectTypeEnumSet.sicsRemZoneCtrlerClass",
+      "title": "SICS Remote Zone Controller",
+      "memberId": 681
+    },
+    {
+      "const": "objectTypeEnumSet.sicsGroupClass",
+      "title": "SICS Group",
+      "memberId": 682
+    },
+    {
+      "const": "objectTypeEnumSet.sicsRemGroupClass",
+      "title": "SICS Remote Group",
+      "memberId": 683
+    },
+    {
+      "const": "objectTypeEnumSet.sicsCvRtuClass",
+      "title": "SICS CV RTU",
+      "memberId": 684
+    },
+    {
+      "const": "objectTypeEnumSet.sicsRemRtuClass",
+      "title": "SICS Remote Roof Top Unit",
+      "memberId": 685
+    },
+    {
+      "const": "objectTypeEnumSet.modbusClass",
+      "title": "MODBUS",
+      "memberId": 686
+    },
+    {
+      "const": "objectTypeEnumSet.modbusDevClass",
+      "title": "MODBUS DEV",
+      "memberId": 687
+    },
+    {
+      "const": "objectTypeEnumSet.modbusAiClass",
+      "title": "MODBUS AI",
+      "memberId": 688
+    },
+    {
+      "const": "objectTypeEnumSet.modbusAoClass",
+      "title": "MODBUS AO",
+      "memberId": 689
+    },
+    {
+      "const": "objectTypeEnumSet.modbusBiClass",
+      "title": "MODBUS BI",
+      "memberId": 690
+    },
+    {
+      "const": "objectTypeEnumSet.modbusBoClass",
+      "title": "MODBUS BO",
+      "memberId": 691
+    },
+    {
+      "const": "objectTypeEnumSet.modbusStringClass",
+      "title": "MODBUS STRING",
+      "memberId": 692
+    },
+    {
+      "const": "objectTypeEnumSet.sicsAlarmManagerClass",
+      "title": "SICS Alarm Manager",
+      "memberId": 693
+    },
+    {
+      "const": "objectTypeEnumSet.soTestClass",
+      "title": "Test",
+      "memberId": 694
+    },
+    {
+      "const": "objectTypeEnumSet.sicsBalancerModeClass",
+      "title": "SICS Balancer Mode",
+      "memberId": 695
+    },
+    {
+      "const": "objectTypeEnumSet.sicsDuctStaticSpResetClass",
+      "title": "SICS Duct Static SP Reset",
+      "memberId": 696
+    },
+    {
+      "const": "objectTypeEnumSet.sicsUnoccHtgClgDetClass",
+      "title": "SICS Unocc Htg Clg Determination",
+      "memberId": 697
+    },
+    {
+      "const": "objectTypeEnumSet.sicsDatSpResetClass",
+      "title": "SICS DAT SP Reset",
+      "memberId": 698
+    },
+    {
+      "const": "objectTypeEnumSet.sdClass",
+      "title": "Summary Definition",
+      "memberId": 699
+    },
+    {
+      "const": "objectTypeEnumSet.devIntegClass",
+      "title": "Device Integration",
+      "memberId": 700
+    },
+    {
+      "const": "objectTypeEnumSet.devEnableDetClass",
+      "title": "Device Enable Determination Class",
+      "memberId": 701
+    },
+    {
+      "const": "objectTypeEnumSet.equipmentInterlockClass",
+      "title": "Equipment Interlock Class",
+      "memberId": 702
+    },
+    {
+      "const": "objectTypeEnumSet.chlrSelStubClass",
+      "title": "Chiller Selector Stub Class",
+      "memberId": 703
+    },
+    {
+      "const": "objectTypeEnumSet.deviceAlarmClass",
+      "title": "Device Alarm Class",
+      "memberId": 704
+    },
+    {
+      "const": "objectTypeEnumSet.capacityCalculationClass",
+      "title": "Capacity Calculation Class",
+      "memberId": 705
+    },
+    {
+      "const": "objectTypeEnumSet.loadCalculatorClass",
+      "title": "Load Calculator Class",
+      "memberId": 706
+    },
+    {
+      "const": "objectTypeEnumSet.blockingProtectionClass",
+      "title": "Blocking Protection Class",
+      "memberId": 707
+    },
+    {
+      "const": "objectTypeEnumSet.pumpSelectorClass",
+      "title": "Pump Selector Class",
+      "memberId": 708
+    },
+    {
+      "const": "objectTypeEnumSet.chillerSelectorClass",
+      "title": "Chiller Selector Class",
+      "memberId": 709
+    },
+    {
+      "const": "objectTypeEnumSet.boschD9068IntegrationClass",
+      "title": "Bosch D9068 Integration",
+      "memberId": 710
+    },
+    {
+      "const": "objectTypeEnumSet.boschD9068DactClass",
+      "title": "Bosch D9068 DACT",
+      "memberId": 711
+    },
+    {
+      "const": "objectTypeEnumSet.intrusionAccountClass",
+      "title": "Intrusion Account",
+      "memberId": 712
+    },
+    {
+      "const": "objectTypeEnumSet.contactIdMessageIzClass",
+      "title": "Contact ID Message IZ",
+      "memberId": 713
+    },
+    {
+      "const": "objectTypeEnumSet.contactIdMessageIaClass",
+      "title": "Contact ID Message IA",
+      "memberId": 714
+    },
+    {
+      "const": "objectTypeEnumSet.analogOverrideCheckClass",
+      "title": "Analog Override Check",
+      "memberId": 715
+    },
+    {
+      "const": "objectTypeEnumSet.binaryOverrideCheckClass",
+      "title": "Binary Override Check",
+      "memberId": 716
+    },
+    {
+      "const": "objectTypeEnumSet.xamlGraphicClass",
+      "title": "XAML Graphic",
+      "memberId": 717
+    },
+    {
+      "const": "objectTypeEnumSet.metasysIoServiceClass",
+      "title": "Metasys IO Service",
+      "memberId": 718
+    },
+    {
+      "const": "objectTypeEnumSet.covCollectorClass",
+      "title": "COV Collector",
+      "memberId": 719
+    },
+    {
+      "const": "objectTypeEnumSet.discoveryClass",
+      "title": "Discovery",
+      "memberId": 720
+    },
+    {
+      "const": "objectTypeEnumSet.leadCompensatorClass",
+      "title": "Lead Compensator",
+      "memberId": 721
+    },
+    {
+      "const": "objectTypeEnumSet.sicsTecClass",
+      "title": "SICS TEC",
+      "memberId": 722
+    },
+    {
+      "const": "objectTypeEnumSet.sicsInterlockClass",
+      "title": "SICS Interlock",
+      "memberId": 723
+    },
+    {
+      "const": "objectTypeEnumSet.noolctcClass",
+      "title": "Near Optimal Open Loop Cooling Tower Control",
+      "memberId": 724
+    },
+    {
+      "const": "objectTypeEnumSet.cecOv2PlatformDeviceClass",
+      "title": "CEC OV2 CEC Platform Device",
+      "memberId": 725
+    },
+    {
+      "const": "objectTypeEnumSet.cecAuditMgrClass",
+      "title": "CEC Audit Manager",
+      "memberId": 726
+    },
+    {
+      "const": "objectTypeEnumSet.cecFaultMgrClass",
+      "title": "CEC Fault Manager",
+      "memberId": 727
+    },
+    {
+      "const": "objectTypeEnumSet.cecLoginMgrClass",
+      "title": "CEC Authentication Manager (Login)",
+      "memberId": 728
+    },
+    {
+      "const": "objectTypeEnumSet.cecUserClass",
+      "title": "CEC User",
+      "memberId": 729
+    },
+    {
+      "const": "objectTypeEnumSet.cecSimpleAvClass",
+      "title": "CEC Simple Analog Value",
+      "memberId": 730
+    },
+    {
+      "const": "objectTypeEnumSet.cecSimpleBvClass",
+      "title": "CEC Simple Binary Value",
+      "memberId": 731
+    },
+    {
+      "const": "objectTypeEnumSet.cecSimpleMvClass",
+      "title": "CEC Simple Multi-state Value",
+      "memberId": 732
+    },
+    {
+      "const": "objectTypeEnumSet.cecTrendViewClass",
+      "title": "CEC Trend View Object",
+      "memberId": 733
+    },
+    {
+      "const": "objectTypeEnumSet.cecTrendSupportClass",
+      "title": "CEC Trend Support",
+      "memberId": 734
+    },
+    {
+      "const": "objectTypeEnumSet.cecCappClass",
+      "title": "CEC Control Application",
+      "memberId": 735
+    },
+    {
+      "const": "objectTypeEnumSet.cecHwCheckoutClass",
+      "title": "CEC Hardware Checkout",
+      "memberId": 736
+    },
+    {
+      "const": "objectTypeEnumSet.cecLtcIoClass",
+      "title": "CEC Remote LTC IO",
+      "memberId": 737
+    },
+    {
+      "const": "objectTypeEnumSet.cecVsdClass",
+      "title": "CEC Remote VSD",
+      "memberId": 738
+    },
+    {
+      "const": "objectTypeEnumSet.cecSssClass",
+      "title": "CEC Remote SSS",
+      "memberId": 739
+    },
+    {
+      "const": "objectTypeEnumSet.cecDcmClass",
+      "title": "CEC Remote DCM",
+      "memberId": 740
+    },
+    {
+      "const": "objectTypeEnumSet.cecMmbClass",
+      "title": "CEC Remote MMB",
+      "memberId": 741
+    },
+    {
+      "const": "objectTypeEnumSet.cecDatalogClass",
+      "title": "CEC Datalog Diagnostic",
+      "memberId": 742
+    },
+    {
+      "const": "objectTypeEnumSet.cecEnergyCalcClass",
+      "title": "CEC Energy Calculation",
+      "memberId": 743
+    },
+    {
+      "const": "objectTypeEnumSet.sicsDcvMinPosResetClass",
+      "title": "SICS DCV Min Pos Reset",
+      "memberId": 744
+    },
+    {
+      "const": "objectTypeEnumSet.towerSelectorClass",
+      "title": "Tower Selector",
+      "memberId": 745
+    },
+    {
+      "const": "objectTypeEnumSet.cecHwMgrClass",
+      "title": "CEC Hardware Manager",
+      "memberId": 746
+    },
+    {
+      "const": "objectTypeEnumSet.cecRemoteIoDatalinkClass",
+      "title": "CEC Remote IO Datalink",
+      "memberId": 747
+    },
+    {
+      "const": "objectTypeEnumSet.mmsInterfaceClass",
+      "title": "MMS Interface",
+      "memberId": 748
+    },
+    {
+      "const": "objectTypeEnumSet.accessCtrlMgrClass",
+      "title": "Access Control Manager",
+      "memberId": 749
+    },
+    {
+      "const": "objectTypeEnumSet.cecDiagnosticLoggerProducerClass",
+      "title": "CEC Diagnostic Logger Producer",
+      "memberId": 750
+    },
+    {
+      "const": "objectTypeEnumSet.nae451LClass",
+      "title": "NAE451L",
+      "memberId": 751
+    },
+    {
+      "const": "objectTypeEnumSet.adsLEClass",
+      "title": "ADS-L-E",
+      "memberId": 752
+    },
+    {
+      "const": "objectTypeEnumSet.adsLAClass",
+      "title": "ADS-L-A",
+      "memberId": 753
+    },
+    {
+      "const": "objectTypeEnumSet.aperioTrunkClass",
+      "title": "Aperio Trunk",
+      "memberId": 754
+    },
+    {
+      "const": "objectTypeEnumSet.aperioDeviceClass",
+      "title": "Aperio Device",
+      "memberId": 755
+    },
+    {
+      "const": "objectTypeEnumSet.aperioReaderTerminalClass",
+      "title": "Aperio Reader Terminal",
+      "memberId": 756
+    },
+    {
+      "const": "objectTypeEnumSet.lmeTestClass",
+      "title": "LME Test Primitive",
+      "memberId": 757
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetTrendLogExtClass",
+      "title": "BACnet Trend Log Extension",
+      "memberId": 758
+    },
+    {
+      "const": "objectTypeEnumSet.cecEventManagerClass",
+      "title": "CEC Event Manager Class",
+      "memberId": 759
+    },
+    {
+      "const": "objectTypeEnumSet.trendMapperClass",
+      "title": "Trend Mapper",
+      "memberId": 760
+    },
+    {
+      "const": "objectTypeEnumSet.scheduleMapperClass",
+      "title": "Schedule Mapper",
+      "memberId": 761
+    },
+    {
+      "const": "objectTypeEnumSet.calendarMapperClass",
+      "title": "Calendar Mapper",
+      "memberId": 762
+    },
+    {
+      "const": "objectTypeEnumSet.notificationClassMapperClass",
+      "title": "Notification Class Mapper",
+      "memberId": 763
+    },
+    {
+      "const": "objectTypeEnumSet.cecSecurityObjectClass",
+      "title": "Security Object Class",
+      "memberId": 764
+    },
+    {
+      "const": "objectTypeEnumSet.isExtensionClass",
+      "title": "IS Extension Class",
+      "memberId": 765
+    },
+    {
+      "const": "objectTypeEnumSet.globalDataMapperClass",
+      "title": "Global Data Mapper",
+      "memberId": 766
+    },
+    {
+      "const": "objectTypeEnumSet.eventRouterClass",
+      "title": "Event Router",
+      "memberId": 767
+    },
+    {
+      "const": "objectTypeEnumSet.heatExchangerSelectorClass",
+      "title": "Heat Exchanger Selector Class",
+      "memberId": 768
+    },
+    {
+      "const": "objectTypeEnumSet.odsClass",
+      "title": "ODS",
+      "memberId": 769
+    },
+    {
+      "const": "objectTypeEnumSet.filterClass",
+      "title": "Filter",
+      "memberId": 770
+    },
+    {
+      "const": "objectTypeEnumSet.remoteIoDatalinkClass",
+      "title": "Remote IO Datalink",
+      "memberId": 771
+    },
+    {
+      "const": "objectTypeEnumSet.cecMvvsdClass",
+      "title": "CEC MVVSD",
+      "memberId": 772
+    },
+    {
+      "const": "objectTypeEnumSet.cecMvsssClass",
+      "title": "CEC MVSSS",
+      "memberId": 773
+    },
+    {
+      "const": "objectTypeEnumSet.secClass",
+      "title": "SEC Class",
+      "memberId": 774
+    },
+    {
+      "const": "objectTypeEnumSet.cecFileTransferClass",
+      "title": "File Transfer Class",
+      "memberId": 775
+    },
+    {
+      "const": "objectTypeEnumSet.expressionClass",
+      "title": "Expression Class",
+      "memberId": 776
+    },
+    {
+      "const": "objectTypeEnumSet.cecRaptyrClass",
+      "title": "CEC Raptyr Class",
+      "memberId": 777
+    },
+    {
+      "const": "objectTypeEnumSet.sharedCntlrDeviceClass",
+      "title": "Shared Controller Device Class",
+      "memberId": 778
+    },
+    {
+      "const": "objectTypeEnumSet.faultManagerClass",
+      "title": "Fault Manager Class",
+      "memberId": 779
+    },
+    {
+      "const": "objectTypeEnumSet.enterpriseConnectionClass",
+      "title": "Remote Services Connection",
+      "memberId": 780
+    },
+    {
+      "const": "objectTypeEnumSet.economizerEnableClass",
+      "title": "Economizer Enable",
+      "memberId": 781
+    },
+    {
+      "const": "objectTypeEnumSet.defrostClass",
+      "title": "Defrost Class",
+      "memberId": 782
+    },
+    {
+      "const": "objectTypeEnumSet.minSetpointDiffClass",
+      "title": "Min Setpoint Diff Class",
+      "memberId": 783
+    },
+    {
+      "const": "objectTypeEnumSet.secEventsClass",
+      "title": "SEC Events",
+      "memberId": 784
+    },
+    {
+      "const": "objectTypeEnumSet.effectiveInputClass",
+      "title": "Effective Input Class",
+      "memberId": 785
+    },
+    {
+      "const": "objectTypeEnumSet.fdsiClass",
+      "title": "FDSI",
+      "memberId": 786
+    },
+    {
+      "const": "objectTypeEnumSet.provisionManagerClass",
+      "title": "Provision Manager",
+      "memberId": 787
+    },
+    {
+      "const": "objectTypeEnumSet.eiomClass",
+      "title": "Expansion IO Monitor",
+      "memberId": 788
+    },
+    {
+      "const": "objectTypeEnumSet.secTestClass",
+      "title": "SEC Test Class",
+      "memberId": 789
+    },
+    {
+      "const": "objectTypeEnumSet.netsensorPlugAndPlayClass",
+      "title": "Net Sensor Plug And Play",
+      "memberId": 790
+    },
+    {
+      "const": "objectTypeEnumSet.netactDevClass",
+      "title": "Net Actuator Device",
+      "memberId": 791
+    },
+    {
+      "const": "objectTypeEnumSet.equipmentClass",
+      "title": "Equipment Model",
+      "memberId": 792
+    },
+    {
+      "const": "objectTypeEnumSet.dataModelTestClass",
+      "title": "Data Model Test",
+      "memberId": 793
+    },
+    {
+      "const": "objectTypeEnumSet.mtgClass",
+      "title": "MAP Gateway",
+      "memberId": 794
+    },
+    {
+      "const": "objectTypeEnumSet.eventGeneratorClass",
+      "title": "Event Generator",
+      "memberId": 795
+    },
+    {
+      "const": "objectTypeEnumSet.fieldDeviceDiscoverClass",
+      "title": "Field Device Discover Class",
+      "memberId": 796
+    },
+    {
+      "const": "objectTypeEnumSet.occupancyStartClass",
+      "title": "Occupancy Start",
+      "memberId": 797
+    },
+    {
+      "const": "objectTypeEnumSet.globalSequencerClass",
+      "title": "Global Sequencer",
+      "memberId": 798
+    },
+    {
+      "const": "objectTypeEnumSet.exportTrendClass",
+      "title": "Export Trend Class",
+      "memberId": 799
+    },
+    {
+      "const": "objectTypeEnumSet.buadrateSupervisorClass",
+      "title": "Baudrate Supervisor",
+      "memberId": 800
+    },
+    {
+      "const": "objectTypeEnumSet.duplicateMacAddrHandlerClass",
+      "title": "Duplicate MAC Address Handler",
+      "memberId": 801
+    },
+    {
+      "const": "objectTypeEnumSet.seRtuStatusDeterminationClass",
+      "title": "SE RTU Status Determination Class",
+      "memberId": 802
+    },
+    {
+      "const": "objectTypeEnumSet.sicsCvRtuSeClass",
+      "title": "SICS Smart Equip CV RTU",
+      "memberId": 803
+    },
+    {
+      "const": "objectTypeEnumSet.sicsCoordinatorSeClass",
+      "title": "SICS Smart Equip Coordinator",
+      "memberId": 804
+    },
+    {
+      "const": "objectTypeEnumSet.legacyEquipmentClass",
+      "title": "Equipment",
+      "memberId": 805
+    },
+    {
+      "const": "objectTypeEnumSet.spaceClass",
+      "title": "Space",
+      "memberId": 806
+    },
+    {
+      "const": "objectTypeEnumSet.equipmentDefinitionClass",
+      "title": "Equipment Definition",
+      "memberId": 807
+    },
+    {
+      "const": "objectTypeEnumSet.pollMapperClass",
+      "title": "Poll Mapper",
+      "memberId": 808
+    },
+    {
+      "const": "objectTypeEnumSet.eiodiDloClass",
+      "title": "Extended IO Datalink Class",
+      "memberId": 809
+    },
+    {
+      "const": "objectTypeEnumSet.mappingDbClass",
+      "title": "Mapping DB Class",
+      "memberId": 810
+    },
+    {
+      "const": "objectTypeEnumSet.timezoneInfoDbClass",
+      "title": "Time Zone Info DB Class",
+      "memberId": 811
+    },
+    {
+      "const": "objectTypeEnumSet.deviceIdClass",
+      "title": "Device Identification Class",
+      "memberId": 812
+    },
+    {
+      "const": "objectTypeEnumSet.secProvisionManagerClass",
+      "title": "SEC Provision Manager",
+      "memberId": 813
+    },
+    {
+      "const": "objectTypeEnumSet.tecProvisionManagerClass",
+      "title": "TEC Provision Manager",
+      "memberId": 814
+    },
+    {
+      "const": "objectTypeEnumSet.osInfoClass",
+      "title": "Operating System Info Class",
+      "memberId": 815
+    },
+    {
+      "const": "objectTypeEnumSet.dictionaryClass",
+      "title": "Dictionary Class",
+      "memberId": 816
+    },
+    {
+      "const": "objectTypeEnumSet.secSharedDevClass",
+      "title": "Smart Equipment Shared Device Class",
+      "memberId": 817
+    },
+    {
+      "const": "objectTypeEnumSet.uiMgrClass",
+      "title": "UI Manager Class",
+      "memberId": 818
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetBitstringValueClass",
+      "title": "BACnet Bitstring Value",
+      "memberId": 819
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetCharacterstringValueClass",
+      "title": "BACnet Character String Value",
+      "memberId": 820
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetDatePatternValueClass",
+      "title": "BACnet Date Pattern Value",
+      "memberId": 821
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetDateValueClass",
+      "title": "BACnet Date Value",
+      "memberId": 822
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetDatetimePatternValueClass",
+      "title": "BACnet Datetime Pattern Value",
+      "memberId": 823
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetDatetimeValueClass",
+      "title": "BACnet Datetime Value",
+      "memberId": 824
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetIntegerValueClass",
+      "title": "BACnet Integer Value",
+      "memberId": 825
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetLargeAnalogValueClass",
+      "title": "BACnet Large Analog Value",
+      "memberId": 826
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetOctetstringValueClass",
+      "title": "BACnet Octetstring Value",
+      "memberId": 827
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetPositiveIntegerValueClass",
+      "title": "BACnet Positive Integer Value",
+      "memberId": 828
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetTimePatternValueClass",
+      "title": "BACnet Time Pattern Value",
+      "memberId": 829
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetTimeValueClass",
+      "title": "BACnet Time Value",
+      "memberId": 830
+    },
+    {
+      "const": "objectTypeEnumSet.resetMonitorClass",
+      "title": "Reset Monitor Class",
+      "memberId": 831
+    },
+    {
+      "const": "objectTypeEnumSet.equipPortMappingDbClass",
+      "title": "Equipment Port Mapping Info Class",
+      "memberId": 832
+    },
+    {
+      "const": "objectTypeEnumSet.basPortMappingDbClass",
+      "title": "BAS Port Mapping Info Class",
+      "memberId": 833
+    },
+    {
+      "const": "objectTypeEnumSet.intTempRiseCompClass",
+      "title": "Internal Temperature Rise Compensation Class",
+      "memberId": 834
+    },
+    {
+      "const": "objectTypeEnumSet.autoConfigCommsMngrClass",
+      "title": "Auto Configure Comms Manager Class",
+      "memberId": 835
+    },
+    {
+      "const": "objectTypeEnumSet.n2SubordinateAutoConfigClass",
+      "title": "N2 Subordinate Auto Configure Class",
+      "memberId": 836
+    },
+    {
+      "const": "objectTypeEnumSet.modbusSubordinateAutoConfigClass",
+      "title": "Modbus Subordinate Auto Configure Class",
+      "memberId": 837
+    },
+    {
+      "const": "objectTypeEnumSet.mstpManagerAutoConfigClass",
+      "title": "MSTP Manager Auto Configure Class",
+      "memberId": 838
+    },
+    {
+      "const": "objectTypeEnumSet.yorktalkManagerDatalinkClass",
+      "title": "YorkTalk Manager Datalink Class",
+      "memberId": 839
+    },
+    {
+      "const": "objectTypeEnumSet.availabilityDeterminationClass",
+      "title": "Availability Determination Class",
+      "memberId": 840
+    },
+    {
+      "const": "objectTypeEnumSet.simpleSvClass",
+      "title": "Simple String Value Class",
+      "memberId": 841
+    },
+    {
+      "const": "objectTypeEnumSet.modbusManagerDatalinkClass",
+      "title": "Modbus Manager Datalink Class",
+      "memberId": 842
+    },
+    {
+      "const": "objectTypeEnumSet.taskPersistClass",
+      "title": "Task Persist",
+      "memberId": 843
+    },
+    {
+      "const": "objectTypeEnumSet.facilityGraphicClass",
+      "title": "Facility Graphic",
+      "memberId": 844
+    },
+    {
+      "const": "objectTypeEnumSet.networkOverrideClass",
+      "title": "Network Override",
+      "memberId": 845
+    },
+    {
+      "const": "objectTypeEnumSet.matlabAppClass",
+      "title": "Matlab Application Class",
+      "memberId": 846
+    },
+    {
+      "const": "objectTypeEnumSet.internalResourceFileClass",
+      "title": "Internal Resource File",
+      "memberId": 847
+    },
+    {
+      "const": "objectTypeEnumSet.nsdDetectClass",
+      "title": "Netsensor Device Detect",
+      "memberId": 848
+    },
+    {
+      "const": "objectTypeEnumSet.verasysZoneCoordinatorClass",
+      "title": "Verasys Zone Coordinator",
+      "memberId": 849
+    },
+    {
+      "const": "objectTypeEnumSet.verasysZoneControllerClass",
+      "title": "Verasys Zone Controller",
+      "memberId": 850
+    },
+    {
+      "const": "objectTypeEnumSet.verasysBypassDamperClass",
+      "title": "Verasys Bypass Damper",
+      "memberId": 851
+    },
+    {
+      "const": "objectTypeEnumSet.verasysRtuClass",
+      "title": "Verasys RTU",
+      "memberId": 852
+    },
+    {
+      "const": "objectTypeEnumSet.detectorClass",
+      "title": "Detector",
+      "memberId": 853
+    },
+    {
+      "const": "objectTypeEnumSet.sicsOccDetClass",
+      "title": "Occupancy Determination",
+      "memberId": 854
+    },
+    {
+      "const": "objectTypeEnumSet.sicsShutdownEnableClass",
+      "title": "Shutdown Enable",
+      "memberId": 855
+    },
+    {
+      "const": "objectTypeEnumSet.sicsTaggerClass",
+      "title": "Tagger",
+      "memberId": 856
+    },
+    {
+      "const": "objectTypeEnumSet.sicsOutlierClass",
+      "title": "Outlier",
+      "memberId": 857
+    },
+    {
+      "const": "objectTypeEnumSet.sicsSystemModeDetClass",
+      "title": "System Mode Determination",
+      "memberId": 858
+    },
+    {
+      "const": "objectTypeEnumSet.sicsModeSelect1Class",
+      "title": "Mode Select 1",
+      "memberId": 859
+    },
+    {
+      "const": "objectTypeEnumSet.sicsModeSelectClass",
+      "title": "Mode Select",
+      "memberId": 860
+    },
+    {
+      "const": "objectTypeEnumSet.loadShedManagerClass",
+      "title": "Load Shed Manager",
+      "memberId": 861
+    },
+    {
+      "const": "objectTypeEnumSet.ipFecClass",
+      "title": "IP FEC",
+      "memberId": 862
+    },
+    {
+      "const": "objectTypeEnumSet.ipFieldDeviceClass",
+      "title": "JCI Family IP BACnet Device",
+      "memberId": 863
+    },
+    {
+      "const": "objectTypeEnumSet.trendLogNoextensionClass",
+      "title": "Standalone Trend Log",
+      "memberId": 864
+    },
+    {
+      "const": "objectTypeEnumSet.simpleIntlClass",
+      "title": "Simple Interlock",
+      "memberId": 865
+    },
+    {
+      "const": "objectTypeEnumSet.smartEquipmentPlugAndPlayClass",
+      "title": "Smart Equipment Plug And Play",
+      "memberId": 866
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetFieldDeviceClass",
+      "title": "BACnet Device",
+      "memberId": 867
+    },
+    {
+      "const": "objectTypeEnumSet.datashareManagerClass",
+      "title": "Datashare Manager Class",
+      "memberId": 868
+    },
+    {
+      "const": "objectTypeEnumSet.verasysGlobalDatashareClass",
+      "title": "Verasys Global Datashare Class",
+      "memberId": 869
+    },
+    {
+      "const": "objectTypeEnumSet.fieldEquipClass",
+      "title": "Field Equipment Class",
+      "memberId": 870
+    },
+    {
+      "const": "objectTypeEnumSet.nae45SmarcClass",
+      "title": "SNE1100",
+      "memberId": 871
+    },
+    {
+      "const": "objectTypeEnumSet.nae35SmarcClass",
+      "title": "SNE1050",
+      "memberId": 872
+    },
+    {
+      "const": "objectTypeEnumSet.nae451LSmarcClass",
+      "title": "SNE1100L",
+      "memberId": 873
+    },
+    {
+      "const": "objectTypeEnumSet.fecSharedDevClass",
+      "title": "Field Controller Shared Device Class",
+      "memberId": 874
+    },
+    {
+      "const": "objectTypeEnumSet.routerManagerClass",
+      "title": "BACnet IP Router Manager Class",
+      "memberId": 875
+    },
+    {
+      "const": "objectTypeEnumSet.reportsClass",
+      "title": "Reports",
+      "memberId": 876
+    },
+    {
+      "const": "objectTypeEnumSet.nae55SmarcClass",
+      "title": "SNE2200",
+      "memberId": 877
+    },
+    {
+      "const": "objectTypeEnumSet.verasysScheduleClass",
+      "title": "Verasys Schedule Class",
+      "memberId": 878
+    },
+    {
+      "const": "objectTypeEnumSet.websocketNetworkPortClass",
+      "title": "Websocket Network Port Class",
+      "memberId": 879
+    },
+    {
+      "const": "objectTypeEnumSet.movingAvgFilterClass",
+      "title": "Moving Average Filter",
+      "memberId": 880
+    },
+    {
+      "const": "objectTypeEnumSet.mstpNetworkPortClass",
+      "title": "MSTP Network Port Class",
+      "memberId": 881
+    },
+    {
+      "const": "objectTypeEnumSet.ipv4NetworkPortClass",
+      "title": "IPv4 Network Port Class",
+      "memberId": 882
+    },
+    {
+      "const": "objectTypeEnumSet.mapDownloadDirectorClass",
+      "title": "Map BG Download Support Class",
+      "memberId": 883
+    },
+    {
+      "const": "objectTypeEnumSet.twinningClass",
+      "title": "Twinning",
+      "memberId": 884
+    },
+    {
+      "const": "objectTypeEnumSet.signalSelectMapperClass",
+      "title": "Signal Select Mapper",
+      "memberId": 885
+    },
+    {
+      "const": "objectTypeEnumSet.timeSyncMgrClass",
+      "title": "Time Sync Manager",
+      "memberId": 886
+    },
+    {
+      "const": "objectTypeEnumSet.spaceControllerClass",
+      "title": "Space Controller",
+      "memberId": 887
+    },
+    {
+      "const": "objectTypeEnumSet.saBusProvisionerClass",
+      "title": "SA-Bus Provisioner",
+      "memberId": 888
+    },
+    {
+      "const": "objectTypeEnumSet.subordinateDeviceProvisionerClass",
+      "title": "Subordinate Device Provisioner",
+      "memberId": 889
+    },
+    {
+      "const": "objectTypeEnumSet.equipmentZoneClass",
+      "title": "Equipment Zone Class",
+      "memberId": 890
+    },
+    {
+      "const": "objectTypeEnumSet.dataLoggerClass",
+      "title": "Data Logger",
+      "memberId": 891
+    },
+    {
+      "const": "objectTypeEnumSet.genericFieldDeviceClass",
+      "title": "Generic Field Device Class",
+      "memberId": 892
+    },
+    {
+      "const": "objectTypeEnumSet.jciFieldDeviceClass",
+      "title": "JCI Field Device Class",
+      "memberId": 893
+    },
+    {
+      "const": "objectTypeEnumSet.thirdPartyFieldDeviceClass",
+      "title": "Third Party Field Device Class",
+      "memberId": 894
+    },
+    {
+      "const": "objectTypeEnumSet.ipBacnetFieldDeviceClass",
+      "title": "IP BACnet Field Device Class",
+      "memberId": 895
+    },
+    {
+      "const": "objectTypeEnumSet.aivClass",
+      "title": "Virtual AI Class",
+      "memberId": 896
+    },
+    {
+      "const": "objectTypeEnumSet.aovClass",
+      "title": "Virtual AO Class",
+      "memberId": 897
+    },
+    {
+      "const": "objectTypeEnumSet.avvClass",
+      "title": "Virtual AV Class",
+      "memberId": 898
+    },
+    {
+      "const": "objectTypeEnumSet.bivClass",
+      "title": "Virtual BI Class",
+      "memberId": 899
+    },
+    {
+      "const": "objectTypeEnumSet.bovClass",
+      "title": "Virtual BO Class",
+      "memberId": 900
+    },
+    {
+      "const": "objectTypeEnumSet.bvvClass",
+      "title": "Virtual BV Class",
+      "memberId": 901
+    },
+    {
+      "const": "objectTypeEnumSet.mivClass",
+      "title": "Virtual MI Class",
+      "memberId": 902
+    },
+    {
+      "const": "objectTypeEnumSet.movClass",
+      "title": "Virtual MO Class",
+      "memberId": 903
+    },
+    {
+      "const": "objectTypeEnumSet.mvvClass",
+      "title": "Virtual MV Class",
+      "memberId": 904
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetChannelClass",
+      "title": "BACnet Channel",
+      "memberId": 905
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetLightingOutputClass",
+      "title": "BACnet Lighting Output",
+      "memberId": 906
+    },
+    {
+      "const": "objectTypeEnumSet.updateClass",
+      "title": "Update",
+      "memberId": 907
+    },
+    {
+      "const": "objectTypeEnumSet.scNetworkPortClass",
+      "title": "Secure Connect Network Port",
+      "memberId": 908
+    },
+    {
+      "const": "objectTypeEnumSet.npMapperClass",
+      "title": "Network Port Mapper Class",
+      "memberId": 909
+    },
+    {
+      "const": "objectTypeEnumSet.saBusDevIntegClass",
+      "title": "SA Bus Device Integration Class",
+      "memberId": 910
+    },
+    {
+      "const": "objectTypeEnumSet.preLoadedAppLoaderClass",
+      "title": "Pre-Loaded Application Loader Class",
+      "memberId": 911
+    },
+    {
+      "const": "objectTypeEnumSet.saBusProvisionerMapperClass",
+      "title": "SA-Bus Provisioner Mapper",
+      "memberId": 912
+    },
+    {
+      "const": "objectTypeEnumSet.operationalCredClass",
+      "title": "Operational Credentials",
+      "memberId": 913
+    },
+    {
+      "const": "objectTypeEnumSet.asyncCommunicationClass",
+      "title": "Async Communication",
+      "memberId": 914
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetNetworkPortClass",
+      "title": "BACnet Network Port",
+      "memberId": 915
+    },
+    {
+      "const": "objectTypeEnumSet.deviceStagerClass",
+      "title": "Device Stager",
+      "memberId": 916
+    },
+    {
+      "const": "objectTypeEnumSet.boilerStagerClass",
+      "title": "Boiler Stager",
+      "memberId": 917
+    },
+    {
+      "const": "objectTypeEnumSet.chillerStagerClass",
+      "title": "Chiller Stager",
+      "memberId": 918
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetAlertEnrollmentClass",
+      "title": "BACnet Alert Enrollment",
+      "memberId": 919
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetBinaryLightingOutputClass",
+      "title": "BACnet Binary Lighting Output",
+      "memberId": 920
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetNotificationForwarderClass",
+      "title": "BACnet Notification Forwarder",
+      "memberId": 921
+    },
+    {
+      "const": "objectTypeEnumSet.bacnetTimerClass",
+      "title": "BACnet Timer",
+      "memberId": 922
+    },
+    {
+      "const": "objectTypeEnumSet.noClass",
+      "title": "No Class",
+      "memberId": 1023
+    },
+    {
+      "const": "objectTypeEnumSet.unitChangeNotificationClass",
+      "title": "Unit Change Notification Class",
+      "memberId": 1024
+    },
+    {
+      "const": "objectTypeEnumSet.comMceClass",
+      "title": "Comm MCE Class",
+      "memberId": 1025
+    },
+    {
+      "const": "objectTypeEnumSet.taggableClass",
+      "title": "Taggable Class",
+      "memberId": 1026
+    },
+    {
+      "const": "objectTypeEnumSet.archiveObjectClass",
+      "title": "Archive Object",
+      "memberId": 2000
+    },
+    {
+      "const": "objectTypeEnumSet.userVewFolderClass",
+      "title": "User View Folder",
+      "memberId": 2001
+    },
+    {
+      "const": "objectTypeEnumSet.fieldPointClass",
+      "title": "Field Point",
+      "memberId": 2002
+    },
+    {
+      "const": "objectTypeEnumSet.onBoxOnlyClass",
+      "title": "On-box Only",
+      "memberId": 2003
+    },
+    {
+      "const": "objectTypeEnumSet.initialDeviceConfiguration",
+      "title": "Initial Device Configuration",
+      "memberId": 2004
+    },
+    {
+      "const": "objectTypeEnumSet.deviceFolderTemplate",
+      "title": "Device Folder Template",
+      "memberId": 2005
+    },
+    {
+      "const": "objectTypeEnumSet.controllerFolderTemplate",
+      "title": "Controller Folder Template",
+      "memberId": 2006
+    },
+    {
+      "const": "objectTypeEnumSet.deviceTemplate",
+      "title": "Device Template",
+      "memberId": 2007
+    },
+    {
+      "const": "objectTypeEnumSet.controllerTemplate",
+      "title": "Controller Template",
+      "memberId": 2008
+    },
+    {
+      "const": "objectTypeEnumSet.dummyTemplateDevice",
+      "title": "Dummy Template device",
+      "memberId": 2009
+    },
+    {
+      "const": "objectTypeEnumSet.sctSdClass",
+      "title": "SCT Summary Definition",
+      "memberId": 2010
+    },
+    {
+      "const": "objectTypeEnumSet.sctSdFolderClass",
+      "title": "SCT Summary Definition Folder",
+      "memberId": 2011
+    },
+    {
+      "const": "objectTypeEnumSet.parameterSheetFolderClass",
+      "title": "SCT Parameter Sheet Folder",
+      "memberId": 2013
+    },
+    {
+      "const": "objectTypeEnumSet.bacDeviceGroupClass",
+      "title": "Reserved",
+      "memberId": 2014
+    }
+  ]
+}

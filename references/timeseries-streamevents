@@ -1,0 +1,102 @@
+
+"Event": "timeSeries.subscription.established"
+{
+    "subscriptionIds": [
+        "355bd9f1-0b04-4ff6-9a47-92abcfb410db"
+    ],
+    "message": "Sample subscription successful",
+    "items": [
+        {
+            "sampledByObjectId": "828d2053-4e99-5511-93fb-bb5063033e83",
+            "attribute": "presentValue",
+            "sampledById": [
+                "d6595568-c631-51ae-b3e9-12fe3ea13b89"
+            ],
+            "sampledObjects": [
+                {
+                    "sampledObjectId": "828d2053-4e99-5511-93fb-bb5063033e83",
+                    "attribute": "presentValue",
+                    "schema": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "sampledByObjectId": {
+                                    "type": "string"
+                                },
+                                "sampledObjectId": {
+                                    "type": "string"
+                                },
+                                "attribute": {
+                                    "allOf": [
+                                        {
+                                            "type": "string",
+                                            "metasysType": "enum"
+                                        },
+                                        {
+                                            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributesEnumSet"
+                                        }
+                                    ]
+                                },
+                                "value": {
+                                    "type": "number",
+                                    "metasysType": "float",
+                                    "units": "unitEnumSet.degF",
+                                    "displayPrecision": "displayPrecisionEnumSet.displayPrecisionPt1"
+                                },
+                                "sampleTime": {
+                                    "type": "string",
+                                    "format": "date-time"
+                                },
+                                "reliability": {
+                                    "allOf": [
+                                        {
+                                            "type": "string",
+                                            "metasysType": "enum"
+                                        },
+                                        {
+                                            "$ref": "https://desktop-vm/api/v6/schemas/enums/reliabilityEnumSet"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "total": 1
+}
+
+"Event": "timeSeries.heartbeat"
+
+{
+    "streamId": "ae36171b-0be2-42a2-8811-8f3e5343cb7d",
+    "payload": {
+        "currentTime": "2025-10-26T20:19:44.5726172Z",
+        "subscriptionIds": [
+            "355bd9f1-0b04-4ff6-9a47-92abcfb410db"
+        ]
+    }
+}
+
+
+
+"Event": "timeSeries.samples.update"
+{
+    "subscriptionIds": [
+        "355bd9f1-0b04-4ff6-9a47-92abcfb410db"
+    ],
+    "items": [
+        {
+            "sampledByObjectId": "828d2053-4e99-5511-93fb-bb5063033e83",
+            "sampledObjectId": "828d2053-4e99-5511-93fb-bb5063033e83",
+            "attribute": "presentValue",
+            "value": 80.0,
+            "sampleTime": "2025-10-26T20:20:00Z",
+            "reliability": "reliabilityEnumSet.reliable"
+        }
+    ],
+    "total": 1
+}

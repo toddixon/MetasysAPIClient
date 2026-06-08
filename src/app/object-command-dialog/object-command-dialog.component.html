@@ -1,0 +1,246 @@
+<mat-dialog-content class="object-command__dialog scrollbar--styling">
+
+
+
+  <div>
+    <h2 class="object-command__title">{{data.command.title}}</h2>
+    @if(keyView.length > 0) {
+    <form class="key-form" [formGroup]="data.keyGroup.group" animate.enter="enter-animation--top">
+      @if(data.keyGroup.keyAttribute) {
+
+      <div class="key-form__control key-form__command">
+        @if(keyControl) {
+
+        <span><strong>{{keyControl.title}}</strong>:</span>
+        <!-- <span class="">{{keyControl.type}}</span> -->
+        <!-- <span class="">{{keyControl.validatorMeta}}</span> -->
+        @if(isObservable(keyControl.type)) {
+        @let type$ = keyControl.type | async;
+        }
+
+        <div class="command--style">
+          <div divFormControl contenteditable="true" [formControlName]="keyControl.name"></div>
+          <!-- @let unitsControl = findControlInViewPage(displayPage, 'units'); -->
+          <!-- @if(unitsControl) {
+                  <app-display-value-projection [control]="unitsControl"></app-display-value-projection>
+                  } -->
+        </div>
+
+
+        } <!--* Control exists -->
+
+      </div>
+
+      }
+
+      @for(control of keyView; track control.name) {
+
+      <div class="key-form__control">
+        <span class="control__name"><strong>{{control.title}}:</strong></span>
+
+        @if(isObservable(control.type)) {
+
+        @if(control.type | async; as type) {
+        <div class="key-form__control" divFormControl contenteditable="false" [formControl]="control">
+          <span>{{type}}</span>
+        </div>
+        } @else {
+        <ngx-skeleton-loader class="key-form__control skeleton-loader"
+          [theme]="ngxSkeletonThemes.titleBoxWide"></ngx-skeleton-loader>
+        }
+
+        } @else {
+
+        <div class="key-form__control" divFormControl contenteditable="false" [formControl]="control">
+          <span>{{control.value}}</span>
+        </div>
+
+        }
+      </div>
+
+      }
+    </form>
+
+    }
+
+  </div>
+
+  <form class="object-command" [formGroup]="commandForm" (ngSubmit)="onSendClick()">
+
+    @if(commandControlGroups.parameters) {
+    <form class="object-command__view" [formGroup]="commandControlGroups.parameters">
+      <mat-divider class="view__divider" vertical="false" />
+
+      @for(control of getControlArray(commandControlGroups.parameters); track control.name) {
+      <span class="control__title">{{control.title}}</span>
+      @if(isObservable(control.type)) {
+      <mat-form-field class="control__input" appearance="fill">
+        <mat-select [formControl]="control">
+          @if(control.type | async; as options) { @for(set of options; track set.const) {
+          <mat-option [value]="set.const">
+            {{ set.title }}
+          </mat-option>
+          }
+
+          } @else {
+          <ngx-skeleton-loader [theme]="skeletonThemeDark"></ngx-skeleton-loader>
+          }
+        </mat-select>
+      </mat-form-field>
+
+      } @else {
+
+      @switch (control.type) {
+      @case ('float') {
+      <app-float-input-slider-control class="control__input" [control]="control"></app-float-input-slider-control>
+
+      }
+      @default {
+      <mat-form-field class="control__input">
+        <input matInput type="number" [value]="control.value" [formControl]="control">
+      </mat-form-field>
+
+      }
+      }
+      }
+      }
+
+
+    </form>
+
+    }
+
+    @if(commandControlGroups.properties) {
+    <form class="object-command__view" [formGroup]="commandControlGroups.properties">
+      @let controlArr = getControlArray(commandControlGroups.properties);
+
+      <span class="group__title">{{commandControlGroups.properties.title}}</span>
+
+      @for(control of controlArr; track control.title) {
+      <span class="control__title">{{control.title}}</span>
+
+      <mat-form-field class="control__input" appearance="fill">
+        <mat-label>{{control.title}}</mat-label>
+        <textarea matInput type="text" cdkTextareaAutosize cdkAutosizeMinRows="1" cdkAutosizeMaxRows="10"
+          [formControlName]="control.name"></textarea>
+      </mat-form-field>
+      }
+    </form>
+
+    }
+
+
+    @if(commandControlGroups.commonControls) {
+
+
+    <Form class="object-command__view" [formGroup]="commandControlGroups.commonControls">
+      <!-- <span class="group__title">{{commandControlGroups.commonControls.title}}</span> -->
+
+      @if(commonControls.priority) {
+      <mat-divider class="view__divider" vertical="false" />
+      <div class="object-command__priority">
+        <span class="control__title">{{commonControls.priority.title}}</span>
+        @let priorityConflict = priorityWarn$ | async;
+
+        <mat-form-field class="control__input mat-form-field__animate"
+          [ngClass]="{'mat-form-field__animate--warn': priorityConflict}">
+          <mat-select [formControl]="commonControls.priority">
+            @if(isObservable(commonControls.priority.type)) {
+            @if(commonControls.priority.type | async; as enumSet) {
+            @for(member of enumSet; track member.memberId) {
+            <mat-option [value]="member.const">
+              {{ member.title }}
+            </mat-option>
+            }
+            } @else {
+            <ngx-skeleton-loader [theme]="skeletonThemeDark"></ngx-skeleton-loader>
+            }
+            }
+          </mat-select>
+          @if(priorityConflict) {
+
+          <!-- <mat-hint warnPriority animate.enter="enter-animation--top" animate.leave="leave-animation--top"> -->
+          <mat-hint warnPriority animate.enter="hint--enter" animate.leave="hint--leave">
+            <mat-icon matSuffix>warning</mat-icon> The current selected priority will not take
+            effect</mat-hint>
+          }
+        </mat-form-field>
+      </div>
+      }
+
+      @if(commonControls.annotation) {
+      <mat-divider class="view__divider" vertical="false" />
+
+      <div class="object-command__annotation">
+        <span class="control__title">{{commonControls.annotation.title}}</span>
+        <mat-form-field class="control__input" appearance="fill">
+          <!-- <mat-label>{{commonControls.annotation.title}}</mat-label> -->
+          <textarea matInput type="text" placeholder="Type annotation here..."
+            [maxlength]="commonControls.annotation.validatorMeta?.maxLength || 255" spellcheck="true" rows="4"
+            [formControl]="commonControls.annotation">
+          </textarea>
+          <mat-hint align="end">
+            {{ commonControls.annotation.value?.length || 0 }}/{{ commonControls.annotation.validatorMeta?.maxLength }}
+          </mat-hint>
+          @if(commonControls.annotation.hasError('maxlength')) {
+          <mat-error>
+            Maximum {{ '250' }} characters allowed
+          </mat-error>
+          }
+        </mat-form-field>
+      </div>
+      }
+
+    </Form>
+
+    }
+    <div class="object-command__priority-array">
+      <mat-divider class="view__divider" vertical="false" />
+      <span class="control__title">Priority Array</span>
+
+      @if(data.priorityArray$) {
+
+      @if(data.priorityArray$ | async; as priorityArray) {
+      @if(priorityArray.commandEntry && priorityArray.commandEntry.length > 0) {
+      <table priorityTable mat-table [dataSource]="priorityArray.commandEntry">
+        <!-- Priority Column -->
+        <ng-container matColumnDef="priority">
+          <th mat-header-cell *matHeaderCellDef> Priority </th>
+          <td mat-cell *matCellDef="let element"> {{element.priority}} </td>
+        </ng-container>
+        <!-- Value Column -->
+        <ng-container matColumnDef="value">
+          <th mat-header-cell *matHeaderCellDef> Value </th>
+          <td mat-cell *matCellDef="let element"> {{element.value}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="priorityColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: priorityColumns;" animate.enter="table-row--enter"></tr>
+      </table>
+      } @else {
+      <span class="empty__message">Priority array is empty.</span>
+      }
+      } @else {
+      <ngx-skeleton-loader [theme]="skeletonThemeLight"></ngx-skeleton-loader>
+      }
+
+      } @else {
+      <span class="empty__message">Priority array does not apply to this object.</span>
+      }
+    </div>
+
+
+    <mat-dialog-actions class="commmand-dialog__buttons">
+      <button matButton="filled" color="warn" type="button" (click)="onCancelClick()"
+        [disabled]="executingCommand()">Cancel</button>
+      <button matButton="filled" type="submit" [disabled]="!commandForm.valid || executingCommand()">Send</button>
+    </mat-dialog-actions>
+
+  </form>
+
+
+</mat-dialog-content>
+
+@if(executingCommand()) {
+<mat-progress-bar class="mat-progress-bar-overrides" mode="indeterminate"></mat-progress-bar>
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Normal Alarm",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/normalAlarmEnumSet",
+  "setId": 95,
+  "oneOf": [
+    {
+      "const": "normalAlarmEnumSet.naNormal",
+      "title": "Normal",
+      "memberId": 0
+    },
+    {
+      "const": "normalAlarmEnumSet.naAlarm",
+      "title": "Alarm",
+      "memberId": 1
+    },
+    {
+      "const": "normalAlarmEnumSet.naHold",
+      "title": "Hold",
+      "memberId": 2
+    }
+  ]
+}

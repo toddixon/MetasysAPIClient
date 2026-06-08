@@ -1,0 +1,53 @@
+{
+  "self": "https://desktop-vm/api/v6/objects/266ff9ea-27b2-5e4f-b193-ecb65a10849f/commands",
+  "items": [
+    {
+      "id": "commandIdEnumSet.enableCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/266ff9ea-27b2-5e4f-b193-ecb65a10849f/commands/commandIdEnumSet.enableCommand",
+      "title": "Enable",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.disableCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/266ff9ea-27b2-5e4f-b193-ecb65a10849f/commands/commandIdEnumSet.disableCommand",
+      "title": "Disable",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    }
+  ],
+  "effectivePermissions": {
+    "canInvoke": [
+      "commandIdEnumSet.enableCommand",
+      "commandIdEnumSet.disableCommand"
+    ]
+  }
+}

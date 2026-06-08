@@ -1,0 +1,139 @@
+{
+    "self": "https://desktop-vm/api/v6/objects/828d2053-4e99-5511-93fb-bb5063033e83?includeSchema=false&viewId=viewNameEnumSet.focusView",
+    "objectType": "objectTypeEnumSet.avClass",
+    "objectTypeVersion": "1.0",
+    "parentUrl": "https://desktop-vm/api/v6/objects/f45c66c1-59be-52a6-b549-a15b3c359239",
+    "objectsUrl": "https://desktop-vm/api/v6/objects/828d2053-4e99-5511-93fb-bb5063033e83/objects",
+    "networkDeviceUrl": "https://desktop-vm/api/v6/networkDevices/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+    "pointsUrl": "https://desktop-vm/api/v6/objects/828d2053-4e99-5511-93fb-bb5063033e83/points",
+    "trendedAttributesUrl": "https://desktop-vm/api/v6/objects/828d2053-4e99-5511-93fb-bb5063033e83/trendedAttributes",
+    "alarmsUrl": "https://desktop-vm/api/v6/objects/828d2053-4e99-5511-93fb-bb5063033e83/alarms",
+    "auditsUrl": "https://desktop-vm/api/v6/objects/828d2053-4e99-5511-93fb-bb5063033e83/audits",
+    "item": {
+        "id": "828d2053-4e99-5511-93fb-bb5063033e83",
+        "name": "simulated-OA-T",
+        "description": "Provided by modulatingPoint process",
+        "bacnetObjectType": "objectTypeEnumSet.bacAvClass",
+        "objectCategory": "objectCategoryEnumSet.generalCategory",
+        "outOfService": false,
+        "reliability": "reliabilityEnumSet.reliable",
+        "currentCommandPriority": 14,
+        "alarmState": "objectStatusEnumSet.osNormal",
+        "overrideExpirationTime": {
+            "date": null,
+            "time": null
+        },
+        "presentValueWritable": "objectModeEnumSet.presentValueWritableWithPriority",
+        "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.simulated-OA-T",
+        "version": {
+            "major": 1,
+            "minor": 0
+        },
+        "prioritySupported": true,
+        "minPresValue": -1.69999998E+38,
+        "maxPresValue": 1.69999998E+38,
+        "units": "unitEnumSet.degF",
+        "displayPrecision": "displayPrecisionEnumSet.displayPrecisionPt1",
+        "covIncrement": 0.00999999978,
+        "connectedToInternalApplication": "noYesEnumSet.fanNo",
+        "presentValue": 58,
+        "status": "objectStatusEnumSet.osNormal",
+        "attrChangeCount": 45,
+        "defaultAttribute": "attributeEnumSet.presentValue"
+    },
+    "effectivePermissions": {
+        "canDelete": true,
+        "canModify": true
+    },
+    "views": [
+        {
+            "title": "Focus",
+            "views": [
+                {
+                    "title": "Basic",
+                    "views": [
+                        {
+                            "title": "Object",
+                            "properties": [
+                                "name",
+                                "description",
+                                "bacnetObjectType",
+                                "objectCategory"
+                            ],
+                            "id": "viewGroupEnumSet.objectGrp"
+                        },
+                        {
+                            "title": "Status",
+                            "properties": [
+                                "outOfService",
+                                "reliability",
+                                "currentCommandPriority",
+                                "alarmState",
+                                "overrideExpirationTime",
+                                "presentValueWritable"
+                            ],
+                            "id": "viewGroupEnumSet.statusGrp"
+                        }
+                    ],
+                    "id": "groupTypeEnumSet.basicGrpType"
+                },
+                {
+                    "title": "Advanced",
+                    "views": [
+                        {
+                            "title": "Engineering Values",
+                            "properties": [
+                                "itemReference",
+                                "version",
+                                "prioritySupported",
+                                "minPresValue",
+                                "maxPresValue",
+                                "id"
+                            ],
+                            "id": "viewGroupEnumSet.engValuesGrp"
+                        },
+                        {
+                            "title": "Display",
+                            "properties": [
+                                "units",
+                                "displayPrecision",
+                                "covIncrement"
+                            ],
+                            "id": "viewGroupEnumSet.displayGrp"
+                        },
+                        {
+                            "title": "Internal Logic Interface",
+                            "properties": [
+                                "connectedToInternalApplication"
+                            ],
+                            "id": "viewGroupEnumSet.internalLogicIfGrp"
+                        }
+                    ],
+                    "id": "groupTypeEnumSet.advancedGrpType"
+                },
+                {
+                    "title": "Key",
+                    "views": [
+                        {
+                            "title": "None",
+                            "properties": [
+                                "presentValue",
+                                "status",
+                                "attrChangeCount",
+                                "defaultAttribute"
+                            ],
+                            "id": "viewGroupEnumSet.noGrp"
+                        }
+                    ],
+                    "id": "groupTypeEnumSet.keyGrpType"
+                }
+            ],
+            "id": "viewNameEnumSet.focusView"
+        }
+    ],
+    "condition": {
+        "presentValue": {
+            "priority": "writePriorityEnumSet.priority14"
+        }
+    }
+}

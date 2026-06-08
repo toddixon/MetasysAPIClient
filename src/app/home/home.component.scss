@@ -1,0 +1,61 @@
+@use '../../vars.scss' as *;
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.application-toolbar {
+  flex: 0 0 auto;
+
+  &__header {
+    flex: 1 1 auto;
+    font-weight: 500;
+  }
+
+}
+
+.server-heatbeat__display {
+  font-size: medium;
+  margin-right: 2em;
+}
+
+.sidenav-container {
+  flex: 1 1 auto;
+}
+
+.sidenav {
+  border-right: 1px solid #ccc;
+  contain: content;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__content {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .resizer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    cursor: ew-resize;
+    background-color: transparent ;
+    z-index: 10;
+    transition: background 0.2s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    &.cdk-drag-preview,
+    &.cdk-drag-placeholder {
+      display: none !important;
+    }
+  }
+}

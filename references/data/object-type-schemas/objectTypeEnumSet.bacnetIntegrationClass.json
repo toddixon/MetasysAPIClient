@@ -1,0 +1,245 @@
+{
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "BACnet Integration",
+    "version": "1.0",
+    "$id": "https://desktop-vm/api/v6/schemas/objectTypes/bacnetIntegrationClass",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400,
+        "default": ""
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 64
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ],
+        "default": "objectTypeEnumSet.bacnetIntegrationClass"
+      },
+      "objectCategory": {
+        "title": "Authorization Category",
+        "category": "attributeCategoryEnumSet.objectCategoryCategory",
+        "numberOfStates": 250,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=modifyConfigItems"
+          }
+        ],
+        "default": "objectCategoryEnumSet.generalCategory"
+      },
+      "periodicUpdate": {
+        "title": "Periodic Update",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        },
+        "default": 60
+      },
+      "discoveryNetworks": {
+        "title": "Device Discovery Range",
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "category": "attributeCategoryEnumSet.networkDestinationCategory",
+          "type": "object",
+          "metasysType": "struct",
+          "properties": {
+            "networkNumber": {
+              "metasysType": "ushort",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 65535,
+              "title": "Network Number"
+            },
+            "deviceInstanceLowLimit": {
+              "metasysType": "ulong",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4194303,
+              "title": "Device Instance Low Limit"
+            },
+            "deviceInstanceHighLimit": {
+              "metasysType": "ulong",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4194303,
+              "title": "Device Instance High Limit"
+            }
+          }
+        },
+        "default": []
+      },
+      "preserveDiscoveredDevices": {
+        "title": "Preserve Discovered Devices",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": true
+      },
+      "pageSize": {
+        "title": "Page Size",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 10,
+        "maximum": 65535,
+        "default": 1000
+      },
+      "pollDelay": {
+        "title": "Poll Delay",
+        "metasysType": "byte",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 10,
+        "maximum": 50,
+        "unit": {
+          "id": "milsecs",
+          "title": "ms"
+        }
+      },
+      "count": {
+        "title": "Count",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535,
+        "default": 0
+      },
+      "discoverAllAsBacnet": {
+        "title": "Discover All As General BACnet Device",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": false
+      },
+      "requestedVendorId": {
+        "title": "Requested Vendor ID",
+        "metasysType": "ushort",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "executionPriority": {
+        "title": "Execution Priority",
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "executionPriorityEnumSet.lifeSafetyPriority"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/executionPriorityEnumSet"
+          }
+        ],
+        "default": "executionPriorityEnumSet.normalPriority"
+      }
+    },
+    "required": [
+      "name",
+      "objectCategory",
+      "periodicUpdate",
+      "discoveryNetworks",
+      "preserveDiscoveredDevices",
+      "pageSize",
+      "discoverAllAsBacnet",
+      "executionPriority"
+    ]
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Object",
+              "properties": [
+                "name",
+                "description",
+                "bacnetObjectType",
+                "objectCategory"
+              ],
+              "id": "viewGroupEnumSet.objectGrp"
+            },
+            {
+              "title": "Communication",
+              "properties": [
+                "periodicUpdate",
+                "discoveryNetworks",
+                "preserveDiscoveredDevices",
+                "pageSize",
+                "pollDelay",
+                "count",
+                "discoverAllAsBacnet",
+                "requestedVendorId"
+              ],
+              "id": "viewGroupEnumSet.communicationGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [
+            {
+              "title": "Execution",
+              "properties": [
+                "executionPriority"
+              ],
+              "id": "viewGroupEnumSet.executionGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    }
+  ]
+}

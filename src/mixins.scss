@@ -1,0 +1,15 @@
+@use './vars.scss' as *;
+@use '@angular/material' as mat;
+@import 'material-icons/iconfont/material-icons.css';
+
+@mixin icon-color($color) {
+  @include mat.icon-overrides((color: $color));
+}
+
+@mixin icon-button($enColor, $disColor: $dark-grey-2) {
+  @include mat.icon-button-overrides((
+      icon-color: $enColor,
+      disabled-icon-color: $disColor,
+      hover-state-layer-opacity: 0.5,
+    ));
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "objectType": "containerClass",
+    "description": "Folder",
+    "version": "1.0",
+    "classification": "folder",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "fieldDeviceClass",
+    "description": "JCI Family BACnet Device",
+    "version": "1.0",
+    "classification": "controller",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bacnetDeviceClass",
+    "description": "General BACnet Device",
+    "version": "1.0",
+    "classification": "controller",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "trendLogClass",
+    "description": "Trend",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "maClass",
+    "description": "Alarm",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "aaClass",
+    "description": "Alarm",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "averagingClass",
+    "description": "Averaging",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "totaClass",
+    "description": "Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "toteClass",
+    "description": "Event Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "totrClass",
+    "description": "Runtime Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  }
+]

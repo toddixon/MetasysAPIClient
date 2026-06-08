@@ -1,0 +1,17 @@
+services:
+  mock-api:
+    build:
+      context: .
+      dockerfile: mock-api/Dockerfile
+    environment:
+      PORT: 3018
+      DB_PATH: /data/metasys-mock.db
+    ports:
+      - "3018:3018" 
+      - "3000:3000"
+      - "9229:9229"
+    volumes:
+      - mock-api-data:/data
+
+volumes:
+  mock-api-data:

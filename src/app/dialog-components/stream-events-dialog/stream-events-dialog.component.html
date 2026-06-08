@@ -1,0 +1,76 @@
+<h2 mat-dialog-title class="dialog-title">
+  <span>Stream Events</span>
+  @let count = eventCount$ | async;
+  <span class="event-count-badge">{{ count }}</span>
+  <button mat-button class="clear-btn" (click)="clearLog()">
+    <mat-icon>delete_sweep</mat-icon>
+    Clear
+  </button>
+</h2>
+
+<mat-dialog-content class="dialog-content">
+  <div class="filter-bar">
+    <mat-button-toggle-group [value]="activeFilter()" (change)="setFilter($event.value)">
+      <mat-button-toggle value="all">All</mat-button-toggle>
+      <mat-button-toggle value="object.values.update">Update</mat-button-toggle>
+      <mat-button-toggle value="object.values.heartbeat">Heartbeat</mat-button-toggle>
+      <mat-button-toggle value="hello">Hello</mat-button-toggle>
+      <mat-button-toggle value="error">Error</mat-button-toggle>
+      <mat-button-toggle value="message">Message</mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+
+  <div class="event-list">
+    @let events = filteredLog$ | async;
+    @if (!events || events.length === 0) {
+      <div class="empty-state">No events yet.</div>
+    }
+    @for (event of events; track $index; let i = $index) {
+      <div class="event-row" (click)="toggleExpand(i)">
+        <div class="event-row__summary">
+          <span class="event-row__timestamp">{{ formatTimestamp(event.timestamp) }}</span>
+          <span class="event-row__type-badge" [attr.data-type]="event.type">{{ event.type }}</span>
+          <span class="event-row__summary-text">{{ getSummary(event) }}</span>
+          <mat-icon class="event-row__chevron">{{ expandedIndex() === i ? 'expand_less' : 'expand_more' }}</mat-icon>
+        </div>
+
+        @if (expandedIndex() === i) {
+          <div class="event-row__detail">
+            @if (event.type === 'object.values.update' && event.parsed) {
+              @for (entry of event.parsed; track $index) {
+                <div class="update-entry">
+                  <div class="update-entry__row">
+                    <span class="update-entry__key">subscriptionId</span>
+                    <span class="update-entry__value">{{ entry.subscriptionId }}</span>
+                  </div>
+                  <div class="update-entry__row">
+                    <span class="update-entry__key">item.id</span>
+                    <span class="update-entry__value">{{ entry.item['id'] }}</span>
+                  </div>
+                  <div class="update-entry__row">
+                    <span class="update-entry__key">item.itemReference</span>
+                    <span class="update-entry__value">{{ entry.item['itemReference'] }}</span>
+                  </div>
+                  @for (attr of getItemAttributes(entry.item); track attr.key) {
+                    <div class="update-entry__row">
+                      <span class="update-entry__key">item.{{ attr.key }}</span>
+                      <span class="update-entry__value">{{ attr.value }}</span>
+                    </div>
+                  }
+                </div>
+                <mat-divider></mat-divider>
+              }
+            } @else {
+              <pre class="raw-data">{{ event.rawData }}</pre>
+            }
+          </div>
+        }
+      </div>
+      <mat-divider></mat-divider>
+    }
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

@@ -1,0 +1,11 @@
+{
+  "id": "da5908ae-0996-509c-891e-d6e4cfcbe52a",
+  "parentId": "e7735c88-18ed-5c3b-b3f7-843f2937d91e",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "extension",
+  "name": "Trend - Present Value",
+  "label": "Trend1_copy",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.AV1.Trend1_copy",
+  "objectType": "objectTypeEnumSet.trendLogClass",
+  "objectTypeVersion": "1.0"
+}

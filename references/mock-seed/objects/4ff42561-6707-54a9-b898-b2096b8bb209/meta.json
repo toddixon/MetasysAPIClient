@@ -1,0 +1,11 @@
+{
+  "id": "4ff42561-6707-54a9-b898-b2096b8bb209",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "folder",
+  "name": "Programming",
+  "label": "Programming",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Programming",
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0"
+}

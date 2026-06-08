@@ -1,0 +1,11 @@
+{
+  "id": "8cfb2cce-9927-54da-a7cf-5921752eb28a",
+  "parentId": "f45c66c1-59be-52a6-b549-a15b3c359239",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "folder",
+  "name": "Folder1",
+  "label": "Folder1",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.Folder1",
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0"
+}

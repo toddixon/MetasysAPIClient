@@ -1,0 +1,11 @@
+{
+  "id": "e7735c88-18ed-5c3b-b3f7-843f2937d91e",
+  "parentId": "f45c66c1-59be-52a6-b549-a15b3c359239",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "object",
+  "name": "AV1 test",
+  "label": "AV1",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.AV1",
+  "objectType": "objectTypeEnumSet.avClass",
+  "objectTypeVersion": "1.0"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bus Scan Progress",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/scanProgressEnumSet",
+  "setId": 865,
+  "oneOf": [
+    {
+      "const": "scanProgressEnumSet.scanNotStarted",
+      "title": "Not Started",
+      "memberId": 0
+    },
+    {
+      "const": "scanProgressEnumSet.scanInProgress",
+      "title": "In Progress",
+      "memberId": 1
+    },
+    {
+      "const": "scanProgressEnumSet.scanComplete",
+      "title": "Complete",
+      "memberId": 2
+    }
+  ]
+}

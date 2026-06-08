@@ -1,0 +1,97 @@
+{
+  "self": "https://desktop-vm/api/v6/objects/b1b8c1a7-3b76-55ea-b6d6-27ca4aea7312/commands",
+  "items": [
+    {
+      "id": "commandIdEnumSet.cancelDelayTimeCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/b1b8c1a7-3b76-55ea-b6d6-27ca4aea7312/commands/commandIdEnumSet.cancelDelayTimeCommand",
+      "title": "Cancel Delay Time",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.cancelReportDelayCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/b1b8c1a7-3b76-55ea-b6d6-27ca4aea7312/commands/commandIdEnumSet.cancelReportDelayCommand",
+      "title": "Cancel Report Delay",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.enableCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/b1b8c1a7-3b76-55ea-b6d6-27ca4aea7312/commands/commandIdEnumSet.enableCommand",
+      "title": "Enable",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.disableCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/b1b8c1a7-3b76-55ea-b6d6-27ca4aea7312/commands/commandIdEnumSet.disableCommand",
+      "title": "Disable",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    }
+  ],
+  "effectivePermissions": {
+    "canInvoke": [
+      "commandIdEnumSet.cancelDelayTimeCommand",
+      "commandIdEnumSet.cancelReportDelayCommand",
+      "commandIdEnumSet.enableCommand",
+      "commandIdEnumSet.disableCommand"
+    ]
+  }
+}

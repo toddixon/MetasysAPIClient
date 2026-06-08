@@ -1,0 +1,59 @@
+@use '../../vars.scss' as *;
+
+
+
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $dark-blue;
+  background-image: linear-gradient(0deg, #80bd01 2%, #214190 2%, #214190 31%, #214190 76%);
+  // background-image: linear-gradient(0deg, #80bd01 0%, #214190 0%, #214190 31%, #214190 76%);
+}
+
+.api-version__select {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  container-elevation-shadow: 4dp;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.90);
+  background-color: $light-grey;
+  width: 300px;
+  contain: content;
+
+  &__header {
+    margin-top: unset;
+    user-select: none;
+  }
+
+  >mat-progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+}
+
+.mat-divider {
+  margin-bottom: 1em;
+}
+
+.dev-buttons {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}

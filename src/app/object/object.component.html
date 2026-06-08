@@ -1,0 +1,86 @@
+<div>
+  @let parentNode = node$ | async;
+  @let selected = selected$ | async;
+  @let displayed = displayed$ | async;
+
+  @let unsavedChanges = unsavedChanges$ | async;
+  <!-- @if(isInSelectionFqr$ | async; as selFqr) {
+    <div>{{selFqr}}</div>
+  } -->
+  <div class="object-tree__node" [class.object-tree__node--picker]="pickerMode">
+    @if (item.hasChildrenMatchingQuery) {
+    <button class="node-expand-subtree__button" (click)='onExpandSubItemsClick($event)' [class.toggled]="showItems()">
+      <span class="icon-stack" aria-hidden="true">
+        <mat-icon #addRemove class="node__icon expand-subtree__icon icon-add icon--small"
+          [ngClass]="pickerMode ? 'icon--grey': 'icon-button--white'" [inline]="true">add</mat-icon>
+        <mat-icon #addRemove class="node__icon expand-subtree__icon icon-remove icon--small"
+          [ngClass]="pickerMode ? 'icon--grey': 'icon-button--white'" [inline]="true">remove</mat-icon>
+      </span>
+    </button>
+    }
+    <div #node (dblclick)="onDoubleClickNode($event)" (click)="onClickNode($event)"
+      (contextmenu)="onContextMenu($event)"
+      [ngClass]="{'selected' : selected, 'displayed' : !pickerMode && displayed, 'node__item--picker': pickerMode}" matBadge="1"
+      matBadgeSize="small" [matBadgeHidden]="!unsavedChanges" matBadgePosition="before"
+      class="node__item unsaved-changes--badge" [class.node__item--disabled]="isSelectionDisabled()"
+      [attr.aria-disabled]="isSelectionDisabled()">
+      <mat-icon #icon class="node__icon icon--small" [inline]="true"></mat-icon>
+      <span class="node__status-badge" [class.is-visible]="showBadge() && badgeReady()">
+        @if (badgeIsSvg()) {
+        <mat-icon class="node__status-badge__icon" [inline]="true" [svgIcon]="badgeIcon()"></mat-icon>
+        } @else {
+        <mat-icon class="node__status-badge__icon" [inline]="true">{{badgeIcon()}}</mat-icon>
+        }
+      </span>
+      <span class="node__lebel">
+        {{getObjectLabel()}} <strong> {{`${item.id.slice(item.id.length-5,
+          item.id.length)}`}}</strong> {{`${item.classification}, ${item.objectType}`}}
+        <!-- @if(item.classification === 'controller' || item.classification === 'device' || item.classification === 'server'
+        || item.classification === 'integration') { -->
+        @let status = getStateString(objectStatus());
+        @let alarmState = getStateString(objectAlarmState());
+
+        @if(status) {
+        <!-- @let status = objectStatus().split('.')[1] ?? objectStatus(); -->
+
+        <span class="node__classification" [ngClass]="item.classification">st: <strong>{{status}} </strong></span>
+        }
+        <!-- } -->
+        @if(alarmState) {
+        <span class="node__classification" [ngClass]="item.classification">al: <strong>{{alarmState}} </strong></span>
+
+        }
+        @if(objectSubscriptionId()) {
+        <span class="node__classification" [ngClass]="item.classification">sid:
+          <strong>{{objectSubscriptionId()}}</strong></span>
+
+        }
+        <!-- {{parentId}} -->
+      </span>
+      <!-- <span class="node__lebel">{{`${item.name} {${item.label}} ${item.id.slice(item.id.length-5,
+        item.id.length)} ${objectStatus()!.split('objectStatusEnumSet.')[1] || objectStatus()} ${objectAlarmState()!.split('objectStatusEnumSet.')[1] || objectAlarmState()}`}}</span> -->
+      <!-- <span class="node__lebel">{{`${item.name} {${item.label}} ${item.id}`}}</span> -->
+    </div>
+  </div>
+  @if (showItems()) {
+  <div animate.leave="animate-out">
+    @if(parentNode && isObjectEntityInTree(parentNode)) {
+    @for(obj of parentNode!.items; track obj.id) {
+    @if(!objectOperationsService.DEV_DELETELIST.includes(obj.id)) {
+    <app-object class="object--child-indent animate-in" [item]="obj" [parentId]="item.id"
+      [selectableObjectTypes]="selectableObjectTypes" [disableNonMatchingSelection]="disableNonMatchingSelection"
+      [forceMultiSelect]="forceMultiSelect" [pickerMode]="pickerMode"></app-object>
+    }
+    }
+
+    } @else {
+    <ngx-skeleton-loader class="object--child-indent animate-i" [theme]="skeletonTheme" count="1"></ngx-skeleton-loader>
+    }
+  </div>
+  }
+
+</div>
+
+
+
+<!-- [ngClass]="{'selected' : selected && selected.includes(item.id)}" matBadge="1" matBadgeSize="small" -->

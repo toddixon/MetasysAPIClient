@@ -1,0 +1,583 @@
+@use '../../vars.scss' as *;
+
+
+.display-view__container {}
+
+.display-page__header {
+  display: flex;
+  padding-right: 1.5em;
+  padding-left: 0.6em;
+  align-items: center;
+  border-left: 3px solid transparent;
+  transition: border-left-color 0.35s ease;
+
+  &.status--alarm {
+    border-left-color: $alarm;
+  }
+
+  &.status--alarm-unack {
+    border-left-color: $alarm;
+  }
+
+  &.status--warning {
+    border-left-color: $ocean-blue;
+  }
+
+  &.status--offline {
+    border-left-color: $dark-grey;
+  }
+
+  &.status--override {
+    border-left-color: $override-orange;
+  }
+
+  &.status--fault {
+    border-left-color: $dark-orange;
+  }
+
+  &.status--disabled {
+    border-left-color: $dark-grey-2;
+  }
+
+  .item-fqr {
+    flex: 1 1 auto;
+  }
+
+  .refresh__button {
+    align-self: center;
+    justify-self: end;
+
+    &.spinning mat-icon {
+      animation: spin-anim 300ms ease-out;
+      transform-origin: center center;
+      display: inline-block;
+    }
+  }
+
+  .card-collapse__button {
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+
+}
+
+@keyframes spin-anim {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .refresh__button.spinning mat-icon {
+    animation: none !important;
+  }
+}
+
+
+
+.display-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.75rem;
+  padding: 1rem 0;
+
+
+  &__title {}
+
+  &__controls {}
+
+  &__field {
+    display: grid;
+    grid-template-columns: 150px minmax(250px, 1fr) 240px;
+    align-items: center;
+    column-gap: 1rem;
+
+    /* Compact rows */
+    min-height: 48px;
+  }
+
+}
+
+
+.key-form {
+  display: flex;
+  gap: 2em;
+  padding-right: 1.5em;
+  font-size: large;
+  min-height: 2em;
+  align-items: center;
+  margin-block: 0.5em 1em;
+
+  &__control {
+    user-select: text;
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+  }
+
+  &__command {
+    display: flex;
+    flex: 1 0 auto;
+    user-select: text;
+    align-items: center;
+
+    .no-title {
+      margin: 0.5em 0.5em;
+    }
+  }
+}
+
+.command--style {
+  background-color: $light-blue-1;
+  border-radius: 40px;
+  box-shadow: 0 0 10px $dark-grey;
+  // font-size: 1.2em;
+  margin-inline: 1em;
+  height: fit-content;
+  margin-left: 0.5em;
+  padding: 1em 1.5em;
+  user-select: none;
+  cursor: pointer;
+  min-width: 2em;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.35s ease, box-shadow 0.35s ease;
+
+  // ── Status-tinted variants ──────────────────────────────────────────────
+  &.status--alarm {
+    background-color: mix($alarm, $light-blue-1, 55%);
+    box-shadow: 0 0 12px rgba($alarm, 0.35);
+  }
+
+  &.status--alarm-unack {
+    background-color: mix($alarm, $light-blue-1, 55%);
+    animation: alarm-glow 1.5s ease-in-out infinite;
+  }
+
+  &.status--warning {
+    background-color: mix($ocean-blue, $light-blue-1, 40%);
+    box-shadow: 0 0 12px rgba($ocean-blue, 0.3);
+  }
+
+  &.status--offline {
+    background-color: mix($dark-grey, $light-blue-1, 65%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+
+  &.status--override {
+    background-color: mix($override-orange, $light-blue-1, 52%);
+    box-shadow: 0 0 12px rgba($override-orange, 0.35);
+  }
+
+  &.status--fault {
+    background-color: mix($dark-orange, $light-blue-1, 45%);
+    box-shadow: 0 0 12px rgba($dark-orange, 0.3);
+  }
+
+  // ── Value-update flash ring ─────────────────────────────────────────────
+  &.key-value--flash {
+    animation: cmd-value-flash 1.5s cubic-bezier(0, 0, 0.2, 1) forwards;
+  }
+
+  // ── Value text fade-in on update ────────────────────────────────────────
+  [divFormControl].value--updated {
+    animation: value-text-fade 1.4s ease-out forwards;
+  }
+
+}
+
+.skeleton-form {
+  display: flex;
+
+  .key-skeleton {
+    display: flex;
+    gap: 3em;
+
+    &__command {
+      flex: 1 1 auto;
+      display: flex;
+      align-content: center;
+      align-items: center;
+
+      .command__title {
+        margin-right: 2em;
+        // flex: 1 1 auto;
+        min-width: 8em;
+      }
+    }
+
+    &__controls {
+      display: flex;
+      gap: 2em;
+    }
+
+
+  }
+
+}
+
+.units__value {
+  padding-inline: 0.5em 0;
+}
+
+
+.skeleton-loader {
+  flex: 1 0 auto;
+  align-items: center;
+}
+
+
+.skeleton-displayView {
+
+  .skeleton-view-group {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    row-gap: 0.75em;
+    padding: 1rem 0;
+    column-gap: 2em;
+
+    .grid-column {
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+      row-gap: 2em;
+      align-items: center;
+
+    }
+
+    &__titles {
+      margin-right: 30%;
+      font-weight: 500;
+      font-size: 1em;
+    }
+
+    &__properties {
+      align-items: center;
+      column-gap: 1rem;
+
+      /* Compact rows */
+      min-height: 48px;
+    }
+
+    &__right-column {
+      padding-right: 2em;
+    }
+
+  }
+}
+
+.skeleton-view__title,
+.view-group__title,
+.save__button {
+  display: block;
+  margin-block: 2em 1em;
+}
+
+.view-group__wrapper {
+  .view-group__title {}
+
+  // margin-top: 2em;
+}
+
+
+
+
+.control__name {
+  word-wrap: break-word;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.dev__flex-item {
+  align-self: flex-end;
+  margin-left: 3em;
+}
+
+.placeholder {
+  display: none;
+}
+
+.display-view__header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 4px;
+  padding-right: 0.5em;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--mat-sys-surface-variant, rgba(0, 0, 0, 0.04));
+  }
+
+  .display-view__title {
+    flex: 1 1 auto;
+    margin-block: 0.5em;
+  }
+
+  .view-collapse__button {
+    flex-shrink: 0;
+    pointer-events: none;
+  }
+}
+
+.form-content {
+  transform-origin: top;
+  overflow-x: auto;
+  /* horizontal scroll inside each card instead of overflowing the card boundary */
+}
+
+@keyframes view-expand {
+  from {
+    opacity: 0;
+    transform: scaleY(0.92);
+    transform-origin: top;
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+}
+
+@keyframes view-collapse {
+  from {
+    opacity: 1;
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+
+  to {
+    opacity: 0;
+    transform: scaleY(0.92);
+    transform-origin: top;
+  }
+}
+
+/* ─── View section collapse/expand (CSS grid trick — no component recreation) */
+.view-collapse__content {
+  display: grid;
+  grid-template-rows: 1fr;
+  opacity: 1;
+  overflow: hidden;
+  transition: grid-template-rows 0.22s ease, opacity 0.15s ease;
+
+  &.collapsed {
+    grid-template-rows: 0fr;
+    opacity: 0;
+  }
+}
+
+.view-collapse__inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+@keyframes form-expand {
+  from {
+    opacity: 0;
+    transform: scaleY(0.96);
+    transform-origin: top;
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+}
+
+@keyframes form-collapse {
+  from {
+    opacity: 1;
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+
+  to {
+    opacity: 0;
+    transform: scaleY(0.96);
+    transform-origin: top;
+  }
+}
+
+/* ─── Status animations ──────────────────────────────────────────────────── */
+@keyframes alarm-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px $dark-grey;
+  }
+
+  50% {
+    box-shadow: 0 0 0 3px rgba($alarm, 0.55), 0 0 14px rgba($alarm, 0.25);
+  }
+}
+
+@keyframes cmd-value-flash {
+  0% {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.75), 0 0 10px $dark-grey;
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 10px $dark-grey;
+  }
+}
+
+@keyframes value-text-fade {
+  0% {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+  }
+
+  60% {
+    color: white;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+  }
+
+  100% {
+    color: inherit;
+    text-shadow: none;
+  }
+}
+
+/* ─── Status badge ───────────────────────────────────────────────────────── */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15em 0.65em;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  white-space: nowrap;
+  color: #fff;
+  background-color: transparent;
+  border: 1.5px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  margin-inline: 0.5em;
+
+  &.status--alarm {
+    background-color: rgba($alarm, 0.18);
+    border-color: rgba($alarm, 0.6);
+    color: lighten($alarm, 22%);
+  }
+
+  &.status--alarm-unack {
+    background-color: rgba($alarm, 0.18);
+    border-color: rgba($alarm, 0.6);
+    color: lighten($alarm, 22%);
+    animation: badge-alarm-pulse 1.5s ease-in-out infinite;
+  }
+
+  &.status--warning {
+    background-color: rgba($ocean-blue, 0.15);
+    border-color: rgba($ocean-blue, 0.55);
+    color: $ocean-blue;
+  }
+
+  &.status--offline {
+    background-color: rgba($dark-grey, 0.18);
+    border-color: rgba($dark-grey, 0.45);
+    color: $dark-grey-2;
+  }
+
+  &.status--override {
+    background-color: rgba($override-orange, 0.15);
+    border-color: rgba($override-orange, 0.55);
+    color: $override-orange;
+  }
+
+  &.status--fault {
+    background-color: rgba($dark-orange, 0.15);
+    border-color: rgba($dark-orange, 0.5);
+    color: $dark-orange;
+  }
+
+  &.status--disabled {
+    background-color: rgba($dark-grey-2, 0.12);
+    border-color: rgba($dark-grey-2, 0.4);
+    color: $dark-grey-2;
+  }
+}
+
+@keyframes badge-alarm-pulse {
+  0%, 100% {
+    box-shadow: none;
+    background-color: rgba($alarm, 0.18);
+  }
+
+  50% {
+    box-shadow: 0 0 0 3px rgba($alarm, 0.22);
+    background-color: rgba($alarm, 0.28);
+  }
+}
+
+/* ─── Compact mode (isMulti = true) ─────────────────────────────────────── */
+:host(.dynamic-form--compact) {
+  /* CSS custom properties picked up by child control-group */
+  --ctrl-row-gap: 0.35rem;
+  --ctrl-group-padding: 0.4rem 0;
+  --ctrl-row-min-height: 36px;
+  /* Flexible column widths to fit narrower cards */
+  --ctrl-row-columns: minmax(80px, 130px) minmax(0, 1fr) auto;
+
+  .display-page__header {
+    padding-right: 0.75em;
+
+    h4 {
+      font-size: 0.75rem;
+      margin-block: 0.25em;
+    }
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin-block: 0.25em 0.1em;
+  }
+
+  .key-form {
+    gap: 0.75em;
+    padding-right: 0.75em;
+    font-size: 1rem;
+    min-height: 1.5em;
+  }
+
+  .command--style {
+    padding: 0.5em 1em;
+    border-radius: 24px;
+  }
+
+  .display-view__header {
+    .display-view__title {
+      font-size: 0.9rem;
+      margin-block: 0.35em;
+    }
+  }
+
+  .save__button {
+    margin-block: 0.75em 0.5em;
+  }
+}
+.dynamic-form__tabs {
+  margin-top: 4px;
+}
+
+.alt-view__loading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 16px;
+  opacity: 0.7;
+}
+
+.alt-view__error {
+  padding: 16px;
+  opacity: 0.6;
+  font-style: italic;
+}

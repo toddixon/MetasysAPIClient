@@ -1,0 +1,11 @@
+{
+  "id": "9c8b245e-6b37-51ed-b436-d150d186208b",
+  "parentId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "object",
+  "name": "SC Network Port",
+  "label": "SC Network Port",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/SC Network Port",
+  "objectType": "objectTypeEnumSet.scNetworkPortClass",
+  "objectTypeVersion": "1.0"
+}

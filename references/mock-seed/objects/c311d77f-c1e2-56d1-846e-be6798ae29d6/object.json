@@ -1,0 +1,181 @@
+{
+  "objectType": "objectTypeEnumSet.notificationClassMapperClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "item": {
+    "id": "c311d77f-c1e2-56d1-846e-be6798ae29d6",
+    "name": "Notification",
+    "label": "Notification",
+    "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.Notification",
+    "objectType": "objectTypeEnumSet.notificationClassMapperClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.bacNotificClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "notificationClass": 0,
+    "priority": {
+      "toOffnormal": 120,
+      "toFault": 70,
+      "toNormal": 200
+    },
+    "ackRequired": [
+      [
+        "baceventBitsEnumSet.baceventToOffnormal",
+        false
+      ],
+      [
+        "baceventBitsEnumSet.baceventToFault",
+        false
+      ],
+      [
+        "baceventBitsEnumSet.baceventToNormal",
+        false
+      ]
+    ],
+    "sendNotificationsToSupervisor": true,
+    "attrChangeCount": 19,
+    "defaultAttribute": null,
+    "instanceNumber": 1,
+    "remoteDeviceAddress": "10",
+    "offline": false
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "Notification Class Mapper",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "instanceNumber": {
+        "title": "Instance Number",
+        "readOnly": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "remoteDeviceAddress": {
+        "title": "Remote Device Addr",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "offline": {
+        "title": "Offline",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Hardware",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Setup",
+              "properties": [
+                "instanceNumber",
+                "remoteDeviceAddress"
+              ],
+              "id": "viewGroupEnumSet.setupGrp"
+            },
+            {
+              "title": "Status",
+              "properties": [
+                "offline"
+              ],
+              "id": "viewGroupEnumSet.statusGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        },
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.hardwareView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

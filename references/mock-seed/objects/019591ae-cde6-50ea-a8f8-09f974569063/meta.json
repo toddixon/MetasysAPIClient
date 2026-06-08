@@ -1,0 +1,11 @@
+{
+  "id": "019591ae-cde6-50ea-a8f8-09f974569063",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "folder",
+  "name": "Trend Studies",
+  "label": "Trend Studies",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Trend Studies",
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0"
+}

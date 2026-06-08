@@ -1,0 +1,11 @@
+{
+  "id": "416cc825-7832-5935-b817-7d8103c54d4d",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "extension",
+  "name": "Memory Usage Trend Log",
+  "label": "Memory Usage Trend Log",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Memory Usage Trend Log",
+  "objectType": "objectTypeEnumSet.trendLogClass",
+  "objectTypeVersion": "1.0"
+}

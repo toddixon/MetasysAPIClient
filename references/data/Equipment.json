@@ -1,0 +1,20 @@
+{
+    "total": 1,
+    "next": null,
+    "previous": null,
+    "items": [
+        {
+            "id": "4742f8de-e3c2-57a9-8e0d-80dffa59cbf7",
+            "itemReference": "DESKTOP-VM:DESKTOP-VM/equipment.NS-NAE01.FC-1.M4-CGM",
+            "name": "M4-CGM",
+            "type": "M4-CGM",
+            "self": "https://desktop-vm/api/v6/equipment/4742f8de-e3c2-57a9-8e0d-80dffa59cbf7",
+            "spacesUrl": "https://desktop-vm/api/v6/equipment/4742f8de-e3c2-57a9-8e0d-80dffa59cbf7/spaces",
+            "equipmentUrl": "https://desktop-vm/api/v6/equipment/4742f8de-e3c2-57a9-8e0d-80dffa59cbf7/equipment",
+            "upstreamEquipmentUrl": "https://desktop-vm/api/v6/equipment/4742f8de-e3c2-57a9-8e0d-80dffa59cbf7/upstreamEquipment",
+            "networkDevicesUrl": "https://desktop-vm/api/v6/equipment/4742f8de-e3c2-57a9-8e0d-80dffa59cbf7/networkDevices",
+            "pointsUrl": "https://desktop-vm/api/v6/equipment/4742f8de-e3c2-57a9-8e0d-80dffa59cbf7/points"
+        }
+    ],
+    "self": "https://desktop-vm/api/v6/equipment?pageSize=100&page=1&sort=name"
+}

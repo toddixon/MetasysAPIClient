@@ -1,0 +1,11 @@
+{
+  "id": "9c144161-b537-5ddb-994b-69b8b8a9b84f",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "extension",
+  "name": "CPU Usage Alarm",
+  "label": "CPU Usage Alarm",
+  "itemReference": "DESKTOP-VM:NS-NAE01/CPU Usage Alarm",
+  "objectType": "objectTypeEnumSet.aaClass",
+  "objectTypeVersion": "1.0"
+}

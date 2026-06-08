@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "viewNameEnumSet.focusView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=focusView"
+    },
+    {
+      "id": "viewNameEnumSet.summaryView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=summaryView"
+    },
+    {
+      "id": "viewNameEnumSet.diagnosticView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=diagnosticView"
+    },
+    {
+      "id": "viewNameEnumSet.communicationsView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=communicationsView"
+    },
+    {
+      "id": "viewNameEnumSet.networkView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=networkView"
+    },
+    {
+      "id": "viewNameEnumSet.emailView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=emailView"
+    },
+    {
+      "id": "viewNameEnumSet.pagerView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=pagerView"
+    },
+    {
+      "id": "viewNameEnumSet.snmpView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=snmpView"
+    },
+    {
+      "id": "viewNameEnumSet.syslogView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=syslogView"
+    },
+    {
+      "id": "viewNameEnumSet.alarmView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=alarmView"
+    },
+    {
+      "id": "viewNameEnumSet.alarmView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=alarmView"
+    },
+    {
+      "id": "viewNameEnumSet.alarmView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=alarmView"
+    },
+    {
+      "id": "viewNameEnumSet.alarmView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=alarmView"
+    },
+    {
+      "id": "viewNameEnumSet.alarmView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=alarmView"
+    },
+    {
+      "id": "viewNameEnumSet.trendView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=trendView"
+    },
+    {
+      "id": "viewNameEnumSet.trendView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=trendView"
+    },
+    {
+      "id": "viewNameEnumSet.alarmView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=alarmView"
+    },
+    {
+      "id": "viewNameEnumSet.ssFocusView",
+      "viewUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2?viewId=ssFocusView"
+    }
+  ],
+  "self": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/views?includeSchema=False"
+}

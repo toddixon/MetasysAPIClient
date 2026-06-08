@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Action When Full",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/actionWhenFullEnumSet",
+  "setId": 567,
+  "oneOf": [
+    {
+      "const": "actionWhenFullEnumSet.rolloverActionWhenFull",
+      "title": "Rollover",
+      "memberId": 0
+    },
+    {
+      "const": "actionWhenFullEnumSet.stopActionWhenFull",
+      "title": "Stop",
+      "memberId": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+@let isLoading = loading$ | async;
+<form #loginForm [formGroup]="form" (ngSubmit)="onLoginClick(form.value)">
+  <mat-form-field appearance="fill" class="api-version__select">
+    <mat-label>API Version</mat-label>
+    <mat-select class="input-select" formControlName="version" placeholder="Select API Version">
+      @for(v of versions; track v) {
+      <mat-option [value]="v">{{ v }}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+  <div class="login-form">
+    <h2 class="login-form__header">Metasys API Client</h2>
+    <mat-divider class="mat-divider"></mat-divider>
+    <mat-form-field appearance="outline">
+      <mat-label>Server Hostname or IP</mat-label>
+      <input matInput #hostInput formControlName="host" spellcheck="false" placeholder="Enter server hostname or IP">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Username</mat-label>
+      <input matInput #usernameInput formControlName="username" spellcheck="false" placeholder="Enter your username">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Password</mat-label>
+      <input matInput #passwordInput [type]="hide() ? 'password' : 'text'" formControlName="password"
+        placeholder="Enter your password">
+      <button mat-icon-button (click)="onPasswordVisibilityToggle($event)" type="button" [disabled]="isLoading!"
+        matSuffix [attr.aria-label]="'Hide Password'">
+        <mat-icon>{{ hide() ? "visibility_off" : "visibility" }}</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <mat-divider class="mat-divider"></mat-divider>
+
+    <button matFab extended color="primary" type="submit" [disabled]="form.invalid || isLoading">
+      <mat-icon>login</mat-icon>Login
+    </button>
+
+    @if(isLoading) {
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    }
+  </div>
+</form>

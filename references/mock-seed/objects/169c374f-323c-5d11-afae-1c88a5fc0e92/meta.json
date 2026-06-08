@@ -1,0 +1,11 @@
+{
+  "id": "169c374f-323c-5d11-afae-1c88a5fc0e92",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "169c374f-323c-5d11-afae-1c88a5fc0e92",
+  "classification": "integration",
+  "name": "BACnet Integration",
+  "label": "BACnet Integration",
+  "itemReference": "DESKTOP-VM:NS-NAE01/BACnet Integration",
+  "objectType": "objectTypeEnumSet.bacnetIntegrationClass",
+  "objectTypeVersion": "1.0"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Error Tolerance",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/errorToleranceEnumSet",
+  "setId": 467,
+  "oneOf": [
+    {
+      "const": "errorToleranceEnumSet.errTolLow",
+      "title": "Low",
+      "memberId": 0
+    },
+    {
+      "const": "errorToleranceEnumSet.errTolMedium",
+      "title": "Medium",
+      "memberId": 1
+    },
+    {
+      "const": "errorToleranceEnumSet.errTolHigh",
+      "title": "High",
+      "memberId": 2
+    }
+  ]
+}

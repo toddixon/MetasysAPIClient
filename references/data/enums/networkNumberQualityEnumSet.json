@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Network Number Quality Enum Set",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/networkNumberQualityEnumSet",
+  "setId": 1856,
+  "oneOf": [
+    {
+      "const": "networkNumberQualityEnumSet.networkNumberQualityUnknown",
+      "title": "Network Number Unknown",
+      "memberId": 0
+    },
+    {
+      "const": "networkNumberQualityEnumSet.networkNumberQualityLearned",
+      "title": "Network Number Learned",
+      "memberId": 1
+    },
+    {
+      "const": "networkNumberQualityEnumSet.networkNumberQualityLearnedConfigured",
+      "title": "Network Number Learned/Configured",
+      "memberId": 2
+    },
+    {
+      "const": "networkNumberQualityEnumSet.networkNumberQualityConfigured",
+      "title": "Network Number Configured",
+      "memberId": 3
+    }
+  ]
+}

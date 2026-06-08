@@ -1,0 +1,46 @@
+<!-- @let selectedNodes = (navTreeService.selectedNodes$ | async)!.length; -->
+@if(displayViews$ | async; as displayItems) {
+@if(displayItems.length) {
+<!-- @if ((navTreeService.selectedNodes$ | async)!.length) { -->
+
+
+<!-- @for(view of displayItems; track view.itm.item!.id) { -->
+
+<!-- <section class="diaplay-view__buttons">
+  <mat-button-toggle-group #toggleDisplay [(ngModel)]="dataViewType">
+    <mat-button-toggle value="Formatted">Formatted</mat-button-toggle>
+    <mat-button-toggle value="Raw">Raw</mat-button-toggle>
+  </mat-button-toggle-group>
+</section> -->
+
+<div #displayedItems class="display__wrapper" [class.display__wrapper--multi]="displayItems.length > 1">
+
+  @for(item of displayItems; track item.itemData.id) {
+
+  @if(dataViewType == 'Formatted') {
+  <section #card class="display__item-card">
+    <app-dynamic-form [displayItem]="item" [isMulti]="displayItems.length > 1"></app-dynamic-form>
+  </section>
+
+  }
+  <!-- @else if(dataViewType == "Raw") {
+  <app-unformatted-display [displayItem]="item"></app-unformatted-display>
+  } -->
+
+  }
+
+</div>
+
+<!-- } -->
+
+<!-- } @else {
+  <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+  } -->
+
+} @else {
+<div class="display__empty-state" animation.enter="expand-in" animation.leave="retract-out">
+  <span class="display__none-selected">No items selected</span>
+</div>
+}
+
+}

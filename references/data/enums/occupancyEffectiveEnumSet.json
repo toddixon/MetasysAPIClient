@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Occ Effective",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/occupancyEffectiveEnumSet",
+  "setId": 345,
+  "oneOf": [
+    {
+      "const": "occupancyEffectiveEnumSet.effectiveOccupancyOccupied",
+      "title": "Occupied",
+      "memberId": 0
+    },
+    {
+      "const": "occupancyEffectiveEnumSet.effectiveOccupancyUnoccupied",
+      "title": "UnOccupied",
+      "memberId": 1
+    },
+    {
+      "const": "occupancyEffectiveEnumSet.effectiveOccupancyBypass",
+      "title": "Bypass",
+      "memberId": 2
+    },
+    {
+      "const": "occupancyEffectiveEnumSet.effectiveOccupancyStandby",
+      "title": "Standby",
+      "memberId": 3
+    }
+  ]
+}

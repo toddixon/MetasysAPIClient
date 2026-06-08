@@ -1,0 +1,11 @@
+{
+  "id": "a64431c8-7cec-542a-9460-5741a6d55cf4",
+  "parentId": "f45c66c1-59be-52a6-b549-a15b3c359239",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "folder",
+  "name": "NAE01",
+  "label": "NAE01",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.NAE01",
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0"
+}

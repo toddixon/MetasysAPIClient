@@ -1,0 +1,238 @@
+{
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "AV Mapper",
+    "version": "1.0",
+    "$id": "https://desktop-vm/api/v6/schemas/objectTypes/avMapperClass",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400,
+        "default": ""
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 64
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ],
+        "default": "objectTypeEnumSet.bacAvClass"
+      },
+      "objectCategory": {
+        "title": "Authorization Category",
+        "category": "attributeCategoryEnumSet.objectCategoryCategory",
+        "numberOfStates": 250,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=modifyConfigItems"
+          }
+        ],
+        "default": "objectCategoryEnumSet.generalCategory"
+      },
+      "instanceNumber": {
+        "title": "Instance Number",
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4194303,
+        "default": 0
+      },
+      "localControl": {
+        "title": "Local Control",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": false
+      },
+      "relinquishDefault": {
+        "title": "Relinquish Default",
+        "readOnly": true,
+        "displayPrecisionSource": "displayPrecision",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -3.40282347e+38,
+        "maximum": 3.40282347e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "default": 0
+      },
+      "defaultValue": {
+        "title": "Default Value",
+        "readOnly": true,
+        "displayPrecisionSource": "displayPrecision",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -3.40282347e+38,
+        "maximum": 3.40282347e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "default": 0
+      },
+      "restoreCommandPriority": {
+        "title": "Restore Command Priority",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.restoreCommandPriorityCategory",
+        "type": "array",
+        "metasysType": "flags",
+        "maxItems": 4,
+        "minItems": 4,
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "allOf": [
+                {
+                  "$ref": "https://desktop-vm/api/v6/schemas/enums/restorePriorityEnumSet"
+                },
+                {
+                  "enum": [
+                    "restorePriorityEnumSet.7",
+                    "restorePriorityEnumSet.10",
+                    "restorePriorityEnumSet.12",
+                    "restorePriorityEnumSet.15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "uniqueItems": true,
+        "default": ""
+      }
+    },
+    "required": [
+      "name",
+      "objectCategory",
+      "instanceNumber",
+      "localControl"
+    ]
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Object",
+              "properties": [
+                "name",
+                "description",
+                "bacnetObjectType",
+                "objectCategory"
+              ],
+              "id": "viewGroupEnumSet.objectGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    },
+    {
+      "title": "Hardware",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Setup",
+              "properties": [
+                "instanceNumber"
+              ],
+              "id": "viewGroupEnumSet.setupGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.hardwareView"
+    },
+    {
+      "title": "Options",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Control Source",
+              "properties": [
+                "localControl"
+              ],
+              "id": "viewGroupEnumSet.controlSourceGrp"
+            },
+            {
+              "title": "Default State",
+              "properties": [
+                "relinquishDefault",
+                "defaultValue"
+              ],
+              "id": "viewGroupEnumSet.defaultStateGrp"
+            },
+            {
+              "title": "Restart Options",
+              "properties": [
+                "restoreCommandPriority"
+              ],
+              "id": "viewGroupEnumSet.restartOptionsGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.optionsView"
+    }
+  ]
+}

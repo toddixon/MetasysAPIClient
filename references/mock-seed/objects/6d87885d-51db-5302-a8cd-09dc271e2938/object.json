@@ -1,0 +1,378 @@
+{
+  "objectType": "objectTypeEnumSet.biMapperClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "item": {
+    "id": "6d87885d-51db-5302-a8cd-09dc271e2938",
+    "name": "PRV10-S",
+    "label": "PRV10-S",
+    "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.PRV10-S",
+    "objectType": "objectTypeEnumSet.biMapperClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "Supply Fan Status",
+    "bacnetObjectType": "objectTypeEnumSet.bacBiClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "outOfService": false,
+    "reliability": "reliabilityEnumSet.reliable",
+    "outOfServiceExpirationTime": {
+      "date": null,
+      "time": null
+    },
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "cosCount": 0,
+    "cosTime": {
+      "date": null,
+      "time": null
+    },
+    "elapsedActiveTime": 0,
+    "activeTimeReset": {
+      "date": null,
+      "time": null
+    },
+    "stateCountReset": {
+      "date": null,
+      "time": null
+    },
+    "statesText": "twostateEnumSet.offonEnumSet",
+    "statesTextErrorStatus": "statusEnumSet.ok",
+    "presentValue": "offonEnumSet.0",
+    "attrChangeCount": 45,
+    "defaultAttribute": "attributeEnumSet.presentValue",
+    "statusFlags": [
+      [
+        "bacstatusFlagsEnumSet.inAlarmEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.faultEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.overridenEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.outOfServiceEnum",
+        false
+      ]
+    ],
+    "eventState": "baceventstateEnumSet.bacevntNormal",
+    "polarity": "bacpolarityEnumSet.bacpolrtyNormal",
+    "activeText": "On",
+    "inactiveText": "Off",
+    "deviceType": "BI IN1",
+    "sabMacAddr": null,
+    "slot": 8,
+    "intrinsicAlarmingDefined": false,
+    "useRemoteAlarming": false,
+    "ackedTransitions": [
+      [
+        "baceventBitsEnumSet.baceventToOffnormal",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToFault",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToNormal",
+        true
+      ]
+    ],
+    "alarmValue": "offonEnumSet.0",
+    "eventEnable": [
+      [
+        "baceventBitsEnumSet.baceventToOffnormal",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToFault",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToNormal",
+        true
+      ]
+    ],
+    "eventTimeStamps": [
+      {
+        "type": 2,
+        "timestamp": 0
+      },
+      {
+        "type": 2,
+        "timestamp": 0
+      },
+      {
+        "type": 2,
+        "timestamp": 0
+      }
+    ],
+    "eventMessageTexts": [
+      "",
+      "",
+      ""
+    ],
+    "notificationClass": 1,
+    "notifyType": "bacNotifyTypeEnumSet.bacNotifyAlarm",
+    "timeDelay": 0,
+    "alarmMessageText": null,
+    "graphic": null,
+    "graphicAlias": null,
+    "notificationObjRef": null,
+    "intrinsicAlarmDisabled": false,
+    "storedEventEnable": [
+      [
+        "baceventBitsEnumSet.baceventToOffnormal",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToFault",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToNormal",
+        true
+      ]
+    ],
+    "lastKnownTimeStamps": [
+      0,
+      0,
+      0
+    ],
+    "instanceNumber": 10390,
+    "classId": null,
+    "trunkNumber": 1,
+    "deviceMacAddress": 10,
+    "remoteDeviceAddress": "10",
+    "offline": false,
+    "inTest": false,
+    "covCount": 0,
+    "mappedObjectType": "objectTypeEnumSet.biHwClass",
+    "runFirst": 2,
+    "userNameIsBacnetObjName": false,
+    "objectName": "NS-NAE01/FC-1.M4-CGM.PRV10-S",
+    "enabled": true,
+    "executionPriority": "executionPriorityEnumSet.normalPriority",
+    "objectIdentifier": {
+      "instance": 3003821,
+      "bacnetObjectType": "objectTypeEnumSet.bacBiClass"
+    },
+    "internalOid": 845,
+    "deviceName": {
+      "objectReference": "DESKTOP-VM:NS-NAE01",
+      "referencedObject": {
+        "objectName": "NAE01",
+        "objectUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2"
+      }
+    },
+    "referenceCount": 1,
+    "isContainer": false,
+    "childList": [],
+    "pmiRefresh": null,
+    "internal": false,
+    "archiveObject": true,
+    "commandList": [
+      "commandIdEnumSet.inServiceCommand",
+      "commandIdEnumSet.outOfServiceCommand",
+      "commandIdEnumSet.temporaryOutOfServiceCommand",
+      "commandIdEnumSet.enableAlarmsCommand",
+      "commandIdEnumSet.disableAlarmsCommand"
+    ],
+    "objectOrder": 0
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "BI Mapper",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "instanceNumber": {
+        "title": "Instance Number",
+        "readOnly": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "remoteDeviceAddress": {
+        "title": "Remote Device Addr",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "sabMacAddr": {
+        "title": "SA Bus MAC Address",
+        "readOnly": true,
+        "metasysType": "byte",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 0,
+        "maximum": 255
+      },
+      "slot": {
+        "title": "Slot",
+        "readOnly": true,
+        "metasysType": "byte",
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "minimum": 0,
+        "maximum": 255
+      },
+      "deviceType": {
+        "title": "Device Type",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 20
+      },
+      "offline": {
+        "title": "Offline",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "presentValue": {
+        "title": "Present Value",
+        "dynamic": true,
+        "enumSetSource": "attributeEnumSet.statesText",
+        "numberOfStates": 2,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "offonEnumSet.1"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/offonEnumSet"
+          }
+        ]
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Hardware",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Setup",
+              "properties": [
+                "instanceNumber",
+                "remoteDeviceAddress",
+                "sabMacAddr",
+                "slot",
+                "deviceType"
+              ],
+              "id": "viewGroupEnumSet.setupGrp"
+            },
+            {
+              "title": "Status",
+              "properties": [
+                "offline"
+              ],
+              "id": "viewGroupEnumSet.statusGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        },
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "presentValue",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.hardwareView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

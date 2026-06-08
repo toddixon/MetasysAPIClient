@@ -1,0 +1,3417 @@
+{
+  "objectType": "objectTypeEnumSet.scNetworkPortClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "item": {
+    "id": "9c8b245e-6b37-51ed-b436-d150d186208b",
+    "name": "SC Network Port",
+    "label": "SC Network Port",
+    "itemReference": "DESKTOP-VM:DESKTOP-VM/SC Network Port",
+    "objectType": "objectTypeEnumSet.scNetworkPortClass",
+    "status": "objectStatusEnumSet.osOutOfService",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.bacNetworkPortClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "networkType": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeBacnetSc",
+    "protocolLevel": "bacnetProtocolLevelEnumSet.bacnetProtocolLevelBacnetAppl",
+    "ethernetPortInUse": "ethernetPortTypeEnumSet.ethernetPortInternal",
+    "jciSecureConnectNodeType": "secureConnectNodeTypeEnumSet.secureConnectNodeTypePrimaryHub",
+    "networkAddress": 3001,
+    "networkNumberQuality": "networkNumberQualityEnumSet.networkNumberQualityConfigured",
+    "virtualMacAddress": "00155D086405",
+    "bacnetIpAddress": [
+      192,
+      168,
+      8,
+      185
+    ],
+    "ipDefaultGateway": [
+      192,
+      168,
+      8,
+      1
+    ],
+    "ipSubnetMask": [
+      255,
+      255,
+      255,
+      0
+    ],
+    "ipDnsServer": [
+      [
+        192,
+        168,
+        8,
+        1
+      ]
+    ],
+    "networkPortWebsocketUris": [
+      "wss://192.168.8.185:1443",
+      "wss://DESKTOP-VM:1443"
+    ],
+    "jciMaxBvlcLengthAccepted": 65535,
+    "jciMaxNpduLengthAccepted": 61327,
+    "apduLength": 61306,
+    "linkSpeed": 0,
+    "changesPending": false,
+    "secureConnectPendingNodeType": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeUndefined",
+    "jciNpoAttributesRequiringActivation": [],
+    "bacnetCommand": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdIdle",
+    "outOfService": true,
+    "statusFlags": [
+      [
+        "bacstatusFlagsEnumSet.inAlarmEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.faultEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.overridenEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.outOfServiceEnum",
+        true
+      ]
+    ],
+    "reliability": "reliabilityEnumSet.reliable",
+    "jciSecureConnectHubConnectorState": "bacnetScHubConnectorStateEnumSet.bacnetScConnectorStateNoHub",
+    "jciSecureConnectPrimaryHubStatus": {
+      "connectionState": "bacnetScConnectionStateEnumSet.bacnetScConnectionStateNotConnected",
+      "connectTimestamp": {
+        "date": null,
+        "time": null
+      },
+      "disconnectTimestamp": {
+        "date": null,
+        "time": null
+      },
+      "error": [
+        {
+          "errorClass": "bacnetErrorClassesEnumSet.bacnetErrorClassCommunication",
+          "errorCode": "bacnetErrorCodesEnumSet.bacnetErrorCodeNoError"
+        }
+      ],
+      "details": ""
+    },
+    "jciSecureConnectFailoverHubStatus": {
+      "connectionState": "bacnetScConnectionStateEnumSet.bacnetScConnectionStateNotConnected",
+      "connectTimestamp": {
+        "date": null,
+        "time": null
+      },
+      "disconnectTimestamp": {
+        "date": null,
+        "time": null
+      },
+      "error": [
+        {
+          "errorClass": "bacnetErrorClassesEnumSet.bacnetErrorClassCommunication",
+          "errorCode": "bacnetErrorCodesEnumSet.bacnetErrorCodeNoError"
+        }
+      ],
+      "details": ""
+    },
+    "jciSecureConnectHubFunctionConnectionStatus": [],
+    "jciSecureConnectDirectConnectConnectionStatus": [],
+    "useSiteSettings": true,
+    "networkNumber": 3001,
+    "securePortNum": 1443,
+    "jciSecureConnectPrimaryHubUri": "wss://DESKTOP-VM:1443",
+    "jciSecureConnectFailoverHubUri": "",
+    "jciSecureConnectHubFunctionEnable": true,
+    "jciSecureConnectHubFunctionAcceptUris": [
+      "wss://192.168.8.185:1443",
+      "wss://DESKTOP-VM:1443"
+    ],
+    "jciSecureConnectDirectConnectEnable": true,
+    "jciSecureConnectDirectConnectAcceptUris": [
+      "wss://192.168.8.185:1443",
+      "wss://DESKTOP-VM:1443"
+    ],
+    "jciSecureConnectMinimumReconnectTime": 90,
+    "jciSecureConnectMaximumReconnectTime": 120,
+    "jciSecureConnectConnectWaitTimeout": 10,
+    "jciSecureConnectDisconnectWaitTimeout": 10,
+    "jciSecureConnectInitiatingHeartbeatTimeout": 300,
+    "jciSecureConnectAcceptingHeartbeatTimeout": 500,
+    "maxDirectConnectionRetries": 99,
+    "internodeCommTimer": 120,
+    "jciNpoApduTimeout": 10000,
+    "jciNpoApduSegmentTimeout": 10000,
+    "jciNpoApduRetries": 3,
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "attrChangeCount": 52,
+    "defaultAttribute": null,
+    "configurationStatus": "secureConnectConfigurationStatusEnumSet.scConfigStatusDatalinkNotLicensed",
+    "websocketServerTaskState": "taskStateEnumSet.taskStateNotInitialized",
+    "numActiveWebsocketConnections": 0,
+    "numPendingDirectConnections": 0,
+    "secureConnectHubReconnectTimerState": "inactiveActiveEnumSet.omdInactive",
+    "advancedLoggingEnabled": false,
+    "enableDatalinkRecoveryLogic": true,
+    "numDatalinkRecoveryEvents": 0,
+    "debugMode": false,
+    "debugTimeRemaining": 0,
+    "resetDate": {
+      "year": 1900,
+      "month": "monthEnumSet.monthJan",
+      "dayOfMonth": "bacnetDayOfMonthEnumSet.bdom1",
+      "dayOfWeek": "dayOfWeekEnumSet.monday"
+    },
+    "resetTime": {
+      "hour": 0,
+      "minute": 0,
+      "second": 0,
+      "hundredth": 0
+    },
+    "unsecureNpdusReceived": 0,
+    "messageTransmits": 0,
+    "messageReceives": 0,
+    "broadcastTransmits": 0,
+    "broadcastReceives": 0,
+    "messagesForwardedHubFunction": 0,
+    "broadcastsForwardedHubFunction": 0,
+    "transmitFailures": 0,
+    "rcvMsgDiscard": 0,
+    "bacnetMacAddress": "00155D086405",
+    "jciNpoChangesPendingBitstring": 0,
+    "datalinkType": 356,
+    "manager": false,
+    "dataRecordDelete": false,
+    "covThreshold": 10,
+    "covCount": 0,
+    "peakCovCount": 0,
+    "peakCovCacheCount": 0,
+    "userNameIsBacnetObjName": false,
+    "objectName": "DESKTOP-VM/SC Network Port",
+    "enabled": true,
+    "executionPriority": "executionPriorityEnumSet.normalPriority",
+    "objectIdentifier": {
+      "instance": 4128772,
+      "bacnetObjectType": "objectTypeEnumSet.bacNetworkPortClass"
+    },
+    "propertyList": [
+      "attributeEnumSet.networkType",
+      "attributeEnumSet.protocolLevel",
+      "attributeEnumSet.statusFlags",
+      "attributeEnumSet.reliability",
+      "attributeEnumSet.outOfService",
+      "attributeEnumSet.changesPending",
+      "attributeEnumSet.bacnetCommand",
+      "attributeEnumSet.networkNumber",
+      "attributeEnumSet.networkNumberQuality",
+      "attributeEnumSet.bacnetMacAddress",
+      "attributeEnumSet.apduLength",
+      "attributeEnumSet.bacnetIpAddress",
+      "attributeEnumSet.ipSubnetMask",
+      "attributeEnumSet.ipDefaultGateway",
+      "attributeEnumSet.ipDnsServer",
+      "attributeEnumSet.linkSpeed",
+      "attributeEnumSet.jciMaxBvlcLengthAccepted",
+      "attributeEnumSet.jciMaxNpduLengthAccepted",
+      "attributeEnumSet.jciSecureConnectPrimaryHubUri",
+      "attributeEnumSet.jciSecureConnectFailoverHubUri",
+      "attributeEnumSet.jciSecureConnectMinimumReconnectTime",
+      "attributeEnumSet.jciSecureConnectMaximumReconnectTime",
+      "attributeEnumSet.jciSecureConnectConnectWaitTimeout",
+      "attributeEnumSet.jciSecureConnectDisconnectWaitTimeout",
+      "attributeEnumSet.jciSecureConnectInitiatingHeartbeatTimeout",
+      "attributeEnumSet.jciSecureConnectAcceptingHeartbeatTimeout",
+      "attributeEnumSet.jciSecureConnectHubConnectorState",
+      "attributeEnumSet.jciSecureConnectPrimaryHubStatus",
+      "attributeEnumSet.jciSecureConnectFailoverHubStatus",
+      "attributeEnumSet.jciSecureConnectHubFunctionEnable",
+      "attributeEnumSet.jciSecureConnectHubFunctionAcceptUris",
+      "attributeEnumSet.jciSecureConnectHubFunctionConnectionStatus",
+      "attributeEnumSet.jciSecureConnectDirectConnectEnable",
+      "attributeEnumSet.jciSecureConnectDirectConnectAcceptUris",
+      "attributeEnumSet.jciSecureConnectDirectConnectConnectionStatus",
+      "attributeEnumSet.securePortNum",
+      "attributeEnumSet.jciSecureConnectNodeType",
+      "attributeEnumSet.secureConnectPendingNodeType",
+      "attributeEnumSet.networkPortWebsocketUris",
+      "attributeEnumSet.useSiteSettings",
+      "attributeEnumSet.maxDirectConnectionRetries",
+      "attributeEnumSet.jciNpoApduTimeout",
+      "attributeEnumSet.jciNpoApduSegmentTimeout",
+      "attributeEnumSet.jciNpoApduRetries",
+      "attributeEnumSet.jciNpoChangesPendingBitstring",
+      "attributeEnumSet.jciNpoAttributesRequiringActivation",
+      "attributeEnumSet.ethernetPortInUse",
+      "attributeEnumSet.advancedLoggingEnabled",
+      "attributeEnumSet.websocketServerTaskState",
+      "attributeEnumSet.configurationStatus",
+      "attributeEnumSet.numActiveWebsocketConnections",
+      "attributeEnumSet.numPendingDirectConnections",
+      "attributeEnumSet.secureConnectHubReconnectTimerState",
+      "attributeEnumSet.enableDatalinkRecoveryLogic",
+      "attributeEnumSet.numDatalinkRecoveryEvents",
+      "attributeEnumSet.resetTime",
+      "attributeEnumSet.resetDate",
+      "attributeEnumSet.unsecureNpdusReceived",
+      "attributeEnumSet.messageTransmits",
+      "attributeEnumSet.messageReceives",
+      "attributeEnumSet.broadcastTransmits",
+      "attributeEnumSet.broadcastReceives",
+      "attributeEnumSet.messagesForwardedHubFunction",
+      "attributeEnumSet.broadcastsForwardedHubFunction",
+      "attributeEnumSet.transmitFailures",
+      "attributeEnumSet.rcvMsgDiscard",
+      "attributeEnumSet.itemReference",
+      "attributeEnumSet.name",
+      "attributeEnumSet.description",
+      "attributeEnumSet.status",
+      "attributeEnumSet.enabled",
+      "attributeEnumSet.executionPriority",
+      "attributeEnumSet.objectCategory",
+      "attributeEnumSet.alarmState"
+    ],
+    "internalOid": 37,
+    "deviceName": {
+      "objectReference": "DESKTOP-VM:DESKTOP-VM",
+      "referencedObject": {
+        "objectName": "DESKTOP-VM",
+        "objectUrl": "https://desktop-vm/api/v6/objects/1dd8657b-33b5-591e-b8aa-4a86ced81bec"
+      }
+    },
+    "referenceCount": 1,
+    "isContainer": false,
+    "childList": [],
+    "pmiRefresh": null,
+    "internal": false,
+    "archiveObject": true,
+    "commandList": [
+      "commandIdEnumSet.latchStatisticsCommand",
+      "commandIdEnumSet.clearStatisticsCommand",
+      "commandIdEnumSet.initiateDirectConnectionsCommand",
+      "commandIdEnumSet.deleteCertificatesCommand"
+    ],
+    "objectCanNotBeDeleted": true,
+    "objectOrder": 0
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "Secure Connect Network Port",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "networkType": {
+        "title": "Network Type",
+        "readOnly": true,
+        "numberOfStates": 12,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "bacnetNetworkTypeEnumSet.bacnetNetworkTypeBacnetSc"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetNetworkTypeEnumSet"
+          }
+        ]
+      },
+      "protocolLevel": {
+        "title": "Protocol Level",
+        "readOnly": true,
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "bacnetProtocolLevelEnumSet.bacnetNetworkPortCmdRestartSubordinateDiscovery"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetProtocolLevelEnumSet"
+          }
+        ]
+      },
+      "statusFlags": {
+        "title": "Status Flags",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "flags",
+        "maxItems": 4,
+        "minItems": 4,
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/bacstatusFlagsEnumSet"
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "uniqueItems": true
+      },
+      "reliability": {
+        "title": "Reliability",
+        "readOnly": true,
+        "numberOfStates": 116,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "reliabilityEnumSet.invalidValueForApplication"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/reliabilityEnumSet"
+          }
+        ]
+      },
+      "outOfService": {
+        "title": "Out Of Service",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "changesPending": {
+        "title": "Changes Pending",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "bacnetCommand": {
+        "title": "Command",
+        "numberOfStates": 8,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdRestartPort"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetNetworkPortCmdEnumSet"
+          }
+        ]
+      },
+      "networkNumber": {
+        "title": "Pending Network Number",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65534
+      },
+      "networkNumberQuality": {
+        "title": "Network Number Quality",
+        "readOnly": true,
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "networkNumberQualityEnumSet.networkNumberQualityConfigured"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/networkNumberQualityEnumSet"
+          }
+        ]
+      },
+      "bacnetMacAddress": {
+        "title": "MAC Address",
+        "readOnly": true,
+        "format": "hex",
+        "type": "string",
+        "metasysType": "octetString"
+      },
+      "apduLength": {
+        "title": "APDU Length",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "bacnetIpAddress": {
+        "title": "IP Address",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.ipAddressCategory",
+        "type": "array",
+        "metasysType": "array",
+        "items": {
+          "metasysType": "byte",
+          "oneOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "minimum": 0,
+          "maximum": 255
+        },
+        "maxItems": 4,
+        "minItems": 4
+      },
+      "ipSubnetMask": {
+        "title": "IP Subnet Mask",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.ipAddressCategory",
+        "type": "array",
+        "metasysType": "array",
+        "items": {
+          "metasysType": "byte",
+          "oneOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "minimum": 0,
+          "maximum": 255
+        },
+        "maxItems": 4,
+        "minItems": 4
+      },
+      "ipDefaultGateway": {
+        "title": "IP Default Gateway",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.ipAddressCategory",
+        "type": "array",
+        "metasysType": "array",
+        "items": {
+          "metasysType": "byte",
+          "oneOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "minimum": 0,
+          "maximum": 255
+        },
+        "maxItems": 4,
+        "minItems": 4
+      },
+      "ipDnsServer": {
+        "title": "IP DNS Server",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "category": "attributeCategoryEnumSet.ipAddressCategory",
+          "type": "array",
+          "metasysType": "array",
+          "items": {
+            "metasysType": "byte",
+            "oneOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "minimum": 0,
+            "maximum": 255
+          },
+          "maxItems": 4,
+          "minItems": 4
+        }
+      },
+      "linkSpeed": {
+        "title": "Link Speed",
+        "readOnly": true,
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -3.40282347e+38,
+        "maximum": 3.40282347e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "unit": {
+          "id": "bacnetBitsPerSecond",
+          "title": "bits per second"
+        }
+      },
+      "jciMaxBvlcLengthAccepted": {
+        "title": "JCI Maximum BVLC Length Accepted",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "jciMaxNpduLengthAccepted": {
+        "title": "JCI Maximum NPDU Length Accepted",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "jciSecureConnectPrimaryHubUri": {
+        "title": "JCI SC Primary Hub URI",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 256
+      },
+      "jciSecureConnectFailoverHubUri": {
+        "title": "JCI SC Failover Hub URI",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 256
+      },
+      "jciSecureConnectMinimumReconnectTime": {
+        "title": "JCI SC Minimum Reconnect Time",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 300,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        }
+      },
+      "jciSecureConnectMaximumReconnectTime": {
+        "title": "JCI SC Maximum Reconnect Time",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 600,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        }
+      },
+      "jciSecureConnectConnectWaitTimeout": {
+        "title": "JCI SC Connect Wait Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 5,
+        "maximum": 300,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        }
+      },
+      "jciSecureConnectDisconnectWaitTimeout": {
+        "title": "JCI SC Disconnect Wait Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 5,
+        "maximum": 300,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        }
+      },
+      "jciSecureConnectInitiatingHeartbeatTimeout": {
+        "title": "JCI SC Initiating Heartbeat Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 3,
+        "maximum": 300,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        }
+      },
+      "jciSecureConnectAcceptingHeartbeatTimeout": {
+        "title": "JCI SC Accepting Heartbeat Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 3,
+        "maximum": 500,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        }
+      },
+      "jciSecureConnectHubConnectorState": {
+        "title": "JCI SC Hub Connector State",
+        "readOnly": true,
+        "numberOfStates": 3,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "bacnetScHubConnectorStateEnumSet.bacnetScConnectorStateFailoverConnect"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetScHubConnectorStateEnumSet"
+          }
+        ]
+      },
+      "jciSecureConnectPrimaryHubStatus": {
+        "title": "JCI SC Primary Hub Connection Status",
+        "readOnly": true,
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "connectionState": {
+            "numberOfStates": 4,
+            "allOf": [
+              {
+                "type": "string",
+                "metasysType": "enum",
+                "lastMember": "bacnetScConnectionStateEnumSet.bacnetScConnectionStateFailedToConnect"
+              },
+              {
+                "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetScConnectionStateEnumSet"
+              }
+            ],
+            "title": "Connection State"
+          },
+          "connectTimestamp": {
+            "category": "attributeCategoryEnumSet.bacnetDateTimeCategory",
+            "type": "object",
+            "metasysType": "struct",
+            "properties": {
+              "date": {
+                "category": "attributeCategoryEnumSet.bacnetTimeUnspecifiedCategory",
+                "metasysType": "date",
+                "oneOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "metasysType": "date",
+                    "properties": {
+                      "year": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "ushort",
+                            "minimum": 1900,
+                            "maximum": 2154
+                          },
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 0,
+                            "maximum": 254
+                          }
+                        ]
+                      },
+                      "month": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 12
+                          },
+                          {
+                            "allOf": [
+                              {
+                                "type": "string",
+                                "metasysType": "enum",
+                                "lastMember": "monthEnumSet.monthDec"
+                              },
+                              {
+                                "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "dayOfMonth": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 31
+                          },
+                          {
+                            "allOf": [
+                              {
+                                "type": "string",
+                                "metasysType": "enum",
+                                "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                              },
+                              {
+                                "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "dayOfWeek": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 7
+                          },
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "const": 255
+                          },
+                          {
+                            "type": "string",
+                            "metasysType": "string",
+                            "const": "any"
+                          },
+                          {
+                            "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "year",
+                      "month",
+                      "dayOfMonth"
+                    ],
+                    "display": [
+                      "year",
+                      "month",
+                      "dayOfMonth"
+                    ],
+                    "additionalProperties": false
+                  }
+                ],
+                "title": "Date"
+              },
+              "time": {
+                "category": "attributeCategoryEnumSet.bacnetDateUnspecifiedCategory",
+                "oneOf": [
+                  {
+                    "allOf": [
+                      {
+                        "$ref": "#metasys-time"
+                      },
+                      {
+                        "required": [
+                          "hour",
+                          "minute",
+                          "second"
+                        ],
+                        "display": [
+                          "hour",
+                          "minute",
+                          "second"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "metasysType": "time",
+                "title": "Time"
+              }
+            },
+            "title": "Connect Timestamp"
+          },
+          "disconnectTimestamp": {
+            "category": "attributeCategoryEnumSet.bacnetDateTimeCategory",
+            "type": "object",
+            "metasysType": "struct",
+            "properties": {
+              "date": {
+                "category": "attributeCategoryEnumSet.bacnetTimeUnspecifiedCategory",
+                "metasysType": "date",
+                "oneOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "metasysType": "date",
+                    "properties": {
+                      "year": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "ushort",
+                            "minimum": 1900,
+                            "maximum": 2154
+                          },
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 0,
+                            "maximum": 254
+                          }
+                        ]
+                      },
+                      "month": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 12
+                          },
+                          {
+                            "allOf": [
+                              {
+                                "type": "string",
+                                "metasysType": "enum",
+                                "lastMember": "monthEnumSet.monthDec"
+                              },
+                              {
+                                "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "dayOfMonth": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 31
+                          },
+                          {
+                            "allOf": [
+                              {
+                                "type": "string",
+                                "metasysType": "enum",
+                                "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                              },
+                              {
+                                "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "dayOfWeek": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 7
+                          },
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "const": 255
+                          },
+                          {
+                            "type": "string",
+                            "metasysType": "string",
+                            "const": "any"
+                          },
+                          {
+                            "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "year",
+                      "month",
+                      "dayOfMonth"
+                    ],
+                    "display": [
+                      "year",
+                      "month",
+                      "dayOfMonth"
+                    ],
+                    "additionalProperties": false
+                  }
+                ],
+                "title": "Date"
+              },
+              "time": {
+                "category": "attributeCategoryEnumSet.bacnetDateUnspecifiedCategory",
+                "oneOf": [
+                  {
+                    "allOf": [
+                      {
+                        "$ref": "#metasys-time"
+                      },
+                      {
+                        "required": [
+                          "hour",
+                          "minute",
+                          "second"
+                        ],
+                        "display": [
+                          "hour",
+                          "minute",
+                          "second"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "metasysType": "time",
+                "title": "Time"
+              }
+            },
+            "title": "Disconnect Timestamp"
+          },
+          "error": {
+            "type": "array",
+            "metasysType": "listof",
+            "items": {
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "errorClass": {
+                  "numberOfStates": 8,
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "metasysType": "enum",
+                      "lastMember": "bacnetErrorClassesEnumSet.bacnetErrorClassCommunication"
+                    },
+                    {
+                      "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetErrorClassesEnumSet"
+                    }
+                  ],
+                  "title": "Error Class"
+                },
+                "errorCode": {
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "metasysType": "enum"
+                    },
+                    {
+                      "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetErrorCodesEnumSet"
+                    }
+                  ],
+                  "title": "Error Code"
+                }
+              }
+            },
+            "maxItems": 1,
+            "title": "Error"
+          },
+          "details": {
+            "type": "string",
+            "metasysType": "string",
+            "title": "Details"
+          }
+        }
+      },
+      "jciSecureConnectFailoverHubStatus": {
+        "title": "JCI SC Failover Hub Connection Status",
+        "readOnly": true,
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "connectionState": {
+            "numberOfStates": 4,
+            "allOf": [
+              {
+                "type": "string",
+                "metasysType": "enum",
+                "lastMember": "bacnetScConnectionStateEnumSet.bacnetScConnectionStateFailedToConnect"
+              },
+              {
+                "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetScConnectionStateEnumSet"
+              }
+            ],
+            "title": "Connection State"
+          },
+          "connectTimestamp": {
+            "category": "attributeCategoryEnumSet.bacnetDateTimeCategory",
+            "type": "object",
+            "metasysType": "struct",
+            "properties": {
+              "date": {
+                "category": "attributeCategoryEnumSet.bacnetTimeUnspecifiedCategory",
+                "metasysType": "date",
+                "oneOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "metasysType": "date",
+                    "properties": {
+                      "year": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "ushort",
+                            "minimum": 1900,
+                            "maximum": 2154
+                          },
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 0,
+                            "maximum": 254
+                          }
+                        ]
+                      },
+                      "month": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 12
+                          },
+                          {
+                            "allOf": [
+                              {
+                                "type": "string",
+                                "metasysType": "enum",
+                                "lastMember": "monthEnumSet.monthDec"
+                              },
+                              {
+                                "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "dayOfMonth": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 31
+                          },
+                          {
+                            "allOf": [
+                              {
+                                "type": "string",
+                                "metasysType": "enum",
+                                "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                              },
+                              {
+                                "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "dayOfWeek": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 7
+                          },
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "const": 255
+                          },
+                          {
+                            "type": "string",
+                            "metasysType": "string",
+                            "const": "any"
+                          },
+                          {
+                            "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "year",
+                      "month",
+                      "dayOfMonth"
+                    ],
+                    "display": [
+                      "year",
+                      "month",
+                      "dayOfMonth"
+                    ],
+                    "additionalProperties": false
+                  }
+                ],
+                "title": "Date"
+              },
+              "time": {
+                "category": "attributeCategoryEnumSet.bacnetDateUnspecifiedCategory",
+                "oneOf": [
+                  {
+                    "allOf": [
+                      {
+                        "$ref": "#metasys-time"
+                      },
+                      {
+                        "required": [
+                          "hour",
+                          "minute",
+                          "second"
+                        ],
+                        "display": [
+                          "hour",
+                          "minute",
+                          "second"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "metasysType": "time",
+                "title": "Time"
+              }
+            },
+            "title": "Connect Timestamp"
+          },
+          "disconnectTimestamp": {
+            "category": "attributeCategoryEnumSet.bacnetDateTimeCategory",
+            "type": "object",
+            "metasysType": "struct",
+            "properties": {
+              "date": {
+                "category": "attributeCategoryEnumSet.bacnetTimeUnspecifiedCategory",
+                "metasysType": "date",
+                "oneOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "metasysType": "date",
+                    "properties": {
+                      "year": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "ushort",
+                            "minimum": 1900,
+                            "maximum": 2154
+                          },
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 0,
+                            "maximum": 254
+                          }
+                        ]
+                      },
+                      "month": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 12
+                          },
+                          {
+                            "allOf": [
+                              {
+                                "type": "string",
+                                "metasysType": "enum",
+                                "lastMember": "monthEnumSet.monthDec"
+                              },
+                              {
+                                "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "dayOfMonth": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 31
+                          },
+                          {
+                            "allOf": [
+                              {
+                                "type": "string",
+                                "metasysType": "enum",
+                                "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                              },
+                              {
+                                "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "dayOfWeek": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "minimum": 1,
+                            "maximum": 7
+                          },
+                          {
+                            "type": "integer",
+                            "metasysType": "byte",
+                            "const": 255
+                          },
+                          {
+                            "type": "string",
+                            "metasysType": "string",
+                            "const": "any"
+                          },
+                          {
+                            "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "year",
+                      "month",
+                      "dayOfMonth"
+                    ],
+                    "display": [
+                      "year",
+                      "month",
+                      "dayOfMonth"
+                    ],
+                    "additionalProperties": false
+                  }
+                ],
+                "title": "Date"
+              },
+              "time": {
+                "category": "attributeCategoryEnumSet.bacnetDateUnspecifiedCategory",
+                "oneOf": [
+                  {
+                    "allOf": [
+                      {
+                        "$ref": "#metasys-time"
+                      },
+                      {
+                        "required": [
+                          "hour",
+                          "minute",
+                          "second"
+                        ],
+                        "display": [
+                          "hour",
+                          "minute",
+                          "second"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "metasysType": "time",
+                "title": "Time"
+              }
+            },
+            "title": "Disconnect Timestamp"
+          },
+          "error": {
+            "type": "array",
+            "metasysType": "listof",
+            "items": {
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "errorClass": {
+                  "numberOfStates": 8,
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "metasysType": "enum",
+                      "lastMember": "bacnetErrorClassesEnumSet.bacnetErrorClassCommunication"
+                    },
+                    {
+                      "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetErrorClassesEnumSet"
+                    }
+                  ],
+                  "title": "Error Class"
+                },
+                "errorCode": {
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "metasysType": "enum"
+                    },
+                    {
+                      "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetErrorCodesEnumSet"
+                    }
+                  ],
+                  "title": "Error Code"
+                }
+              }
+            },
+            "maxItems": 1,
+            "title": "Error"
+          },
+          "details": {
+            "type": "string",
+            "metasysType": "string",
+            "title": "Details"
+          }
+        }
+      },
+      "jciSecureConnectHubFunctionEnable": {
+        "title": "JCI SC Hub Function Enable",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "jciSecureConnectHubFunctionAcceptUris": {
+        "title": "JCI SC Hub Function Accept URIs",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "string",
+          "metasysType": "string"
+        }
+      },
+      "jciSecureConnectHubFunctionConnectionStatus": {
+        "title": "JCI SC Hub Function Connection Status",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.tableCategory",
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "object",
+          "metasysType": "struct",
+          "properties": {
+            "connectionState": {
+              "numberOfStates": 4,
+              "allOf": [
+                {
+                  "type": "string",
+                  "metasysType": "enum",
+                  "lastMember": "bacnetScConnectionStateEnumSet.bacnetScConnectionStateFailedToConnect"
+                },
+                {
+                  "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetScConnectionStateEnumSet"
+                }
+              ],
+              "title": "Connection State"
+            },
+            "connectTimestamp": {
+              "category": "attributeCategoryEnumSet.bacnetDateTimeCategory",
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "date": {
+                  "category": "attributeCategoryEnumSet.bacnetTimeUnspecifiedCategory",
+                  "metasysType": "date",
+                  "oneOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "object",
+                      "metasysType": "date",
+                      "properties": {
+                        "year": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "ushort",
+                              "minimum": 1900,
+                              "maximum": 2154
+                            },
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 0,
+                              "maximum": 254
+                            }
+                          ]
+                        },
+                        "month": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 12
+                            },
+                            {
+                              "allOf": [
+                                {
+                                  "type": "string",
+                                  "metasysType": "enum",
+                                  "lastMember": "monthEnumSet.monthDec"
+                                },
+                                {
+                                  "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "dayOfMonth": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 31
+                            },
+                            {
+                              "allOf": [
+                                {
+                                  "type": "string",
+                                  "metasysType": "enum",
+                                  "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                                },
+                                {
+                                  "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "dayOfWeek": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 7
+                            },
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "const": 255
+                            },
+                            {
+                              "type": "string",
+                              "metasysType": "string",
+                              "const": "any"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "year",
+                        "month",
+                        "dayOfMonth"
+                      ],
+                      "display": [
+                        "year",
+                        "month",
+                        "dayOfMonth"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ],
+                  "title": "Date"
+                },
+                "time": {
+                  "category": "attributeCategoryEnumSet.bacnetDateUnspecifiedCategory",
+                  "oneOf": [
+                    {
+                      "allOf": [
+                        {
+                          "$ref": "#metasys-time"
+                        },
+                        {
+                          "required": [
+                            "hour",
+                            "minute",
+                            "second"
+                          ],
+                          "display": [
+                            "hour",
+                            "minute",
+                            "second"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "metasysType": "time",
+                  "title": "Time"
+                }
+              },
+              "title": "Connect Timestamp"
+            },
+            "disconnectTimestamp": {
+              "category": "attributeCategoryEnumSet.bacnetDateTimeCategory",
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "date": {
+                  "category": "attributeCategoryEnumSet.bacnetTimeUnspecifiedCategory",
+                  "metasysType": "date",
+                  "oneOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "object",
+                      "metasysType": "date",
+                      "properties": {
+                        "year": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "ushort",
+                              "minimum": 1900,
+                              "maximum": 2154
+                            },
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 0,
+                              "maximum": 254
+                            }
+                          ]
+                        },
+                        "month": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 12
+                            },
+                            {
+                              "allOf": [
+                                {
+                                  "type": "string",
+                                  "metasysType": "enum",
+                                  "lastMember": "monthEnumSet.monthDec"
+                                },
+                                {
+                                  "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "dayOfMonth": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 31
+                            },
+                            {
+                              "allOf": [
+                                {
+                                  "type": "string",
+                                  "metasysType": "enum",
+                                  "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                                },
+                                {
+                                  "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "dayOfWeek": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 7
+                            },
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "const": 255
+                            },
+                            {
+                              "type": "string",
+                              "metasysType": "string",
+                              "const": "any"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "year",
+                        "month",
+                        "dayOfMonth"
+                      ],
+                      "display": [
+                        "year",
+                        "month",
+                        "dayOfMonth"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ],
+                  "title": "Date"
+                },
+                "time": {
+                  "category": "attributeCategoryEnumSet.bacnetDateUnspecifiedCategory",
+                  "oneOf": [
+                    {
+                      "allOf": [
+                        {
+                          "$ref": "#metasys-time"
+                        },
+                        {
+                          "required": [
+                            "hour",
+                            "minute",
+                            "second"
+                          ],
+                          "display": [
+                            "hour",
+                            "minute",
+                            "second"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "metasysType": "time",
+                  "title": "Time"
+                }
+              },
+              "title": "Disconnect Timestamp"
+            },
+            "address": {
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "hostName": {
+                  "type": "string",
+                  "metasysType": "string",
+                  "title": "Host Name"
+                },
+                "ipAddress": {
+                  "category": "attributeCategoryEnumSet.ipAddressCategory",
+                  "type": "array",
+                  "metasysType": "array",
+                  "items": {
+                    "metasysType": "byte",
+                    "oneOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "minimum": 0,
+                    "maximum": 255
+                  },
+                  "maxItems": 4,
+                  "minItems": 4,
+                  "title": "IP Address"
+                },
+                "tcpPort": {
+                  "metasysType": "ushort",
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 65535,
+                  "title": "TCP Port"
+                }
+              },
+              "title": "Address"
+            },
+            "virtualMacAddress": {
+              "format": "hex",
+              "type": "string",
+              "metasysType": "octetString",
+              "title": "Virtual MAC Address"
+            },
+            "deviceUuid": {
+              "format": "hex",
+              "type": "string",
+              "metasysType": "octetString",
+              "title": "Device UUID"
+            },
+            "error": {
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "errorClass": {
+                  "numberOfStates": 8,
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "metasysType": "enum",
+                      "lastMember": "bacnetErrorClassesEnumSet.bacnetErrorClassCommunication"
+                    },
+                    {
+                      "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetErrorClassesEnumSet"
+                    }
+                  ],
+                  "title": "Error Class"
+                },
+                "errorCode": {
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "metasysType": "enum"
+                    },
+                    {
+                      "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetErrorCodesEnumSet"
+                    }
+                  ],
+                  "title": "Error Code"
+                }
+              },
+              "title": "Error"
+            },
+            "details": {
+              "type": "string",
+              "metasysType": "string",
+              "title": "Details"
+            }
+          }
+        }
+      },
+      "jciSecureConnectDirectConnectEnable": {
+        "title": "JCI SC Direct Connect Enable",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "jciSecureConnectDirectConnectAcceptUris": {
+        "title": "JCI SC Direct Connect Accept URIs",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "string",
+          "metasysType": "string"
+        }
+      },
+      "jciSecureConnectDirectConnectConnectionStatus": {
+        "title": "JCI SC Direct Connect Connection Status",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.tableCategory",
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "object",
+          "metasysType": "struct",
+          "properties": {
+            "websocketUri": {
+              "type": "string",
+              "metasysType": "string",
+              "title": "WebSocket URI"
+            },
+            "connectionState": {
+              "numberOfStates": 4,
+              "allOf": [
+                {
+                  "type": "string",
+                  "metasysType": "enum",
+                  "lastMember": "bacnetScConnectionStateEnumSet.bacnetScConnectionStateFailedToConnect"
+                },
+                {
+                  "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetScConnectionStateEnumSet"
+                }
+              ],
+              "title": "Connection State"
+            },
+            "connectTimestamp": {
+              "category": "attributeCategoryEnumSet.bacnetDateTimeCategory",
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "date": {
+                  "category": "attributeCategoryEnumSet.bacnetTimeUnspecifiedCategory",
+                  "metasysType": "date",
+                  "oneOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "object",
+                      "metasysType": "date",
+                      "properties": {
+                        "year": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "ushort",
+                              "minimum": 1900,
+                              "maximum": 2154
+                            },
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 0,
+                              "maximum": 254
+                            }
+                          ]
+                        },
+                        "month": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 12
+                            },
+                            {
+                              "allOf": [
+                                {
+                                  "type": "string",
+                                  "metasysType": "enum",
+                                  "lastMember": "monthEnumSet.monthDec"
+                                },
+                                {
+                                  "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "dayOfMonth": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 31
+                            },
+                            {
+                              "allOf": [
+                                {
+                                  "type": "string",
+                                  "metasysType": "enum",
+                                  "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                                },
+                                {
+                                  "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "dayOfWeek": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 7
+                            },
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "const": 255
+                            },
+                            {
+                              "type": "string",
+                              "metasysType": "string",
+                              "const": "any"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "year",
+                        "month",
+                        "dayOfMonth"
+                      ],
+                      "display": [
+                        "year",
+                        "month",
+                        "dayOfMonth"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ],
+                  "title": "Date"
+                },
+                "time": {
+                  "category": "attributeCategoryEnumSet.bacnetDateUnspecifiedCategory",
+                  "oneOf": [
+                    {
+                      "allOf": [
+                        {
+                          "$ref": "#metasys-time"
+                        },
+                        {
+                          "required": [
+                            "hour",
+                            "minute",
+                            "second"
+                          ],
+                          "display": [
+                            "hour",
+                            "minute",
+                            "second"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "metasysType": "time",
+                  "title": "Time"
+                }
+              },
+              "title": "Connect Timestamp"
+            },
+            "disconnectTimestamp": {
+              "category": "attributeCategoryEnumSet.bacnetDateTimeCategory",
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "date": {
+                  "category": "attributeCategoryEnumSet.bacnetTimeUnspecifiedCategory",
+                  "metasysType": "date",
+                  "oneOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "object",
+                      "metasysType": "date",
+                      "properties": {
+                        "year": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "ushort",
+                              "minimum": 1900,
+                              "maximum": 2154
+                            },
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 0,
+                              "maximum": 254
+                            }
+                          ]
+                        },
+                        "month": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 12
+                            },
+                            {
+                              "allOf": [
+                                {
+                                  "type": "string",
+                                  "metasysType": "enum",
+                                  "lastMember": "monthEnumSet.monthDec"
+                                },
+                                {
+                                  "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "dayOfMonth": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 31
+                            },
+                            {
+                              "allOf": [
+                                {
+                                  "type": "string",
+                                  "metasysType": "enum",
+                                  "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                                },
+                                {
+                                  "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "dayOfWeek": {
+                          "oneOf": [
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "minimum": 1,
+                              "maximum": 7
+                            },
+                            {
+                              "type": "integer",
+                              "metasysType": "byte",
+                              "const": 255
+                            },
+                            {
+                              "type": "string",
+                              "metasysType": "string",
+                              "const": "any"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "year",
+                        "month",
+                        "dayOfMonth"
+                      ],
+                      "display": [
+                        "year",
+                        "month",
+                        "dayOfMonth"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ],
+                  "title": "Date"
+                },
+                "time": {
+                  "category": "attributeCategoryEnumSet.bacnetDateUnspecifiedCategory",
+                  "oneOf": [
+                    {
+                      "allOf": [
+                        {
+                          "$ref": "#metasys-time"
+                        },
+                        {
+                          "required": [
+                            "hour",
+                            "minute",
+                            "second"
+                          ],
+                          "display": [
+                            "hour",
+                            "minute",
+                            "second"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "metasysType": "time",
+                  "title": "Time"
+                }
+              },
+              "title": "Disconnect Timestamp"
+            },
+            "address": {
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "hostName": {
+                  "type": "string",
+                  "metasysType": "string",
+                  "title": "Host Name"
+                },
+                "ipAddress": {
+                  "category": "attributeCategoryEnumSet.ipAddressCategory",
+                  "type": "array",
+                  "metasysType": "array",
+                  "items": {
+                    "metasysType": "byte",
+                    "oneOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ],
+                    "minimum": 0,
+                    "maximum": 255
+                  },
+                  "maxItems": 4,
+                  "minItems": 4,
+                  "title": "IP Address"
+                },
+                "tcpPort": {
+                  "metasysType": "ushort",
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 65535,
+                  "title": "TCP Port"
+                }
+              },
+              "title": "Address"
+            },
+            "virtualMacAddress": {
+              "format": "hex",
+              "type": "string",
+              "metasysType": "octetString",
+              "title": "Virtual MAC Address"
+            },
+            "deviceUuid": {
+              "format": "hex",
+              "type": "string",
+              "metasysType": "octetString",
+              "title": "Device UUID"
+            },
+            "error": {
+              "type": "object",
+              "metasysType": "struct",
+              "properties": {
+                "errorClass": {
+                  "numberOfStates": 8,
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "metasysType": "enum",
+                      "lastMember": "bacnetErrorClassesEnumSet.bacnetErrorClassCommunication"
+                    },
+                    {
+                      "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetErrorClassesEnumSet"
+                    }
+                  ],
+                  "title": "Error Class"
+                },
+                "errorCode": {
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "metasysType": "enum"
+                    },
+                    {
+                      "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetErrorCodesEnumSet"
+                    }
+                  ],
+                  "title": "Error Code"
+                }
+              },
+              "title": "Error"
+            },
+            "details": {
+              "type": "string",
+              "metasysType": "string",
+              "title": "Details"
+            }
+          }
+        }
+      },
+      "securePortNum": {
+        "title": "Secure Port Number",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 65535
+      },
+      "virtualMacAddress": {
+        "title": "Virtual MAC Address",
+        "readOnly": true,
+        "format": "hex",
+        "type": "string",
+        "metasysType": "octetString"
+      },
+      "jciSecureConnectNodeType": {
+        "title": "SC Node Type",
+        "readOnly": true,
+        "numberOfStates": 7,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeBothPrimaryFailoverHub"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/secureConnectNodeTypeEnumSet"
+          }
+        ]
+      },
+      "secureConnectPendingNodeType": {
+        "title": "Pending SC Node Type",
+        "readOnly": true,
+        "numberOfStates": 7,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeBothPrimaryFailoverHub"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/secureConnectNodeTypeEnumSet"
+          }
+        ]
+      },
+      "networkPortWebsocketUris": {
+        "title": "Network Port WebSocket URIs",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "string",
+          "metasysType": "string"
+        }
+      },
+      "useSiteSettings": {
+        "title": "Use Site Settings",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "maxDirectConnectionRetries": {
+        "title": "Maximum Direct Connection Retries",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "networkAddress": {
+        "title": "Configured Network Number",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "jciNpoApduTimeout": {
+        "title": "JCI Network Port APDU Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1000,
+        "maximum": 65535,
+        "unit": {
+          "id": "milsecs",
+          "title": "ms"
+        }
+      },
+      "jciNpoApduSegmentTimeout": {
+        "title": "JCI Network Port APDU Segment Timeout",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 1000,
+        "maximum": 65535,
+        "unit": {
+          "id": "milsecs",
+          "title": "ms"
+        }
+      },
+      "jciNpoApduRetries": {
+        "title": "JCI Network Port APDU Retries",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 10
+      },
+      "jciNpoChangesPendingBitstring": {
+        "title": "JCI Network Port Changes Pending Bitstring",
+        "readOnly": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "jciNpoAttributesRequiringActivation": {
+        "title": "Pending Attributes Requiring Activation",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "allOf": [
+            {
+              "type": "string",
+              "metasysType": "enum"
+            },
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+            }
+          ]
+        }
+      },
+      "ethernetPortInUse": {
+        "title": "Ethernet Port In Use",
+        "readOnly": true,
+        "numberOfStates": 2,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "ethernetPortTypeEnumSet.ethernetPortExternalLan"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/ethernetPortTypeEnumSet"
+          }
+        ]
+      },
+      "internodeCommTimer": {
+        "title": "Internode Comm Timer",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 5,
+        "maximum": 255,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        }
+      },
+      "datalinkType": {
+        "title": "Datalink Type",
+        "readOnly": true,
+        "metasysType": "short",
+        "type": "integer",
+        "minimum": -32768,
+        "maximum": 32767
+      },
+      "manager": {
+        "title": "Manager",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "dataRecordDelete": {
+        "title": "Data Record Delete",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "advancedLoggingEnabled": {
+        "title": "Advanced Logging Enabled",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "websocketServerTaskState": {
+        "title": "WebSocket Server Task State",
+        "readOnly": true,
+        "numberOfStates": 6,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "taskStateEnumSet.taskStateFatalError"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/taskStateEnumSet"
+          }
+        ]
+      },
+      "configurationStatus": {
+        "title": "Configuration Status",
+        "readOnly": true,
+        "numberOfStates": 7,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "secureConnectConfigurationStatusEnumSet.scConfigStatusOk"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/secureConnectConfigurationStatusEnumSet"
+          }
+        ]
+      },
+      "numActiveWebsocketConnections": {
+        "title": "Number of Active WebSocket Connections",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "numPendingDirectConnections": {
+        "title": "Number of Pending Direct Connections",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "secureConnectHubReconnectTimerState": {
+        "title": "SC Hub Reconnect Timer State",
+        "readOnly": true,
+        "numberOfStates": 2,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "inactiveActiveEnumSet.omdActive"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/inactiveActiveEnumSet"
+          }
+        ]
+      },
+      "enableDatalinkRecoveryLogic": {
+        "title": "Enable Datalink Recovery Logic",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "numDatalinkRecoveryEvents": {
+        "title": "Number of Datalink Recovery Events",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "resetTime": {
+        "title": "Reset Time",
+        "readOnly": true,
+        "dynamic": true,
+        "oneOf": [
+          {
+            "allOf": [
+              {
+                "$ref": "#metasys-time"
+              },
+              {
+                "required": [
+                  "hour",
+                  "minute",
+                  "second"
+                ],
+                "display": [
+                  "hour",
+                  "minute",
+                  "second"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "time"
+      },
+      "resetDate": {
+        "title": "Reset Date",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "date",
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object",
+            "metasysType": "date",
+            "properties": {
+              "year": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "metasysType": "ushort",
+                    "minimum": 1900,
+                    "maximum": 2154
+                  },
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "minimum": 0,
+                    "maximum": 254
+                  }
+                ]
+              },
+              "month": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "minimum": 1,
+                    "maximum": 12
+                  },
+                  {
+                    "allOf": [
+                      {
+                        "type": "string",
+                        "metasysType": "enum",
+                        "lastMember": "monthEnumSet.monthDec"
+                      },
+                      {
+                        "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dayOfMonth": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "minimum": 1,
+                    "maximum": 31
+                  },
+                  {
+                    "allOf": [
+                      {
+                        "type": "string",
+                        "metasysType": "enum",
+                        "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                      },
+                      {
+                        "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dayOfWeek": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "minimum": 1,
+                    "maximum": 7
+                  },
+                  {
+                    "type": "integer",
+                    "metasysType": "byte",
+                    "const": 255
+                  },
+                  {
+                    "type": "string",
+                    "metasysType": "string",
+                    "const": "any"
+                  },
+                  {
+                    "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "year",
+              "month",
+              "dayOfMonth"
+            ],
+            "display": [
+              "year",
+              "month",
+              "dayOfMonth"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "unsecureNpdusReceived": {
+        "title": "Unsecure NPDUs Received",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "messageTransmits": {
+        "title": "Message Transmits",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "messageReceives": {
+        "title": "Message Receives",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "broadcastTransmits": {
+        "title": "Broadcast Transmits",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "broadcastReceives": {
+        "title": "Broadcast Receives",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "messagesForwardedHubFunction": {
+        "title": "Messages Forwarded By Hub Function",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "broadcastsForwardedHubFunction": {
+        "title": "Broadcasts Forwarded By Hub Function",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "transmitFailures": {
+        "title": "Transmit Failures",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "rcvMsgDiscard": {
+        "title": "Rcv Messages Discarded",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "covThreshold": {
+        "title": "COV Threshold",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "covCount": {
+        "title": "COV Count",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "peakCovCount": {
+        "title": "Peak COV Count",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "peakCovCacheCount": {
+        "title": "Peak COV Cache Count",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      },
+      "debugMode": {
+        "title": "Debug Mode",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "debugTimeRemaining": {
+        "title": "Debug Time Remaining",
+        "readOnly": true,
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535,
+        "unit": {
+          "id": "minute",
+          "title": "minutes"
+        }
+      },
+      "itemReference": {
+        "title": "Item Reference",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.objectNameCategory",
+        "type": "string",
+        "metasysType": "string"
+      },
+      "userNameIsBacnetObjName": {
+        "title": "User Name Is BACnet Obj Name",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400
+      },
+      "objectName": {
+        "title": "Object Name",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.noEditInUiCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 731
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 255
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "enabled": {
+        "title": "Enabled",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "executionPriority": {
+        "title": "Execution Priority",
+        "numberOfStates": 4,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "executionPriorityEnumSet.lifeSafetyPriority"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/executionPriorityEnumSet"
+          }
+        ]
+      },
+      "objectCategory": {
+        "title": "Authorization Category",
+        "category": "attributeCategoryEnumSet.objectCategoryCategory",
+        "numberOfStates": 250,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=modifyItems"
+          }
+        ]
+      },
+      "alarmState": {
+        "title": "Alarm State",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ]
+      },
+      "objectIdentifier": {
+        "title": "Object Identifier",
+        "readOnly": true,
+        "metasysType": "bacOid",
+        "oneOf": [
+          {
+            "$ref": "#bacoid"
+          }
+        ]
+      },
+      "propertyList": {
+        "title": "Property List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "allOf": [
+            {
+              "type": "string",
+              "metasysType": "enum"
+            },
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+            }
+          ]
+        }
+      },
+      "objectType": {
+        "title": "JCI Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ]
+      },
+      "internalOid": {
+        "title": "Internal OID",
+        "readOnly": true,
+        "type": "integer",
+        "metasysType": "oid",
+        "minimum": 0
+      },
+      "deviceName": {
+        "title": "Device Name",
+        "readOnly": true,
+        "metasysType": "objectReference",
+        "oneOf": [
+          {
+            "$ref": "#object-reference"
+          }
+        ]
+      },
+      "referenceCount": {
+        "title": "Reference Count",
+        "readOnly": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "version": {
+        "title": "Version",
+        "readOnly": true,
+        "category": "attributeCategoryEnumSet.versionStructCategory",
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "major": {
+            "metasysType": "byte",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "title": "Major"
+          },
+          "minor": {
+            "metasysType": "byte",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255,
+            "title": "Minor"
+          }
+        }
+      },
+      "isContainer": {
+        "title": "Is Container",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "childList": {
+        "title": "Child List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "object",
+          "metasysType": "struct",
+          "properties": {
+            "functionalName": {
+              "type": "string",
+              "metasysType": "string",
+              "title": "Functional Name"
+            },
+            "referenceName": {
+              "metasysType": "objectReference",
+              "oneOf": [
+                {
+                  "$ref": "#object-reference"
+                }
+              ],
+              "title": "Reference Name"
+            },
+            "childOid": {
+              "metasysType": "bacOid",
+              "oneOf": [
+                {
+                  "$ref": "#bacoid"
+                }
+              ],
+              "title": "Child OID"
+            },
+            "isReference": {
+              "type": "boolean",
+              "metasysType": "bool",
+              "title": "Is Reference"
+            },
+            "internal": {
+              "type": "boolean",
+              "metasysType": "bool",
+              "title": "Internal"
+            }
+          }
+        }
+      },
+      "pmiRefresh": {
+        "title": "PMI Refresh",
+        "readOnly": true,
+        "dynamic": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      },
+      "internal": {
+        "title": "Internal",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "archiveObject": {
+        "title": "Archive Object",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "commandList": {
+        "title": "Command List",
+        "readOnly": true,
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "allOf": [
+            {
+              "type": "string",
+              "metasysType": "enum"
+            },
+            {
+              "$ref": "https://desktop-vm/api/v6/schemas/enums/commandIdEnumSet"
+            }
+          ]
+        },
+        "maxItems": 50
+      },
+      "objectCanNotBeDeleted": {
+        "title": "Object Can Not Be Deleted",
+        "readOnly": true,
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "objectOrder": {
+        "title": "Object Order",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535
+      }
+    },
+    "definitions": {
+      "metasys-date": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#metasys-date",
+        "title": "date",
+        "description": "Metasys Date",
+        "type": "object",
+        "properties": {
+          "year": {
+            "type": "integer",
+            "description": "Year"
+          },
+          "month": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12,
+            "description": "Month"
+          },
+          "dayOfMonth": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 31,
+            "description": "Day of Month"
+          },
+          "dayOfWeek": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 7,
+            "description": "Day of Week"
+          }
+        },
+        "additionalProperties": false
+      },
+      "metasys-time": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#metasys-time",
+        "title": "time",
+        "description": "Metasys time",
+        "type": "object",
+        "properties": {
+          "hour": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 23,
+            "description": "Hour"
+          },
+          "minute": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 59,
+            "description": "Minute"
+          },
+          "second": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 59,
+            "description": "Second"
+          },
+          "hundredth": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 99,
+            "description": "Hundredths"
+          }
+        },
+        "additionalProperties": false
+      },
+      "bacoid": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#bacoid",
+        "title": "BACoid data type",
+        "type": "object",
+        "metasysType": "bacOid",
+        "properties": {
+          "bacnetObjectType": {
+            "type": "string",
+            "metasysType": "enum",
+            "readOnly": true,
+            "oneOf": [
+              {
+                "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+              }
+            ],
+            "metasysEnum": "objectTypeEnumSet"
+          },
+          "instance": {
+            "type": "integer",
+            "metasysType": "ulong",
+            "minimum": 0,
+            "maximum": 4194303
+          },
+          "referencedObject": {
+            "type": "object",
+            "properties": {
+              "objectReference": {
+                "type": "string",
+                "metasysType": "string",
+                "format": "fully-qualified-reference"
+              },
+              "objectName": {
+                "type": "string",
+                "metasysType": "string"
+              },
+              "objectUrl": {
+                "type": "string",
+                "metasysType": "string",
+                "format": "uri"
+              }
+            },
+            "readOnly": true
+          }
+        },
+        "required": [
+          "bacnetObjectType",
+          "instance"
+        ],
+        "additionalProperties": false
+      },
+      "object-reference": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#object-reference",
+        "title": "Object reference data type",
+        "type": "object",
+        "oneOf": [
+          {
+            "properties": {
+              "objectReference": {
+                "format": "fully-qualified-reference",
+                "type": "string"
+              },
+              "referencedObject": {
+                "type": "object",
+                "properties": {
+                  "objectName": {
+                    "type": "string"
+                  },
+                  "objectUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "readOnly": true
+              }
+            },
+            "required": [
+              "objectReference"
+            ]
+          },
+          {
+            "properties": {
+              "objectBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              },
+              "deviceAddress": {
+                "readOnly": true,
+                "type": "string"
+              },
+              "deviceBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "objectBACoid"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Snapshot Focus",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "networkType",
+                "protocolLevel",
+                "statusFlags",
+                "reliability",
+                "outOfService",
+                "changesPending",
+                "bacnetCommand",
+                "networkNumber",
+                "networkNumberQuality",
+                "bacnetMacAddress",
+                "apduLength",
+                "bacnetIpAddress",
+                "ipSubnetMask",
+                "ipDefaultGateway",
+                "ipDnsServer",
+                "linkSpeed",
+                "jciMaxBvlcLengthAccepted",
+                "jciMaxNpduLengthAccepted",
+                "jciSecureConnectPrimaryHubUri",
+                "jciSecureConnectFailoverHubUri",
+                "jciSecureConnectMinimumReconnectTime",
+                "jciSecureConnectMaximumReconnectTime",
+                "jciSecureConnectConnectWaitTimeout",
+                "jciSecureConnectDisconnectWaitTimeout",
+                "jciSecureConnectInitiatingHeartbeatTimeout",
+                "jciSecureConnectAcceptingHeartbeatTimeout",
+                "jciSecureConnectHubConnectorState",
+                "jciSecureConnectPrimaryHubStatus",
+                "jciSecureConnectFailoverHubStatus",
+                "jciSecureConnectHubFunctionEnable",
+                "jciSecureConnectHubFunctionAcceptUris",
+                "jciSecureConnectHubFunctionConnectionStatus",
+                "jciSecureConnectDirectConnectEnable",
+                "jciSecureConnectDirectConnectAcceptUris",
+                "jciSecureConnectDirectConnectConnectionStatus",
+                "securePortNum",
+                "virtualMacAddress",
+                "jciSecureConnectNodeType",
+                "secureConnectPendingNodeType",
+                "networkPortWebsocketUris",
+                "useSiteSettings",
+                "maxDirectConnectionRetries",
+                "networkAddress",
+                "jciNpoApduTimeout",
+                "jciNpoApduSegmentTimeout",
+                "jciNpoApduRetries",
+                "jciNpoChangesPendingBitstring",
+                "jciNpoAttributesRequiringActivation",
+                "ethernetPortInUse",
+                "internodeCommTimer",
+                "datalinkType",
+                "manager",
+                "dataRecordDelete",
+                "advancedLoggingEnabled",
+                "websocketServerTaskState",
+                "configurationStatus",
+                "numActiveWebsocketConnections",
+                "numPendingDirectConnections",
+                "secureConnectHubReconnectTimerState",
+                "enableDatalinkRecoveryLogic",
+                "numDatalinkRecoveryEvents",
+                "resetTime",
+                "resetDate",
+                "unsecureNpdusReceived",
+                "messageTransmits",
+                "messageReceives",
+                "broadcastTransmits",
+                "broadcastReceives",
+                "messagesForwardedHubFunction",
+                "broadcastsForwardedHubFunction",
+                "transmitFailures",
+                "rcvMsgDiscard",
+                "covThreshold",
+                "covCount",
+                "peakCovCount",
+                "peakCovCacheCount",
+                "debugMode",
+                "debugTimeRemaining",
+                "itemReference",
+                "userNameIsBacnetObjName",
+                "name",
+                "objectName",
+                "description",
+                "status",
+                "enabled",
+                "executionPriority",
+                "objectCategory",
+                "alarmState",
+                "bacnetObjectType",
+                "objectIdentifier",
+                "propertyList",
+                "objectType",
+                "internalOid",
+                "deviceName",
+                "referenceCount",
+                "version",
+                "isContainer",
+                "childList",
+                "pmiRefresh",
+                "internal",
+                "archiveObject",
+                "defaultAttribute",
+                "attrChangeCount",
+                "commandList",
+                "objectCanNotBeDeleted",
+                "objectOrder"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.ssFocusView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

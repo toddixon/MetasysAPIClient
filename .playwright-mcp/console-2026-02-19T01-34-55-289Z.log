@@ -1,0 +1,76 @@
+[     719ms] [ERROR] Fetch API cannot load localhost:4200/assets/icons/database.svg. URL scheme "localhost" is not supported. @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/zone__js.js?v=700d17fb:2240
+[     730ms] [ERROR] ERROR Error: Error retrieving icon :database! Http failure response for localhost:4200/assets/icons/database.svg: 0 undefined
+    at Object.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_material_icon.js?v=700d17fb:616:40)
+    at ConsumerObserver2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:566:25)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=e56ea4f8:3149
+[  395801ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/assets/icons/exclamation_0.svg:0
+[  395817ms] [ERROR] ERROR Error: Error retrieving icon :exclamation_0! Http failure response for http://localhost:4200/assets/icons/exclamation_0.svg: 404 Not Found
+    at Object.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_material_icon.js?v=700d17fb:616:40)
+    at ConsumerObserver2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:566:25)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=e56ea4f8:3149
+[  395818ms] [ERROR] ERROR Error: Error retrieving icon :exclamation_0! Http failure response for http://localhost:4200/assets/icons/exclamation_0.svg: 404 Not Found
+    at Object.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_material_icon.js?v=700d17fb:616:40)
+    at ConsumerObserver2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:566:25)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=e56ea4f8:3149
+[  395819ms] [ERROR] ERROR Error: Error retrieving icon :exclamation_0! Http failure response for http://localhost:4200/assets/icons/exclamation_0.svg: 404 Not Found
+    at Object.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_material_icon.js?v=700d17fb:616:40)
+    at ConsumerObserver2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:566:25)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=e56ea4f8:3149
+[  395820ms] [ERROR] ERROR Error: Error retrieving icon :exclamation_0! Http failure response for http://localhost:4200/assets/icons/exclamation_0.svg: 404 Not Found
+    at Object.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_material_icon.js?v=700d17fb:616:40)
+    at ConsumerObserver2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:566:25)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=e56ea4f8:3149
+[  395821ms] [ERROR] ERROR Error: Error retrieving icon :exclamation_0! Http failure response for http://localhost:4200/assets/icons/exclamation_0.svg: 404 Not Found
+    at Object.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_material_icon.js?v=700d17fb:616:40)
+    at ConsumerObserver2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:566:25)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12)
+    at Subscriber2._error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:530:24)
+    at Subscriber2.error (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=e56ea4f8:507:12) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=e56ea4f8:3149
+[ 3062655ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4200/api/v6/stream:0
+[ 3062677ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4200/favicon.ico:0
+[ 3063662ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4200/api/v6/stream:0
+[ 3064665ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4200/api/v6/stream:0
+[ 3065669ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4200/api/v6/stream:0
+[ 3066676ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4200/api/v6/stream:0
+[ 3067690ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4200/api/v6/stream:0
+[ 3068694ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4200/api/v6/stream:0

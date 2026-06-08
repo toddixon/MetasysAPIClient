@@ -1,0 +1,11 @@
+{
+  "id": "c266e0f8-c04a-504a-b99f-8a7ac3570df3",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "MISC1-C",
+  "label": "MISC1-C",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.MISC1-C",
+  "objectType": "objectTypeEnumSet.boMapperClass",
+  "objectTypeVersion": "1.0"
+}

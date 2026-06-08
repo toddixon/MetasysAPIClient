@@ -1,0 +1,11 @@
+{
+  "id": "cdde5a35-8039-58ca-9a24-a8d2e769a3f8",
+  "parentId": "a64431c8-7cec-542a-9460-5741a6d55cf4",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "folder",
+  "name": "AHU-1",
+  "label": "AHU-1",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.NAE01.AHU-1",
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0"
+}

@@ -1,0 +1,377 @@
+<h2 mat-dialog-title>{{ data.message }}</h2>
+
+<mat-dialog-content class="paste-dialog__content">
+  @if (ignoredNodes.length > 0) {
+  <div class="dialog__warning-section">
+    <span class="dialog__warning-title">
+      <strong>Ignored selections</strong> — the following child node{{ ignoredNodes.length > 1 ? 's were' : ' was' }}
+      also copied, but {{ ignoredNodes.length > 1 ? 'their parents are' : 'its parent is' }} already included in this
+      paste operation.
+    </span>
+    <ul class="dialog__ignored-list">
+      @for (node of ignoredNodes; track node.id) {
+      <li>{{ node.name }} <span class="dialog__item-ref">({{ node.itemReference }})</span></li>
+      }
+    </ul>
+  </div>
+  <mat-divider class="paste-dialog__divider"></mat-divider>
+  }
+
+  <mat-tab-group animationDuration="150ms">
+    <mat-tab label="Paste items"> <!-- * Paste Items -->
+      <form [formGroup]="pasteForm" class="paste-items__form">
+        <mat-accordion formArrayName="items" multi>
+          <!-- @for (control of keyControls; track $index) { -->
+          @for (item of itemsArray.controls; track $index) {
+          @let itemGroup = $any(item);
+          @let itemOp = getItemOperationStatus($index);
+          @let itemSnapshot = data.pasteItems?.[$index];
+          @let itemDepth = getSnapshotDepth(itemSnapshot);
+          @let itemSeverity = getPasteItemsTabSeverity($index);
+          @let configGroups = topLevelConfigPages()[$index];
+          <mat-expansion-panel [formGroupName]="$index" [disabled]="pasteStarted()"
+            class="paste-dialog__tree-item dialog__expansion-panel" [style.--paste-node-depth]="itemDepth">
+            <mat-expansion-panel-header>
+              <mat-panel-title class="paste-dialog__panel-title">
+                <span class="paste-dialog__object-icon-wrap" aria-hidden="true">
+                  @if (isSnapshotIconSvg(itemSnapshot)) {
+                  <mat-icon class="paste-dialog__object-icon icon--grey" [inline]="true"
+                    [svgIcon]="getSnapshotIcon(itemSnapshot)"></mat-icon>
+                  } @else {
+                  <mat-icon class="paste-dialog__object-icon icon--grey" [inline]="true">{{
+                    getSnapshotIcon(itemSnapshot) }}</mat-icon>
+                  }
+                </span>
+                @if (itemOp) {
+                <mat-icon class="paste-dialog__status-icon" [ngClass]="getStatusClass(itemOp.status)">
+                  {{ itemOp.status === 'Success' ? 'check_circle' : itemOp.status === 'Error' ? 'error' : itemOp.status
+                  === 'Processing' ? 'autorenew' : 'pending' }}
+                </mat-icon>
+                }
+                <span class="paste-dialog__panel-label">{{ itemSnapshot?.label || 'Object ' + ($index + 1) }}</span>
+                @if (itemSeverity !== 'none') {
+                <mat-icon class="paste-dialog__header-severity"
+                  [ngClass]="'paste-dialog__header-severity--' + itemSeverity"
+                  [matTooltip]="itemSeverity === 'error' ? 'This object has validation errors.' : 'This object has warnings.'"
+                  matTooltipPosition="above">
+                  {{ getIssueIcon(itemSeverity) }}
+                </mat-icon>
+                }
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <div class="paste-dialog__child-row">
+              <mat-form-field #formField class="paste-dialog__identifier-field"
+                [class.paste-dialog__field--error]="shouldHighlightControl(itemGroup.get('localUniqueIdentifier'))"
+                appearance="outline">
+                <mat-label>Local Unique Identifier</mat-label>
+                <input matInput #formFieldInput formControlName="localUniqueIdentifier" />
+                @if (itemGroup.get('localUniqueIdentifier').hasError('required')) {
+                <mat-error>Identifier is required.</mat-error>
+                } @else if (itemGroup.get('localUniqueIdentifier').hasError('maxlength')) {
+                <mat-error>Identifier must be 32 characters or fewer.</mat-error>
+                } @else if (itemGroup.get('localUniqueIdentifier').hasError('pattern')) {
+                <mat-error>Invalid character in identifier. Avoid <code>#'*,./:&lt;&gt;?@[\]|"</code></mat-error>
+                } @else if (itemGroup.get('localUniqueIdentifier').hasError('notUnique')) {
+                <mat-error>Identifier must be unique among pasted items and destination siblings.</mat-error>
+                }
+              </mat-form-field>
+
+              @if (itemGroup.get('inputReference')) {
+              <mat-form-field #formField class="paste-dialog__identifier-field"
+                [class.paste-dialog__field--error]="shouldHighlightControl(itemGroup.get('inputReference'))"
+                appearance="outline">
+                <mat-label>Input Reference</mat-label>
+                <input matInput formControlName="inputReference" />
+                @if (itemGroup.get('inputReference').hasError('required')) {
+                <mat-error>Input Reference is required.</mat-error>
+                }
+
+              </mat-form-field>
+
+              }
+
+
+
+              @let itemIdx = $index;
+              @for (control of getInlineUniqueControls(configGroups, itemSnapshot); track control.name) {
+              @if (control.name === 'macAddress') {
+              <div class="paste-dialog__mac-field-wrapper">
+                <mat-form-field #formField class="paste-dialog__identifier-field"
+                  [class.paste-dialog__field--error]="shouldHighlightControl(control)" appearance="outline">
+                  <mat-label>{{ control.title }}</mat-label>
+                  <mat-select [formControl]="control">
+                    @for (opt of getMacAvailableOptions(itemIdx); track opt) {
+                    <mat-option [value]="opt">{{ opt }}</mat-option>
+                    }
+                  </mat-select>
+                  @if (control.hasError('required')) {
+                  <mat-error>{{ control.title }} is required.</mat-error>
+                  } @else if (control.hasError('notUnique')) {
+                  <mat-error>{{ control.title }} must be unique among sibling objects.</mat-error>
+                  }
+                </mat-form-field>
+              </div>
+              } @else {
+              <mat-form-field #formField class="paste-dialog__identifier-field"
+                [class.paste-dialog__field--error]="shouldHighlightControl(control)" appearance="outline">
+                <mat-label>{{ control.title }}</mat-label>
+                <input matInput [type]="getInlineInputType(control)" [formControl]="control" />
+                @if (control.hasError('required')) {
+                <mat-error>{{ control.title }} is required.</mat-error>
+                } @else if (control.name !== 'instanceNumber' && control.hasError('notUnique')) {
+                <mat-error>{{ control.title }} must be unique among sibling objects.</mat-error>
+                } @else if (control.hasError('min')) {
+                <mat-error>{{ control.title }} is below the allowed minimum.</mat-error>
+                } @else if (control.hasError('max')) {
+                <mat-error>{{ control.title }} exceeds the allowed maximum.</mat-error>
+                } @else if (control.hasError('maxlength')) {
+                <mat-error>{{ control.title }} is too long.</mat-error>
+                }
+
+                @if (control.name === 'instanceNumber' && hasItemControlWarning(itemIdx, 'instanceNumber')) {
+                <mat-hint class="dialog__warning-hint" animate.enter="warn-hint--enter">
+                  <mat-icon class="paste-dialog__warning-icon">warning_amber</mat-icon>
+                  {{ getItemControlWarning(itemIdx, 'instanceNumber') }}
+                </mat-hint>
+                }
+              </mat-form-field>
+              }
+              }
+            </div>
+
+            @let children = loadedChildren()[$index];
+            @let childPages = childConfigPages()[$index];
+            @if (loadingChildren()[$index]) {
+            <div class="paste-dialog__children-loading">
+              <mat-spinner diameter="20"></mat-spinner>
+              <span>Loading children…</span>
+            </div>
+            } @else if (children.length > 0) {
+            <mat-divider class="paste-dialog__divider"></mat-divider>
+            <p class="paste-dialog__children-heading">Child Objects</p>
+            <div formArrayName="children">
+              @for (child of $any(itemGroup.get('children')).controls; track $index) {
+              @let childIndex = $index;
+              @let childGroup = $any(child);
+              @let childSnapshot = children[childIndex];
+              @let childConfigGroups = childPages[childIndex];
+              @let childSeverity = getPasteItemsChildSeverity(itemIdx, childIndex);
+              <div class="paste-dialog__child-row paste-dialog__tree-item" [formGroupName]="childIndex"
+                [style.--paste-node-depth]="getSnapshotDepth(childSnapshot)">
+                <!-- !Since we fetch the child objects beforehand now, switch this to use the pre-fetched childSnapshot(s) -->
+                <mat-checkbox formControlName="enabled">
+                  <span class="paste-dialog__object-icon-wrap" aria-hidden="true">
+                    @if (isSnapshotIconSvg(childSnapshot)) {
+                    <mat-icon class="paste-dialog__object-icon icon--grey" [inline]="true"
+                      [svgIcon]="getSnapshotIcon(childSnapshot)"></mat-icon>
+                    } @else {
+                    <mat-icon class="paste-dialog__object-icon icon--grey" [inline]="true">{{
+                      getSnapshotIcon(childSnapshot)
+                      }}</mat-icon>
+                    }
+                  </span>
+                  {{ childSnapshot?.name || childSnapshot?.label || 'Child ' + (childIndex + 1) }}
+                  @if (childSeverity !== 'none') {
+                  <mat-icon class="paste-dialog__header-severity"
+                    [ngClass]="'paste-dialog__header-severity--' + childSeverity"
+                    [matTooltip]="'This child object has validation errors.'" matTooltipPosition="above">
+                    {{ getIssueIcon(childSeverity) }}
+                  </mat-icon>
+                  }
+                </mat-checkbox>
+                <mat-form-field #formField class="paste-dialog__child-identifier"
+                  [class.paste-dialog__field--error]="shouldHighlightControl(childGroup.get('localUniqueIdentifier'))"
+                  appearance="outline">
+                  <mat-label>Identifier</mat-label>
+                  <input matInput formControlName="localUniqueIdentifier" />
+                  @if (childGroup.get('localUniqueIdentifier').hasError('required') && childGroup.get('enabled').value
+                  !== false) {
+                  <mat-error>Identifier is required.</mat-error>
+                  } @else if (childGroup.get('localUniqueIdentifier').hasError('maxlength')) {
+                  <mat-error>Identifier must be 32 characters or fewer.</mat-error>
+                  } @else if (childGroup.get('localUniqueIdentifier').hasError('pattern')) {
+                  <mat-error>Invalid character. Avoid <code>#'*,./:&lt;&gt;?@[\]|"</code></mat-error>
+                  } @else if (childGroup.get('localUniqueIdentifier').hasError('notUnique')) {
+                  <mat-error>Identifier must be unique among enabled children.</mat-error>
+                  }
+                </mat-form-field>
+
+                @for (control of getInlineUniqueControls(childConfigGroups, childSnapshot); track control.name) {
+                <mat-form-field #formField class="paste-dialog__child-identifier"
+                  [class.paste-dialog__field--error]="shouldHighlightControl(control)" appearance="outline">
+                  <mat-label>{{ control.title }}</mat-label>
+                  <input matInput [type]="getInlineInputType(control)" [formControl]="control" />
+                  @if (control.hasError('required') && childGroup.get('enabled').value !== false) {
+                  <mat-error>{{ control.title }} is required.</mat-error>
+                  } @else if (control.hasError('notUnique')) {
+                  <mat-error>{{ control.title }} must be unique among enabled child objects.</mat-error>
+                  } @else if (control.hasError('min')) {
+                  <mat-error>{{ control.title }} is below the allowed minimum.</mat-error>
+                  } @else if (control.hasError('max')) {
+                  <mat-error>{{ control.title }} exceeds the allowed maximum.</mat-error>
+                  }
+
+                </mat-form-field>
+                }
+              </div>
+              }
+            </div>
+            }
+          </mat-expansion-panel>
+          }
+          <!-- } -->
+        </mat-accordion>
+      </form>
+    </mat-tab> <!-- * Paste Items -->
+
+    <mat-tab label="Configuration" [disabled]="!isDialogValid() || pasteStarted()"> <!-- * Configuration -->
+      <mat-accordion multi>
+        @for (itemSnapshot of data.pasteItems ?? []; track itemSnapshot.sourceObjectId) {
+        @let itemIndex = $index;
+        @let itemSeverity = getConfigTabSeverity(itemIndex);
+        @let configGroupList = topLevelConfigurationPages()[itemIndex];
+        @let childPageGroups = childConfigurationPages()[itemIndex];
+        @let childSnapshots = loadedChildren()[itemIndex];
+        <mat-expansion-panel class="paste-dialog__tree-item dialog__expansion-panel"
+          [style.--paste-node-depth]="getSnapshotDepth(itemSnapshot)">
+          <mat-expansion-panel-header>
+            <mat-panel-title class="paste-dialog__panel-title">
+              <span class="paste-dialog__object-icon-wrap" aria-hidden="true">
+                @if (isSnapshotIconSvg(itemSnapshot)) {
+                <mat-icon class="paste-dialog__object-icon icon--grey" [inline]="true"
+                  [svgIcon]="getSnapshotIcon(itemSnapshot)"></mat-icon>
+                } @else {
+                <mat-icon class="paste-dialog__object-icon icon--grey" [inline]="true">{{ getSnapshotIcon(itemSnapshot)
+                  }}</mat-icon>
+                }
+              </span>
+              <span class="paste-dialog__panel-label">{{ itemSnapshot.label }}</span>
+              @if (itemSeverity !== 'none') {
+              <mat-icon class="paste-dialog__header-severity"
+                [ngClass]="'paste-dialog__header-severity--' + itemSeverity"
+                [matTooltip]="itemSeverity === 'error' ? 'This object has validation errors.' : 'This object has warnings.'"
+                matTooltipPosition="above">
+                {{ getIssueIcon(itemSeverity) }}
+              </mat-icon>
+              }
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          @for (configGroup of configGroupList ?? []; track configGroup.id) {
+          <div class="display-view__container">
+            <h3 class="display-view__title">{{ configGroup.title }}</h3>
+            @if (configGroup.page.keyView; as keyView) {
+            <app-control-group [group]="keyView"></app-control-group>
+            }
+            @for (view of configGroup.page.views; track view.id) {
+            <h4 class="display-view__subtitle">{{ view.title }}</h4>
+            @for (group of view.views; track group.id) {
+            <app-control-group [group]="group"></app-control-group>
+            } @empty {
+            <h5 class="display-view__title">I'm empty!</h5>
+            }
+            }
+          </div>
+          }
+
+          @if ((childPageGroups?.length ?? 0) > 0) {
+          <mat-divider class="paste-dialog__divider"></mat-divider>
+          <p class="paste-dialog__children-heading">Child Objects</p>
+          <mat-accordion multi>
+            @for (childGroups of childPageGroups; track $index) {
+            @let childIndex = $index;
+            @let childSnapshot = childSnapshots[childIndex];
+            @let childSeverity = getConfigTabChildSeverity(itemIndex, childIndex);
+            <mat-expansion-panel class="paste-dialog__tree-item dialog__expansion-panel"
+              [style.--paste-node-depth]="getSnapshotDepth(childSnapshot)">
+              <mat-expansion-panel-header>
+                <mat-panel-title class="paste-dialog__panel-title">
+                  <span class="paste-dialog__object-icon-wrap" aria-hidden="true">
+                    @if (isSnapshotIconSvg(childSnapshot)) {
+                    <mat-icon class="paste-dialog__object-icon icon--grey" [inline]="true"
+                      [svgIcon]="getSnapshotIcon(childSnapshot)"></mat-icon>
+                    } @else {
+                    <mat-icon class="paste-dialog__object-icon icon--grey" [inline]="true">{{
+                      getSnapshotIcon(childSnapshot)
+                      }}</mat-icon>
+                    }
+                  </span>
+                  <span class="paste-dialog__panel-label">{{ childSnapshot?.label || childSnapshot?.name || 'Child ' +
+                    (childIndex + 1) }}</span>
+                  @if (childSeverity !== 'none') {
+                  <mat-icon class="paste-dialog__header-severity"
+                    [ngClass]="'paste-dialog__header-severity--' + childSeverity"
+                    [matTooltip]="'This child object has validation errors.'" matTooltipPosition="above">
+                    {{ getIssueIcon(childSeverity) }}
+                  </mat-icon>
+                  }
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+
+              @for (configGroup of childGroups; track configGroup.id) {
+              <div class="display-view__container">
+                <h3 class="display-view__title">{{ configGroup.title }}</h3>
+                @if (configGroup.page.keyView; as keyView) {
+                <app-control-group [group]="keyView"></app-control-group>
+                }
+                @for (view of configGroup.page.views; track view.id) {
+                <h4 class="display-view__subtitle" [style.background]="'#5191db'">{{ view.title }}</h4>
+                @for (group of view.views; track group.id) {
+                <app-control-group [group]="group"></app-control-group>
+                }
+                }
+              </div>
+              }
+            </mat-expansion-panel>
+            }
+          </mat-accordion>
+          }
+        </mat-expansion-panel>
+        }
+      </mat-accordion>
+    </mat-tab> <!-- * Congiguration -->
+  </mat-tab-group>
+
+  @if (pasteStarted()) {
+  <mat-divider class="paste-dialog__divider"></mat-divider>
+  <table class="paste-dialog__progress-table" mat-table [dataSource]="objectOperations" [trackBy]="trackById">
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef>Name</th>
+      <td mat-cell *matCellDef="let op">{{ op.name }}</td>
+    </ng-container>
+    <ng-container matColumnDef="reference">
+      <th mat-header-cell *matHeaderCellDef>Reference</th>
+      <td mat-cell *matCellDef="let op">{{ op.reference }}</td>
+    </ng-container>
+    <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef>Status</th>
+      <td mat-cell *matCellDef="let op" class="status-cell">
+        {{ op.status }}
+        @if (op.status === 'Error') {
+        <mat-icon class="status-info-icon" [matTooltip]="op.message || 'An error occurred'"
+          matTooltipPosition="right">info</mat-icon>
+        }
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="objectOperationColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: objectOperationColumns;" [ngClass]="getStatusClass(row.status)"></tr>
+  </table>
+  }
+</mat-dialog-content>
+
+@if (pasteStarted()) {
+<mat-progress-bar mode="determinate" [value]="progress().percentage"></mat-progress-bar>
+}
+
+<mat-dialog-actions align="end">
+  <button mat-button [disabled]="disableButtons()" matDialogClose="Cancel">Cancel</button>
+  @if (!allProcessed()) {
+  <button mat-flat-button color="primary" [disabled]="!isSubmitValid() || disableButtons() || pasteStarted()"
+    (click)="doSomethingFn()">
+    {{ data.doSomething }}
+  </button>
+  } @else {
+  <button mat-flat-button matDialogClose="Done">Close</button>
+  }
+</mat-dialog-actions>

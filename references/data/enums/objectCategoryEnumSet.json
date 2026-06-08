@@ -1,0 +1,823 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Authorization Category",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=fullAccess",
+  "setId": 33,
+  "oneOf": [
+    {
+      "const": "objectCategoryEnumSet.hvacCategory",
+      "title": "HVAC",
+      "memberId": 0
+    },
+    {
+      "const": "objectCategoryEnumSet.fireCategory",
+      "title": "Fire",
+      "memberId": 1
+    },
+    {
+      "const": "objectCategoryEnumSet.securityCategory",
+      "title": "Security",
+      "memberId": 2
+    },
+    {
+      "const": "objectCategoryEnumSet.servicesCategory",
+      "title": "Services",
+      "memberId": 3
+    },
+    {
+      "const": "objectCategoryEnumSet.administrativeCategory",
+      "title": "Administrative",
+      "memberId": 4
+    },
+    {
+      "const": "objectCategoryEnumSet.generalCategory",
+      "title": "General",
+      "memberId": 5
+    },
+    {
+      "const": "objectCategoryEnumSet.lightingCategory",
+      "title": "Lighting",
+      "memberId": 6
+    },
+    {
+      "const": "objectCategoryEnumSet.refrigerationCategory",
+      "title": "Refrigeration",
+      "memberId": 7
+    },
+    {
+      "const": "objectCategoryEnumSet.criticalEquipmentCategory",
+      "title": "Critical Environment",
+      "memberId": 8
+    },
+    {
+      "const": "objectCategoryEnumSet.airQualityCategory",
+      "title": "Air Quality",
+      "memberId": 9
+    },
+    {
+      "const": "objectCategoryEnumSet.powerCategory",
+      "title": "Power",
+      "memberId": 10
+    },
+    {
+      "const": "objectCategoryEnumSet.energyCategory",
+      "title": "Energy",
+      "memberId": 11
+    },
+    {
+      "const": "objectCategoryEnumSet.systemCategory",
+      "title": "System",
+      "memberId": 12
+    },
+    {
+      "const": "objectCategoryEnumSet.custom1Category",
+      "title": "Custom 1",
+      "memberId": 100
+    },
+    {
+      "const": "objectCategoryEnumSet.custom2Category",
+      "title": "Custom 2",
+      "memberId": 101
+    },
+    {
+      "const": "objectCategoryEnumSet.custom3Category",
+      "title": "Custom 3",
+      "memberId": 102
+    },
+    {
+      "const": "objectCategoryEnumSet.custom4Category",
+      "title": "Custom 4",
+      "memberId": 103
+    },
+    {
+      "const": "objectCategoryEnumSet.custom5Category",
+      "title": "Custom 5",
+      "memberId": 104
+    },
+    {
+      "const": "objectCategoryEnumSet.custom6Category",
+      "title": "Custom 6",
+      "memberId": 105
+    },
+    {
+      "const": "objectCategoryEnumSet.custom7Category",
+      "title": "Custom 7",
+      "memberId": 106
+    },
+    {
+      "const": "objectCategoryEnumSet.custom8Category",
+      "title": "Custom 8",
+      "memberId": 107
+    },
+    {
+      "const": "objectCategoryEnumSet.custom9Category",
+      "title": "Custom 9",
+      "memberId": 108
+    },
+    {
+      "const": "objectCategoryEnumSet.custom10Category",
+      "title": "Custom 10",
+      "memberId": 109
+    },
+    {
+      "const": "objectCategoryEnumSet.custom11Category",
+      "title": "Custom 11",
+      "memberId": 110
+    },
+    {
+      "const": "objectCategoryEnumSet.custom12Category",
+      "title": "Custom 12",
+      "memberId": 111
+    },
+    {
+      "const": "objectCategoryEnumSet.custom13Category",
+      "title": "Custom 13",
+      "memberId": 112
+    },
+    {
+      "const": "objectCategoryEnumSet.custom14Category",
+      "title": "Custom 14",
+      "memberId": 113
+    },
+    {
+      "const": "objectCategoryEnumSet.custom15Category",
+      "title": "Custom 15",
+      "memberId": 114
+    },
+    {
+      "const": "objectCategoryEnumSet.custom16Category",
+      "title": "Custom 16",
+      "memberId": 115
+    },
+    {
+      "const": "objectCategoryEnumSet.custom17Category",
+      "title": "Custom 17",
+      "memberId": 116
+    },
+    {
+      "const": "objectCategoryEnumSet.custom18Category",
+      "title": "Custom 18",
+      "memberId": 117
+    },
+    {
+      "const": "objectCategoryEnumSet.custom19Category",
+      "title": "Custom 19",
+      "memberId": 118
+    },
+    {
+      "const": "objectCategoryEnumSet.custom20Category",
+      "title": "Custom 20",
+      "memberId": 119
+    },
+    {
+      "const": "objectCategoryEnumSet.custom21Category",
+      "title": "Custom 21",
+      "memberId": 120
+    },
+    {
+      "const": "objectCategoryEnumSet.custom22Category",
+      "title": "Custom 22",
+      "memberId": 121
+    },
+    {
+      "const": "objectCategoryEnumSet.custom23Category",
+      "title": "Custom 23",
+      "memberId": 122
+    },
+    {
+      "const": "objectCategoryEnumSet.custom24Category",
+      "title": "Custom 24",
+      "memberId": 123
+    },
+    {
+      "const": "objectCategoryEnumSet.custom25Category",
+      "title": "Custom 25",
+      "memberId": 124
+    },
+    {
+      "const": "objectCategoryEnumSet.custom26Category",
+      "title": "Custom 26",
+      "memberId": 125
+    },
+    {
+      "const": "objectCategoryEnumSet.custom27Category",
+      "title": "Custom 27",
+      "memberId": 126
+    },
+    {
+      "const": "objectCategoryEnumSet.custom28Category",
+      "title": "Custom 28",
+      "memberId": 127
+    },
+    {
+      "const": "objectCategoryEnumSet.custom29Category",
+      "title": "Custom 29",
+      "memberId": 128
+    },
+    {
+      "const": "objectCategoryEnumSet.custom30Category",
+      "title": "Custom 30",
+      "memberId": 129
+    },
+    {
+      "const": "objectCategoryEnumSet.custom31Category",
+      "title": "Custom 31",
+      "memberId": 130
+    },
+    {
+      "const": "objectCategoryEnumSet.custom32Category",
+      "title": "Custom 32",
+      "memberId": 131
+    },
+    {
+      "const": "objectCategoryEnumSet.custom33Category",
+      "title": "Custom 33",
+      "memberId": 132
+    },
+    {
+      "const": "objectCategoryEnumSet.custom34Category",
+      "title": "Custom 34",
+      "memberId": 133
+    },
+    {
+      "const": "objectCategoryEnumSet.custom35Category",
+      "title": "Custom 35",
+      "memberId": 134
+    },
+    {
+      "const": "objectCategoryEnumSet.custom36Category",
+      "title": "Custom 36",
+      "memberId": 135
+    },
+    {
+      "const": "objectCategoryEnumSet.custom37Category",
+      "title": "Custom 37",
+      "memberId": 136
+    },
+    {
+      "const": "objectCategoryEnumSet.custom38Category",
+      "title": "Custom 38",
+      "memberId": 137
+    },
+    {
+      "const": "objectCategoryEnumSet.custom39Category",
+      "title": "Custom 39",
+      "memberId": 138
+    },
+    {
+      "const": "objectCategoryEnumSet.custom40Category",
+      "title": "Custom 40",
+      "memberId": 139
+    },
+    {
+      "const": "objectCategoryEnumSet.custom41Category",
+      "title": "Custom 41",
+      "memberId": 140
+    },
+    {
+      "const": "objectCategoryEnumSet.custom42Category",
+      "title": "Custom 42",
+      "memberId": 141
+    },
+    {
+      "const": "objectCategoryEnumSet.custom43Category",
+      "title": "Custom 43",
+      "memberId": 142
+    },
+    {
+      "const": "objectCategoryEnumSet.custom44Category",
+      "title": "Custom 44",
+      "memberId": 143
+    },
+    {
+      "const": "objectCategoryEnumSet.custom45Category",
+      "title": "Custom 45",
+      "memberId": 144
+    },
+    {
+      "const": "objectCategoryEnumSet.custom46Category",
+      "title": "Custom 46",
+      "memberId": 145
+    },
+    {
+      "const": "objectCategoryEnumSet.custom47Category",
+      "title": "Custom 47",
+      "memberId": 146
+    },
+    {
+      "const": "objectCategoryEnumSet.custom48Category",
+      "title": "Custom 48",
+      "memberId": 147
+    },
+    {
+      "const": "objectCategoryEnumSet.custom49Category",
+      "title": "Custom 49",
+      "memberId": 148
+    },
+    {
+      "const": "objectCategoryEnumSet.custom50Category",
+      "title": "Custom 50",
+      "memberId": 149
+    },
+    {
+      "const": "objectCategoryEnumSet.custom51Category",
+      "title": "Custom 51",
+      "memberId": 150
+    },
+    {
+      "const": "objectCategoryEnumSet.custom52Category",
+      "title": "Custom 52",
+      "memberId": 151
+    },
+    {
+      "const": "objectCategoryEnumSet.custom53Category",
+      "title": "Custom 53",
+      "memberId": 152
+    },
+    {
+      "const": "objectCategoryEnumSet.custom54Category",
+      "title": "Custom 54",
+      "memberId": 153
+    },
+    {
+      "const": "objectCategoryEnumSet.custom55Category",
+      "title": "Custom 55",
+      "memberId": 154
+    },
+    {
+      "const": "objectCategoryEnumSet.custom56Category",
+      "title": "Custom 56",
+      "memberId": 155
+    },
+    {
+      "const": "objectCategoryEnumSet.custom57Category",
+      "title": "Custom 57",
+      "memberId": 156
+    },
+    {
+      "const": "objectCategoryEnumSet.custom58Category",
+      "title": "Custom 58",
+      "memberId": 157
+    },
+    {
+      "const": "objectCategoryEnumSet.custom59Category",
+      "title": "Custom 59",
+      "memberId": 158
+    },
+    {
+      "const": "objectCategoryEnumSet.custom60Category",
+      "title": "Custom 60",
+      "memberId": 159
+    },
+    {
+      "const": "objectCategoryEnumSet.custom61Category",
+      "title": "Custom 61",
+      "memberId": 160
+    },
+    {
+      "const": "objectCategoryEnumSet.custom62Category",
+      "title": "Custom 62",
+      "memberId": 161
+    },
+    {
+      "const": "objectCategoryEnumSet.custom63Category",
+      "title": "Custom 63",
+      "memberId": 162
+    },
+    {
+      "const": "objectCategoryEnumSet.custom64Category",
+      "title": "Custom 64",
+      "memberId": 163
+    },
+    {
+      "const": "objectCategoryEnumSet.custom65Category",
+      "title": "Custom 65",
+      "memberId": 164
+    },
+    {
+      "const": "objectCategoryEnumSet.custom66Category",
+      "title": "Custom 66",
+      "memberId": 165
+    },
+    {
+      "const": "objectCategoryEnumSet.custom67Category",
+      "title": "Custom 67",
+      "memberId": 166
+    },
+    {
+      "const": "objectCategoryEnumSet.custom68Category",
+      "title": "Custom 68",
+      "memberId": 167
+    },
+    {
+      "const": "objectCategoryEnumSet.custom69Category",
+      "title": "Custom 69",
+      "memberId": 168
+    },
+    {
+      "const": "objectCategoryEnumSet.custom70Category",
+      "title": "Custom 70",
+      "memberId": 169
+    },
+    {
+      "const": "objectCategoryEnumSet.custom71Category",
+      "title": "Custom 71",
+      "memberId": 170
+    },
+    {
+      "const": "objectCategoryEnumSet.custom72Category",
+      "title": "Custom 72",
+      "memberId": 171
+    },
+    {
+      "const": "objectCategoryEnumSet.custom73Category",
+      "title": "Custom 73",
+      "memberId": 172
+    },
+    {
+      "const": "objectCategoryEnumSet.custom74Category",
+      "title": "Custom 74",
+      "memberId": 173
+    },
+    {
+      "const": "objectCategoryEnumSet.custom75Category",
+      "title": "Custom 75",
+      "memberId": 174
+    },
+    {
+      "const": "objectCategoryEnumSet.custom76Category",
+      "title": "Custom 76",
+      "memberId": 175
+    },
+    {
+      "const": "objectCategoryEnumSet.custom77Category",
+      "title": "Custom 77",
+      "memberId": 176
+    },
+    {
+      "const": "objectCategoryEnumSet.custom78Category",
+      "title": "Custom 78",
+      "memberId": 177
+    },
+    {
+      "const": "objectCategoryEnumSet.custom79Category",
+      "title": "Custom 79",
+      "memberId": 178
+    },
+    {
+      "const": "objectCategoryEnumSet.custom80Category",
+      "title": "Custom 80",
+      "memberId": 179
+    },
+    {
+      "const": "objectCategoryEnumSet.custom81Category",
+      "title": "Custom 81",
+      "memberId": 180
+    },
+    {
+      "const": "objectCategoryEnumSet.custom82Category",
+      "title": "Custom 82",
+      "memberId": 181
+    },
+    {
+      "const": "objectCategoryEnumSet.custom83Category",
+      "title": "Custom 83",
+      "memberId": 182
+    },
+    {
+      "const": "objectCategoryEnumSet.custom84Category",
+      "title": "Custom 84",
+      "memberId": 183
+    },
+    {
+      "const": "objectCategoryEnumSet.custom85Category",
+      "title": "Custom 85",
+      "memberId": 184
+    },
+    {
+      "const": "objectCategoryEnumSet.custom86Category",
+      "title": "Custom 86",
+      "memberId": 185
+    },
+    {
+      "const": "objectCategoryEnumSet.custom87Category",
+      "title": "Custom 87",
+      "memberId": 186
+    },
+    {
+      "const": "objectCategoryEnumSet.custom88Category",
+      "title": "Custom 88",
+      "memberId": 187
+    },
+    {
+      "const": "objectCategoryEnumSet.custom89Category",
+      "title": "Custom 89",
+      "memberId": 188
+    },
+    {
+      "const": "objectCategoryEnumSet.custom90Category",
+      "title": "Custom 90",
+      "memberId": 189
+    },
+    {
+      "const": "objectCategoryEnumSet.custom91Category",
+      "title": "Custom 91",
+      "memberId": 190
+    },
+    {
+      "const": "objectCategoryEnumSet.custom92Category",
+      "title": "Custom 92",
+      "memberId": 191
+    },
+    {
+      "const": "objectCategoryEnumSet.custom93Category",
+      "title": "Custom 93",
+      "memberId": 192
+    },
+    {
+      "const": "objectCategoryEnumSet.custom94Category",
+      "title": "Custom 94",
+      "memberId": 193
+    },
+    {
+      "const": "objectCategoryEnumSet.custom95Category",
+      "title": "Custom 95",
+      "memberId": 194
+    },
+    {
+      "const": "objectCategoryEnumSet.custom96Category",
+      "title": "Custom 96",
+      "memberId": 195
+    },
+    {
+      "const": "objectCategoryEnumSet.custom97Category",
+      "title": "Custom 97",
+      "memberId": 196
+    },
+    {
+      "const": "objectCategoryEnumSet.custom98Category",
+      "title": "Custom 98",
+      "memberId": 197
+    },
+    {
+      "const": "objectCategoryEnumSet.custom99Category",
+      "title": "Custom 99",
+      "memberId": 198
+    },
+    {
+      "const": "objectCategoryEnumSet.custom100Category",
+      "title": "Custom 100",
+      "memberId": 199
+    },
+    {
+      "const": "objectCategoryEnumSet.custom101Category",
+      "title": "Custom 101",
+      "memberId": 200
+    },
+    {
+      "const": "objectCategoryEnumSet.custom102Category",
+      "title": "Custom 102",
+      "memberId": 201
+    },
+    {
+      "const": "objectCategoryEnumSet.custom103Category",
+      "title": "Custom 103",
+      "memberId": 202
+    },
+    {
+      "const": "objectCategoryEnumSet.custom104Category",
+      "title": "Custom 104",
+      "memberId": 203
+    },
+    {
+      "const": "objectCategoryEnumSet.custom105Category",
+      "title": "Custom 105",
+      "memberId": 204
+    },
+    {
+      "const": "objectCategoryEnumSet.custom106Category",
+      "title": "Custom 106",
+      "memberId": 205
+    },
+    {
+      "const": "objectCategoryEnumSet.custom107Category",
+      "title": "Custom 107",
+      "memberId": 206
+    },
+    {
+      "const": "objectCategoryEnumSet.custom108Category",
+      "title": "Custom 108",
+      "memberId": 207
+    },
+    {
+      "const": "objectCategoryEnumSet.custom109Category",
+      "title": "Custom 109",
+      "memberId": 208
+    },
+    {
+      "const": "objectCategoryEnumSet.custom110Category",
+      "title": "Custom 110",
+      "memberId": 209
+    },
+    {
+      "const": "objectCategoryEnumSet.custom111Category",
+      "title": "Custom 111",
+      "memberId": 210
+    },
+    {
+      "const": "objectCategoryEnumSet.custom112Category",
+      "title": "Custom 112",
+      "memberId": 211
+    },
+    {
+      "const": "objectCategoryEnumSet.custom113Category",
+      "title": "Custom 113",
+      "memberId": 212
+    },
+    {
+      "const": "objectCategoryEnumSet.custom114Category",
+      "title": "Custom 114",
+      "memberId": 213
+    },
+    {
+      "const": "objectCategoryEnumSet.custom115Category",
+      "title": "Custom 115",
+      "memberId": 214
+    },
+    {
+      "const": "objectCategoryEnumSet.custom116Category",
+      "title": "Custom 116",
+      "memberId": 215
+    },
+    {
+      "const": "objectCategoryEnumSet.custom117Category",
+      "title": "Custom 117",
+      "memberId": 216
+    },
+    {
+      "const": "objectCategoryEnumSet.custom118Category",
+      "title": "Custom 118",
+      "memberId": 217
+    },
+    {
+      "const": "objectCategoryEnumSet.custom119Category",
+      "title": "Custom 119",
+      "memberId": 218
+    },
+    {
+      "const": "objectCategoryEnumSet.custom120Category",
+      "title": "Custom 120",
+      "memberId": 219
+    },
+    {
+      "const": "objectCategoryEnumSet.custom121Category",
+      "title": "Custom 121",
+      "memberId": 220
+    },
+    {
+      "const": "objectCategoryEnumSet.custom122Category",
+      "title": "Custom 122",
+      "memberId": 221
+    },
+    {
+      "const": "objectCategoryEnumSet.custom123Category",
+      "title": "Custom 123",
+      "memberId": 222
+    },
+    {
+      "const": "objectCategoryEnumSet.custom124Category",
+      "title": "Custom 124",
+      "memberId": 223
+    },
+    {
+      "const": "objectCategoryEnumSet.custom125Category",
+      "title": "Custom 125",
+      "memberId": 224
+    },
+    {
+      "const": "objectCategoryEnumSet.custom126Category",
+      "title": "Custom 126",
+      "memberId": 225
+    },
+    {
+      "const": "objectCategoryEnumSet.custom127Category",
+      "title": "Custom 127",
+      "memberId": 226
+    },
+    {
+      "const": "objectCategoryEnumSet.custom128Category",
+      "title": "Custom 128",
+      "memberId": 227
+    },
+    {
+      "const": "objectCategoryEnumSet.custom129Category",
+      "title": "Custom 129",
+      "memberId": 228
+    },
+    {
+      "const": "objectCategoryEnumSet.custom130Category",
+      "title": "Custom 130",
+      "memberId": 229
+    },
+    {
+      "const": "objectCategoryEnumSet.custom131Category",
+      "title": "Custom 131",
+      "memberId": 230
+    },
+    {
+      "const": "objectCategoryEnumSet.custom132Category",
+      "title": "Custom 132",
+      "memberId": 231
+    },
+    {
+      "const": "objectCategoryEnumSet.custom133Category",
+      "title": "Custom 133",
+      "memberId": 232
+    },
+    {
+      "const": "objectCategoryEnumSet.custom134Category",
+      "title": "Custom 134",
+      "memberId": 233
+    },
+    {
+      "const": "objectCategoryEnumSet.custom135Category",
+      "title": "Custom 135",
+      "memberId": 234
+    },
+    {
+      "const": "objectCategoryEnumSet.custom136Category",
+      "title": "Custom 136",
+      "memberId": 235
+    },
+    {
+      "const": "objectCategoryEnumSet.custom137Category",
+      "title": "Custom 137",
+      "memberId": 236
+    },
+    {
+      "const": "objectCategoryEnumSet.custom138Category",
+      "title": "Custom 138",
+      "memberId": 237
+    },
+    {
+      "const": "objectCategoryEnumSet.custom139Category",
+      "title": "Custom 139",
+      "memberId": 238
+    },
+    {
+      "const": "objectCategoryEnumSet.custom140Category",
+      "title": "Custom 140",
+      "memberId": 239
+    },
+    {
+      "const": "objectCategoryEnumSet.custom141Category",
+      "title": "Custom 141",
+      "memberId": 240
+    },
+    {
+      "const": "objectCategoryEnumSet.custom142Category",
+      "title": "Custom 142",
+      "memberId": 241
+    },
+    {
+      "const": "objectCategoryEnumSet.custom143Category",
+      "title": "Custom 143",
+      "memberId": 242
+    },
+    {
+      "const": "objectCategoryEnumSet.custom144Category",
+      "title": "Custom 144",
+      "memberId": 243
+    },
+    {
+      "const": "objectCategoryEnumSet.custom145Category",
+      "title": "Custom 145",
+      "memberId": 244
+    },
+    {
+      "const": "objectCategoryEnumSet.custom146Category",
+      "title": "Custom 146",
+      "memberId": 245
+    },
+    {
+      "const": "objectCategoryEnumSet.custom147Category",
+      "title": "Custom 147",
+      "memberId": 246
+    },
+    {
+      "const": "objectCategoryEnumSet.custom148Category",
+      "title": "Custom 148",
+      "memberId": 247
+    },
+    {
+      "const": "objectCategoryEnumSet.custom149Category",
+      "title": "Custom 149",
+      "memberId": 248
+    },
+    {
+      "const": "objectCategoryEnumSet.custom150Category",
+      "title": "Custom 150",
+      "memberId": 249
+    }
+  ]
+}

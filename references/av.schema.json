@@ -1,0 +1,419 @@
+{
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "JCI AV",
+    "version": "1.0",
+    "$id": "https://desktop-vm/api/v6/schemas/objectTypes/avClass",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400,
+        "default": ""
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 255
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ],
+        "default": "objectTypeEnumSet.bacAvClass"
+      },
+      "objectCategory": {
+        "title": "Authorization Category",
+        "category": "attributeCategoryEnumSet.objectCategoryCategory",
+        "numberOfStates": 250,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectCategoryEnumSet?permission=modifyConfigItems"
+          }
+        ],
+        "default": "objectCategoryEnumSet.generalCategory"
+      },
+      "prioritySupported": {
+        "title": "Priority Supported",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": true
+      },
+      "minPresValue": {
+        "title": "Min Value",
+        "displayPrecisionSource": "displayPrecision",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -3.40282347e+38,
+        "maximum": 3.40282347e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "default": -1.69999998e+38
+      },
+      "maxPresValue": {
+        "title": "Max Value",
+        "displayPrecisionSource": "displayPrecision",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -3.40282347e+38,
+        "maximum": 3.40282347e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "default": 1.69999998e+38
+      },
+      "units": {
+        "title": "Units",
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/unitEnumSet"
+          }
+        ],
+        "default": "unitEnumSet.noUnits"
+      },
+      "displayPrecision": {
+        "title": "Display Precision",
+        "numberOfStates": 13,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "displayPrecisionEnumSet.displayPrecision1000000"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/displayPrecisionEnumSet"
+          }
+        ],
+        "default": "displayPrecisionEnumSet.displayPrecisionPt1"
+      },
+      "covIncrement": {
+        "title": "COV Increment",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": 0,
+        "maximum": 3.40282347e+38,
+        "default": 0.00999999978
+      },
+      "relinquishDefault": {
+        "title": "Relinquish Default",
+        "displayPrecisionSource": "displayPrecision",
+        "maxPresValueSource": "maxPresValue",
+        "minPresValueSource": "minPresValue",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -1.69999998e+38,
+        "maximum": 1.69999998e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "default": 0
+      },
+      "restoreCommandPriority": {
+        "title": "Restore Command Priority",
+        "category": "attributeCategoryEnumSet.restoreCommandPriorityCategory",
+        "type": "array",
+        "metasysType": "flags",
+        "maxItems": 4,
+        "minItems": 4,
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "allOf": [
+                {
+                  "$ref": "https://desktop-vm/api/v6/schemas/enums/restorePriorityEnumSet"
+                },
+                {
+                  "enum": [
+                    "restorePriorityEnumSet.7",
+                    "restorePriorityEnumSet.10",
+                    "restorePriorityEnumSet.12",
+                    "restorePriorityEnumSet.15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "uniqueItems": true,
+        "default": [
+          [
+            "restorePriorityEnumSet.7",
+            true
+          ],
+          [
+            "restorePriorityEnumSet.10",
+            false
+          ],
+          [
+            "restorePriorityEnumSet.12",
+            false
+          ],
+          [
+            "restorePriorityEnumSet.15",
+            false
+          ]
+        ]
+      },
+      "connectedTo": {
+        "title": "Connected To",
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#attribute-reference"
+          }
+        ],
+        "metasysType": "attributeReference",
+        "attributeFilter": "basic"
+      },
+      "direction": {
+        "title": "Direction",
+        "numberOfStates": 3,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "connectionDirectionSet.notConnected"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/connectionDirectionSet"
+          }
+        ],
+        "default": "connectionDirectionSet.notConnected"
+      },
+      "priorityForWritingToConnected": {
+        "title": "Priority For Writing to Connected Object",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 16,
+        "default": 16
+      }
+    },
+    "definitions": {
+      "object-reference": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#object-reference",
+        "title": "Object reference data type",
+        "type": "object",
+        "oneOf": [
+          {
+            "properties": {
+              "objectReference": {
+                "format": "fully-qualified-reference",
+                "type": "string"
+              },
+              "referencedObject": {
+                "type": "object",
+                "properties": {
+                  "objectName": {
+                    "type": "string"
+                  },
+                  "objectUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "readOnly": true
+              }
+            },
+            "required": [
+              "objectReference"
+            ]
+          },
+          {
+            "properties": {
+              "objectBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              },
+              "deviceAddress": {
+                "readOnly": true,
+                "type": "string"
+              },
+              "deviceBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "objectBACoid"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "attribute-reference": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#attribute-reference",
+        "title": "Attribute reference data type",
+        "type": "object",
+        "metasysType": "attributeReference",
+        "allOf": [
+          {
+            "$ref": "#object-reference"
+          },
+          {
+            "type": "object",
+            "required": [
+              "attribute"
+            ],
+            "properties": {
+              "attribute": {
+                "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+              },
+              "referencedObject": {
+                "readOnly": true,
+                "type": "object",
+                "properties": {
+                  "attributeUrl": {
+                    "type": "string",
+                    "metasysType": "string",
+                    "format": "uri"
+                  },
+                  "attributeName": {
+                    "type": "string",
+                    "metasysType": "string"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "objectCategory",
+      "prioritySupported",
+      "minPresValue",
+      "maxPresValue",
+      "units",
+      "displayPrecision",
+      "covIncrement",
+      "relinquishDefault",
+      "restoreCommandPriority",
+      "direction",
+      "priorityForWritingToConnected"
+    ]
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Object",
+              "properties": [
+                "name",
+                "description",
+                "bacnetObjectType",
+                "objectCategory"
+              ],
+              "id": "viewGroupEnumSet.objectGrp"
+            },
+            {
+              "title": "Engineering Values",
+              "properties": [
+                "prioritySupported",
+                "minPresValue",
+                "maxPresValue"
+              ],
+              "id": "viewGroupEnumSet.engValuesGrp"
+            },
+            {
+              "title": "Display",
+              "properties": [
+                "units",
+                "displayPrecision",
+                "covIncrement"
+              ],
+              "id": "viewGroupEnumSet.displayGrp"
+            },
+            {
+              "title": "Default State",
+              "properties": [
+                "relinquishDefault"
+              ],
+              "id": "viewGroupEnumSet.defaultStateGrp"
+            },
+            {
+              "title": "Restart Options",
+              "properties": [
+                "restoreCommandPriority"
+              ],
+              "id": "viewGroupEnumSet.restartOptionsGrp"
+            },
+            {
+              "title": "Connection Status",
+              "properties": [
+                "connectedTo",
+                "direction",
+                "priorityForWritingToConnected"
+              ],
+              "id": "viewGroupEnumSet.connectionStatusGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    }
+  ]
+}

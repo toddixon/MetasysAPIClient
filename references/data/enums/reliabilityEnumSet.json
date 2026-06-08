@@ -1,0 +1,388 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Reliability",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/reliabilityEnumSet",
+  "setId": 503,
+  "oneOf": [
+    {
+      "const": "reliabilityEnumSet.reliable",
+      "title": "Reliable",
+      "memberId": 0
+    },
+    {
+      "const": "reliabilityEnumSet.noInput",
+      "title": "No Input",
+      "memberId": 1
+    },
+    {
+      "const": "reliabilityEnumSet.unreliableHigh",
+      "title": "Out of range high",
+      "memberId": 2
+    },
+    {
+      "const": "reliabilityEnumSet.unreliableLow",
+      "title": "Out of range low",
+      "memberId": 3
+    },
+    {
+      "const": "reliabilityEnumSet.open",
+      "title": "Open",
+      "memberId": 4
+    },
+    {
+      "const": "reliabilityEnumSet.shorted",
+      "title": "Shorted",
+      "memberId": 5
+    },
+    {
+      "const": "reliabilityEnumSet.noOutput",
+      "title": "No Output",
+      "memberId": 6
+    },
+    {
+      "const": "reliabilityEnumSet.unreliable",
+      "title": "Unreliable",
+      "memberId": 7
+    },
+    {
+      "const": "reliabilityEnumSet.processError",
+      "title": "Process Error",
+      "memberId": 8
+    },
+    {
+      "const": "reliabilityEnumSet.multiStateFault",
+      "title": "Multi-State Fault",
+      "memberId": 9
+    },
+    {
+      "const": "reliabilityEnumSet.configurationError",
+      "title": "Configuration Error",
+      "memberId": 10
+    },
+    {
+      "const": "reliabilityEnumSet.communicationsFailure",
+      "title": "Communications failure",
+      "memberId": 12
+    },
+    {
+      "const": "reliabilityEnumSet.memberFault",
+      "title": "Member fault",
+      "memberId": 13
+    },
+    {
+      "const": "reliabilityEnumSet.monitoredObjectFault",
+      "title": "Monitored Object fault",
+      "memberId": 14
+    },
+    {
+      "const": "reliabilityEnumSet.tripped",
+      "title": "Tripped",
+      "memberId": 15
+    },
+    {
+      "const": "reliabilityEnumSet.lampFailure",
+      "title": "Lamp Failure",
+      "memberId": 16
+    },
+    {
+      "const": "reliabilityEnumSet.activationFailure",
+      "title": "Activation Failure",
+      "memberId": 17
+    },
+    {
+      "const": "reliabilityEnumSet.renewDhcpFailure",
+      "title": "Renew DHCP Failure",
+      "memberId": 18
+    },
+    {
+      "const": "reliabilityEnumSet.renewFdRegistrationFailure",
+      "title": "Renew F. D. Registration Failure",
+      "memberId": 19
+    },
+    {
+      "const": "reliabilityEnumSet.restartAutoNegotiationFailure",
+      "title": "Restart Auto-negotiation Failure",
+      "memberId": 20
+    },
+    {
+      "const": "reliabilityEnumSet.restartFailure",
+      "title": "Restart Failure",
+      "memberId": 21
+    },
+    {
+      "const": "reliabilityEnumSet.proprietaryCommandFailure",
+      "title": "Proprietary Command Failure",
+      "memberId": 22
+    },
+    {
+      "const": "reliabilityEnumSet.faultsListedFailure",
+      "title": "Faults Listed Failure",
+      "memberId": 23
+    },
+    {
+      "const": "reliabilityEnumSet.referencedObjectFault",
+      "title": "Referenced Object Fault",
+      "memberId": 24
+    },
+    {
+      "const": "reliabilityEnumSet.unreliableRate",
+      "title": "Unreliable rate",
+      "memberId": 64
+    },
+    {
+      "const": "reliabilityEnumSet.mathError",
+      "title": "Math error",
+      "memberId": 65
+    },
+    {
+      "const": "reliabilityEnumSet.mathOverflow",
+      "title": "Math overflow",
+      "memberId": 66
+    },
+    {
+      "const": "reliabilityEnumSet.mathUnderflow",
+      "title": "Math underflow",
+      "memberId": 67
+    },
+    {
+      "const": "reliabilityEnumSet.stringOverflow",
+      "title": "String overflow",
+      "memberId": 68
+    },
+    {
+      "const": "reliabilityEnumSet.divideByZero",
+      "title": "Divide by zero",
+      "memberId": 69
+    },
+    {
+      "const": "reliabilityEnumSet.commLoss",
+      "title": "Comm loss",
+      "memberId": 70
+    },
+    {
+      "const": "reliabilityEnumSet.memoryOverflow",
+      "title": "Memory overflow",
+      "memberId": 71
+    },
+    {
+      "const": "reliabilityEnumSet.deviceError",
+      "title": "Device error",
+      "memberId": 72
+    },
+    {
+      "const": "reliabilityEnumSet.mathNotANumber",
+      "title": "Not a number",
+      "memberId": 73
+    },
+    {
+      "const": "reliabilityEnumSet.inputOutOfRange",
+      "title": "Input out of range",
+      "memberId": 74
+    },
+    {
+      "const": "reliabilityEnumSet.inconsistentInputs",
+      "title": "Inconsistent inputs",
+      "memberId": 75
+    },
+    {
+      "const": "reliabilityEnumSet.dataConvertError",
+      "title": "Data Convert Error",
+      "memberId": 76
+    },
+    {
+      "const": "reliabilityEnumSet.convertOverflow",
+      "title": "Convert Overflow",
+      "memberId": 77
+    },
+    {
+      "const": "reliabilityEnumSet.readError",
+      "title": "Read Error",
+      "memberId": 78
+    },
+    {
+      "const": "reliabilityEnumSet.writeError",
+      "title": "Write Error",
+      "memberId": 79
+    },
+    {
+      "const": "reliabilityEnumSet.executeError",
+      "title": "Execute Error",
+      "memberId": 80
+    },
+    {
+      "const": "reliabilityEnumSet.pcodeError",
+      "title": "Pcode Error",
+      "memberId": 81
+    },
+    {
+      "const": "reliabilityEnumSet.stalledDuringPositioning",
+      "title": "Stall During Post",
+      "memberId": 82
+    },
+    {
+      "const": "reliabilityEnumSet.didNotStall",
+      "title": "Did Not Stall",
+      "memberId": 83
+    },
+    {
+      "const": "reliabilityEnumSet.calibrateStrokeTooLarge",
+      "title": "Cal Stroke too Big",
+      "memberId": 84
+    },
+    {
+      "const": "reliabilityEnumSet.calibrateStrokeTooSmall",
+      "title": "Cal Stroke too Small",
+      "memberId": 85
+    },
+    {
+      "const": "reliabilityEnumSet.notCalibrated",
+      "title": "Not Calibrated",
+      "memberId": 86
+    },
+    {
+      "const": "reliabilityEnumSet.connectionFailed",
+      "title": "Connections Failed",
+      "memberId": 87
+    },
+    {
+      "const": "reliabilityEnumSet.initializationError",
+      "title": "Initialization Error",
+      "memberId": 88
+    },
+    {
+      "const": "reliabilityEnumSet.attrInitError",
+      "title": "Attr Init Error",
+      "memberId": 89
+    },
+    {
+      "const": "reliabilityEnumSet.noObjectName",
+      "title": "No Object Name",
+      "memberId": 90
+    },
+    {
+      "const": "reliabilityEnumSet.invalidLinearizationTable",
+      "title": "Invalid Lin Table",
+      "memberId": 91
+    },
+    {
+      "const": "reliabilityEnumSet.nullDataReturned",
+      "title": "Null Data Returned",
+      "memberId": 92
+    },
+    {
+      "const": "reliabilityEnumSet.inputUnreliable",
+      "title": "Input Unreliable",
+      "memberId": 93
+    },
+    {
+      "const": "reliabilityEnumSet.objDisabled",
+      "title": "Disabled",
+      "memberId": 94
+    },
+    {
+      "const": "reliabilityEnumSet.inputsCannotBeEqual",
+      "title": "Inputs cannot be equal",
+      "memberId": 95
+    },
+    {
+      "const": "reliabilityEnumSet.setpointUnreliable",
+      "title": "Setpoint Unreliable",
+      "memberId": 96
+    },
+    {
+      "const": "reliabilityEnumSet.commandUnreliable",
+      "title": "Command Unreliable",
+      "memberId": 97
+    },
+    {
+      "const": "reliabilityEnumSet.requiredInputUnavailable",
+      "title": "Required Input Unavailable",
+      "memberId": 98
+    },
+    {
+      "const": "reliabilityEnumSet.failedToSynchronize",
+      "title": "Failed to Synchronize",
+      "memberId": 99
+    },
+    {
+      "const": "reliabilityEnumSet.invalidInput",
+      "title": "Invalid Input",
+      "memberId": 100
+    },
+    {
+      "const": "reliabilityEnumSet.outputCannotBeDetermined",
+      "title": "Output cannot be determined",
+      "memberId": 101
+    },
+    {
+      "const": "reliabilityEnumSet.internalError",
+      "title": "Internal Error",
+      "memberId": 102
+    },
+    {
+      "const": "reliabilityEnumSet.destinationsUnavailable",
+      "title": "Destinations Unavailable",
+      "memberId": 103
+    },
+    {
+      "const": "reliabilityEnumSet.writeFailed",
+      "title": "Write Failed",
+      "memberId": 104
+    },
+    {
+      "const": "reliabilityEnumSet.dataTypeMismatch",
+      "title": "Data Type Mismatch",
+      "memberId": 105
+    },
+    {
+      "const": "reliabilityEnumSet.sourceUnavailable",
+      "title": "Source Unavailable",
+      "memberId": 106
+    },
+    {
+      "const": "reliabilityEnumSet.roundOffError",
+      "title": "Round Off Error",
+      "memberId": 107
+    },
+    {
+      "const": "reliabilityEnumSet.clampedLow",
+      "title": "Clamped Low",
+      "memberId": 108
+    },
+    {
+      "const": "reliabilityEnumSet.clampedHigh",
+      "title": "Clamped High",
+      "memberId": 109
+    },
+    {
+      "const": "reliabilityEnumSet.valueTimedOut",
+      "title": "Value Timed Out",
+      "memberId": 110
+    },
+    {
+      "const": "reliabilityEnumSet.dataModelTemplateNotFound",
+      "title": "Data Model Template Not Found",
+      "memberId": 111
+    },
+    {
+      "const": "reliabilityEnumSet.notPresent",
+      "title": "Not Present",
+      "memberId": 112
+    },
+    {
+      "const": "reliabilityEnumSet.outputOutOfRange",
+      "title": "Output out of range",
+      "memberId": 113
+    },
+    {
+      "const": "reliabilityEnumSet.valueNotSet",
+      "title": "Value Not Set",
+      "memberId": 114
+    },
+    {
+      "const": "reliabilityEnumSet.invalidValueForApplication",
+      "title": "Invalid Value For Application",
+      "memberId": 115
+    }
+  ]
+}

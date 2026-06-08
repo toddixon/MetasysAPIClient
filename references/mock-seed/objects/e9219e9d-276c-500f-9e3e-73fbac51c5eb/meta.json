@@ -1,0 +1,11 @@
+{
+  "id": "e9219e9d-276c-500f-9e3e-73fbac51c5eb",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "folder",
+  "name": "Graphics",
+  "label": "Graphics",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Graphics",
+  "objectType": "objectTypeEnumSet.containerClass",
+  "objectTypeVersion": "1.0"
+}

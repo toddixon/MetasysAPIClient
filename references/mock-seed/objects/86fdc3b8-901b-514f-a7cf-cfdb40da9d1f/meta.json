@@ -1,0 +1,11 @@
+{
+  "id": "86fdc3b8-901b-514f-a7cf-cfdb40da9d1f",
+  "parentId": "fba10b59-f3d9-58d5-b541-19d75967d806",
+  "networkDeviceId": "86fdc3b8-901b-514f-a7cf-cfdb40da9d1f",
+  "classification": "controller",
+  "name": "",
+  "label": "M4-CGM-copy2",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM-copy2",
+  "objectType": "objectTypeEnumSet.fieldDeviceClass",
+  "objectTypeVersion": "1.0"
+}

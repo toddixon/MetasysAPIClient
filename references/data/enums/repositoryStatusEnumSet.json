@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Repository Status",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/repositoryStatusEnumSet",
+  "setId": 468,
+  "oneOf": [
+    {
+      "const": "repositoryStatusEnumSet.repStatusOffline",
+      "title": "Offline",
+      "memberId": 0
+    },
+    {
+      "const": "repositoryStatusEnumSet.repStatusOk",
+      "title": "OK",
+      "memberId": 1
+    },
+    {
+      "const": "repositoryStatusEnumSet.repStatusUndefined",
+      "title": "Undefined",
+      "memberId": 2
+    },
+    {
+      "const": "repositoryStatusEnumSet.repStatusDialup",
+      "title": "Dial Up",
+      "memberId": 3
+    },
+    {
+      "const": "repositoryStatusEnumSet.repStatusRap",
+      "title": "RAP",
+      "memberId": 4
+    },
+    {
+      "const": "repositoryStatusEnumSet.repStatusBadRelease",
+      "title": "Incompatible Release",
+      "memberId": 5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "85242ad3-6347-54dc-8596-183e3a2c6403",
+  "parentId": "cdde5a35-8039-58ca-9a24-a8d2e769a3f8",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "object",
+  "name": "OA-T",
+  "label": "OA-T",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.NAE01.AHU-1.OA-T",
+  "objectType": "objectTypeEnumSet.avClass",
+  "objectTypeVersion": "1.0"
+}

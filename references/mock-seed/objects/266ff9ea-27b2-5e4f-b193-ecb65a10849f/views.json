@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Snapshot Focus",
+    "views": [
+      {
+        "title": "Basic",
+        "views": [
+          {
+            "title": "None",
+            "properties": [
+              "inputList",
+              "averageOutput",
+              "highOr",
+              "lowAnd",
+              "pointType",
+              "reliability",
+              "failsoft",
+              "setup",
+              "presentValue",
+              "itemReference",
+              "userNameIsBacnetObjName",
+              "name",
+              "objectName",
+              "description",
+              "status",
+              "enabled",
+              "executionPriority",
+              "objectCategory",
+              "alarmState",
+              "bacnetObjectType",
+              "objectIdentifier",
+              "propertyList",
+              "objectType",
+              "internalOid",
+              "deviceName",
+              "referenceCount",
+              "version",
+              "isContainer",
+              "childList",
+              "pmiRefresh",
+              "internal",
+              "archiveObject",
+              "defaultAttribute",
+              "attrChangeCount",
+              "commandList",
+              "objectCanNotBeDeleted",
+              "objectOrder"
+            ],
+            "id": "viewGroupEnumSet.noGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.basicGrpType"
+      }
+    ],
+    "id": "viewNameEnumSet.ssFocusView"
+  }
+]

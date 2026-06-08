@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Secure Connect Node Type",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/secureConnectNodeTypeEnumSet",
+  "setId": 1863,
+  "oneOf": [
+    {
+      "const": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeUndefined",
+      "title": "Undefined",
+      "memberId": 0
+    },
+    {
+      "const": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeScNode",
+      "title": "SC Node",
+      "memberId": 1
+    },
+    {
+      "const": "secureConnectNodeTypeEnumSet.secureConnectNodeTypePrimaryHub",
+      "title": "Primary Hub",
+      "memberId": 2
+    },
+    {
+      "const": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeFailoverHub",
+      "title": "Failover Hub",
+      "memberId": 3
+    },
+    {
+      "const": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeUnknownHub",
+      "title": "Unknown Hub",
+      "memberId": 4
+    },
+    {
+      "const": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeMisconfiguredNode",
+      "title": "Misconfigured Node",
+      "memberId": 5
+    },
+    {
+      "const": "secureConnectNodeTypeEnumSet.secureConnectNodeTypeBothPrimaryFailoverHub",
+      "title": "Both Primary and Failover Hub",
+      "memberId": 6
+    }
+  ]
+}

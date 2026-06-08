@@ -1,0 +1,276 @@
+{
+  "objectType": "objectTypeEnumSet.avMapperClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "item": {
+    "id": "a797326d-f298-505e-bad9-8ed5d10bf170",
+    "name": "COMPSP-2",
+    "label": "COMPSP-2",
+    "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.COMPSP-2",
+    "objectType": "objectTypeEnumSet.avMapperClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "CS Input (Float)",
+    "bacnetObjectType": "objectTypeEnumSet.bacAvClass",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "reliability": "reliabilityEnumSet.reliable",
+    "overrideExpirationTime": {
+      "date": null,
+      "time": null
+    },
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "minPresValue": -1.69999998e+38,
+    "maxPresValue": 1.69999998e+38,
+    "units": "unitEnumSet.degF",
+    "displayPrecision": "displayPrecisionEnumSet.displayPrecisionPt1",
+    "covIncrement": 0.00100000005,
+    "useCovMinSendTime": false,
+    "presentValue": 0,
+    "attrChangeCount": 45,
+    "defaultAttribute": "attributeEnumSet.presentValue",
+    "instanceNumber": 10195,
+    "remoteDeviceAddress": "10",
+    "offline": false,
+    "localControl": false,
+    "relinquishDefault": 0,
+    "defaultValue": 0,
+    "restoreCommandPriority": [
+      [
+        "restorePriorityEnumSet.7",
+        true
+      ],
+      [
+        "restorePriorityEnumSet.10",
+        false
+      ],
+      [
+        "restorePriorityEnumSet.12",
+        false
+      ],
+      [
+        "restorePriorityEnumSet.15",
+        false
+      ]
+    ]
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "AV Mapper",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "localControl": {
+        "title": "Local Control",
+        "type": "boolean",
+        "metasysType": "bool"
+      },
+      "relinquishDefault": {
+        "title": "Relinquish Default",
+        "displayPrecisionSource": "displayPrecision",
+        "maxPresValueSource": "maxPresValue",
+        "minPresValueSource": "minPresValue",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -1.69999998e+38,
+        "maximum": 1.69999998e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "unit": {
+          "id": "degF",
+          "title": "deg F"
+        }
+      },
+      "defaultValue": {
+        "title": "Default Value",
+        "displayPrecisionSource": "displayPrecision",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -3.40282347e+38,
+        "maximum": 3.40282347e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "unit": {
+          "id": "degF",
+          "title": "deg F"
+        }
+      },
+      "restoreCommandPriority": {
+        "title": "Restore Command Priority",
+        "category": "attributeCategoryEnumSet.restoreCommandPriorityCategory",
+        "type": "array",
+        "metasysType": "flags",
+        "maxItems": 4,
+        "minItems": 4,
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "allOf": [
+                {
+                  "$ref": "https://desktop-vm/api/v6/schemas/enums/restorePriorityEnumSet"
+                },
+                {
+                  "enum": [
+                    "restorePriorityEnumSet.7",
+                    "restorePriorityEnumSet.10",
+                    "restorePriorityEnumSet.12",
+                    "restorePriorityEnumSet.15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "uniqueItems": true
+      },
+      "presentValue": {
+        "title": "Present Value",
+        "readOnly": true,
+        "prioritized": true,
+        "dynamic": true,
+        "displayPrecisionSource": "displayPrecision",
+        "maxPresValueSource": "maxPresValue",
+        "minPresValueSource": "minPresValue",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -1.69999998e+38,
+        "maximum": 1.69999998e+38,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt1",
+          "displayMultipleOf": 0.1
+        },
+        "unit": {
+          "id": "degF",
+          "title": "deg F"
+        }
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Options",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Control Source",
+              "properties": [
+                "localControl"
+              ],
+              "id": "viewGroupEnumSet.controlSourceGrp"
+            },
+            {
+              "title": "Default State",
+              "properties": [
+                "relinquishDefault",
+                "defaultValue"
+              ],
+              "id": "viewGroupEnumSet.defaultStateGrp"
+            },
+            {
+              "title": "Restart Options",
+              "properties": [
+                "restoreCommandPriority"
+              ],
+              "id": "viewGroupEnumSet.restartOptionsGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        },
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "presentValue",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.optionsView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

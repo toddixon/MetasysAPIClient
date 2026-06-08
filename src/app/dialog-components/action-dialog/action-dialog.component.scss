@@ -1,0 +1,68 @@
+@use '../../../animations.scss' as a;
+
+
+
+$max-height: 70vh;
+$max-width: 50vw;
+
+.dialog__content {
+  max-height: $max-height;
+  // max-width: $max-width;
+}
+
+.dialog__buttons {
+  display: flex;
+  gap: 10px;
+
+}
+
+.event__message {
+  font-size: 1.2em;
+}
+
+.event__data {
+  margin-top: 0.5em;
+}
+
+.operation__table {
+  // text-wrap: nowrap;
+  max-height: 300px;
+  display: block;
+  overflow-y: auto;
+}
+
+.mat-mdc-header-cell {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+tr.mat-mds-row {
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+tr.status-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+tr.status-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+tr.status-deleting {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+
+.animation--enter {
+
+  @include a.animate(expandFadeIn, 200ms, ease);
+}
+
+.animation--leave {
+  @include a.animate(shrinkFadeOut, 200ms, ease);
+}
+

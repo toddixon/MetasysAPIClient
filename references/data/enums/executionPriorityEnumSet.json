@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Execution Priority",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/executionPriorityEnumSet",
+  "setId": 502,
+  "oneOf": [
+    {
+      "const": "executionPriorityEnumSet.normalPriority",
+      "title": "Normal",
+      "memberId": 0
+    },
+    {
+      "const": "executionPriorityEnumSet.urgentPriority",
+      "title": "Urgent",
+      "memberId": 1
+    },
+    {
+      "const": "executionPriorityEnumSet.criticalEquipmentPriority",
+      "title": "Critical",
+      "memberId": 2
+    },
+    {
+      "const": "executionPriorityEnumSet.lifeSafetyPriority",
+      "title": "Life Safety",
+      "memberId": 3
+    }
+  ]
+}

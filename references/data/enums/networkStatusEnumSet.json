@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Network Status",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/networkStatusEnumSet",
+  "setId": 570,
+  "oneOf": [
+    {
+      "const": "networkStatusEnumSet.disconnectedNetworkStatus",
+      "title": "Disconnected",
+      "memberId": 0
+    },
+    {
+      "const": "networkStatusEnumSet.connectingNetworkStatus",
+      "title": "Connecting",
+      "memberId": 1
+    },
+    {
+      "const": "networkStatusEnumSet.connectedNetworkStatus",
+      "title": "Connected",
+      "memberId": 2
+    },
+    {
+      "const": "networkStatusEnumSet.disconnectingNetworkStatus",
+      "title": "Disconnecting",
+      "memberId": 3
+    },
+    {
+      "const": "networkStatusEnumSet.hwNotPresentNetworkStatus",
+      "title": "Hardware not present",
+      "memberId": 4
+    },
+    {
+      "const": "networkStatusEnumSet.hwDisabledNetworkStatus",
+      "title": "Hardware disabled",
+      "memberId": 5
+    },
+    {
+      "const": "networkStatusEnumSet.hwMalfunctionNetworkStatus",
+      "title": "Hardware malfunction",
+      "memberId": 6
+    },
+    {
+      "const": "networkStatusEnumSet.mediaDisconNetworkStatus",
+      "title": "Media disconnected",
+      "memberId": 7
+    },
+    {
+      "const": "networkStatusEnumSet.authenticatingNetworkStatus",
+      "title": "Authenticating",
+      "memberId": 8
+    },
+    {
+      "const": "networkStatusEnumSet.authSucceededNetworkStatus",
+      "title": "Authentication succeeded",
+      "memberId": 9
+    },
+    {
+      "const": "networkStatusEnumSet.authFailedNetworkStatus",
+      "title": "Authentication failed",
+      "memberId": 10
+    }
+  ]
+}

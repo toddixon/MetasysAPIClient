@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Secure Connect Configuration Status",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/secureConnectConfigurationStatusEnumSet",
+  "setId": 1868,
+  "oneOf": [
+    {
+      "const": "secureConnectConfigurationStatusEnumSet.scConfigStatusNotConfigured",
+      "title": "Not Configured",
+      "memberId": 0
+    },
+    {
+      "const": "secureConnectConfigurationStatusEnumSet.scConfigStatusPrimaryHubUriNotConfigured",
+      "title": "Primary Hub URI Not Configured",
+      "memberId": 1
+    },
+    {
+      "const": "secureConnectConfigurationStatusEnumSet.scConfigStatusInvalidCertificate",
+      "title": "Invalid Certificate",
+      "memberId": 2
+    },
+    {
+      "const": "secureConnectConfigurationStatusEnumSet.scConfigStatusDatalinkNotLicensed",
+      "title": "Datalink Not Licensed",
+      "memberId": 3
+    },
+    {
+      "const": "secureConnectConfigurationStatusEnumSet.scConfigStatusInvalidNodeType",
+      "title": "Invalid Node Type",
+      "memberId": 4
+    },
+    {
+      "const": "secureConnectConfigurationStatusEnumSet.scConfigStatusConfigurationError",
+      "title": "Configuration Error",
+      "memberId": 5
+    },
+    {
+      "const": "secureConnectConfigurationStatusEnumSet.scConfigStatusOk",
+      "title": "OK",
+      "memberId": 6
+    }
+  ]
+}

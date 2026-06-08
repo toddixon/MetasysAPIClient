@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Object Status",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet",
+  "setId": 505,
+  "oneOf": [
+    {
+      "const": "objectStatusEnumSet.osNormal",
+      "title": "Normal",
+      "memberId": 0
+    },
+    {
+      "const": "objectStatusEnumSet.osInactive",
+      "title": "Inactive",
+      "memberId": 1
+    },
+    {
+      "const": "objectStatusEnumSet.osMonitorModeActive",
+      "title": "Monitor Only Mode Active",
+      "memberId": 2
+    },
+    {
+      "const": "objectStatusEnumSet.osBatteryAlarm",
+      "title": "Battery Alarm",
+      "memberId": 5
+    },
+    {
+      "const": "objectStatusEnumSet.osBelowSetpoint",
+      "title": "Below Setpoint",
+      "memberId": 7
+    },
+    {
+      "const": "objectStatusEnumSet.osAboveSetpoint",
+      "title": "Above Setpoint",
+      "memberId": 8
+    },
+    {
+      "const": "objectStatusEnumSet.osLowWarning",
+      "title": "Low Warning",
+      "memberId": 10
+    },
+    {
+      "const": "objectStatusEnumSet.osHighWarning",
+      "title": "High Warning",
+      "memberId": 15
+    },
+    {
+      "const": "objectStatusEnumSet.osUnoccupied",
+      "title": "Unoccupied",
+      "memberId": 17
+    },
+    {
+      "const": "objectStatusEnumSet.osTrouble",
+      "title": "Trouble",
+      "memberId": 20
+    },
+    {
+      "const": "objectStatusEnumSet.osSabDeviceWarning",
+      "title": "SAB Device Warning",
+      "memberId": 25
+    },
+    {
+      "const": "objectStatusEnumSet.osLowAlarm",
+      "title": "Low Alarm",
+      "memberId": 30
+    },
+    {
+      "const": "objectStatusEnumSet.osHighAlarm",
+      "title": "High Alarm",
+      "memberId": 34
+    },
+    {
+      "const": "objectStatusEnumSet.osAlarm",
+      "title": "Alarm",
+      "memberId": 38
+    },
+    {
+      "const": "objectStatusEnumSet.osUsingStartupValue",
+      "title": "Using Startup Value",
+      "memberId": 50
+    },
+    {
+      "const": "objectStatusEnumSet.osUsingDefVal",
+      "title": "Using Default Value",
+      "memberId": 51
+    },
+    {
+      "const": "objectStatusEnumSet.osOutputClipped",
+      "title": "Output Clipped",
+      "memberId": 55
+    },
+    {
+      "const": "objectStatusEnumSet.osHwValueOverwritten",
+      "title": "HW Value Overwritten",
+      "memberId": 60
+    },
+    {
+      "const": "objectStatusEnumSet.osSuspended",
+      "title": "OS Suspended",
+      "memberId": 65
+    },
+    {
+      "const": "objectStatusEnumSet.osUnreliable",
+      "title": "Unreliable",
+      "memberId": 70
+    },
+    {
+      "const": "objectStatusEnumSet.osSabDeviceAlarm",
+      "title": "SAB Device Alarm",
+      "memberId": 73
+    },
+    {
+      "const": "objectStatusEnumSet.osDisconnected",
+      "title": "Disconnected",
+      "memberId": 75
+    },
+    {
+      "const": "objectStatusEnumSet.osOverridden",
+      "title": "Overridden",
+      "memberId": 80
+    },
+    {
+      "const": "objectStatusEnumSet.osOperatorOverride",
+      "title": "Operator Override",
+      "memberId": 86
+    },
+    {
+      "const": "objectStatusEnumSet.osInTest",
+      "title": "In Test",
+      "memberId": 87
+    },
+    {
+      "const": "objectStatusEnumSet.osHeavyEquipDelay",
+      "title": "Heavy Equip Delay",
+      "memberId": 88
+    },
+    {
+      "const": "objectStatusEnumSet.osMinOnMinOff",
+      "title": "Min On Min Off",
+      "memberId": 90
+    },
+    {
+      "const": "objectStatusEnumSet.osCriticalResMissing",
+      "title": "Critical Resource Missing",
+      "memberId": 91
+    },
+    {
+      "const": "objectStatusEnumSet.osDnsServerNotDefined",
+      "title": "DNS Server Not Defined",
+      "memberId": 92
+    },
+    {
+      "const": "objectStatusEnumSet.osWebsocketServerAlarm",
+      "title": "WebSocket Server Task Not Running",
+      "memberId": 93
+    },
+    {
+      "const": "objectStatusEnumSet.osInvalidSecurityCredentials",
+      "title": "Invalid Security Credentials",
+      "memberId": 94
+    },
+    {
+      "const": "objectStatusEnumSet.osChangesPending",
+      "title": "Changes Pending",
+      "memberId": 95
+    },
+    {
+      "const": "objectStatusEnumSet.osHighPriority",
+      "title": "High Priority",
+      "memberId": 99
+    },
+    {
+      "const": "objectStatusEnumSet.osInsufficientCapacity",
+      "title": "Insufficient Capacity",
+      "memberId": 100
+    },
+    {
+      "const": "objectStatusEnumSet.osDisabled",
+      "title": "Disabled",
+      "memberId": 102
+    },
+    {
+      "const": "objectStatusEnumSet.osOutOfService",
+      "title": "Out of Service",
+      "memberId": 108
+    },
+    {
+      "const": "objectStatusEnumSet.osHwOverride",
+      "title": "HW Override",
+      "memberId": 110
+    },
+    {
+      "const": "objectStatusEnumSet.osOffline",
+      "title": "Offline",
+      "memberId": 112
+    },
+    {
+      "const": "objectStatusEnumSet.osShutdown",
+      "title": "Shutdown",
+      "memberId": 115
+    },
+    {
+      "const": "objectStatusEnumSet.osMaxObjectStatus",
+      "title": "Max",
+      "memberId": 120
+    },
+    {
+      "const": "objectStatusEnumSet.osDevicePairingFailure",
+      "title": "Device pairing failed",
+      "memberId": 555
+    },
+    {
+      "const": "objectStatusEnumSet.osDeviceUnauthenticated",
+      "title": "Device Unauthenticated",
+      "memberId": 556
+    }
+  ]
+}

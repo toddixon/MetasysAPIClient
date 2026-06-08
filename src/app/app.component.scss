@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  height: inherit;
+}
+
+.env-name {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 0.5rem;
+  opacity: 0.5;
+  user-select: none;
+}

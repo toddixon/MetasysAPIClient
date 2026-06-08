@@ -1,0 +1,11 @@
+{
+  "id": "9026ba94-3907-555a-8352-3ef85daaeace",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "ZN1-T",
+  "label": "ZN1-T",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.ZN1-T",
+  "objectType": "objectTypeEnumSet.aiMapperClass",
+  "objectTypeVersion": "1.0"
+}

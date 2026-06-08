@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Weekly Schedule Purge",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/weeklySchedPurgeEnumSet",
+  "setId": 1559,
+  "oneOf": [
+    {
+      "const": "weeklySchedPurgeEnumSet.wsManualDelete",
+      "title": "Manual Delete",
+      "memberId": 0
+    },
+    {
+      "const": "weeklySchedPurgeEnumSet.wsAutoDelete31Days",
+      "title": "Auto Delete 31 days",
+      "memberId": 1
+    },
+    {
+      "const": "weeklySchedPurgeEnumSet.wsAutoDelete7Days",
+      "title": "Auto Delete 7 days",
+      "memberId": 2
+    }
+  ]
+}

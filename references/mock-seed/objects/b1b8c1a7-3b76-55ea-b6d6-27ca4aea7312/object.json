@@ -1,0 +1,200 @@
+{
+  "objectType": "objectTypeEnumSet.maClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/86fdc3b8-901b-514f-a7cf-cfdb40da9d1f",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/86fdc3b8-901b-514f-a7cf-cfdb40da9d1f",
+  "item": {
+    "id": "b1b8c1a7-3b76-55ea-b6d6-27ca4aea7312",
+    "name": "Alarm - Present Value",
+    "label": "Alarm - Present Value",
+    "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM-copy2.Alarm - Present Value",
+    "objectType": "objectTypeEnumSet.maClass",
+    "status": "objectStatusEnumSet.osNormal",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.maClass",
+    "presentValue": "normalAlarmEnumSet.naNormal",
+    "input": "controllerStatusEnumSet.csOnline",
+    "eventEnable": true,
+    "reportDelayActive": false,
+    "reportDelay": 0,
+    "enabled": true,
+    "reliability": "reliabilityEnumSet.reliable",
+    "time": null,
+    "date": null,
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "inputReference": {
+      "objectReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM",
+      "referencedObject": {
+        "objectUrl": "https://desktop-vm/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c",
+        "attributeUrl": "https://desktop-vm/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c/attributes/presentValue",
+        "objectName": "M4-CGM"
+      },
+      "attribute": "attributeEnumSet.presentValue"
+    },
+    "normalState": "controllerStatusEnumSet.csOnline",
+    "delayTimerActive": false,
+    "delayTime": 0,
+    "commandReference": null,
+    "captureChanges": false,
+    "faultAckPending": false,
+    "faultAckRequired": true,
+    "faultTime": null,
+    "faultDate": null,
+    "faultPriority": 70,
+    "normAckPending": false,
+    "normAckRequired": false,
+    "normTime": null,
+    "normDate": null,
+    "normPriority": 200,
+    "alarmMessageText": null,
+    "alarmValues": [],
+    "graphic": null,
+    "graphicAlias": null,
+    "attrChangeCount": 23,
+    "defaultAttribute": "attributeEnumSet.presentValue",
+    "statesText": "802.43 (text not found)",
+    "offnormAckRequired": false,
+    "offnormAckPending": false,
+    "offnormTime": null,
+    "offnormDate": null,
+    "offnormPriority": 120,
+    "notificationError": false,
+    "userNameIsBacnetObjName": false,
+    "objectName": "NS-NAE01/FC-1.M4-CGM-copy2.Alarm - Present Value",
+    "executionPriority": "executionPriorityEnumSet.normalPriority",
+    "objectCategory": "objectCategoryEnumSet.generalCategory",
+    "objectIdentifier": {
+      "instance": 3003809,
+      "bacnetObjectType": "objectTypeEnumSet.maClass"
+    },
+    "internalOid": 856,
+    "deviceName": {
+      "objectReference": "DESKTOP-VM:NS-NAE01",
+      "referencedObject": {
+        "objectName": "NAE01",
+        "objectUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2"
+      }
+    },
+    "referenceCount": 1,
+    "isContainer": false,
+    "childList": [],
+    "pmiRefresh": null,
+    "internal": false,
+    "archiveObject": true,
+    "commandList": [
+      "commandIdEnumSet.cancelDelayTimeCommand",
+      "commandIdEnumSet.cancelReportDelayCommand",
+      "commandIdEnumSet.enableCommand",
+      "commandIdEnumSet.disableCommand"
+    ],
+    "objectOrder": 0
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "Multistate Alarm",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "presentValue": {
+        "title": "Present Value",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 3,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "normalAlarmEnumSet.naHold"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/normalAlarmEnumSet"
+          }
+        ]
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "presentValue",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

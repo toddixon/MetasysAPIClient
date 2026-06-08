@@ -1,0 +1,2428 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Unit",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/unitEnumSet",
+  "setId": 507,
+  "oneOf": [
+    {
+      "const": "unitEnumSet.squareMeters",
+      "title": "sq meter",
+      "memberId": 0
+    },
+    {
+      "const": "unitEnumSet.squareFeet",
+      "title": "sq ft",
+      "memberId": 1
+    },
+    {
+      "const": "unitEnumSet.milliamperes",
+      "title": "mA",
+      "memberId": 2
+    },
+    {
+      "const": "unitEnumSet.amperes",
+      "title": "A",
+      "memberId": 3
+    },
+    {
+      "const": "unitEnumSet.ohms",
+      "title": "ohm",
+      "memberId": 4
+    },
+    {
+      "const": "unitEnumSet.volts",
+      "title": "V",
+      "memberId": 5
+    },
+    {
+      "const": "unitEnumSet.kilovolts",
+      "title": "kV",
+      "memberId": 6
+    },
+    {
+      "const": "unitEnumSet.megavolts",
+      "title": "MV",
+      "memberId": 7
+    },
+    {
+      "const": "unitEnumSet.voltamperes",
+      "title": "VA",
+      "memberId": 8
+    },
+    {
+      "const": "unitEnumSet.kilovoltamperes",
+      "title": "kVA",
+      "memberId": 9
+    },
+    {
+      "const": "unitEnumSet.megavoltamperes",
+      "title": "MVA",
+      "memberId": 10
+    },
+    {
+      "const": "unitEnumSet.voltamperesreactive",
+      "title": "VAR",
+      "memberId": 11
+    },
+    {
+      "const": "unitEnumSet.kilovoltamperesreactive",
+      "title": "kVAR",
+      "memberId": 12
+    },
+    {
+      "const": "unitEnumSet.metavoltamperesreactive",
+      "title": "MVAR",
+      "memberId": 13
+    },
+    {
+      "const": "unitEnumSet.degreesPhase",
+      "title": "deg phase",
+      "memberId": 14
+    },
+    {
+      "const": "unitEnumSet.powerFactor",
+      "title": "PF",
+      "memberId": 15
+    },
+    {
+      "const": "unitEnumSet.joules",
+      "title": "J",
+      "memberId": 16
+    },
+    {
+      "const": "unitEnumSet.kilojoules",
+      "title": "kJ",
+      "memberId": 17
+    },
+    {
+      "const": "unitEnumSet.wattHours",
+      "title": "Wh",
+      "memberId": 18
+    },
+    {
+      "const": "unitEnumSet.kwattHours",
+      "title": "kWh",
+      "memberId": 19
+    },
+    {
+      "const": "unitEnumSet.btus",
+      "title": "Btu",
+      "memberId": 20
+    },
+    {
+      "const": "unitEnumSet.therms",
+      "title": "thm",
+      "memberId": 21
+    },
+    {
+      "const": "unitEnumSet.tonHours",
+      "title": "ton-h",
+      "memberId": 22
+    },
+    {
+      "const": "unitEnumSet.joulesPerKgramDryAir",
+      "title": "J/kg",
+      "memberId": 23
+    },
+    {
+      "const": "unitEnumSet.btusPerPoundDryAir",
+      "title": "Btu/lb dry air",
+      "memberId": 24
+    },
+    {
+      "const": "unitEnumSet.cyclesPerHour",
+      "title": "cph",
+      "memberId": 25
+    },
+    {
+      "const": "unitEnumSet.cyclesPerMinute",
+      "title": "cpm",
+      "memberId": 26
+    },
+    {
+      "const": "unitEnumSet.hertz",
+      "title": "Hz",
+      "memberId": 27
+    },
+    {
+      "const": "unitEnumSet.gramsWaterPerKgramDryAir",
+      "title": "gram water/kg",
+      "memberId": 28
+    },
+    {
+      "const": "unitEnumSet.percentRelativeHumidity",
+      "title": "%RH",
+      "memberId": 29
+    },
+    {
+      "const": "unitEnumSet.millimeters",
+      "title": "mm",
+      "memberId": 30
+    },
+    {
+      "const": "unitEnumSet.meters",
+      "title": "m",
+      "memberId": 31
+    },
+    {
+      "const": "unitEnumSet.inches",
+      "title": "in",
+      "memberId": 32
+    },
+    {
+      "const": "unitEnumSet.feet",
+      "title": "ft",
+      "memberId": 33
+    },
+    {
+      "const": "unitEnumSet.wattsPerSqFoot",
+      "title": "W/sq ft",
+      "memberId": 34
+    },
+    {
+      "const": "unitEnumSet.wattsPerSqMeter",
+      "title": "W/sq meter",
+      "memberId": 35
+    },
+    {
+      "const": "unitEnumSet.lumens",
+      "title": "lm",
+      "memberId": 36
+    },
+    {
+      "const": "unitEnumSet.luxes",
+      "title": "lx",
+      "memberId": 37
+    },
+    {
+      "const": "unitEnumSet.footCandles",
+      "title": "ft candles",
+      "memberId": 38
+    },
+    {
+      "const": "unitEnumSet.kgrams",
+      "title": "kg",
+      "memberId": 39
+    },
+    {
+      "const": "unitEnumSet.poundsMass",
+      "title": "lbm",
+      "memberId": 40
+    },
+    {
+      "const": "unitEnumSet.tons",
+      "title": "tons",
+      "memberId": 41
+    },
+    {
+      "const": "unitEnumSet.kgramsPerSecond",
+      "title": "kg/s",
+      "memberId": 42
+    },
+    {
+      "const": "unitEnumSet.kgramsPerMinute",
+      "title": "kg/min",
+      "memberId": 43
+    },
+    {
+      "const": "unitEnumSet.kgramsPerHour",
+      "title": "kg/h",
+      "memberId": 44
+    },
+    {
+      "const": "unitEnumSet.poundsMassPerMinute",
+      "title": "lbm/min",
+      "memberId": 45
+    },
+    {
+      "const": "unitEnumSet.poundsMassPerHour",
+      "title": "lbm/h",
+      "memberId": 46
+    },
+    {
+      "const": "unitEnumSet.watts",
+      "title": "W",
+      "memberId": 47
+    },
+    {
+      "const": "unitEnumSet.kilowatts",
+      "title": "kW",
+      "memberId": 48
+    },
+    {
+      "const": "unitEnumSet.megawatts",
+      "title": "MW",
+      "memberId": 49
+    },
+    {
+      "const": "unitEnumSet.btusPerHour",
+      "title": "Btuh",
+      "memberId": 50
+    },
+    {
+      "const": "unitEnumSet.horsepower",
+      "title": "hp",
+      "memberId": 51
+    },
+    {
+      "const": "unitEnumSet.tonsRefrigeration",
+      "title": "tons refr",
+      "memberId": 52
+    },
+    {
+      "const": "unitEnumSet.pascals",
+      "title": "Pa",
+      "memberId": 53
+    },
+    {
+      "const": "unitEnumSet.kilopascals",
+      "title": "kPa",
+      "memberId": 54
+    },
+    {
+      "const": "unitEnumSet.bars",
+      "title": "bar",
+      "memberId": 55
+    },
+    {
+      "const": "unitEnumSet.poundsPerSqInch",
+      "title": "psi",
+      "memberId": 56
+    },
+    {
+      "const": "unitEnumSet.centimetersOfWater",
+      "title": "cm wc",
+      "memberId": 57
+    },
+    {
+      "const": "unitEnumSet.inchesOfWater",
+      "title": "in wc",
+      "memberId": 58
+    },
+    {
+      "const": "unitEnumSet.millimetersOfMercury",
+      "title": "mm HG",
+      "memberId": 59
+    },
+    {
+      "const": "unitEnumSet.centimetersOfMercury",
+      "title": "cm HG",
+      "memberId": 60
+    },
+    {
+      "const": "unitEnumSet.inchesOfMercury",
+      "title": "in HG",
+      "memberId": 61
+    },
+    {
+      "const": "unitEnumSet.degC",
+      "title": "deg C",
+      "memberId": 62
+    },
+    {
+      "const": "unitEnumSet.degK",
+      "title": "K",
+      "memberId": 63
+    },
+    {
+      "const": "unitEnumSet.degF",
+      "title": "deg F",
+      "memberId": 64
+    },
+    {
+      "const": "unitEnumSet.degDaysC",
+      "title": "degree days C",
+      "memberId": 65
+    },
+    {
+      "const": "unitEnumSet.degDaysF",
+      "title": "degree days F",
+      "memberId": 66
+    },
+    {
+      "const": "unitEnumSet.year",
+      "title": "years",
+      "memberId": 67
+    },
+    {
+      "const": "unitEnumSet.month",
+      "title": "months",
+      "memberId": 68
+    },
+    {
+      "const": "unitEnumSet.week",
+      "title": "weeks",
+      "memberId": 69
+    },
+    {
+      "const": "unitEnumSet.day",
+      "title": "days",
+      "memberId": 70
+    },
+    {
+      "const": "unitEnumSet.hour",
+      "title": "hours",
+      "memberId": 71
+    },
+    {
+      "const": "unitEnumSet.minute",
+      "title": "minutes",
+      "memberId": 72
+    },
+    {
+      "const": "unitEnumSet.second",
+      "title": "seconds",
+      "memberId": 73
+    },
+    {
+      "const": "unitEnumSet.metersPerSec",
+      "title": "m/s",
+      "memberId": 74
+    },
+    {
+      "const": "unitEnumSet.kmetersPerHour",
+      "title": "km/h",
+      "memberId": 75
+    },
+    {
+      "const": "unitEnumSet.ftPerSec",
+      "title": "ft/s",
+      "memberId": 76
+    },
+    {
+      "const": "unitEnumSet.ftPerMin",
+      "title": "ft/min",
+      "memberId": 77
+    },
+    {
+      "const": "unitEnumSet.milesPerHr",
+      "title": "mph",
+      "memberId": 78
+    },
+    {
+      "const": "unitEnumSet.cubicFt",
+      "title": "cu ft",
+      "memberId": 79
+    },
+    {
+      "const": "unitEnumSet.cubicMtrs",
+      "title": "cu meter",
+      "memberId": 80
+    },
+    {
+      "const": "unitEnumSet.impGal",
+      "title": "imp Gal",
+      "memberId": 81
+    },
+    {
+      "const": "unitEnumSet.liters",
+      "title": "L",
+      "memberId": 82
+    },
+    {
+      "const": "unitEnumSet.usGal",
+      "title": "Gal",
+      "memberId": 83
+    },
+    {
+      "const": "unitEnumSet.ft3PerMin",
+      "title": "cfm",
+      "memberId": 84
+    },
+    {
+      "const": "unitEnumSet.mtr3PerSec",
+      "title": "cu meter/s",
+      "memberId": 85
+    },
+    {
+      "const": "unitEnumSet.imperialGallonsPerMinute",
+      "title": "imp gpm",
+      "memberId": 86
+    },
+    {
+      "const": "unitEnumSet.litersPerSecond",
+      "title": "L/s",
+      "memberId": 87
+    },
+    {
+      "const": "unitEnumSet.litersPerMinute",
+      "title": "L/min",
+      "memberId": 88
+    },
+    {
+      "const": "unitEnumSet.usGallonsPerMinute",
+      "title": "gpm",
+      "memberId": 89
+    },
+    {
+      "const": "unitEnumSet.degreesAngular",
+      "title": "deg angular",
+      "memberId": 90
+    },
+    {
+      "const": "unitEnumSet.degCPerHour",
+      "title": "deg C/h",
+      "memberId": 91
+    },
+    {
+      "const": "unitEnumSet.degCPerMinute",
+      "title": "deg C/min",
+      "memberId": 92
+    },
+    {
+      "const": "unitEnumSet.degFPerHour",
+      "title": "deg F/h",
+      "memberId": 93
+    },
+    {
+      "const": "unitEnumSet.degFPerMinute",
+      "title": "deg F/min",
+      "memberId": 94
+    },
+    {
+      "const": "unitEnumSet.noUnits",
+      "title": "",
+      "memberId": 95
+    },
+    {
+      "const": "unitEnumSet.partsPerMillion",
+      "title": "ppm",
+      "memberId": 96
+    },
+    {
+      "const": "unitEnumSet.partsPerBillion",
+      "title": "ppb",
+      "memberId": 97
+    },
+    {
+      "const": "unitEnumSet.percent",
+      "title": "%",
+      "memberId": 98
+    },
+    {
+      "const": "unitEnumSet.percentPerSecond",
+      "title": "percent/sec",
+      "memberId": 99
+    },
+    {
+      "const": "unitEnumSet.perMinute",
+      "title": "per min",
+      "memberId": 100
+    },
+    {
+      "const": "unitEnumSet.perSecond",
+      "title": "per sec",
+      "memberId": 101
+    },
+    {
+      "const": "unitEnumSet.psiPerDegreeFahrenheit",
+      "title": "psi/deg F",
+      "memberId": 102
+    },
+    {
+      "const": "unitEnumSet.radians",
+      "title": "radian",
+      "memberId": 103
+    },
+    {
+      "const": "unitEnumSet.revolutionsPerMinute",
+      "title": "rpm",
+      "memberId": 104
+    },
+    {
+      "const": "unitEnumSet.currency1",
+      "title": "Currency 1",
+      "memberId": 105
+    },
+    {
+      "const": "unitEnumSet.currency2",
+      "title": "Currency 2",
+      "memberId": 106
+    },
+    {
+      "const": "unitEnumSet.currency3",
+      "title": "Currency 3",
+      "memberId": 107
+    },
+    {
+      "const": "unitEnumSet.currency4",
+      "title": "Currency 4",
+      "memberId": 108
+    },
+    {
+      "const": "unitEnumSet.currency5",
+      "title": "Currency 5",
+      "memberId": 109
+    },
+    {
+      "const": "unitEnumSet.currency6",
+      "title": "Currency 6",
+      "memberId": 110
+    },
+    {
+      "const": "unitEnumSet.currency7",
+      "title": "Currency 7",
+      "memberId": 111
+    },
+    {
+      "const": "unitEnumSet.currency8",
+      "title": "Currency 8",
+      "memberId": 112
+    },
+    {
+      "const": "unitEnumSet.currency9",
+      "title": "Currency 9",
+      "memberId": 113
+    },
+    {
+      "const": "unitEnumSet.currency10",
+      "title": "Currency 10",
+      "memberId": 114
+    },
+    {
+      "const": "unitEnumSet.squareInches",
+      "title": "sq in",
+      "memberId": 115
+    },
+    {
+      "const": "unitEnumSet.squareCentimeters",
+      "title": "sq cm",
+      "memberId": 116
+    },
+    {
+      "const": "unitEnumSet.btusPerPound",
+      "title": "Btu/lb",
+      "memberId": 117
+    },
+    {
+      "const": "unitEnumSet.centimeters",
+      "title": "cm",
+      "memberId": 118
+    },
+    {
+      "const": "unitEnumSet.poundsMassPerSec",
+      "title": "lbs mass/sec",
+      "memberId": 119
+    },
+    {
+      "const": "unitEnumSet.degFDelta",
+      "title": "delta deg F",
+      "memberId": 120
+    },
+    {
+      "const": "unitEnumSet.degKDelta",
+      "title": "delta deg K",
+      "memberId": 121
+    },
+    {
+      "const": "unitEnumSet.kilohms",
+      "title": "kohm",
+      "memberId": 122
+    },
+    {
+      "const": "unitEnumSet.megohms",
+      "title": "Mohm",
+      "memberId": 123
+    },
+    {
+      "const": "unitEnumSet.millivolts",
+      "title": "mV",
+      "memberId": 124
+    },
+    {
+      "const": "unitEnumSet.kilojoulesPerKgram",
+      "title": "kJ/kg",
+      "memberId": 125
+    },
+    {
+      "const": "unitEnumSet.megajoules",
+      "title": "MJ",
+      "memberId": 126
+    },
+    {
+      "const": "unitEnumSet.joulesPerDegK",
+      "title": "J/K",
+      "memberId": 127
+    },
+    {
+      "const": "unitEnumSet.joulesPerKgramDegK",
+      "title": "J/kg K",
+      "memberId": 128
+    },
+    {
+      "const": "unitEnumSet.khertz",
+      "title": "kHz",
+      "memberId": 129
+    },
+    {
+      "const": "unitEnumSet.megahertz",
+      "title": "MHz",
+      "memberId": 130
+    },
+    {
+      "const": "unitEnumSet.perHour",
+      "title": "per hour",
+      "memberId": 131
+    },
+    {
+      "const": "unitEnumSet.milliwatts",
+      "title": "mW",
+      "memberId": 132
+    },
+    {
+      "const": "unitEnumSet.hectopascals",
+      "title": "hPa",
+      "memberId": 133
+    },
+    {
+      "const": "unitEnumSet.millibars",
+      "title": "mbar",
+      "memberId": 134
+    },
+    {
+      "const": "unitEnumSet.cubicMetersPerHour",
+      "title": "cu meter/h",
+      "memberId": 135
+    },
+    {
+      "const": "unitEnumSet.litersPerHour",
+      "title": "L/h",
+      "memberId": 136
+    },
+    {
+      "const": "unitEnumSet.kwattHoursPerSqMeter",
+      "title": "kWh/sq meter",
+      "memberId": 137
+    },
+    {
+      "const": "unitEnumSet.kwattHoursPerSqFoot",
+      "title": "kWh/sq ft",
+      "memberId": 138
+    },
+    {
+      "const": "unitEnumSet.megajoulesPerSqMeter",
+      "title": "MJ/sq meter",
+      "memberId": 139
+    },
+    {
+      "const": "unitEnumSet.megajoulesPerSqFoot",
+      "title": "MJ/sq ft",
+      "memberId": 140
+    },
+    {
+      "const": "unitEnumSet.wattsPerSqMeterDegK",
+      "title": "W/sq meter K",
+      "memberId": 141
+    },
+    {
+      "const": "unitEnumSet.cubicFtPerSec",
+      "title": "cu ft/s",
+      "memberId": 142
+    },
+    {
+      "const": "unitEnumSet.percentObscurationPerFt",
+      "title": "% Obscuration/ft",
+      "memberId": 143
+    },
+    {
+      "const": "unitEnumSet.percentObscurationPerMeter",
+      "title": "% Obscuration/m",
+      "memberId": 144
+    },
+    {
+      "const": "unitEnumSet.milliohms",
+      "title": "mohm",
+      "memberId": 145
+    },
+    {
+      "const": "unitEnumSet.megawattHours",
+      "title": "MWh",
+      "memberId": 146
+    },
+    {
+      "const": "unitEnumSet.kiloBritishThermalUnit",
+      "title": "kBtu",
+      "memberId": 147
+    },
+    {
+      "const": "unitEnumSet.megaBritishThermalUnit",
+      "title": "MBtu",
+      "memberId": 148
+    },
+    {
+      "const": "unitEnumSet.kilojoulesPerKilogramDryAir",
+      "title": "kJ/kg dry air",
+      "memberId": 149
+    },
+    {
+      "const": "unitEnumSet.megajoulesPerKilogramDryAir",
+      "title": "MJ/kg dry air",
+      "memberId": 150
+    },
+    {
+      "const": "unitEnumSet.kilojoulesPerDegreeKelvin",
+      "title": "kJ/K",
+      "memberId": 151
+    },
+    {
+      "const": "unitEnumSet.megajoulesPerDegreeKelvin",
+      "title": "MJ/K",
+      "memberId": 152
+    },
+    {
+      "const": "unitEnumSet.newton",
+      "title": "N",
+      "memberId": 153
+    },
+    {
+      "const": "unitEnumSet.gramsPerSecond",
+      "title": "g/s",
+      "memberId": 154
+    },
+    {
+      "const": "unitEnumSet.gramsPerMinute",
+      "title": "g/min",
+      "memberId": 155
+    },
+    {
+      "const": "unitEnumSet.tonsPerHour",
+      "title": "Ton/h",
+      "memberId": 156
+    },
+    {
+      "const": "unitEnumSet.kiloBtusPerHour",
+      "title": "kBtu/h",
+      "memberId": 157
+    },
+    {
+      "const": "unitEnumSet.hundredthsOfSecond",
+      "title": "hundredths of sec",
+      "memberId": 158
+    },
+    {
+      "const": "unitEnumSet.milsecs",
+      "title": "ms",
+      "memberId": 159
+    },
+    {
+      "const": "unitEnumSet.newtonMeters",
+      "title": "N m",
+      "memberId": 160
+    },
+    {
+      "const": "unitEnumSet.millimetersPerSecond",
+      "title": "mm/s",
+      "memberId": 161
+    },
+    {
+      "const": "unitEnumSet.millimetersPerMinute",
+      "title": "mm/min",
+      "memberId": 162
+    },
+    {
+      "const": "unitEnumSet.metersPerMinute",
+      "title": "m/min",
+      "memberId": 163
+    },
+    {
+      "const": "unitEnumSet.metersPerHour",
+      "title": "m/h",
+      "memberId": 164
+    },
+    {
+      "const": "unitEnumSet.cubicMetersPerMinute",
+      "title": "cu meter/min",
+      "memberId": 165
+    },
+    {
+      "const": "unitEnumSet.metersPerSecondPerSecond",
+      "title": "m/s/s",
+      "memberId": 166
+    },
+    {
+      "const": "unitEnumSet.ampersPerMeter",
+      "title": "A/m",
+      "memberId": 167
+    },
+    {
+      "const": "unitEnumSet.ampersPerSquareMeter",
+      "title": "A/sq m",
+      "memberId": 168
+    },
+    {
+      "const": "unitEnumSet.amperSquareMeters",
+      "title": "A m",
+      "memberId": 169
+    },
+    {
+      "const": "unitEnumSet.farads",
+      "title": "F",
+      "memberId": 170
+    },
+    {
+      "const": "unitEnumSet.henrys",
+      "title": "H",
+      "memberId": 171
+    },
+    {
+      "const": "unitEnumSet.ohmMeters",
+      "title": "ohm m",
+      "memberId": 172
+    },
+    {
+      "const": "unitEnumSet.siemens",
+      "title": "S",
+      "memberId": 173
+    },
+    {
+      "const": "unitEnumSet.siemensPerMeter",
+      "title": "S/m",
+      "memberId": 174
+    },
+    {
+      "const": "unitEnumSet.teslas",
+      "title": "T",
+      "memberId": 175
+    },
+    {
+      "const": "unitEnumSet.voltsPerDegreeKelvin",
+      "title": "V/K",
+      "memberId": 176
+    },
+    {
+      "const": "unitEnumSet.voltsPerMeter",
+      "title": "V/m",
+      "memberId": 177
+    },
+    {
+      "const": "unitEnumSet.webers",
+      "title": "Wb",
+      "memberId": 178
+    },
+    {
+      "const": "unitEnumSet.candelas",
+      "title": "cd",
+      "memberId": 179
+    },
+    {
+      "const": "unitEnumSet.candelasPerSquareMeter",
+      "title": "cd/sq m",
+      "memberId": 180
+    },
+    {
+      "const": "unitEnumSet.degreesKelvinPerHour",
+      "title": "K/h",
+      "memberId": 181
+    },
+    {
+      "const": "unitEnumSet.degreesKelvinPerMinute",
+      "title": "K/min",
+      "memberId": 182
+    },
+    {
+      "const": "unitEnumSet.jouleSeconds",
+      "title": "j s",
+      "memberId": 183
+    },
+    {
+      "const": "unitEnumSet.radPerSec",
+      "title": "rad/s",
+      "memberId": 184
+    },
+    {
+      "const": "unitEnumSet.squareMetersPerNewton",
+      "title": "sq m/N",
+      "memberId": 185
+    },
+    {
+      "const": "unitEnumSet.kilogramsPerCubicMeter",
+      "title": "kg/cu meter",
+      "memberId": 186
+    },
+    {
+      "const": "unitEnumSet.newtonSeconds",
+      "title": "N s",
+      "memberId": 187
+    },
+    {
+      "const": "unitEnumSet.newtonsPerMeter",
+      "title": "N/m",
+      "memberId": 188
+    },
+    {
+      "const": "unitEnumSet.wattsPerMeterPerDegreeKelvin",
+      "title": "W/m/K",
+      "memberId": 189
+    },
+    {
+      "const": "unitEnumSet.microSiemens",
+      "title": "uS",
+      "memberId": 190
+    },
+    {
+      "const": "unitEnumSet.cubicFeetPerHour",
+      "title": "cu ft/h",
+      "memberId": 191
+    },
+    {
+      "const": "unitEnumSet.usGallonsPerHour",
+      "title": "gph",
+      "memberId": 192
+    },
+    {
+      "const": "unitEnumSet.kilometers",
+      "title": "km",
+      "memberId": 193
+    },
+    {
+      "const": "unitEnumSet.micrometers",
+      "title": "um",
+      "memberId": 194
+    },
+    {
+      "const": "unitEnumSet.grams",
+      "title": "g",
+      "memberId": 195
+    },
+    {
+      "const": "unitEnumSet.milligrams",
+      "title": "mg",
+      "memberId": 196
+    },
+    {
+      "const": "unitEnumSet.milliliters",
+      "title": "mL",
+      "memberId": 197
+    },
+    {
+      "const": "unitEnumSet.millilitersPerSec",
+      "title": "mL/s",
+      "memberId": 198
+    },
+    {
+      "const": "unitEnumSet.decibelUnits",
+      "title": "dB",
+      "memberId": 199
+    },
+    {
+      "const": "unitEnumSet.decibelsMillivolt",
+      "title": "dBmV",
+      "memberId": 200
+    },
+    {
+      "const": "unitEnumSet.decibelsVolt",
+      "title": "dbV",
+      "memberId": 201
+    },
+    {
+      "const": "unitEnumSet.millisiemens",
+      "title": "mS",
+      "memberId": 202
+    },
+    {
+      "const": "unitEnumSet.wattHoursReactive",
+      "title": "Whr",
+      "memberId": 203
+    },
+    {
+      "const": "unitEnumSet.kilowattHoursReactive",
+      "title": "kWhr",
+      "memberId": 204
+    },
+    {
+      "const": "unitEnumSet.megawattHoursReactive",
+      "title": "MWhr",
+      "memberId": 205
+    },
+    {
+      "const": "unitEnumSet.millimetersOfWater",
+      "title": "mm wc",
+      "memberId": 206
+    },
+    {
+      "const": "unitEnumSet.perMille",
+      "title": "%o",
+      "memberId": 207
+    },
+    {
+      "const": "unitEnumSet.gramsPerGram",
+      "title": "g/g",
+      "memberId": 208
+    },
+    {
+      "const": "unitEnumSet.kilogramsPerKilogram",
+      "title": "kg/kg",
+      "memberId": 209
+    },
+    {
+      "const": "unitEnumSet.gramsPerKilogram",
+      "title": "g/kg",
+      "memberId": 210
+    },
+    {
+      "const": "unitEnumSet.milligramsPerGram",
+      "title": "mg/g",
+      "memberId": 211
+    },
+    {
+      "const": "unitEnumSet.milligramsPerKilogram",
+      "title": "mg/kg",
+      "memberId": 212
+    },
+    {
+      "const": "unitEnumSet.gramsPerMilliliter",
+      "title": "g/mL",
+      "memberId": 213
+    },
+    {
+      "const": "unitEnumSet.gramsPerLiter",
+      "title": "g/L",
+      "memberId": 214
+    },
+    {
+      "const": "unitEnumSet.milligramsPerLiter",
+      "title": "mg/L",
+      "memberId": 215
+    },
+    {
+      "const": "unitEnumSet.microgramsPerLiter",
+      "title": "ug/L",
+      "memberId": 216
+    },
+    {
+      "const": "unitEnumSet.gramsPerCubicMeter",
+      "title": "g/cu meter",
+      "memberId": 217
+    },
+    {
+      "const": "unitEnumSet.milligramsPerCubicMeter",
+      "title": "mg/cu meter",
+      "memberId": 218
+    },
+    {
+      "const": "unitEnumSet.microgramsPerCubicMeter",
+      "title": "ug/cu meter",
+      "memberId": 219
+    },
+    {
+      "const": "unitEnumSet.nanogramsPerCubicMeter",
+      "title": "ng/cu meter",
+      "memberId": 220
+    },
+    {
+      "const": "unitEnumSet.gramsPerCubicCentimeter",
+      "title": "g/cu cm",
+      "memberId": 221
+    },
+    {
+      "const": "unitEnumSet.becquerels",
+      "title": "Bq",
+      "memberId": 222
+    },
+    {
+      "const": "unitEnumSet.kilobecquerels",
+      "title": "kBq",
+      "memberId": 223
+    },
+    {
+      "const": "unitEnumSet.megabecquerels",
+      "title": "MBq",
+      "memberId": 224
+    },
+    {
+      "const": "unitEnumSet.gray",
+      "title": "Gy",
+      "memberId": 225
+    },
+    {
+      "const": "unitEnumSet.milligray",
+      "title": "mGy",
+      "memberId": 226
+    },
+    {
+      "const": "unitEnumSet.microgray",
+      "title": "uGy",
+      "memberId": 227
+    },
+    {
+      "const": "unitEnumSet.sieverts",
+      "title": "Sv",
+      "memberId": 228
+    },
+    {
+      "const": "unitEnumSet.millisieverts",
+      "title": "mSv",
+      "memberId": 229
+    },
+    {
+      "const": "unitEnumSet.microsieverts",
+      "title": "uSv",
+      "memberId": 230
+    },
+    {
+      "const": "unitEnumSet.microsievertsPerHour",
+      "title": "uSv/h",
+      "memberId": 231
+    },
+    {
+      "const": "unitEnumSet.decibelsA",
+      "title": "dB(A)",
+      "memberId": 232
+    },
+    {
+      "const": "unitEnumSet.nephelometricTurbidityUnit",
+      "title": "NTU",
+      "memberId": 233
+    },
+    {
+      "const": "unitEnumSet.phUnits",
+      "title": "pH",
+      "memberId": 234
+    },
+    {
+      "const": "unitEnumSet.gramsPerSquareMeter",
+      "title": "g/sq meter",
+      "memberId": 235
+    },
+    {
+      "const": "unitEnumSet.minutesPerDegreeKelvin",
+      "title": "min/K",
+      "memberId": 236
+    },
+    {
+      "const": "unitEnumSet.ohmMeterSquaredPerMeter",
+      "title": "ohm m sq /m",
+      "memberId": 237
+    },
+    {
+      "const": "unitEnumSet.ampereSeconds",
+      "title": "As",
+      "memberId": 238
+    },
+    {
+      "const": "unitEnumSet.voltAmpereHours",
+      "title": "VAh",
+      "memberId": 239
+    },
+    {
+      "const": "unitEnumSet.kilovoltAmpereHours",
+      "title": "kVAh",
+      "memberId": 240
+    },
+    {
+      "const": "unitEnumSet.megavoltAmpereHours",
+      "title": "MVAh",
+      "memberId": 241
+    },
+    {
+      "const": "unitEnumSet.voltAmpereHoursReactive",
+      "title": "VArh",
+      "memberId": 242
+    },
+    {
+      "const": "unitEnumSet.kilovoltAmpereHoursReactive",
+      "title": "kVArh",
+      "memberId": 243
+    },
+    {
+      "const": "unitEnumSet.megavoltAmpereHoursReactive",
+      "title": "MVArh",
+      "memberId": 244
+    },
+    {
+      "const": "unitEnumSet.voltSquareHours",
+      "title": "V sq h",
+      "memberId": 245
+    },
+    {
+      "const": "unitEnumSet.ampereSquareHours",
+      "title": "A sq h",
+      "memberId": 246
+    },
+    {
+      "const": "unitEnumSet.joulePerHours",
+      "title": "J/h",
+      "memberId": 247
+    },
+    {
+      "const": "unitEnumSet.cubicFeetPerDay",
+      "title": "cu ft/d",
+      "memberId": 248
+    },
+    {
+      "const": "unitEnumSet.cubicMetersPerDay",
+      "title": "cu m/d",
+      "memberId": 249
+    },
+    {
+      "const": "unitEnumSet.wattHoursPerCubicMeter",
+      "title": "Wh/cu m",
+      "memberId": 250
+    },
+    {
+      "const": "unitEnumSet.joulesPerCubicMeter",
+      "title": "J/cu m",
+      "memberId": 251
+    },
+    {
+      "const": "unitEnumSet.molePercent",
+      "title": "Mole %",
+      "memberId": 252
+    },
+    {
+      "const": "unitEnumSet.pascalSeconds",
+      "title": "Pas",
+      "memberId": 253
+    },
+    {
+      "const": "unitEnumSet.millionStdCubicFeetPerMinute",
+      "title": "Mstd cu ft/min",
+      "memberId": 254
+    },
+    {
+      "const": "unitEnumSet.bytes",
+      "title": "bytes",
+      "memberId": 256
+    },
+    {
+      "const": "unitEnumSet.counts",
+      "title": "counts",
+      "memberId": 258
+    },
+    {
+      "const": "unitEnumSet.people",
+      "title": "people",
+      "memberId": 259
+    },
+    {
+      "const": "unitEnumSet.cfmPerPerson",
+      "title": "cfm/person",
+      "memberId": 260
+    },
+    {
+      "const": "unitEnumSet.litersPerPerson",
+      "title": "L/person",
+      "memberId": 261
+    },
+    {
+      "const": "unitEnumSet.minPerDegreeSq",
+      "title": "min/deg sq",
+      "memberId": 262
+    },
+    {
+      "const": "unitEnumSet.kwattPerMinute",
+      "title": "kW/min",
+      "memberId": 263
+    },
+    {
+      "const": "unitEnumSet.percentOpen",
+      "title": "% open",
+      "memberId": 264
+    },
+    {
+      "const": "unitEnumSet.percentClosed",
+      "title": "% closed",
+      "memberId": 265
+    },
+    {
+      "const": "unitEnumSet.flowcCfm",
+      "title": "flowC cfm",
+      "memberId": 266
+    },
+    {
+      "const": "unitEnumSet.flowcCuMetersPerHour",
+      "title": "flowC cu meters/h",
+      "memberId": 267
+    },
+    {
+      "const": "unitEnumSet.flowcLitersPerSecond",
+      "title": "flowC L/s",
+      "memberId": 268
+    },
+    {
+      "const": "unitEnumSet.entries",
+      "title": "Entries",
+      "memberId": 270
+    },
+    {
+      "const": "unitEnumSet.kFactor",
+      "title": "K Factor",
+      "memberId": 271
+    },
+    {
+      "const": "unitEnumSet.customUnits",
+      "title": "Custom",
+      "memberId": 272
+    },
+    {
+      "const": "unitEnumSet.acreUnits",
+      "title": "Acre",
+      "memberId": 274
+    },
+    {
+      "const": "unitEnumSet.atmosphereUnits",
+      "title": "Atmosphere",
+      "memberId": 275
+    },
+    {
+      "const": "unitEnumSet.cubicInches",
+      "title": "cu in",
+      "memberId": 276
+    },
+    {
+      "const": "unitEnumSet.degPerSec",
+      "title": "deg/s",
+      "memberId": 278
+    },
+    {
+      "const": "unitEnumSet.feetOfWater",
+      "title": "ft wc",
+      "memberId": 279
+    },
+    {
+      "const": "unitEnumSet.footPounds",
+      "title": "ft-lb",
+      "memberId": 280
+    },
+    {
+      "const": "unitEnumSet.formazinNephelometricUnits",
+      "title": "FNU",
+      "memberId": 281
+    },
+    {
+      "const": "unitEnumSet.formazinTurbidityUnits",
+      "title": "FTU",
+      "memberId": 282
+    },
+    {
+      "const": "unitEnumSet.grammageUnits",
+      "title": "gsm",
+      "memberId": 283
+    },
+    {
+      "const": "unitEnumSet.kiloGallonsPerMinute",
+      "title": "kgpm",
+      "memberId": 286
+    },
+    {
+      "const": "unitEnumSet.kilopounds",
+      "title": "klb",
+      "memberId": 287
+    },
+    {
+      "const": "unitEnumSet.kiloliters",
+      "title": "kl",
+      "memberId": 289
+    },
+    {
+      "const": "unitEnumSet.megagrams",
+      "title": "Mg",
+      "memberId": 292
+    },
+    {
+      "const": "unitEnumSet.miles",
+      "title": "Miles",
+      "memberId": 294
+    },
+    {
+      "const": "unitEnumSet.nephelometricTurbidityUnits",
+      "title": "NTU",
+      "memberId": 298
+    },
+    {
+      "const": "unitEnumSet.megabytes",
+      "title": "megabytes",
+      "memberId": 301
+    },
+    {
+      "const": "unitEnumSet.perCentCmdUnit",
+      "title": "% Cmd",
+      "memberId": 302
+    },
+    {
+      "const": "unitEnumSet.inchesPascal",
+      "title": "in. Pa",
+      "memberId": 303
+    },
+    {
+      "const": "unitEnumSet.kilocaloriesPerKilogram",
+      "title": "KCL/Kg",
+      "memberId": 304
+    },
+    {
+      "const": "unitEnumSet.hourMinuteUnit",
+      "title": "Hr:Mn",
+      "memberId": 305
+    },
+    {
+      "const": "unitEnumSet.secPerHour",
+      "title": "seconds/hour",
+      "memberId": 306
+    },
+    {
+      "const": "unitEnumSet.lbsPerCubicFeet",
+      "title": "lb/cu ft",
+      "memberId": 308
+    },
+    {
+      "const": "unitEnumSet.changePerMinute",
+      "title": "Change per Minute",
+      "memberId": 309
+    },
+    {
+      "const": "unitEnumSet.digits",
+      "title": "Digits",
+      "memberId": 310
+    },
+    {
+      "const": "unitEnumSet.attempts",
+      "title": "Attempts",
+      "memberId": 311
+    },
+    {
+      "const": "unitEnumSet.entities",
+      "title": "Entities",
+      "memberId": 312
+    },
+    {
+      "const": "unitEnumSet.kilobytes",
+      "title": "kilobytes",
+      "memberId": 313
+    },
+    {
+      "const": "unitEnumSet.failuresPerDay",
+      "title": "failures per day",
+      "memberId": 314
+    },
+    {
+      "const": "unitEnumSet.dekatherm",
+      "title": "dekatherm",
+      "memberId": 316
+    },
+    {
+      "const": "unitEnumSet.normalCubicMeters",
+      "title": "Nm3",
+      "memberId": 317
+    },
+    {
+      "const": "unitEnumSet.hundredCubicFeet",
+      "title": "ccf",
+      "memberId": 318
+    },
+    {
+      "const": "unitEnumSet.millionPounds",
+      "title": "Mlb",
+      "memberId": 319
+    },
+    {
+      "const": "unitEnumSet.metricton",
+      "title": "tonne",
+      "memberId": 320
+    },
+    {
+      "const": "unitEnumSet.gigawatts",
+      "title": "GW",
+      "memberId": 321
+    },
+    {
+      "const": "unitEnumSet.gigawattHours",
+      "title": "GWh",
+      "memberId": 322
+    },
+    {
+      "const": "unitEnumSet.calories",
+      "title": "cal",
+      "memberId": 323
+    },
+    {
+      "const": "unitEnumSet.secPerDeg",
+      "title": "s/deg",
+      "memberId": 324
+    },
+    {
+      "const": "unitEnumSet.kilowattsPerDegreeCelsius",
+      "title": "kW/deg C",
+      "memberId": 325
+    },
+    {
+      "const": "unitEnumSet.tonsPerDegreeFahrenheit",
+      "title": "Ton/deg F",
+      "memberId": 326
+    },
+    {
+      "const": "unitEnumSet.percentPerMinimum",
+      "title": "percent/min",
+      "memberId": 327
+    },
+    {
+      "const": "unitEnumSet.minPerDegree",
+      "title": "min/deg",
+      "memberId": 328
+    },
+    {
+      "const": "unitEnumSet.poundsPerSqInchGauge",
+      "title": "psiG",
+      "memberId": 329
+    },
+    {
+      "const": "unitEnumSet.poundsPerSqInchDifferential",
+      "title": "psiD",
+      "memberId": 330
+    },
+    {
+      "const": "unitEnumSet.kilopascalsGauge",
+      "title": "kPaG",
+      "memberId": 331
+    },
+    {
+      "const": "unitEnumSet.kilopascalsDifferential",
+      "title": "kPaD",
+      "memberId": 332
+    },
+    {
+      "const": "unitEnumSet.mils",
+      "title": "MILS",
+      "memberId": 333
+    },
+    {
+      "const": "unitEnumSet.kwPerTon",
+      "title": "kW/Ton",
+      "memberId": 334
+    },
+    {
+      "const": "unitEnumSet.coeffOfPerformance",
+      "title": "COP",
+      "memberId": 335
+    },
+    {
+      "const": "unitEnumSet.kwCooling",
+      "title": "kWc",
+      "memberId": 336
+    },
+    {
+      "const": "unitEnumSet.degFPerSec",
+      "title": "deg F/s",
+      "memberId": 337
+    },
+    {
+      "const": "unitEnumSet.degCPerSec",
+      "title": "deg C/s",
+      "memberId": 338
+    },
+    {
+      "const": "unitEnumSet.hertzPerSec",
+      "title": "Hz/s",
+      "memberId": 339
+    },
+    {
+      "const": "unitEnumSet.microsecond",
+      "title": "uSec",
+      "memberId": 340
+    },
+    {
+      "const": "unitEnumSet.megaBtusPerHour",
+      "title": "MBtu/h",
+      "memberId": 341
+    },
+    {
+      "const": "unitEnumSet.ctTons",
+      "title": "Cooling Tower Tons",
+      "memberId": 342
+    },
+    {
+      "const": "unitEnumSet.kwPerMegaBtuPerHour",
+      "title": "kW/(MBtu/h)",
+      "memberId": 343
+    },
+    {
+      "const": "unitEnumSet.degreesRankine",
+      "title": "deg R",
+      "memberId": 344
+    },
+    {
+      "const": "unitEnumSet.perMegaBtu",
+      "title": "per MBtu",
+      "memberId": 345
+    },
+    {
+      "const": "unitEnumSet.perKwattHour",
+      "title": "per kWh",
+      "memberId": 346
+    },
+    {
+      "const": "unitEnumSet.perMegawattHour",
+      "title": "per MWh",
+      "memberId": 347
+    },
+    {
+      "const": "unitEnumSet.perTonHour",
+      "title": "per ton-h",
+      "memberId": 348
+    },
+    {
+      "const": "unitEnumSet.perBtu",
+      "title": "per Btu",
+      "memberId": 349
+    },
+    {
+      "const": "unitEnumSet.perJoule",
+      "title": "per J",
+      "memberId": 350
+    },
+    {
+      "const": "unitEnumSet.perKilojoule",
+      "title": "per kJ",
+      "memberId": 351
+    },
+    {
+      "const": "unitEnumSet.perMegaBtusPerHour",
+      "title": "per MBtu/h",
+      "memberId": 352
+    },
+    {
+      "const": "unitEnumSet.perKwatt",
+      "title": "per kW",
+      "memberId": 353
+    },
+    {
+      "const": "unitEnumSet.perTon",
+      "title": "per ton",
+      "memberId": 354
+    },
+    {
+      "const": "unitEnumSet.perHorsepower",
+      "title": "per hp",
+      "memberId": 355
+    },
+    {
+      "const": "unitEnumSet.perCubicMeter",
+      "title": "per cu meter",
+      "memberId": 356
+    },
+    {
+      "const": "unitEnumSet.perCubicFoot",
+      "title": "per cu ft",
+      "memberId": 357
+    },
+    {
+      "const": "unitEnumSet.perGallon",
+      "title": "per Gal",
+      "memberId": 358
+    },
+    {
+      "const": "unitEnumSet.deltaDegC",
+      "title": "delta deg C",
+      "memberId": 359
+    },
+    {
+      "const": "unitEnumSet.perDeltaDegC",
+      "title": "per delta deg C",
+      "memberId": 360
+    },
+    {
+      "const": "unitEnumSet.perDeltaDegF",
+      "title": "per delta deg F",
+      "memberId": 361
+    },
+    {
+      "const": "unitEnumSet.moniesPerMegaBtu",
+      "title": "monies per MBtu",
+      "memberId": 362
+    },
+    {
+      "const": "unitEnumSet.moniesPerKwattHour",
+      "title": "monies per kWh",
+      "memberId": 363
+    },
+    {
+      "const": "unitEnumSet.moniesPerMegawattHour",
+      "title": "monies per MWh",
+      "memberId": 364
+    },
+    {
+      "const": "unitEnumSet.moniesPerTonHour",
+      "title": "monies per ton-h",
+      "memberId": 365
+    },
+    {
+      "const": "unitEnumSet.moniesPerBtu",
+      "title": "monies per Btu",
+      "memberId": 366
+    },
+    {
+      "const": "unitEnumSet.moniesPerJoule",
+      "title": "monies per J",
+      "memberId": 367
+    },
+    {
+      "const": "unitEnumSet.moniesPerKilojoule",
+      "title": "monies per kJ",
+      "memberId": 368
+    },
+    {
+      "const": "unitEnumSet.moniesPerCubicMeter",
+      "title": "monies per cu meter",
+      "memberId": 369
+    },
+    {
+      "const": "unitEnumSet.moniesPerCubicFoot",
+      "title": "monies per cu ft",
+      "memberId": 370
+    },
+    {
+      "const": "unitEnumSet.moniesPerGallon",
+      "title": "monies per Gal",
+      "memberId": 371
+    },
+    {
+      "const": "unitEnumSet.moniesPerHour",
+      "title": "monies per hour",
+      "memberId": 372
+    },
+    {
+      "const": "unitEnumSet.moniesPerMinute",
+      "title": "monies per min",
+      "memberId": 373
+    },
+    {
+      "const": "unitEnumSet.moniesPerSecond",
+      "title": "monies per sec",
+      "memberId": 374
+    },
+    {
+      "const": "unitEnumSet.moniesPerMegaBtuPerHour",
+      "title": "monies/(MBtu/h)",
+      "memberId": 375
+    },
+    {
+      "const": "unitEnumSet.moniesPerKwatt",
+      "title": "monies per kW",
+      "memberId": 376
+    },
+    {
+      "const": "unitEnumSet.moniesPerTon",
+      "title": "monies per ton",
+      "memberId": 377
+    },
+    {
+      "const": "unitEnumSet.moniesPerHorsepower",
+      "title": "monies per hp",
+      "memberId": 378
+    },
+    {
+      "const": "unitEnumSet.tonnesPerMegaBtu",
+      "title": "tonnes per MBtu",
+      "memberId": 379
+    },
+    {
+      "const": "unitEnumSet.tonnesPerKwattHour",
+      "title": "tonnes per kWh",
+      "memberId": 380
+    },
+    {
+      "const": "unitEnumSet.tonnesPerMegawattHour",
+      "title": "tonnes per MWh",
+      "memberId": 381
+    },
+    {
+      "const": "unitEnumSet.tonnesPerTonHour",
+      "title": "tonnes per ton-h",
+      "memberId": 382
+    },
+    {
+      "const": "unitEnumSet.tonnesPerBtu",
+      "title": "tonnes per Btu",
+      "memberId": 383
+    },
+    {
+      "const": "unitEnumSet.tonnesPerJoule",
+      "title": "tonnes per J",
+      "memberId": 384
+    },
+    {
+      "const": "unitEnumSet.tonnesPerKilojoule",
+      "title": "tonnes per kJ",
+      "memberId": 385
+    },
+    {
+      "const": "unitEnumSet.tonnesPerCubicMeter",
+      "title": "tonnes per cu meter",
+      "memberId": 386
+    },
+    {
+      "const": "unitEnumSet.tonnesPerCubicFoot",
+      "title": "tonnes per cu ft",
+      "memberId": 387
+    },
+    {
+      "const": "unitEnumSet.tonnesPerGallon",
+      "title": "tonnes per Gal",
+      "memberId": 388
+    },
+    {
+      "const": "unitEnumSet.tonnesPerHour",
+      "title": "tonnes per hour",
+      "memberId": 389
+    },
+    {
+      "const": "unitEnumSet.tonnesPerMinute",
+      "title": "tonnes per min",
+      "memberId": 390
+    },
+    {
+      "const": "unitEnumSet.tonnesPerSecond",
+      "title": "tonnes per sec",
+      "memberId": 391
+    },
+    {
+      "const": "unitEnumSet.moniesPerGallonPerHour",
+      "title": "monies/(Gal/h)",
+      "memberId": 392
+    },
+    {
+      "const": "unitEnumSet.moniesPerCubicMetersPerHour",
+      "title": "monies/(cu meter/h)",
+      "memberId": 393
+    },
+    {
+      "const": "unitEnumSet.kwPerHour",
+      "title": "kW per hour",
+      "memberId": 394
+    },
+    {
+      "const": "unitEnumSet.kwPerMinute",
+      "title": "kW per min",
+      "memberId": 395
+    },
+    {
+      "const": "unitEnumSet.kwPerSecond",
+      "title": "kW per sec",
+      "memberId": 396
+    },
+    {
+      "const": "unitEnumSet.nau",
+      "title": "NaU",
+      "memberId": 397
+    },
+    {
+      "const": "unitEnumSet.kilojoulesPerCubicMetersDeltaDegC",
+      "title": "kJ/(cu meter delta deg C)",
+      "memberId": 398
+    },
+    {
+      "const": "unitEnumSet.cubicMetersPerHourKilowatt",
+      "title": "cu meter/(hour kW)",
+      "memberId": 399
+    },
+    {
+      "const": "unitEnumSet.degCPerKilowatt",
+      "title": "deg C/kW",
+      "memberId": 400
+    },
+    {
+      "const": "unitEnumSet.kilowattPerDeltaDegC",
+      "title": "kW/delta deg C",
+      "memberId": 401
+    },
+    {
+      "const": "unitEnumSet.deltaDegCPerKilowatt",
+      "title": "delta deg C/kW",
+      "memberId": 402
+    },
+    {
+      "const": "unitEnumSet.cubicMetersPerHourDegK",
+      "title": "cu meter/(hour deg K)",
+      "memberId": 403
+    },
+    {
+      "const": "unitEnumSet.kilowattPerDegK",
+      "title": "kW/deg K",
+      "memberId": 404
+    },
+    {
+      "const": "unitEnumSet.degKPerKilowatt",
+      "title": "deg K/kW",
+      "memberId": 405
+    },
+    {
+      "const": "unitEnumSet.kilowattPerCubicMeters",
+      "title": "kW/cu meter",
+      "memberId": 406
+    },
+    {
+      "const": "unitEnumSet.kilojoulesPerCubicMetersPerHour",
+      "title": "kJ/(cu meter/h)",
+      "memberId": 407
+    },
+    {
+      "const": "unitEnumSet.cubicMetersPerHourKilojoules",
+      "title": "cu meter/(hour kJ)",
+      "memberId": 408
+    },
+    {
+      "const": "unitEnumSet.cubicMetersPerKilowatt",
+      "title": "cu meter/kW",
+      "memberId": 409
+    },
+    {
+      "const": "unitEnumSet.kilopoundPerHour",
+      "title": "klb/h",
+      "memberId": 410
+    },
+    {
+      "const": "unitEnumSet.thousandCubicFeetPerHour",
+      "title": "mcf/hr",
+      "memberId": 411
+    },
+    {
+      "const": "unitEnumSet.hundredCubicFeetPerHour",
+      "title": "ccf/hr",
+      "memberId": 412
+    },
+    {
+      "const": "unitEnumSet.kilopoundPerHourPerTon",
+      "title": "klb/h/ton",
+      "memberId": 413
+    },
+    {
+      "const": "unitEnumSet.kilowattPerKilowatt",
+      "title": "kW/kW",
+      "memberId": 414
+    },
+    {
+      "const": "unitEnumSet.kwattHourPerDeltaDegC",
+      "title": "kWh/delta deg C",
+      "memberId": 415
+    },
+    {
+      "const": "unitEnumSet.degKPerKwattHour",
+      "title": "deg K/kWh",
+      "memberId": 416
+    },
+    {
+      "const": "unitEnumSet.kwattPerHourDegK",
+      "title": "kW/(hour deg K)",
+      "memberId": 417
+    },
+    {
+      "const": "unitEnumSet.degKHourPerKwatt",
+      "title": "deg K hour/kW",
+      "memberId": 418
+    },
+    {
+      "const": "unitEnumSet.poundPerHourPerTon",
+      "title": "lb/h/ton",
+      "memberId": 419
+    },
+    {
+      "const": "unitEnumSet.poundPerHourPerKwatt",
+      "title": "lb/h/kW",
+      "memberId": 420
+    },
+    {
+      "const": "unitEnumSet.btuPerKwattHour",
+      "title": "Btu per kWh",
+      "memberId": 421
+    },
+    {
+      "const": "unitEnumSet.joulesPerKwattHour",
+      "title": "J per kWh",
+      "memberId": 422
+    },
+    {
+      "const": "unitEnumSet.deltaDegCSecond",
+      "title": "delta deg C sec",
+      "memberId": 423
+    },
+    {
+      "const": "unitEnumSet.joulesPerDeltaDegCSquareMeters",
+      "title": "J/(delta deg C sq meter)",
+      "memberId": 424
+    },
+    {
+      "const": "unitEnumSet.deltaDegCSquareMetersPerWatt",
+      "title": "(delta deg C sq meter)/W",
+      "memberId": 425
+    },
+    {
+      "const": "unitEnumSet.perSquareMeters",
+      "title": "per sq meter",
+      "memberId": 426
+    },
+    {
+      "const": "unitEnumSet.thousandCubicFeet",
+      "title": "mcf",
+      "memberId": 427
+    },
+    {
+      "const": "unitEnumSet.moniesPerDeltaDegC",
+      "title": "monies/delta deg C",
+      "memberId": 428
+    },
+    {
+      "const": "unitEnumSet.moniesPerDeltaDegF",
+      "title": "monies/delta deg F",
+      "memberId": 429
+    },
+    {
+      "const": "unitEnumSet.moniesKilogram",
+      "title": "monies kg",
+      "memberId": 430
+    },
+    {
+      "const": "unitEnumSet.squareKilogramPerSquareSecond",
+      "title": "sq kg/sq s",
+      "memberId": 431
+    },
+    {
+      "const": "unitEnumSet.moniesSecondPerKilogram",
+      "title": "(monies s)/kg",
+      "memberId": 432
+    },
+    {
+      "const": "unitEnumSet.kilogramPerSecondDegK",
+      "title": "kg/(s deg K)",
+      "memberId": 433
+    },
+    {
+      "const": "unitEnumSet.moniesPerKilogram",
+      "title": "monies/kg",
+      "memberId": 434
+    },
+    {
+      "const": "unitEnumSet.moniesPerPoundsMass",
+      "title": "monies/lbm",
+      "memberId": 435
+    },
+    {
+      "const": "unitEnumSet.moniesPerKilopoundsMass",
+      "title": "monies/klbm",
+      "memberId": 436
+    },
+    {
+      "const": "unitEnumSet.moniesHourPerPoundsMass",
+      "title": "(monies hour)/lbm",
+      "memberId": 437
+    },
+    {
+      "const": "unitEnumSet.moniesHourPerKilopoundsMass",
+      "title": "(monies hour)/klbm",
+      "memberId": 438
+    },
+    {
+      "const": "unitEnumSet.jciBitsPerSecond",
+      "title": "bits per sec",
+      "memberId": 439
+    },
+    {
+      "const": "unitEnumSet.messagesPerMinute",
+      "title": "messages per min",
+      "memberId": 440
+    },
+    {
+      "const": "unitEnumSet.inTheLastHour",
+      "title": "in the last hour",
+      "memberId": 441
+    },
+    {
+      "const": "unitEnumSet.normalCubicMetersPerSecond",
+      "title": "Nm3/s",
+      "memberId": 442
+    },
+    {
+      "const": "unitEnumSet.metricTonnesCo2E",
+      "title": "MT CO2e",
+      "memberId": 443
+    },
+    {
+      "const": "unitEnumSet.jaMillimetersWater",
+      "title": "mmH2O",
+      "memberId": 512
+    },
+    {
+      "const": "unitEnumSet.jaMillimetersAq",
+      "title": "mmAq",
+      "memberId": 513
+    },
+    {
+      "const": "unitEnumSet.jaKilogramsPerSqCm",
+      "title": "kg/cm2",
+      "memberId": 514
+    },
+    {
+      "const": "unitEnumSet.jaMetersWater",
+      "title": "mH2O",
+      "memberId": 515
+    },
+    {
+      "const": "unitEnumSet.jaMegapascals",
+      "title": "MPa",
+      "memberId": 516
+    },
+    {
+      "const": "unitEnumSet.jaGigapascals",
+      "title": "GPa",
+      "memberId": 517
+    },
+    {
+      "const": "unitEnumSet.jaGigajoules",
+      "title": "GJ",
+      "memberId": 518
+    },
+    {
+      "const": "unitEnumSet.jaKilocalPerKilogram",
+      "title": "kcal/kg",
+      "memberId": 519
+    },
+    {
+      "const": "unitEnumSet.jaDeprUnit520",
+      "title": "dB(IEIEJ)",
+      "memberId": 520
+    },
+    {
+      "const": "unitEnumSet.jaDewpointTemperaure",
+      "title": "DP",
+      "memberId": 521
+    },
+    {
+      "const": "unitEnumSet.jaDeprUnit522",
+      "title": "deg C DB(IEIEJ)",
+      "memberId": 522
+    },
+    {
+      "const": "unitEnumSet.jaWetBulbTemperature",
+      "title": "WB",
+      "memberId": 523
+    },
+    {
+      "const": "unitEnumSet.jaNumberOfTimes",
+      "title": "Time",
+      "memberId": 524
+    },
+    {
+      "const": "unitEnumSet.jaDeprUnit525",
+      "title": "gal(IEIEJ)",
+      "memberId": 525
+    },
+    {
+      "const": "unitEnumSet.jaVolume",
+      "title": "klx",
+      "memberId": 526
+    },
+    {
+      "const": "unitEnumSet.jaDeprUnit527",
+      "title": "kL(IEIEJ)",
+      "memberId": 527
+    },
+    {
+      "const": "unitEnumSet.jaDustContent",
+      "title": "cf",
+      "memberId": 528
+    },
+    {
+      "const": "unitEnumSet.jaKiloAmps",
+      "title": "kA",
+      "memberId": 529
+    },
+    {
+      "const": "unitEnumSet.jaConductionRate",
+      "title": "muS/cm",
+      "memberId": 530
+    },
+    {
+      "const": "unitEnumSet.jaMegajoulesPerHour",
+      "title": "MJ/h",
+      "memberId": 531
+    },
+    {
+      "const": "unitEnumSet.jaGigajoulesPerHour",
+      "title": "GJ/h",
+      "memberId": 532
+    },
+    {
+      "const": "unitEnumSet.jaMegacalPerHour",
+      "title": "Mcal/h",
+      "memberId": 533
+    },
+    {
+      "const": "unitEnumSet.jaGigacalPerHour",
+      "title": "Gcal/h",
+      "memberId": 534
+    },
+    {
+      "const": "unitEnumSet.jaJoulesHour",
+      "title": "J/h",
+      "memberId": 535
+    },
+    {
+      "const": "unitEnumSet.jaKilocalories",
+      "title": "kcal",
+      "memberId": 536
+    },
+    {
+      "const": "unitEnumSet.jaMegacalories",
+      "title": "Mcal",
+      "memberId": 537
+    },
+    {
+      "const": "unitEnumSet.jaGigacalories",
+      "title": "Gcal",
+      "memberId": 538
+    },
+    {
+      "const": "unitEnumSet.jaDeprUnit539",
+      "title": "pH(IEIEJ)",
+      "memberId": 539
+    },
+    {
+      "const": "unitEnumSet.jaKilocaloriesPerHour",
+      "title": "kcal/h",
+      "memberId": 540
+    },
+    {
+      "const": "unitEnumSet.jaKilojoulesPerHour",
+      "title": "kJ/h",
+      "memberId": 541
+    },
+    {
+      "const": "unitEnumSet.jaReactivePower",
+      "title": "kvarh",
+      "memberId": 542
+    },
+    {
+      "const": "unitEnumSet.jaCapacityFlux",
+      "title": "Nm3/h",
+      "memberId": 543
+    },
+    {
+      "const": "unitEnumSet.jaFlux",
+      "title": "kl/h",
+      "memberId": 544
+    },
+    {
+      "const": "unitEnumSet.jaManipulatedValue",
+      "title": "%MV",
+      "memberId": 545
+    },
+    {
+      "const": "unitEnumSet.jaUnderscore",
+      "title": "_",
+      "memberId": 40000
+    },
+    {
+      "const": "unitEnumSet.jaPeriod",
+      "title": ".",
+      "memberId": 40001
+    },
+    {
+      "const": "unitEnumSet.jaComma",
+      "title": ",",
+      "memberId": 40002
+    },
+    {
+      "const": "unitEnumSet.jaHyphen",
+      "title": "-",
+      "memberId": 40003
+    },
+    {
+      "const": "unitEnumSet.jaJoulesPerDay",
+      "title": "J/Day",
+      "memberId": 40004
+    },
+    {
+      "const": "unitEnumSet.jaKwPerSqM",
+      "title": "kW/m2",
+      "memberId": 40005
+    },
+    {
+      "const": "unitEnumSet.jaDaiUnit",
+      "title": "Unit",
+      "memberId": 40006
+    },
+    {
+      "const": "unitEnumSet.jaMilligramsPerLiters",
+      "title": "mg/L",
+      "memberId": 40007
+    },
+    {
+      "const": "unitEnumSet.jaKilogramPerCentimeter",
+      "title": "kgcm",
+      "memberId": 40008
+    },
+    {
+      "const": "unitEnumSet.jaPrecipitation",
+      "title": "mm/h",
+      "memberId": 40009
+    },
+    {
+      "const": "unitEnumSet.jaNewton",
+      "title": "deg N",
+      "memberId": 40010
+    },
+    {
+      "const": "unitEnumSet.jaKwkw",
+      "title": "kW/kW",
+      "memberId": 40011
+    },
+    {
+      "const": "unitEnumSet.jaKgramsCarbondioxide",
+      "title": "kgCO2",
+      "memberId": 40012
+    },
+    {
+      "const": "unitEnumSet.jaTonsCarbondioxide",
+      "title": "tCO2",
+      "memberId": 40013
+    },
+    {
+      "const": "unitEnumSet.jaPowerFactor",
+      "title": "%PF",
+      "memberId": 40014
+    },
+    {
+      "const": "unitEnumSet.jaGramsPerCubicM",
+      "title": "g/m3",
+      "memberId": 40015
+    },
+    {
+      "const": "unitEnumSet.stdCubicFeetPerDay",
+      "title": "std cu ft/d",
+      "memberId": 47808
+    },
+    {
+      "const": "unitEnumSet.millionStdCubicFeetPerDay",
+      "title": "Mstd cu ft/d",
+      "memberId": 47809
+    },
+    {
+      "const": "unitEnumSet.thousandCubicFeetPerDay",
+      "title": "Kcu ft/d",
+      "memberId": 47810
+    },
+    {
+      "const": "unitEnumSet.thousandStdCubicFeetPerDay",
+      "title": "Kstd cu ft/d",
+      "memberId": 47811
+    },
+    {
+      "const": "unitEnumSet.poundsMassPerDay",
+      "title": "lbm/d",
+      "memberId": 47812
+    },
+    {
+      "const": "unitEnumSet.millirems",
+      "title": "mrem",
+      "memberId": 47814
+    },
+    {
+      "const": "unitEnumSet.milliremsPerHour",
+      "title": "mrem/h",
+      "memberId": 47815
+    },
+    {
+      "const": "unitEnumSet.bacnetBitsPerSecond",
+      "title": "bits per second",
+      "memberId": 47929
+    }
+  ]
+}

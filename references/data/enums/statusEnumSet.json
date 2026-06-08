@@ -1,0 +1,3748 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Status",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/statusEnumSet",
+  "setId": 516,
+  "oneOf": [
+    {
+      "const": "statusEnumSet.ok",
+      "title": "Ok",
+      "memberId": 0
+    },
+    {
+      "const": "statusEnumSet.notEnoughMemory",
+      "title": "Not enough memory",
+      "memberId": 256
+    },
+    {
+      "const": "statusEnumSet.moreDataExpected",
+      "title": "More data expected",
+      "memberId": 257
+    },
+    {
+      "const": "statusEnumSet.highLowerThanLow",
+      "title": "High lower than low",
+      "memberId": 258
+    },
+    {
+      "const": "statusEnumSet.duplicateAddress",
+      "title": "Duplicate address",
+      "memberId": 259
+    },
+    {
+      "const": "statusEnumSet.networkAddressInvalid",
+      "title": "Network address invalid",
+      "memberId": 260
+    },
+    {
+      "const": "statusEnumSet.networkAddressReadonly",
+      "title": "Network address read-only",
+      "memberId": 261
+    },
+    {
+      "const": "statusEnumSet.childAlreadyAdded",
+      "title": "Child already added",
+      "memberId": 262
+    },
+    {
+      "const": "statusEnumSet.printerError",
+      "title": "Printer Error",
+      "memberId": 263
+    },
+    {
+      "const": "statusEnumSet.missingRequiredAttr",
+      "title": "Missing required attribute",
+      "memberId": 264
+    },
+    {
+      "const": "statusEnumSet.tooFewInputsDefined",
+      "title": "Too few inputs defined",
+      "memberId": 265
+    },
+    {
+      "const": "statusEnumSet.tooManyInputsDefined",
+      "title": "Too many inputs defined",
+      "memberId": 266
+    },
+    {
+      "const": "statusEnumSet.tooManyOutputsDefined",
+      "title": "Too many outputs defined",
+      "memberId": 267
+    },
+    {
+      "const": "statusEnumSet.notDialPrinter",
+      "title": "Not a dial printer",
+      "memberId": 268
+    },
+    {
+      "const": "statusEnumSet.typeMismatch",
+      "title": "Type mismatch",
+      "memberId": 269
+    },
+    {
+      "const": "statusEnumSet.abortErrorStart",
+      "title": "Abort error",
+      "memberId": 270
+    },
+    {
+      "const": "statusEnumSet.noOutputsDefined",
+      "title": "No Outputs Defined",
+      "memberId": 271
+    },
+    {
+      "const": "statusEnumSet.illegalCharacterInName",
+      "title": "Illegal character in name",
+      "memberId": 272
+    },
+    {
+      "const": "statusEnumSet.insufficientNoOfPswdChars",
+      "title": "Password too short",
+      "memberId": 273
+    },
+    {
+      "const": "statusEnumSet.maxShedTimeTooShort",
+      "title": "Maximum Shed Time too short",
+      "memberId": 274
+    },
+    {
+      "const": "statusEnumSet.minShedTimeTooLong",
+      "title": "Minimum Shed Time too long",
+      "memberId": 275
+    },
+    {
+      "const": "statusEnumSet.shedStateTooHigh",
+      "title": "Shed State too high",
+      "memberId": 276
+    },
+    {
+      "const": "statusEnumSet.tooFewOuputStates",
+      "title": "Too Few Output States",
+      "memberId": 277
+    },
+    {
+      "const": "statusEnumSet.loadNotEligible",
+      "title": "Load Not Eligible",
+      "memberId": 278
+    },
+    {
+      "const": "statusEnumSet.childLimitExceeded",
+      "title": "Child Limit Exceeded",
+      "memberId": 279
+    },
+    {
+      "const": "statusEnumSet.invalidCopyObjectWrite",
+      "title": "Writes allowed to manager only",
+      "memberId": 280
+    },
+    {
+      "const": "statusEnumSet.authFail",
+      "title": "Device Auth Failure",
+      "memberId": 281
+    },
+    {
+      "const": "statusEnumSet.networkNumberMatchError",
+      "title": "Dup Network Number",
+      "memberId": 282
+    },
+    {
+      "const": "statusEnumSet.sensorNotSupported",
+      "title": "Sensor Not Supported",
+      "memberId": 283
+    },
+    {
+      "const": "statusEnumSet.cantWrtUnlessOutofservice",
+      "title": "Can not write unless Out of Service=TRUE",
+      "memberId": 284
+    },
+    {
+      "const": "statusEnumSet.tooManyMsgsQueued",
+      "title": "Too many messages queued",
+      "memberId": 285
+    },
+    {
+      "const": "statusEnumSet.processIdentifierAlreadyUsed",
+      "title": "Process identifier already used",
+      "memberId": 286
+    },
+    {
+      "const": "statusEnumSet.noWriteWhenUsingDipSw",
+      "title": "Cannot write when using DIP switches",
+      "memberId": 287
+    },
+    {
+      "const": "statusEnumSet.invalidHostName",
+      "title": "Invalid host-eg: x.y",
+      "memberId": 288
+    },
+    {
+      "const": "statusEnumSet.snapshotInUse",
+      "title": "Snapshot In Use",
+      "memberId": 289
+    },
+    {
+      "const": "statusEnumSet.sendDisplayCommandFirst",
+      "title": "Send Display Command First",
+      "memberId": 290
+    },
+    {
+      "const": "statusEnumSet.cannotWriteWhileActive",
+      "title": "Cannot Write While Active",
+      "memberId": 291
+    },
+    {
+      "const": "statusEnumSet.atLeastOneRecipientRequired",
+      "title": "At least one recipient required",
+      "memberId": 292
+    },
+    {
+      "const": "statusEnumSet.nestingNotAllowed",
+      "title": "Nesting not allowed",
+      "memberId": 293
+    },
+    {
+      "const": "statusEnumSet.fourBitsReq",
+      "title": "Four bits req",
+      "memberId": 294
+    },
+    {
+      "const": "statusEnumSet.valueCantBeRead",
+      "title": "Value cannot be read",
+      "memberId": 295
+    },
+    {
+      "const": "statusEnumSet.inputRefAndGroupMustBeOnSameDev",
+      "title": "Input Ref and Group must be on same DEV",
+      "memberId": 296
+    },
+    {
+      "const": "statusEnumSet.atLeastOneInputRefRequired",
+      "title": "At least one input ref required",
+      "memberId": 297
+    },
+    {
+      "const": "statusEnumSet.setpointExceedsBufferSize",
+      "title": "Setpoint exceeds size of buffer",
+      "memberId": 298
+    },
+    {
+      "const": "statusEnumSet.duplicateAddressXtDx",
+      "title": "Duplicate address with XT on a DX",
+      "memberId": 299
+    },
+    {
+      "const": "statusEnumSet.operOvrdCommandNotAllowed",
+      "title": "Operator override not allowed",
+      "memberId": 300
+    },
+    {
+      "const": "statusEnumSet.301",
+      "title": "MAC Address Readonly",
+      "memberId": 301
+    },
+    {
+      "const": "statusEnumSet.setpointCommandNotAllowed",
+      "title": "Setpoint command not allowed",
+      "memberId": 302
+    },
+    {
+      "const": "statusEnumSet.exceededSitedirDeviceLimit",
+      "title": "The device limit for the site director exceeded",
+      "memberId": 303
+    },
+    {
+      "const": "statusEnumSet.invalidChildDevice",
+      "title": "Invalid child device for the site director",
+      "memberId": 304
+    },
+    {
+      "const": "statusEnumSet.userNameExceeds32Chars",
+      "title": "User Name Exceeds 32 characters",
+      "memberId": 305
+    },
+    {
+      "const": "statusEnumSet.tooManyLoadsDefined",
+      "title": "Too many loads defined",
+      "memberId": 306
+    },
+    {
+      "const": "statusEnumSet.ratingMustBeGreaterThanZero",
+      "title": "Rating Must Be Greater Than Zero",
+      "memberId": 307
+    },
+    {
+      "const": "statusEnumSet.ratingsMustBeDescending",
+      "title": "Ratings Must Be In Descending Order",
+      "memberId": 308
+    },
+    {
+      "const": "statusEnumSet.valuesAtShedTimeMustBeInOrder",
+      "title": "Values-At-Shed-Time Must Be In Either Ascending Or Descending Order",
+      "memberId": 309
+    },
+    {
+      "const": "statusEnumSet.valueAtShedTimeCannotEqualShedCmd",
+      "title": "Load Rating Value-At-Shed-Time Must Be Either Greater Than Or Less Than The Output Shed Command",
+      "memberId": 310
+    },
+    {
+      "const": "statusEnumSet.loadIsLockedShed",
+      "title": "Load is locked Shed",
+      "memberId": 311
+    },
+    {
+      "const": "statusEnumSet.loadIsLockedReleased",
+      "title": "Load is locked Released",
+      "memberId": 312
+    },
+    {
+      "const": "statusEnumSet.unsupportedChoice",
+      "title": "Unsupported Choice",
+      "memberId": 313
+    },
+    {
+      "const": "statusEnumSet.requestedShedLevelTooLow",
+      "title": "Requested Shed Level too low",
+      "memberId": 314
+    },
+    {
+      "const": "statusEnumSet.outputShedCmdMissing",
+      "title": "An entry with a Load Rating of zero is required to indicate the Output Shed Command",
+      "memberId": 315
+    },
+    {
+      "const": "statusEnumSet.outputShedCmdRatingMustBeZero",
+      "title": "The rating for the output shed cmd entry in the Load Rating must be zero",
+      "memberId": 316
+    },
+    {
+      "const": "statusEnumSet.minShedTimeGreaterThanMaxShedTime",
+      "title": "Minimum Shed Time cannot be greater than Maximum Shed Time",
+      "memberId": 317
+    },
+    {
+      "const": "statusEnumSet.conflictingAttrValues",
+      "title": "Conflicting Attribute Values",
+      "memberId": 318
+    },
+    {
+      "const": "statusEnumSet.duplicateCommand",
+      "title": "Same command for same device and same time",
+      "memberId": 319
+    },
+    {
+      "const": "statusEnumSet.hardwareMismatchAperio",
+      "title": "Hardware mismatch, Aperio device on S300 trunk",
+      "memberId": 320
+    },
+    {
+      "const": "statusEnumSet.hardwareMismatchS300",
+      "title": "Hardware mismatch, S300 device on Aperio trunk",
+      "memberId": 321
+    },
+    {
+      "const": "statusEnumSet.noAvailableHardwareNumbers",
+      "title": "No available hardware numbers",
+      "memberId": 322
+    },
+    {
+      "const": "statusEnumSet.assignHardwareNumberFailed",
+      "title": "Assigning hardware number failed",
+      "memberId": 323
+    },
+    {
+      "const": "statusEnumSet.csDeviceMaxPctLoadInvalidRange",
+      "title": "Max Pct load invalid range",
+      "memberId": 324
+    },
+    {
+      "const": "statusEnumSet.csDeviceMinPctLoadInvalidRange",
+      "title": "Min Pct load invalid range",
+      "memberId": 325
+    },
+    {
+      "const": "statusEnumSet.csDeviceMaxPctLoadCopInvalidRange",
+      "title": "Max Pct load cop invalid range",
+      "memberId": 326
+    },
+    {
+      "const": "statusEnumSet.csDeviceMinPctLoadCopInvalidRange",
+      "title": "Min Pct load cop invalid range",
+      "memberId": 327
+    },
+    {
+      "const": "statusEnumSet.csDeviceStabilizeTimeInvalidRange",
+      "title": "Stabilize time invalid range",
+      "memberId": 328
+    },
+    {
+      "const": "statusEnumSet.tooManyStates",
+      "title": "Too many states",
+      "memberId": 329
+    },
+    {
+      "const": "statusEnumSet.treeNotFound",
+      "title": "Tree not found",
+      "memberId": 330
+    },
+    {
+      "const": "statusEnumSet.replyFailed",
+      "title": "Reply failed",
+      "memberId": 400
+    },
+    {
+      "const": "statusEnumSet.readNotHandled",
+      "title": "Read not handled",
+      "memberId": 401
+    },
+    {
+      "const": "statusEnumSet.writeNotHandled",
+      "title": "Write not handled",
+      "memberId": 402
+    },
+    {
+      "const": "statusEnumSet.referenceNotResolved",
+      "title": "Reference Not Resolved",
+      "memberId": 403
+    },
+    {
+      "const": "statusEnumSet.classNotExists",
+      "title": "Class does not exist",
+      "memberId": 404
+    },
+    {
+      "const": "statusEnumSet.oidInvalid",
+      "title": "Invalid Object Identifier",
+      "memberId": 405
+    },
+    {
+      "const": "statusEnumSet.taskNotRegistered",
+      "title": "Task not registered",
+      "memberId": 406
+    },
+    {
+      "const": "statusEnumSet.invalidMessage",
+      "title": "Invalid message",
+      "memberId": 407
+    },
+    {
+      "const": "statusEnumSet.downloadTimerExpired",
+      "title": "Load timer expired",
+      "memberId": 408
+    },
+    {
+      "const": "statusEnumSet.invalidObjectId",
+      "title": "Invalid Object ID",
+      "memberId": 409
+    },
+    {
+      "const": "statusEnumSet.methodNotFound",
+      "title": "Method not found",
+      "memberId": 410
+    },
+    {
+      "const": "statusEnumSet.invalidClassId",
+      "title": "Invalid Class Identifier",
+      "memberId": 411
+    },
+    {
+      "const": "statusEnumSet.noMatch",
+      "title": "No match",
+      "memberId": 412
+    },
+    {
+      "const": "statusEnumSet.wrongSubclassId",
+      "title": "Wrong Subclass ID",
+      "memberId": 413
+    },
+    {
+      "const": "statusEnumSet.wrongSection",
+      "title": "Wrong section",
+      "memberId": 414
+    },
+    {
+      "const": "statusEnumSet.wrongSegment",
+      "title": "Wrong segment",
+      "memberId": 415
+    },
+    {
+      "const": "statusEnumSet.invalidSectionTag",
+      "title": "Invalid section tag",
+      "memberId": 416
+    },
+    {
+      "const": "statusEnumSet.subclassAddInProgress",
+      "title": "Subclass add in progress",
+      "memberId": 417
+    },
+    {
+      "const": "statusEnumSet.classExists",
+      "title": "Class exists",
+      "memberId": 418
+    },
+    {
+      "const": "statusEnumSet.invalidAttrNo",
+      "title": "Invalid Attribute number",
+      "memberId": 419
+    },
+    {
+      "const": "statusEnumSet.memoryError",
+      "title": "Memory error",
+      "memberId": 420
+    },
+    {
+      "const": "statusEnumSet.msgEncodeError",
+      "title": "Message encode error",
+      "memberId": 421
+    },
+    {
+      "const": "statusEnumSet.msgDecodeError",
+      "title": "Message decode error",
+      "memberId": 422
+    },
+    {
+      "const": "statusEnumSet.dataIsOffbox",
+      "title": "Object does not exist",
+      "memberId": 423
+    },
+    {
+      "const": "statusEnumSet.invalidRangecheckSize",
+      "title": "Invalid Range Check size",
+      "memberId": 424
+    },
+    {
+      "const": "statusEnumSet.viewNotFound",
+      "title": "View not found",
+      "memberId": 425
+    },
+    {
+      "const": "statusEnumSet.dbNotExist",
+      "title": "Database does not exist",
+      "memberId": 426
+    },
+    {
+      "const": "statusEnumSet.initError",
+      "title": "Initialization error",
+      "memberId": 427
+    },
+    {
+      "const": "statusEnumSet.invalidPriority",
+      "title": "Invalid object priority",
+      "memberId": 428
+    },
+    {
+      "const": "statusEnumSet.attributeNotFound",
+      "title": "Invalid Attribute number for this object",
+      "memberId": 429
+    },
+    {
+      "const": "statusEnumSet.commandNotFound",
+      "title": "Command is not supported on this object",
+      "memberId": 430
+    },
+    {
+      "const": "statusEnumSet.objectNotBound",
+      "title": "Remote object not yet found",
+      "memberId": 431
+    },
+    {
+      "const": "statusEnumSet.deviceOffline",
+      "title": "Remote Device is offline",
+      "memberId": 432
+    },
+    {
+      "const": "statusEnumSet.childNotFound",
+      "title": "Child not found",
+      "memberId": 434
+    },
+    {
+      "const": "statusEnumSet.objectDeleted",
+      "title": "Object has been deleted",
+      "memberId": 435
+    },
+    {
+      "const": "statusEnumSet.childNotDeleted",
+      "title": "Child has not been deleted",
+      "memberId": 436
+    },
+    {
+      "const": "statusEnumSet.replaceWithSurrogate",
+      "title": "Replace with surrogate",
+      "memberId": 437
+    },
+    {
+      "const": "statusEnumSet.deviceReset",
+      "title": "Device reset",
+      "memberId": 438
+    },
+    {
+      "const": "statusEnumSet.loadInProgress",
+      "title": "Load in progress",
+      "memberId": 439
+    },
+    {
+      "const": "statusEnumSet.loadNotInProgress",
+      "title": "Load not in progress",
+      "memberId": 440
+    },
+    {
+      "const": "statusEnumSet.sendFailed",
+      "title": "Send failed",
+      "memberId": 441
+    },
+    {
+      "const": "statusEnumSet.invalidLoadDataType",
+      "title": "Invalid load data type",
+      "memberId": 442
+    },
+    {
+      "const": "statusEnumSet.invalidLoadType",
+      "title": "Invalid load type",
+      "memberId": 443
+    },
+    {
+      "const": "statusEnumSet.loadCompleted",
+      "title": "Load completed",
+      "memberId": 444
+    },
+    {
+      "const": "statusEnumSet.debuggingWithInputsLocked",
+      "title": "Debugging with inputs locked",
+      "memberId": 445
+    },
+    {
+      "const": "statusEnumSet.objectDisabled",
+      "title": "Object disabled",
+      "memberId": 446
+    },
+    {
+      "const": "statusEnumSet.invalidTimeOfZero",
+      "title": "Invalid Time of zero",
+      "memberId": 447
+    },
+    {
+      "const": "statusEnumSet.notRefreshAttribute",
+      "title": "Not Refresh attribute",
+      "memberId": 448
+    },
+    {
+      "const": "statusEnumSet.objectBusyExecuting",
+      "title": "Object busy executing",
+      "memberId": 449
+    },
+    {
+      "const": "statusEnumSet.objectSingleStepping",
+      "title": "Object single stepping",
+      "memberId": 450
+    },
+    {
+      "const": "statusEnumSet.objectNotInDebugMode",
+      "title": "Object not in single step mode",
+      "memberId": 451
+    },
+    {
+      "const": "statusEnumSet.objectRelinquished",
+      "title": "Object relinquished",
+      "memberId": 452
+    },
+    {
+      "const": "statusEnumSet.prematureTermination",
+      "title": "Premature termination",
+      "memberId": 453
+    },
+    {
+      "const": "statusEnumSet.executeSuspend",
+      "title": "Execution suspended",
+      "memberId": 454
+    },
+    {
+      "const": "statusEnumSet.queuePurged",
+      "title": "Queue purged",
+      "memberId": 455
+    },
+    {
+      "const": "statusEnumSet.invalidSliceReason",
+      "title": "Invalid slice reason",
+      "memberId": 456
+    },
+    {
+      "const": "statusEnumSet.notACopyHolderDevice",
+      "title": "Not a copy holder device",
+      "memberId": 457
+    },
+    {
+      "const": "statusEnumSet.objectNotRelinquished",
+      "title": "Object Not Relinquished",
+      "memberId": 458
+    },
+    {
+      "const": "statusEnumSet.inconsistentLimits",
+      "title": "Inconsistent limits",
+      "memberId": 459
+    },
+    {
+      "const": "statusEnumSet.noPcode",
+      "title": "No Pcode",
+      "memberId": 460
+    },
+    {
+      "const": "statusEnumSet.invalidVersion",
+      "title": "Invalid version",
+      "memberId": 461
+    },
+    {
+      "const": "statusEnumSet.loadNotDeleted",
+      "title": "Load not deleted",
+      "memberId": 462
+    },
+    {
+      "const": "statusEnumSet.invalidLoadKey",
+      "title": "Invalid load key",
+      "memberId": 463
+    },
+    {
+      "const": "statusEnumSet.errorInitializingClass",
+      "title": "Error Initializing Class",
+      "memberId": 464
+    },
+    {
+      "const": "statusEnumSet.errorOpeningClassinfoErrorlog",
+      "title": "Failed to open ClassInfo errorlog",
+      "memberId": 465
+    },
+    {
+      "const": "statusEnumSet.loadCompletedWithoutError",
+      "title": "Load completed without error",
+      "memberId": 466
+    },
+    {
+      "const": "statusEnumSet.timeServerExistsError",
+      "title": "Time Server Exists",
+      "memberId": 467
+    },
+    {
+      "const": "statusEnumSet.flashWriteError",
+      "title": "Error writing Flash memory",
+      "memberId": 468
+    },
+    {
+      "const": "statusEnumSet.codeDataError",
+      "title": "Download code data incorrect",
+      "memberId": 469
+    },
+    {
+      "const": "statusEnumSet.dictionaryTooLarge",
+      "title": "Dictionary too large. Upgrade Main Code.",
+      "memberId": 470
+    },
+    {
+      "const": "statusEnumSet.currentlyExecutingBootCode",
+      "title": "Currently executing boot code",
+      "memberId": 471
+    },
+    {
+      "const": "statusEnumSet.mustDnldBootCodeFirst",
+      "title": "Must download Boot code first",
+      "memberId": 472
+    },
+    {
+      "const": "statusEnumSet.mustDnldMainCodeFirst",
+      "title": "Must download Main code first",
+      "memberId": 473
+    },
+    {
+      "const": "statusEnumSet.invalidDate",
+      "title": "Invalid Date",
+      "memberId": 474
+    },
+    {
+      "const": "statusEnumSet.mustDownloadCodeFirst",
+      "title": "Must download Code first",
+      "memberId": 475
+    },
+    {
+      "const": "statusEnumSet.busyBinding",
+      "title": "Busy binding",
+      "memberId": 476
+    },
+    {
+      "const": "statusEnumSet.noInstanceArchive",
+      "title": "No instance archive",
+      "memberId": 477
+    },
+    {
+      "const": "statusEnumSet.onlyZeroAllowedError",
+      "title": "Only Zero Allowed",
+      "memberId": 478
+    },
+    {
+      "const": "statusEnumSet.invalidCommandType",
+      "title": "Invalid Command type",
+      "memberId": 479
+    },
+    {
+      "const": "statusEnumSet.ramPoolSizesTooLarge",
+      "title": "RAM pool size too large",
+      "memberId": 480
+    },
+    {
+      "const": "statusEnumSet.onlyOverrideSupported",
+      "title": "Point is under Local Control",
+      "memberId": 481
+    },
+    {
+      "const": "statusEnumSet.attrNotWriteable",
+      "title": "Attribute not writable",
+      "memberId": 482
+    },
+    {
+      "const": "statusEnumSet.doesNotMatchLoginId",
+      "title": "Object Name does not match Login ID",
+      "memberId": 483
+    },
+    {
+      "const": "statusEnumSet.invalidCreateCopySetting",
+      "title": "Invalid create copy setting",
+      "memberId": 484
+    },
+    {
+      "const": "statusEnumSet.improperObjCategory",
+      "title": "Improper Object Category",
+      "memberId": 485
+    },
+    {
+      "const": "statusEnumSet.objectMustBeMoved",
+      "title": "Object must be moved",
+      "memberId": 486
+    },
+    {
+      "const": "statusEnumSet.tooManyAttributesRead",
+      "title": "Too many attributes read",
+      "memberId": 487
+    },
+    {
+      "const": "statusEnumSet.invalidDatabase",
+      "title": "Invalid database",
+      "memberId": 488
+    },
+    {
+      "const": "statusEnumSet.cmdReplyDecodeFailed",
+      "title": "Command reply decode failed",
+      "memberId": 489
+    },
+    {
+      "const": "statusEnumSet.notSupportedInBootCode",
+      "title": "Not supported in Boot code",
+      "memberId": 490
+    },
+    {
+      "const": "statusEnumSet.wrongParameterCount",
+      "title": "Wrong parameter count",
+      "memberId": 491
+    },
+    {
+      "const": "statusEnumSet.rejectErrorStart",
+      "title": "Reject error start",
+      "memberId": 492
+    },
+    {
+      "const": "statusEnumSet.uaGoToCopyholder",
+      "title": "User Access: Go to copy holder",
+      "memberId": 493
+    },
+    {
+      "const": "statusEnumSet.uaNoCopyHolderAvailable",
+      "title": "User Access: No copy holder available",
+      "memberId": 494
+    },
+    {
+      "const": "statusEnumSet.uaInvalidPassword",
+      "title": "User Access: Invalid password",
+      "memberId": 495
+    },
+    {
+      "const": "statusEnumSet.uaPass",
+      "title": "User Access: Pass",
+      "memberId": 496
+    },
+    {
+      "const": "statusEnumSet.uaFail",
+      "title": "User Access: Fail",
+      "memberId": 497
+    },
+    {
+      "const": "statusEnumSet.uaCorruptedOperatorData",
+      "title": "User Access: Corrupted operator data",
+      "memberId": 498
+    },
+    {
+      "const": "statusEnumSet.uaAccessDisabled",
+      "title": "User Access: Access disabled",
+      "memberId": 499
+    },
+    {
+      "const": "statusEnumSet.passthruOpenFailed",
+      "title": "Pass through open failed",
+      "memberId": 500
+    },
+    {
+      "const": "statusEnumSet.flashChanged",
+      "title": "Flash changed",
+      "memberId": 501
+    },
+    {
+      "const": "statusEnumSet.flashNotChanged",
+      "title": "Flash not changed",
+      "memberId": 502
+    },
+    {
+      "const": "statusEnumSet.vctAreaFull",
+      "title": "VCT Area Full",
+      "memberId": 503
+    },
+    {
+      "const": "statusEnumSet.tableExists",
+      "title": "Table Exists",
+      "memberId": 504
+    },
+    {
+      "const": "statusEnumSet.xmlToMoiConversionFailed",
+      "title": "Xml to Moi conversion failed",
+      "memberId": 505
+    },
+    {
+      "const": "statusEnumSet.moiToXmlConversionFailed",
+      "title": "Moi to Xml conversion failed",
+      "memberId": 506
+    },
+    {
+      "const": "statusEnumSet.noClosearchiveInEditMode",
+      "title": "Cannot close archive while any panel is in edit mode.",
+      "memberId": 507
+    },
+    {
+      "const": "statusEnumSet.configToolNotInstalled",
+      "title": "The Configuration Tool is needed but not installed.",
+      "memberId": 508
+    },
+    {
+      "const": "statusEnumSet.applicationNotFound",
+      "title": "Application not found.",
+      "memberId": 509
+    },
+    {
+      "const": "statusEnumSet.discoveryNotComplete",
+      "title": "Discovery not complete",
+      "memberId": 510
+    },
+    {
+      "const": "statusEnumSet.passthruAlreadyLaunched",
+      "title": "Passthru is already launched.",
+      "memberId": 511
+    },
+    {
+      "const": "statusEnumSet.commandAbortedByOperator",
+      "title": "Command aborted by operator",
+      "memberId": 512
+    },
+    {
+      "const": "statusEnumSet.deviceResetDidNotOccur",
+      "title": "Device reset did not occur",
+      "memberId": 513
+    },
+    {
+      "const": "statusEnumSet.communicationLostAfterReset",
+      "title": "Communication lost after reset",
+      "memberId": 514
+    },
+    {
+      "const": "statusEnumSet.adsDatabaseError",
+      "title": "ADS database error",
+      "memberId": 515
+    },
+    {
+      "const": "statusEnumSet.fileNotFound",
+      "title": "File Not Found",
+      "memberId": 516
+    },
+    {
+      "const": "statusEnumSet.errorCommunicatingWithDevice",
+      "title": "Error Communicating With Device",
+      "memberId": 517
+    },
+    {
+      "const": "statusEnumSet.dataProcessingError",
+      "title": "Data Processing Error",
+      "memberId": 518
+    },
+    {
+      "const": "statusEnumSet.parentDoesNotExist",
+      "title": "Parent does not exist",
+      "memberId": 519
+    },
+    {
+      "const": "statusEnumSet.readWriteError",
+      "title": "Read/Write Error",
+      "memberId": 520
+    },
+    {
+      "const": "statusEnumSet.communicationError",
+      "title": "Communication Error",
+      "memberId": 521
+    },
+    {
+      "const": "statusEnumSet.unableToLogIn",
+      "title": "Unable to log in",
+      "memberId": 522
+    },
+    {
+      "const": "statusEnumSet.remoteSimulationError",
+      "title": "Not permitted to simulate a device from a remote location",
+      "memberId": 523
+    },
+    {
+      "const": "statusEnumSet.fileTransferError",
+      "title": "File transfer error",
+      "memberId": 524
+    },
+    {
+      "const": "statusEnumSet.loadCompletionError",
+      "title": "Load completion error",
+      "memberId": 525
+    },
+    {
+      "const": "statusEnumSet.deviceStatusNotOperational",
+      "title": "Device status is not operational",
+      "memberId": 526
+    },
+    {
+      "const": "statusEnumSet.synchronizeNotAllowed",
+      "title": "Synchronize not allowed",
+      "memberId": 527
+    },
+    {
+      "const": "statusEnumSet.siteNameMismatch",
+      "title": "Site name mismatch",
+      "memberId": 528
+    },
+    {
+      "const": "statusEnumSet.deleteInProgress",
+      "title": "Delete in progress",
+      "memberId": 529
+    },
+    {
+      "const": "statusEnumSet.disableInProgress",
+      "title": "Disable in progress",
+      "memberId": 530
+    },
+    {
+      "const": "statusEnumSet.serverReset",
+      "title": "Server reset",
+      "memberId": 531
+    },
+    {
+      "const": "statusEnumSet.operationCompletionError",
+      "title": "Operation completion error",
+      "memberId": 532
+    },
+    {
+      "const": "statusEnumSet.accessDeniedInsufficientPrivileges",
+      "title": "Access denied due to insufficient privileges",
+      "memberId": 533
+    },
+    {
+      "const": "statusEnumSet.securityBackupFailed",
+      "title": "Security backup failed.",
+      "memberId": 534
+    },
+    {
+      "const": "statusEnumSet.securityRestoreFailed",
+      "title": "Security restore failed.",
+      "memberId": 535
+    },
+    {
+      "const": "statusEnumSet.loadAuthorizationFailed",
+      "title": "Load Authorization Failed",
+      "memberId": 536
+    },
+    {
+      "const": "statusEnumSet.macAddressReadonly",
+      "title": "MAC Address Read Only",
+      "memberId": 537
+    },
+    {
+      "const": "statusEnumSet.pvObtainedFromRef",
+      "title": "Present Value obtained from Reference",
+      "memberId": 538
+    },
+    {
+      "const": "statusEnumSet.referenceNotAllowed",
+      "title": "Reference not allowed",
+      "memberId": 539
+    },
+    {
+      "const": "statusEnumSet.waitingForInitVal",
+      "title": "Waiting for Initial Value",
+      "memberId": 540
+    },
+    {
+      "const": "statusEnumSet.onlyExposeCsIo",
+      "title": "Only Control System I/O may be exposed",
+      "memberId": 541
+    },
+    {
+      "const": "statusEnumSet.insufficientStorageSpace",
+      "title": "Insufficient storage space",
+      "memberId": 542
+    },
+    {
+      "const": "statusEnumSet.deviceArchiveFailed",
+      "title": "Device archive failed",
+      "memberId": 543
+    },
+    {
+      "const": "statusEnumSet.securityBackupInvldObj",
+      "title": "Security backup failed due to invalid object reference",
+      "memberId": 544
+    },
+    {
+      "const": "statusEnumSet.invalidSessionId",
+      "title": "Invalid Session ID",
+      "memberId": 545
+    },
+    {
+      "const": "statusEnumSet.sessionAlreadyStarted",
+      "title": "Another session has already been started",
+      "memberId": 546
+    },
+    {
+      "const": "statusEnumSet.sessionNotSupported",
+      "title": "Session not supported by Control Activities",
+      "memberId": 547
+    },
+    {
+      "const": "statusEnumSet.usingDefaultValue",
+      "title": "Using Default Value",
+      "memberId": 548
+    },
+    {
+      "const": "statusEnumSet.databaseNotOpen",
+      "title": "Database Not Open",
+      "memberId": 549
+    },
+    {
+      "const": "statusEnumSet.databaseLocked",
+      "title": "Database Locked",
+      "memberId": 550
+    },
+    {
+      "const": "statusEnumSet.statusNormal",
+      "title": "Normal",
+      "memberId": 551
+    },
+    {
+      "const": "statusEnumSet.inactive",
+      "title": "Inactive",
+      "memberId": 552
+    },
+    {
+      "const": "statusEnumSet.boxFlowTestInProgress",
+      "title": "Test in Progress",
+      "memberId": 553
+    },
+    {
+      "const": "statusEnumSet.boxFlowTestPrimitiveDisabled",
+      "title": "Box Flow Test is Disabled",
+      "memberId": 554
+    },
+    {
+      "const": "statusEnumSet.boxFlowTestNotInProgress",
+      "title": "No Test in Progress",
+      "memberId": 555
+    },
+    {
+      "const": "statusEnumSet.pssToXmlConversionFailed",
+      "title": "PSS to XML Conversion Failed",
+      "memberId": 556
+    },
+    {
+      "const": "statusEnumSet.missingObjectName",
+      "title": "Missing Object Name",
+      "memberId": 557
+    },
+    {
+      "const": "statusEnumSet.duplicateSchedule",
+      "title": "The action resulted in a duplicate schedule. The duplicate was removed from the scheduled queue.",
+      "memberId": 558
+    },
+    {
+      "const": "statusEnumSet.scheduleExpired",
+      "title": "The schedule has expired and was removed from the scheduled queue.",
+      "memberId": 559
+    },
+    {
+      "const": "statusEnumSet.autoCalibrationSequenceInProgress",
+      "title": "Autocalibration Sequence in Progress",
+      "memberId": 560
+    },
+    {
+      "const": "statusEnumSet.flowNotReliable",
+      "title": "Flow is not Reliable",
+      "memberId": 561
+    },
+    {
+      "const": "statusEnumSet.noBalancerOverride",
+      "title": "No Balancer Override",
+      "memberId": 562
+    },
+    {
+      "const": "statusEnumSet.writeMultipleNotSupported",
+      "title": "Write multiple not supported.",
+      "memberId": 563
+    },
+    {
+      "const": "statusEnumSet.objCountExceeded",
+      "title": "Object count exceeded for controller, download not permitted",
+      "memberId": 564
+    },
+    {
+      "const": "statusEnumSet.passthruSuperOffline",
+      "title": "Supervisory Device Is Offline",
+      "memberId": 565
+    },
+    {
+      "const": "statusEnumSet.passthruPswdFailure",
+      "title": "Invalid Password or Passthru Session Has Timed Out. Try Restarting Session.",
+      "memberId": 566
+    },
+    {
+      "const": "statusEnumSet.passthruLoadFail",
+      "title": "Could Not Load Passthru Security Credentials. Try Restarting Session.",
+      "memberId": 567
+    },
+    {
+      "const": "statusEnumSet.passthruOperationalProblem",
+      "title": "Error Executing Passthru Request. Check System Error Log For Details.",
+      "memberId": 568
+    },
+    {
+      "const": "statusEnumSet.discoveryAlreadyInProgerss",
+      "title": "Discovery already in progress",
+      "memberId": 569
+    },
+    {
+      "const": "statusEnumSet.languageNotDefined",
+      "title": "Language Not Defined",
+      "memberId": 570
+    },
+    {
+      "const": "statusEnumSet.serverNeedsReset",
+      "title": "Server requires a manual reset.",
+      "memberId": 571
+    },
+    {
+      "const": "statusEnumSet.serverNeedsResetBeforeFurtherAction",
+      "title": "Server requires a manual reset before any further loads can occur.",
+      "memberId": 572
+    },
+    {
+      "const": "statusEnumSet.loadRefsTooLargeForArchive",
+      "title": "The Load references exceed the maximum size.  Either reduce the number of Loads or use shorter references.",
+      "memberId": 573
+    },
+    {
+      "const": "statusEnumSet.duplicateTargetDescriptionFound",
+      "title": "Duplicate target description found in Targets attribute",
+      "memberId": 574
+    },
+    {
+      "const": "statusEnumSet.activeTargetCannotBeZero",
+      "title": "The value of the active demand limit target must be greater than zero",
+      "memberId": 575
+    },
+    {
+      "const": "statusEnumSet.activeTargetChoiceNotFoundInTargetAttrib",
+      "title": "A match to the Active Target was not found in Target attr",
+      "memberId": 576
+    },
+    {
+      "const": "statusEnumSet.sqlServerBusy",
+      "title": "SQL Server Busy",
+      "memberId": 577
+    },
+    {
+      "const": "statusEnumSet.noNormalStateInAlmVals",
+      "title": "Alarm Values cannot contain the Normal State",
+      "memberId": 578
+    },
+    {
+      "const": "statusEnumSet.illegalLengthForPhoneNumber",
+      "title": "An illegal length has been entered for the phone number",
+      "memberId": 579
+    },
+    {
+      "const": "statusEnumSet.illegalCharacterInPhoneNumber",
+      "title": "An illegal character is being used in the phone number",
+      "memberId": 580
+    },
+    {
+      "const": "statusEnumSet.sqlVersionMismatchError",
+      "title": "SQL Version Mismatch",
+      "memberId": 581
+    },
+    {
+      "const": "statusEnumSet.resetInitParamsInShedModeError",
+      "title": "To reset initialization parameters while in Shed mode, set Allow Reset in Shed Mode attribute to True in Advanced Focus View",
+      "memberId": 582
+    },
+    {
+      "const": "statusEnumSet.referenceExceededMaxCharLimit",
+      "title": "Reference name exceeded the maximum character limit.",
+      "memberId": 583
+    },
+    {
+      "const": "statusEnumSet.occupancyMinMaxInvalid",
+      "title": "Minimum Occupancy value greater than Maximum Occupancy",
+      "memberId": 584
+    },
+    {
+      "const": "statusEnumSet.timePeriodDoubleKnockInvalid",
+      "title": "Time Period cannot be blank when Operation Mode is Double Knock",
+      "memberId": 585
+    },
+    {
+      "const": "statusEnumSet.adGetUsersFailed",
+      "title": "Error in retrieving Active Directory users",
+      "memberId": 586
+    },
+    {
+      "const": "statusEnumSet.intrinsicAlmNotDefd",
+      "title": "Intrinsic Alarming Not Defined",
+      "memberId": 587
+    },
+    {
+      "const": "statusEnumSet.intrinsicAlmDisabled",
+      "title": "Intrinsic Alarming has been Disabled",
+      "memberId": 588
+    },
+    {
+      "const": "statusEnumSet.principalStoreNotStarted",
+      "title": "Principal Store did not start",
+      "memberId": 589
+    },
+    {
+      "const": "statusEnumSet.adSaveServiceAccountsFailed",
+      "title": "Error in saving Active Directory Domain Service Accounts information",
+      "memberId": 590
+    },
+    {
+      "const": "statusEnumSet.adGetServiceAccountsFailed",
+      "title": "Error in getting Active Directory Domain Service Accounts information.",
+      "memberId": 591
+    },
+    {
+      "const": "statusEnumSet.adDeleteUsersFailed",
+      "title": "Error in deleting Active Directory user information.",
+      "memberId": 592
+    },
+    {
+      "const": "statusEnumSet.adGetMembersInMseaRoleFailed",
+      "title": "Failed to retrieve Active Directory members of Metasys Group",
+      "memberId": 593
+    },
+    {
+      "const": "statusEnumSet.adSaveMembersInMseaRoleFailed",
+      "title": "Failed to add Active Directory members to Metasys Group",
+      "memberId": 594
+    },
+    {
+      "const": "statusEnumSet.adGetMembersInUserViewFailed",
+      "title": "Failed to retrieve Active Directory members assigned to User View",
+      "memberId": 595
+    },
+    {
+      "const": "statusEnumSet.adSaveMembersInUserViewFailed",
+      "title": "Failed to assign Active Directory members to User View",
+      "memberId": 596
+    },
+    {
+      "const": "statusEnumSet.adGetUsersDetailFailed",
+      "title": "Error in getting Active Directory user detail information",
+      "memberId": 597
+    },
+    {
+      "const": "statusEnumSet.adSaveUsersDetailFailed",
+      "title": "Error in saving Active Directory user details",
+      "memberId": 598
+    },
+    {
+      "const": "statusEnumSet.adGetConfigurationFailed",
+      "title": "Error in getting Active Directory Configuration",
+      "memberId": 599
+    },
+    {
+      "const": "statusEnumSet.adSaveConfigurationFailed",
+      "title": "Error in saving Active Directory Configuration",
+      "memberId": 600
+    },
+    {
+      "const": "statusEnumSet.adLoginUserFailed",
+      "title": "Error in Authorizing Active Directory user",
+      "memberId": 601
+    },
+    {
+      "const": "statusEnumSet.adLoginCredentialsError",
+      "title": "Active Directory Credentials Error",
+      "memberId": 602
+    },
+    {
+      "const": "statusEnumSet.adLoginMseaUserNotFound",
+      "title": "Active Directory MSEA user Not Found",
+      "memberId": 603
+    },
+    {
+      "const": "statusEnumSet.adLoginUserNotFound",
+      "title": "Active Directory User Not Found",
+      "memberId": 604
+    },
+    {
+      "const": "statusEnumSet.adLogoutFailed",
+      "title": "Active Directory Logout Failed",
+      "memberId": 605
+    },
+    {
+      "const": "statusEnumSet.adAuthenticateUserFailed",
+      "title": "Error in Authenticating Active Directory user",
+      "memberId": 606
+    },
+    {
+      "const": "statusEnumSet.notcMustBeOnSameDev",
+      "title": "The Notification Class must be on the same device",
+      "memberId": 607
+    },
+    {
+      "const": "statusEnumSet.elecSignatureAuthFailed",
+      "title": "Electronic Signature Authentication Failed",
+      "memberId": 608
+    },
+    {
+      "const": "statusEnumSet.adAuthorizeUserError",
+      "title": "Authorize Active Directory User Error",
+      "memberId": 609
+    },
+    {
+      "const": "statusEnumSet.adUserPasswordExpired",
+      "title": "Active Directory User Password Expired",
+      "memberId": 610
+    },
+    {
+      "const": "statusEnumSet.adLoginSsoUserFailed",
+      "title": "Active Directory Single Sign On Failed",
+      "memberId": 611
+    },
+    {
+      "const": "statusEnumSet.adGetConfigFailed",
+      "title": "Get Active Directory Configuration Failed",
+      "memberId": 612
+    },
+    {
+      "const": "statusEnumSet.adSynchronizeUserFailed",
+      "title": "Synchronize Active Directory User Failed",
+      "memberId": 613
+    },
+    {
+      "const": "statusEnumSet.adDeleteServiceAccountsFailed",
+      "title": "Delete Active Directory Service Accounts Failed",
+      "memberId": 614
+    },
+    {
+      "const": "statusEnumSet.adGetDomainsFailed",
+      "title": "Get Active Directory Domains Failed",
+      "memberId": 615
+    },
+    {
+      "const": "statusEnumSet.okRestoreNonAdDevice",
+      "title": "OK - Restore to non Active Directory Device",
+      "memberId": 616
+    },
+    {
+      "const": "statusEnumSet.okRestoreAdNonSitedirectorDevice",
+      "title": "OK - Restore to non Site Director Device",
+      "memberId": 617
+    },
+    {
+      "const": "statusEnumSet.adsDatabaseTimeoutError",
+      "title": "Database Timeout Error",
+      "memberId": 618
+    },
+    {
+      "const": "statusEnumSet.maxTrendBufferSizeTotalExceeded",
+      "title": "The NAE8500/NIE8500 total trend buffer size count exceeds the maximum 8 million allowed",
+      "memberId": 619
+    },
+    {
+      "const": "statusEnumSet.actionAlreadyCompleted",
+      "title": "Could not delete the selected action because it has already completed.",
+      "memberId": 620
+    },
+    {
+      "const": "statusEnumSet.n2NotSupported",
+      "title": "N2 field controllers are not supported",
+      "memberId": 621
+    },
+    {
+      "const": "statusEnumSet.fxNotSupported",
+      "title": "FX field controllers are not supported",
+      "memberId": 622
+    },
+    {
+      "const": "statusEnumSet.certificateFailedUpload",
+      "title": "Certificate upload failed.",
+      "memberId": 623
+    },
+    {
+      "const": "statusEnumSet.certificateFailedDownload",
+      "title": "Certificate download failed",
+      "memberId": 624
+    },
+    {
+      "const": "statusEnumSet.delayedSwitchoverNotSupported",
+      "title": "Apply Files Later is not supported",
+      "memberId": 625
+    },
+    {
+      "const": "statusEnumSet.disableLogicNotSupported",
+      "title": "Enable-Disable Logic is not supported",
+      "memberId": 626
+    },
+    {
+      "const": "statusEnumSet.deviceNeedsReset",
+      "title": "Device requires a manual reset",
+      "memberId": 627
+    },
+    {
+      "const": "statusEnumSet.packetCaptureInProgress",
+      "title": "Packet capture already in progress",
+      "memberId": 628
+    },
+    {
+      "const": "statusEnumSet.archiveNameAlreadyExists",
+      "title": "Archive Name already exists",
+      "memberId": 1001
+    },
+    {
+      "const": "statusEnumSet.missingArchiveName",
+      "title": "Missing Archive Name",
+      "memberId": 1002
+    },
+    {
+      "const": "statusEnumSet.archiveNameDoesNotExist",
+      "title": "Archive Name does not exist.",
+      "memberId": 1003
+    },
+    {
+      "const": "statusEnumSet.missingDatabaseDictionary",
+      "title": "Missing Database Directory",
+      "memberId": 1004
+    },
+    {
+      "const": "statusEnumSet.cannotCreateObject",
+      "title": "Cannot create object",
+      "memberId": 1005
+    },
+    {
+      "const": "statusEnumSet.referenceNameMissing",
+      "title": "Reference name is missing",
+      "memberId": 1006
+    },
+    {
+      "const": "statusEnumSet.cannotMakeDatabaseConnection",
+      "title": "Cannot make database connection",
+      "memberId": 1007
+    },
+    {
+      "const": "statusEnumSet.connectionStringMissing",
+      "title": "Connection string is missing",
+      "memberId": 1008
+    },
+    {
+      "const": "statusEnumSet.deviceLocked",
+      "title": "The device is locked due to a pending archive load.",
+      "memberId": 1009
+    },
+    {
+      "const": "statusEnumSet.cannotDeleteObject",
+      "title": "Cannot delete object",
+      "memberId": 1010
+    },
+    {
+      "const": "statusEnumSet.generalDatabaseError",
+      "title": "General Database error.",
+      "memberId": 1020
+    },
+    {
+      "const": "statusEnumSet.unableToUnlockDeviceInDatabase",
+      "title": "Unable to unlock device in database",
+      "memberId": 1021
+    },
+    {
+      "const": "statusEnumSet.noAvailableTrunk",
+      "title": "No Available Trunk",
+      "memberId": 1022
+    },
+    {
+      "const": "statusEnumSet.exceptionDetected",
+      "title": "Exception Detected",
+      "memberId": 1023
+    },
+    {
+      "const": "statusEnumSet.databaseMergeError",
+      "title": "Database merge error",
+      "memberId": 1024
+    },
+    {
+      "const": "statusEnumSet.versionMismatchError",
+      "title": "Version Mismatch",
+      "memberId": 1025
+    },
+    {
+      "const": "statusEnumSet.deviceTypeMismatchError",
+      "title": "Device Type Mismatch",
+      "memberId": 1026
+    },
+    {
+      "const": "statusEnumSet.uploadDirNotExists",
+      "title": "Upload Directory does not exist",
+      "memberId": 1027
+    },
+    {
+      "const": "statusEnumSet.deviceNameCaseSensitivityMismatch",
+      "title": "Cannot communicate due to device name case sensitivity mismatch",
+      "memberId": 1028
+    },
+    {
+      "const": "statusEnumSet.onlineHardwareDeviceIs",
+      "title": "Online hardware device is",
+      "memberId": 1029
+    },
+    {
+      "const": "statusEnumSet.definedInSctAs",
+      "title": "But defined in SCT as",
+      "memberId": 1030
+    },
+    {
+      "const": "statusEnumSet.writeFileMaxSizeExceeded",
+      "title": "Wrote File Max Size Exceeded",
+      "memberId": 1031
+    },
+    {
+      "const": "statusEnumSet.certStringNotValid",
+      "title": "Cannot read the certificate. The certificate may not be base64 encoded.",
+      "memberId": 1032
+    },
+    {
+      "const": "statusEnumSet.certPrivateKeyNotValid",
+      "title": "Failed to decrypt the private key from sender.",
+      "memberId": 1033
+    },
+    {
+      "const": "statusEnumSet.certParserError",
+      "title": "Cannot read the certificates properties.",
+      "memberId": 1034
+    },
+    {
+      "const": "statusEnumSet.certKeyDecryptionError",
+      "title": "Failed to decrypt the requested certificates private key.",
+      "memberId": 1035
+    },
+    {
+      "const": "statusEnumSet.archiveExportCertError",
+      "title": "Failed to export certificates.",
+      "memberId": 1036
+    },
+    {
+      "const": "statusEnumSet.archiveImportCertError",
+      "title": "Failed to import certificates.",
+      "memberId": 1037
+    },
+    {
+      "const": "statusEnumSet.certRequiresPrivateKey",
+      "title": "Server certificates must contain a private key.",
+      "memberId": 1038
+    },
+    {
+      "const": "statusEnumSet.certCsrMismatch",
+      "title": "The certificate subject does not match the CSR metadata.",
+      "memberId": 1039
+    },
+    {
+      "const": "statusEnumSet.certMissing",
+      "title": "No certificate exists for this device",
+      "memberId": 1040
+    },
+    {
+      "const": "statusEnumSet.versionNumberInvalid",
+      "title": "Version Number Invalid",
+      "memberId": 1041
+    },
+    {
+      "const": "statusEnumSet.securityMissingArchive",
+      "title": "No Security exists for this device in the archive",
+      "memberId": 1042
+    },
+    {
+      "const": "statusEnumSet.noEntry",
+      "title": "No entry",
+      "memberId": 5001
+    },
+    {
+      "const": "statusEnumSet.pending",
+      "title": "Pending",
+      "memberId": 5002
+    },
+    {
+      "const": "statusEnumSet.tableFull",
+      "title": "Table full",
+      "memberId": 5003
+    },
+    {
+      "const": "statusEnumSet.omdLoadAttrError",
+      "title": "OMD Load attribute error",
+      "memberId": 5004
+    },
+    {
+      "const": "statusEnumSet.omdOidError",
+      "title": "OMD Object ID error",
+      "memberId": 5005
+    },
+    {
+      "const": "statusEnumSet.omdFindViewError",
+      "title": "OMD find view error",
+      "memberId": 5006
+    },
+    {
+      "const": "statusEnumSet.omdLoadPropError",
+      "title": "OMD load property error",
+      "memberId": 5007
+    },
+    {
+      "const": "statusEnumSet.omdCmdDataError",
+      "title": "OMD command data error",
+      "memberId": 5008
+    },
+    {
+      "const": "statusEnumSet.omdViewError",
+      "title": "OMD view error",
+      "memberId": 5009
+    },
+    {
+      "const": "statusEnumSet.omdInvalidCharSequence",
+      "title": "OMD invalid character sequence",
+      "memberId": 5010
+    },
+    {
+      "const": "statusEnumSet.omdNotBound",
+      "title": "OMD not bound",
+      "memberId": 5011
+    },
+    {
+      "const": "statusEnumSet.notConfigurable",
+      "title": "OMD not configurable",
+      "memberId": 5012
+    },
+    {
+      "const": "statusEnumSet.notWriteable",
+      "title": "OMD not writable",
+      "memberId": 5013
+    },
+    {
+      "const": "statusEnumSet.waitForN2Startup",
+      "title": "Wait for N2 startup",
+      "memberId": 5014
+    },
+    {
+      "const": "statusEnumSet.templateNotFound",
+      "title": "Template Not Found",
+      "memberId": 5015
+    },
+    {
+      "const": "statusEnumSet.templatePropertyNotFound",
+      "title": "Template Property Not Found",
+      "memberId": 5016
+    },
+    {
+      "const": "statusEnumSet.templateDatabaseNotFound",
+      "title": "Template Database Not Found",
+      "memberId": 5017
+    },
+    {
+      "const": "statusEnumSet.templateParseError",
+      "title": "Template Parse Error",
+      "memberId": 5018
+    },
+    {
+      "const": "statusEnumSet.templateSubcomponentNotFound",
+      "title": "Template Subcomponent Not Found",
+      "memberId": 5019
+    },
+    {
+      "const": "statusEnumSet.hashCreateError",
+      "title": "Hash Create Error",
+      "memberId": 5020
+    },
+    {
+      "const": "statusEnumSet.unavailable",
+      "title": "Unavailable",
+      "memberId": 5021
+    },
+    {
+      "const": "statusEnumSet.viewDatabaseNotFound",
+      "title": "View Database Not Found",
+      "memberId": 5022
+    },
+    {
+      "const": "statusEnumSet.jsonviewNotFound",
+      "title": "JSON View Not Found",
+      "memberId": 5023
+    },
+    {
+      "const": "statusEnumSet.jsonviewGrouphashNotFound",
+      "title": "JSON View Group Hash Not Found",
+      "memberId": 5024
+    },
+    {
+      "const": "statusEnumSet.jsonviewMenugroupNotFound",
+      "title": "JSON Menu Group Not Found",
+      "memberId": 5025
+    },
+    {
+      "const": "statusEnumSet.viewfileAlreadyParsed",
+      "title": "View File Already Parsed",
+      "memberId": 5026
+    },
+    {
+      "const": "statusEnumSet.sInfoClass",
+      "title": "Class",
+      "memberId": 9000
+    },
+    {
+      "const": "statusEnumSet.sInfoNoref",
+      "title": "No Reference",
+      "memberId": 9001
+    },
+    {
+      "const": "statusEnumSet.securityLoginSuccess",
+      "title": "Logon Successful",
+      "memberId": 9002
+    },
+    {
+      "const": "statusEnumSet.securityLoginInvalidCredentials",
+      "title": "Invalid Credentials",
+      "memberId": 9003
+    },
+    {
+      "const": "statusEnumSet.securityLoginAccountDisabled",
+      "title": "Account Disabled",
+      "memberId": 9004
+    },
+    {
+      "const": "statusEnumSet.securityLoginAccoutnLocked",
+      "title": "Account Locked",
+      "memberId": 9005
+    },
+    {
+      "const": "statusEnumSet.securityLoginTimesheetViolation",
+      "title": "Timesheet Violation",
+      "memberId": 9006
+    },
+    {
+      "const": "statusEnumSet.securityLoginAccountExpired",
+      "title": "Account Expired",
+      "memberId": 9007
+    },
+    {
+      "const": "statusEnumSet.securityLoginMustChangePassword",
+      "title": "User Must Change Password",
+      "memberId": 9008
+    },
+    {
+      "const": "statusEnumSet.duplicateClassMajorRev",
+      "title": "Duplicate Class Major Rev",
+      "memberId": 9501
+    },
+    {
+      "const": "statusEnumSet.classInitFailed",
+      "title": "Failed Initializing Class",
+      "memberId": 9701
+    },
+    {
+      "const": "statusEnumSet.duplicateClass",
+      "title": "Duplicate Class Definition in Project",
+      "memberId": 9702
+    },
+    {
+      "const": "statusEnumSet.badMaoClass",
+      "title": "Invalid MAO File",
+      "memberId": 9703
+    },
+    {
+      "const": "statusEnumSet.zeroProjectsExist",
+      "title": "No Project Directories Exist",
+      "memberId": 9901
+    },
+    {
+      "const": "statusEnumSet.invalidInstallation",
+      "title": "Invalid Installation",
+      "memberId": 9902
+    },
+    {
+      "const": "statusEnumSet.invalidClassdata",
+      "title": "Invalid Class Data",
+      "memberId": 9903
+    },
+    {
+      "const": "statusEnumSet.deviceStartupinit",
+      "title": "Device runtime status has not been determined",
+      "memberId": 12000
+    },
+    {
+      "const": "statusEnumSet.deviceStartingup",
+      "title": "Device is starting up",
+      "memberId": 12001
+    },
+    {
+      "const": "statusEnumSet.deviceRunning",
+      "title": "Device is currently running",
+      "memberId": 12002
+    },
+    {
+      "const": "statusEnumSet.deviceShuttingdown",
+      "title": "Device is shutting down",
+      "memberId": 12003
+    },
+    {
+      "const": "statusEnumSet.dbRecordNotFound",
+      "title": "Database Record Not Found",
+      "memberId": 12005
+    },
+    {
+      "const": "statusEnumSet.adCommunicationError",
+      "title": "Active Directory communication error",
+      "memberId": 12007
+    },
+    {
+      "const": "statusEnumSet.adNotEnabled",
+      "title": "Active Directory feautre is not enabled",
+      "memberId": 12008
+    },
+    {
+      "const": "statusEnumSet.adEmptyRequest",
+      "title": "Request message is empty",
+      "memberId": 12009
+    },
+    {
+      "const": "statusEnumSet.adQueryNoResult",
+      "title": "Active Directory query did not return any results",
+      "memberId": 12010
+    },
+    {
+      "const": "statusEnumSet.adAddUserFailed",
+      "title": "Error in querying or saving Active Directory user information",
+      "memberId": 12011
+    },
+    {
+      "const": "statusEnumSet.adGetSecurityInfoFailed",
+      "title": "Error in retrieving security information",
+      "memberId": 12012
+    },
+    {
+      "const": "statusEnumSet.adSaveSecurityInfoFailed",
+      "title": "Error in saving security information",
+      "memberId": 12013
+    },
+    {
+      "const": "statusEnumSet.csDeviceRatedCapacityInvalidRange",
+      "title": "Invalid value for Device Rated Capacity.",
+      "memberId": 12014
+    },
+    {
+      "const": "statusEnumSet.csDeviceCurrentPowerInvalidRange",
+      "title": "Invalid value for Device Current Power.",
+      "memberId": 12015
+    },
+    {
+      "const": "statusEnumSet.csDeviceCwFlowInvalidRange",
+      "title": "Invalid value for Device CW Flow.",
+      "memberId": 12016
+    },
+    {
+      "const": "statusEnumSet.csDeviceCwMinFlowInvalidRange",
+      "title": "Invalid value for Device CW Min Flow.",
+      "memberId": 12017
+    },
+    {
+      "const": "statusEnumSet.csDeviceChwFlowInvalidRange",
+      "title": "Invalid value for Device CHW Flow.",
+      "memberId": 12018
+    },
+    {
+      "const": "statusEnumSet.csDeviceChwMinFlowInvalidRange",
+      "title": "Invalid value for Device CHW Min Flow.",
+      "memberId": 12019
+    },
+    {
+      "const": "statusEnumSet.csDeviceLiftSensitivityInvalidRange",
+      "title": "Invalid value for Lift Sensitivity.",
+      "memberId": 12020
+    },
+    {
+      "const": "statusEnumSet.csDeviceDesignLiftInvalidRange",
+      "title": "Invalid value for Design Lift.",
+      "memberId": 12021
+    },
+    {
+      "const": "statusEnumSet.securityAuthenticationFailed",
+      "title": "Authentication Failed.",
+      "memberId": 12022
+    },
+    {
+      "const": "statusEnumSet.securityUserDoesNotExist",
+      "title": "User does not exist.",
+      "memberId": 12023
+    },
+    {
+      "const": "statusEnumSet.securityUserDisabled",
+      "title": "User disabled.",
+      "memberId": 12024
+    },
+    {
+      "const": "statusEnumSet.securityUserAlreadyExists",
+      "title": "User already exists.",
+      "memberId": 12025
+    },
+    {
+      "const": "statusEnumSet.securityNotEnoughPrivileges",
+      "title": "User does not have enough privileges.",
+      "memberId": 12026
+    },
+    {
+      "const": "statusEnumSet.securityInvalidParams",
+      "title": "Invalid parameters.",
+      "memberId": 12027
+    },
+    {
+      "const": "statusEnumSet.securityInvalidUserid",
+      "title": "Invalid UserID.",
+      "memberId": 12028
+    },
+    {
+      "const": "statusEnumSet.securityCannotDeleteDefaultUser",
+      "title": "Can not delete default user.",
+      "memberId": 12029
+    },
+    {
+      "const": "statusEnumSet.workstationNotLicensed",
+      "title": "This product is not licensed. Action Required: License and restart this product.",
+      "memberId": 12030
+    },
+    {
+      "const": "statusEnumSet.usbNotReady",
+      "title": "USB Not Ready",
+      "memberId": 12031
+    },
+    {
+      "const": "statusEnumSet.allVersionsUptoDateNoUpdatesDone",
+      "title": "All Versions Up To Date, No updates done",
+      "memberId": 12032
+    },
+    {
+      "const": "statusEnumSet.osValidationApiNotInitialized",
+      "title": "OS Validation API. Not initialized.",
+      "memberId": 12033
+    },
+    {
+      "const": "statusEnumSet.osValidationMissingVtocFile",
+      "title": "OS Validation API. Missing validation table.",
+      "memberId": 12034
+    },
+    {
+      "const": "statusEnumSet.osValidationVtocTableError",
+      "title": "OS Validation API. Table error.",
+      "memberId": 12035
+    },
+    {
+      "const": "statusEnumSet.osValidationMissingFileEntry",
+      "title": "OS Validation API. File entry missing.",
+      "memberId": 12036
+    },
+    {
+      "const": "statusEnumSet.osValidationMissingInputFile",
+      "title": "OS Validation API. Input file does not exist.",
+      "memberId": 12037
+    },
+    {
+      "const": "statusEnumSet.osValidationInputFileSizeError",
+      "title": "OS Validation API. Mismatched size.",
+      "memberId": 12038
+    },
+    {
+      "const": "statusEnumSet.osValidationInputFileCrcError",
+      "title": "OS Validation API. Mismatched CRC.",
+      "memberId": 12039
+    },
+    {
+      "const": "statusEnumSet.osValidationWriteVtocFileError",
+      "title": "OS Validation API. Table write error.",
+      "memberId": 12040
+    },
+    {
+      "const": "statusEnumSet.osValidationCompressVtocError",
+      "title": "OS Validation API. Compressing table error.",
+      "memberId": 12041
+    },
+    {
+      "const": "statusEnumSet.osValidationInputError",
+      "title": "OS Validation API. Invalid input parameters.",
+      "memberId": 12042
+    },
+    {
+      "const": "statusEnumSet.osValidationFileDeleteError",
+      "title": "OS Validation API. Table delete error.",
+      "memberId": 12043
+    },
+    {
+      "const": "statusEnumSet.deviceNotLicensed",
+      "title": "Device is not licensed",
+      "memberId": 12044
+    },
+    {
+      "const": "statusEnumSet.statusWriteToUsbFailed",
+      "title": "Write to USB failed",
+      "memberId": 12045
+    },
+    {
+      "const": "statusEnumSet.statusFileOpenFromUsbFailed",
+      "title": "File open from USB failed",
+      "memberId": 12046
+    },
+    {
+      "const": "statusEnumSet.downloadCompleteNoSecurity",
+      "title": "OK, Download complete, security copy selected, but no file found.",
+      "memberId": 12047
+    },
+    {
+      "const": "statusEnumSet.certificateOperationSuccessful",
+      "title": "Certificate operation successful.",
+      "memberId": 12048
+    },
+    {
+      "const": "statusEnumSet.completeWithWarnings",
+      "title": "OK, but with warnings.",
+      "memberId": 12049
+    },
+    {
+      "const": "statusEnumSet.codeDownloadFail",
+      "title": "Code download aborted. Unable to login to device, check network settings.",
+      "memberId": 12050
+    },
+    {
+      "const": "statusEnumSet.upgradeSiteDirectorFirst",
+      "title": "Upgrade the site director before any devices.",
+      "memberId": 12051
+    },
+    {
+      "const": "statusEnumSet.devicesNeitherCreatedNorUpload",
+      "title": "The following devices were neither created, nor upload before the process was interrupted.",
+      "memberId": 12052
+    },
+    {
+      "const": "statusEnumSet.devicesCreatedNotUpload",
+      "title": "As a result, they were created, but not uploaded.",
+      "memberId": 12053
+    },
+    {
+      "const": "statusEnumSet.devicesOfflineOrUnavailable",
+      "title": "The following devices are off-line, security upload failed or are otherwise unavailable.",
+      "memberId": 12054
+    },
+    {
+      "const": "statusEnumSet.codeLoadAbortNoDiskImage",
+      "title": "Code download aborted because no disk image found",
+      "memberId": 12055
+    },
+    {
+      "const": "statusEnumSet.codeLoadAbortSocketNotAvailable",
+      "title": "Code download aborted because socket not available",
+      "memberId": 12056
+    },
+    {
+      "const": "statusEnumSet.codeLoadAbortNutNotInstalled",
+      "title": "Code download aborted because the NUT server is not installed.",
+      "memberId": 12057
+    },
+    {
+      "const": "statusEnumSet.codeLoadAbortUnableToReadMac",
+      "title": "Code download aborted because the MAC address could not be read",
+      "memberId": 12058
+    },
+    {
+      "const": "statusEnumSet.codeLoadFailNutServerError",
+      "title": "Code download failed due to NUT server error response",
+      "memberId": 12059
+    },
+    {
+      "const": "statusEnumSet.codeLoadAbortNoAdapterSelected",
+      "title": "Code download aborted because no Ethernet adapter selected.",
+      "memberId": 12060
+    },
+    {
+      "const": "statusEnumSet.codeDownloadError",
+      "title": "Code download error.",
+      "memberId": 12061
+    },
+    {
+      "const": "statusEnumSet.failStatus",
+      "title": "Fail",
+      "memberId": 12062
+    },
+    {
+      "const": "statusEnumSet.failPeriodStatus",
+      "title": "Fail.",
+      "memberId": 12063
+    },
+    {
+      "const": "statusEnumSet.disabledFailStatus",
+      "title": "fail",
+      "memberId": 12064
+    },
+    {
+      "const": "statusEnumSet.noncomplexFailStatus",
+      "title": "fail.",
+      "memberId": 12065
+    },
+    {
+      "const": "statusEnumSet.cafArchiveInstanceMismatch",
+      "title": "CAF file and archive Instance Number mismatch",
+      "memberId": 12066
+    },
+    {
+      "const": "statusEnumSet.cafArchiveIpAddressMismatch",
+      "title": "CAF file and archive IP Address mismatch",
+      "memberId": 12067
+    },
+    {
+      "const": "statusEnumSet.cafArchiveIpMaskMismatch",
+      "title": "CAF file and archive IP Mask mismatch",
+      "memberId": 12068
+    },
+    {
+      "const": "statusEnumSet.cafArchiveIpRouterMismatch",
+      "title": "CAF file and archive IP Router mismatch",
+      "memberId": 12069
+    },
+    {
+      "const": "statusEnumSet.cafArchiveDhcpMismatch",
+      "title": "CAF file and archive DHCP Enabled mismatch",
+      "memberId": 12070
+    },
+    {
+      "const": "statusEnumSet.cafArchiveControllerNumberMismatch",
+      "title": "CAF file and archive Controller Number mismatch",
+      "memberId": 12071
+    },
+    {
+      "const": "statusEnumSet.duplicateControllerNumbers",
+      "title": "Duplicate Controllers Numbers",
+      "memberId": 12072
+    },
+    {
+      "const": "statusEnumSet.duplicateInstanceNumbers",
+      "title": "Duplicate Instance Numbers",
+      "memberId": 12073
+    },
+    {
+      "const": "statusEnumSet.upgradeMigrationFailed",
+      "title": "Device upgrade or migration operation failed",
+      "memberId": 12074
+    },
+    {
+      "const": "statusEnumSet.missingPackageForModel",
+      "title": "Missing package for this model",
+      "memberId": 12075
+    },
+    {
+      "const": "statusEnumSet.fieldControllerPackageNotLicensed",
+      "title": "Field Controller Package is not licensed",
+      "memberId": 12076
+    },
+    {
+      "const": "statusEnumSet.applicationHasUnassignedHw",
+      "title": "Application Has Unassigned Hardware",
+      "memberId": 12077
+    },
+    {
+      "const": "statusEnumSet.invalidModelForThisDevice",
+      "title": "Invalid Model for this Device",
+      "memberId": 12078
+    },
+    {
+      "const": "statusEnumSet.fieldDeviceCountExceeded",
+      "title": "Field Device count exceeded, download not permitted",
+      "memberId": 12079
+    },
+    {
+      "const": "statusEnumSet.applicationIsMissingDevicePkg",
+      "title": "Application Is Missing Device Package",
+      "memberId": 12080
+    },
+    {
+      "const": "statusEnumSet.applicationIsMissingSabDevicePkg",
+      "title": "Application Is Missing SA Bus Device Package",
+      "memberId": 12081
+    },
+    {
+      "const": "statusEnumSet.thisObjectCannotBeDeleted",
+      "title": "This object cannot be deleted",
+      "memberId": 12082
+    },
+    {
+      "const": "statusEnumSet.systemNotMature",
+      "title": "Provisioning not allowed too soon after just being provisioned",
+      "memberId": 12083
+    },
+    {
+      "const": "statusEnumSet.activationFailedArchive",
+      "title": "Archive Database activation failed",
+      "memberId": 12084
+    },
+    {
+      "const": "statusEnumSet.activationFailedSecurity",
+      "title": "Security Database activation failed",
+      "memberId": 12085
+    },
+    {
+      "const": "statusEnumSet.activationFailedCerts",
+      "title": "HTTPS Certificates activation failed",
+      "memberId": 12086
+    },
+    {
+      "const": "statusEnumSet.provisioningFailed",
+      "title": "Provisioning failed",
+      "memberId": 12087
+    },
+    {
+      "const": "statusEnumSet.securityDownloadAbortFipsLock",
+      "title": "Security download aborted because device version does not support accounts locked due to FIPS 140-2 non-compliance",
+      "memberId": 12088
+    },
+    {
+      "const": "statusEnumSet.deviceAuthFailed",
+      "title": "The authentication for device failed, please pair the device with site director.",
+      "memberId": 12089
+    },
+    {
+      "const": "statusEnumSet.invalidCaCertSlot",
+      "title": "Invalid CA Certificate Slot",
+      "memberId": 12090
+    },
+    {
+      "const": "statusEnumSet.caCertSlotUnavailable",
+      "title": "CA Certificate Pending Slot Not Available",
+      "memberId": 12091
+    },
+    {
+      "const": "statusEnumSet.caCertUnableToSaveInSlot",
+      "title": "CA Certificate Failed To Save In Pending Slot",
+      "memberId": 12092
+    },
+    {
+      "const": "statusEnumSet.caCertCombinationFailed",
+      "title": "CA Certificate Concatenation Failed For Credential Storage",
+      "memberId": 12093
+    },
+    {
+      "const": "statusEnumSet.credUnableToStoreInCsl",
+      "title": "Credential Store Operation Failed",
+      "memberId": 12094
+    },
+    {
+      "const": "statusEnumSet.pendingCredFailedCslActivation",
+      "title": "Pending Credential Activation From Credential Storage Failed",
+      "memberId": 12095
+    },
+    {
+      "const": "statusEnumSet.certSignatureTypeNotSupported",
+      "title": "Certificate Signature Type Not Supported",
+      "memberId": 12096
+    },
+    {
+      "const": "statusEnumSet.certIssuerCrlNotAvail",
+      "title": "Current Issuer Certificate Revocation List Not Available",
+      "memberId": 12097
+    },
+    {
+      "const": "statusEnumSet.currDateBeforeCertBeforeDate",
+      "title": "Current Date Is Before Certificate's Valid Start Date",
+      "memberId": 12098
+    },
+    {
+      "const": "statusEnumSet.currDateAfterCertAfterDate",
+      "title": "Current Date Is After Certificate's Expiration Date",
+      "memberId": 12099
+    },
+    {
+      "const": "statusEnumSet.certUnsupportedFormat",
+      "title": "Certificate Is In An Unsupported Format",
+      "memberId": 12100
+    },
+    {
+      "const": "statusEnumSet.certDecodeFailed",
+      "title": "Certificate Decode Operations Failed",
+      "memberId": 12101
+    },
+    {
+      "const": "statusEnumSet.sslMajorError",
+      "title": "Device Experienced Secure Socket Error",
+      "memberId": 12102
+    },
+    {
+      "const": "statusEnumSet.deviceOfflineCertExpired",
+      "title": "Device Offline: Field Device Certificate Expired",
+      "memberId": 12103
+    },
+    {
+      "const": "statusEnumSet.deviceOfflineSigningCertMismatch",
+      "title": "Device Offline: Field Device Certificate Has Different Signing Certificate Than Supervisor",
+      "memberId": 12104
+    },
+    {
+      "const": "statusEnumSet.bacnetScMustBeEnabledOnSupervisoryDevice",
+      "title": "BACnet SC Must Be Enabled On Supervisory Device",
+      "memberId": 12105
+    },
+    {
+      "const": "statusEnumSet.deviceCertificateHasExpired",
+      "title": "Device Certificate Has Expired",
+      "memberId": 12106
+    },
+    {
+      "const": "statusEnumSet.supervisoryDeviceMismatchWithFieldDeviceSigningCa",
+      "title": "Field Device Must Have Certificate Trusted By Supervisory Device",
+      "memberId": 12107
+    },
+    {
+      "const": "statusEnumSet.bacnetIpMustBeEnabledOnSupervisoryDevice",
+      "title": "BACnet IP Must Be Enabled On Supervisory Device",
+      "memberId": 12108
+    },
+    {
+      "const": "statusEnumSet.bacnetIpNotSupported",
+      "title": "BACnet IP Is Not Supported On This Device",
+      "memberId": 12109
+    },
+    {
+      "const": "statusEnumSet.scPrimaryHubUriMustBeDefined",
+      "title": "SC Primary Hub URI Must Be Defined",
+      "memberId": 12110
+    },
+    {
+      "const": "statusEnumSet.bacnetScDatalinkConfigError",
+      "title": "Secure Connect Datalink cannot be enabled because its Network Port has a configuration error",
+      "memberId": 12111
+    },
+    {
+      "const": "statusEnumSet.bacnetScConnectWaitTimeoutExpired",
+      "title": "Connect Wait Timeout Expired",
+      "memberId": 12112
+    },
+    {
+      "const": "statusEnumSet.bacnetScDisconnectWaitTimeoutExpired",
+      "title": "Disconnect Wait Timeout Expired",
+      "memberId": 12113
+    },
+    {
+      "const": "statusEnumSet.bacnetScHeartbeatTimeoutExpired",
+      "title": "Heartbeat Timeout Expired",
+      "memberId": 12114
+    },
+    {
+      "const": "statusEnumSet.externalLanIsDisabled",
+      "title": "External LAN is disabled",
+      "memberId": 12115
+    },
+    {
+      "const": "statusEnumSet.duplicateEthernetPortType",
+      "title": "The Ethernet Port Type is already in use",
+      "memberId": 12116
+    },
+    {
+      "const": "statusEnumSet.externalLanPortNotSupported",
+      "title": "The External LAN Port is not supported.",
+      "memberId": 12117
+    },
+    {
+      "const": "statusEnumSet.engineInvalidPackageFail",
+      "title": "Invalid package. Check MEI file.",
+      "memberId": 12118
+    },
+    {
+      "const": "statusEnumSet.engineStagingFail",
+      "title": "Failure related to staged files.",
+      "memberId": 12119
+    },
+    {
+      "const": "statusEnumSet.ipNetworksOnSameSubnet",
+      "title": "IP networks should not be configured on the same subnet.",
+      "memberId": 12120
+    },
+    {
+      "const": "statusEnumSet.rootCertUnavailable",
+      "title": "Trusted root CA certificate is not available.",
+      "memberId": 12121
+    },
+    {
+      "const": "statusEnumSet.reqAbortedMaxNumConcurrentOpsReached",
+      "title": "Request aborted as the maximum number of concurrent operations has been reached",
+      "memberId": 12122
+    },
+    {
+      "const": "statusEnumSet.valueSrcNotSupWriFailPvReq",
+      "title": "The Value Source property is not supported by the remote object. The Present Value was still written.",
+      "memberId": 12123
+    },
+    {
+      "const": "statusEnumSet.valueSrcWriFailPvReq",
+      "title": "The Value Source property write failed on the remote object. The Present Value was still written.",
+      "memberId": 12124
+    },
+    {
+      "const": "statusEnumSet.valueSrcNotSupWriFailModeReq",
+      "title": "The Value Source property is not supported by the remote object. The Mode property was still written.",
+      "memberId": 12125
+    },
+    {
+      "const": "statusEnumSet.valueSrcWriFailModeReq",
+      "title": "The Value Source property write failed on the remote object. The Mode property was still written.",
+      "memberId": 12126
+    },
+    {
+      "const": "statusEnumSet.bacrother",
+      "title": "General reject.",
+      "memberId": 16384
+    },
+    {
+      "const": "statusEnumSet.bacrbufferOverflow",
+      "title": "Rejected due to buffer overflow.",
+      "memberId": 16385
+    },
+    {
+      "const": "statusEnumSet.bacrinconsistentParameters",
+      "title": "Rejected due to inconsistent parameters.",
+      "memberId": 16386
+    },
+    {
+      "const": "statusEnumSet.bacrinvalidParameterDataType",
+      "title": "Rejected due to invalid data type.",
+      "memberId": 16387
+    },
+    {
+      "const": "statusEnumSet.bacrinvalidTag",
+      "title": "Rejected due to invalid message encoding.",
+      "memberId": 16388
+    },
+    {
+      "const": "statusEnumSet.bacrmissingRequiredParameter",
+      "title": "Rejected due to missing required parameter.",
+      "memberId": 16389
+    },
+    {
+      "const": "statusEnumSet.bacrparameterOutOfRange",
+      "title": "Rejected due to parameter value out of range.",
+      "memberId": 16390
+    },
+    {
+      "const": "statusEnumSet.bacrtooManyArguments",
+      "title": "Rejected due to too many arguments.",
+      "memberId": 16391
+    },
+    {
+      "const": "statusEnumSet.bacrundefinedEnumeration",
+      "title": "Rejected due to unknown enumeration value.",
+      "memberId": 16392
+    },
+    {
+      "const": "statusEnumSet.bacrunrecognizedService",
+      "title": "Rejected due to unknown service request.",
+      "memberId": 16393
+    },
+    {
+      "const": "statusEnumSet.bacrinvalidDataEncoding",
+      "title": "Rejected due to invalid data encoding.",
+      "memberId": 16394
+    },
+    {
+      "const": "statusEnumSet.configurationInProgress",
+      "title": "Configuration in progress",
+      "memberId": 32770
+    },
+    {
+      "const": "statusEnumSet.deviceBusy",
+      "title": "Busy",
+      "memberId": 32771
+    },
+    {
+      "const": "statusEnumSet.operationalProblem",
+      "title": "Operational problem",
+      "memberId": 32793
+    },
+    {
+      "const": "statusEnumSet.inconsistentConfiguration",
+      "title": "Error, device misconfigured.",
+      "memberId": 32897
+    },
+    {
+      "const": "statusEnumSet.deviceInternalError",
+      "title": "Device internal error.",
+      "memberId": 32899
+    },
+    {
+      "const": "statusEnumSet.notConfigured",
+      "title": "Error, device not configured.",
+      "memberId": 32900
+    },
+    {
+      "const": "statusEnumSet.dynamicCreationNotSupported",
+      "title": "Dynamic creation not supported",
+      "memberId": 33028
+    },
+    {
+      "const": "statusEnumSet.noObjectsOfSpecifiedType",
+      "title": "No objects of specified type",
+      "memberId": 33041
+    },
+    {
+      "const": "statusEnumSet.objectDeletionNotPermitted",
+      "title": "Object cannot be deleted",
+      "memberId": 33047
+    },
+    {
+      "const": "statusEnumSet.objectIdentifierAlreadyExists",
+      "title": "Object already exists",
+      "memberId": 33048
+    },
+    {
+      "const": "statusEnumSet.readAccessDenied",
+      "title": "Read access denied",
+      "memberId": 33051
+    },
+    {
+      "const": "statusEnumSet.unknownObject",
+      "title": "Unknown object",
+      "memberId": 33055
+    },
+    {
+      "const": "statusEnumSet.unsupportedObjectType",
+      "title": "Unsupported object type",
+      "memberId": 33060
+    },
+    {
+      "const": "statusEnumSet.optFuncNotSupportedObject",
+      "title": "Optional functionality not supported - Object",
+      "memberId": 33069
+    },
+    {
+      "const": "statusEnumSet.noAlarmConfigured",
+      "title": "Object does not support event generation",
+      "memberId": 33098
+    },
+    {
+      "const": "statusEnumSet.logBufferFull",
+      "title": "An attempted operation would result in an addition of a log record to an object whose log buffer is full.",
+      "memberId": 33099
+    },
+    {
+      "const": "statusEnumSet.serviceRequestBusyObj",
+      "title": "Object service request busy",
+      "memberId": 33106
+    },
+    {
+      "const": "statusEnumSet.fileFull",
+      "title": "File full.",
+      "memberId": 33152
+    },
+    {
+      "const": "statusEnumSet.invalidOperationInThisState",
+      "title": "Invalid operation requested for the current state of the selected object.",
+      "memberId": 33163
+    },
+    {
+      "const": "statusEnumSet.objectRefPortInError",
+      "title": "The referenced Network Port object is in error.",
+      "memberId": 33229
+    },
+    {
+      "const": "statusEnumSet.propertyOther",
+      "title": "General Property Error",
+      "memberId": 33280
+    },
+    {
+      "const": "statusEnumSet.inconsistentSelectionCriterion",
+      "title": "Inconsistent selection criterion",
+      "memberId": 33288
+    },
+    {
+      "const": "statusEnumSet.invalidDataType",
+      "title": "Invalid data type",
+      "memberId": 33289
+    },
+    {
+      "const": "statusEnumSet.readAccessDeniedProp",
+      "title": "Read access denied prop",
+      "memberId": 33307
+    },
+    {
+      "const": "statusEnumSet.unknownProperty",
+      "title": "Unknown property",
+      "memberId": 33312
+    },
+    {
+      "const": "statusEnumSet.valueOutOfRange",
+      "title": "Value out of range",
+      "memberId": 33317
+    },
+    {
+      "const": "statusEnumSet.writeAccessDenied",
+      "title": "Write access denied",
+      "memberId": 33320
+    },
+    {
+      "const": "statusEnumSet.characterSetNotSuppProp",
+      "title": "Character set not supported prop",
+      "memberId": 33321
+    },
+    {
+      "const": "statusEnumSet.invalidArrayIndex",
+      "title": "Invalid array index",
+      "memberId": 33322
+    },
+    {
+      "const": "statusEnumSet.33323",
+      "title": "Period defined is too large, smoothing constant is getting greater than 1",
+      "memberId": 33323
+    },
+    {
+      "const": "statusEnumSet.notCovProperty",
+      "title": "A Change of Value subscription contains an attribute that does not support Change of Value notification.",
+      "memberId": 33324
+    },
+    {
+      "const": "statusEnumSet.optionalFunctionalityNotSupp",
+      "title": "Optional functionality not supported - Property",
+      "memberId": 33325
+    },
+    {
+      "const": "statusEnumSet.datatypeNotSupported",
+      "title": "The data is of, or contains, a data type not supported by this instance of this attribute.",
+      "memberId": 33327
+    },
+    {
+      "const": "statusEnumSet.duplicateNameProp",
+      "title": "An attempt was made to write an object name that already exists.",
+      "memberId": 33328
+    },
+    {
+      "const": "statusEnumSet.duplicateObjectIdProp",
+      "title": "An attempt was made to write an object identifier that already exists.",
+      "memberId": 33329
+    },
+    {
+      "const": "statusEnumSet.propertyIsNotAnArray",
+      "title": "And attempt was made to access an attribute that is not an array.",
+      "memberId": 33330
+    },
+    {
+      "const": "statusEnumSet.valueNotInitialzed",
+      "title": "Value not initialized",
+      "memberId": 33352
+    },
+    {
+      "const": "statusEnumSet.loggedValuePurged",
+      "title": "Value purged",
+      "memberId": 33356
+    },
+    {
+      "const": "statusEnumSet.noPropertySpecified",
+      "title": "No Property Specified",
+      "memberId": 33357
+    },
+    {
+      "const": "statusEnumSet.notConfiguredForTriggeredLoggingProp",
+      "title": "Not configured for triggered logging",
+      "memberId": 33358
+    },
+    {
+      "const": "statusEnumSet.unknownFileSize",
+      "title": "Cannot determine size of file.",
+      "memberId": 33402
+    },
+    {
+      "const": "statusEnumSet.valueTooLong",
+      "title": "Error, value to long to send.",
+      "memberId": 33414
+    },
+    {
+      "const": "statusEnumSet.duplicateEntry",
+      "title": "Duplicate time value entries detected.",
+      "memberId": 33417
+    },
+    {
+      "const": "statusEnumSet.invalidValueInThisState",
+      "title": "The value specified is invalid in this state.",
+      "memberId": 33418
+    },
+    {
+      "const": "statusEnumSet.listItemNotNumbered",
+      "title": "The list items do not have a sequence number.",
+      "memberId": 33420
+    },
+    {
+      "const": "statusEnumSet.listItemNotTimestamped",
+      "title": "The list items are not timestamped.",
+      "memberId": 33421
+    },
+    {
+      "const": "statusEnumSet.propertyNotEnabled",
+      "title": "The attempt to write the property failed as the provided value requires that optional functionality be enabled to fulfill.",
+      "memberId": 33486
+    },
+    {
+      "const": "statusEnumSet.noSpaceForObject",
+      "title": "No space for object",
+      "memberId": 33554
+    },
+    {
+      "const": "statusEnumSet.noSpaceToAddListElement",
+      "title": "No space to add list element",
+      "memberId": 33555
+    },
+    {
+      "const": "statusEnumSet.noSpaceToWriteProperty",
+      "title": "No space to write property",
+      "memberId": 33556
+    },
+    {
+      "const": "statusEnumSet.objectOutOfMemory",
+      "title": "Out of memory.",
+      "memberId": 33669
+    },
+    {
+      "const": "statusEnumSet.authenticationFailed",
+      "title": "Authentication Failed",
+      "memberId": 33793
+    },
+    {
+      "const": "statusEnumSet.incompatibleSecurityLevels",
+      "title": "Incompatible security levels",
+      "memberId": 33798
+    },
+    {
+      "const": "statusEnumSet.invalidOperatorName",
+      "title": "Invalid operation name",
+      "memberId": 33804
+    },
+    {
+      "const": "statusEnumSet.keyGenerationError",
+      "title": "Key generation error",
+      "memberId": 33807
+    },
+    {
+      "const": "statusEnumSet.passwordFailure",
+      "title": "Password failure",
+      "memberId": 33818
+    },
+    {
+      "const": "statusEnumSet.readAccessDeniedSecurity",
+      "title": "Read access denied due to insufficient security authorization.",
+      "memberId": 33819
+    },
+    {
+      "const": "statusEnumSet.securityNotSupported",
+      "title": "Security not supported",
+      "memberId": 33820
+    },
+    {
+      "const": "statusEnumSet.timeout",
+      "title": "Timeout",
+      "memberId": 33822
+    },
+    {
+      "const": "statusEnumSet.writeAccessDeniedSecurity",
+      "title": "Write access denied due to insufficient security authorization.",
+      "memberId": 33832
+    },
+    {
+      "const": "statusEnumSet.characterSetNotSuppSecur",
+      "title": "Character set not supported secur",
+      "memberId": 33833
+    },
+    {
+      "const": "statusEnumSet.operationSuccessfulSecur",
+      "title": "Security operation successful",
+      "memberId": 33876
+    },
+    {
+      "const": "statusEnumSet.accessDeniedSecur",
+      "title": "Security access denied",
+      "memberId": 33877
+    },
+    {
+      "const": "statusEnumSet.badDestinationAddressSecur",
+      "title": "Bad destination address",
+      "memberId": 33878
+    },
+    {
+      "const": "statusEnumSet.badDestinationDeviceIdSecur",
+      "title": "Bad destination device id",
+      "memberId": 33879
+    },
+    {
+      "const": "statusEnumSet.badSignature",
+      "title": "Security signature incorrect.",
+      "memberId": 33880
+    },
+    {
+      "const": "statusEnumSet.badSourceAddress",
+      "title": "Security violation, source address bad.",
+      "memberId": 33881
+    },
+    {
+      "const": "statusEnumSet.badTimestamp",
+      "title": "Security violation, timestamp outside of allowable range.",
+      "memberId": 33882
+    },
+    {
+      "const": "statusEnumSet.cannotUseKey",
+      "title": "Unknown security algorithm for key.",
+      "memberId": 33883
+    },
+    {
+      "const": "statusEnumSet.cannotVerifyMessageId",
+      "title": "Security risk, cannot verify message ID.",
+      "memberId": 33884
+    },
+    {
+      "const": "statusEnumSet.correctKeyRevision",
+      "title": "Security Key Set revisions are current.",
+      "memberId": 33885
+    },
+    {
+      "const": "statusEnumSet.destinationDeviceIdRequired",
+      "title": "Security violation, destination Device ID missing.",
+      "memberId": 33886
+    },
+    {
+      "const": "statusEnumSet.duplicateMessage",
+      "title": "Duplicate message ID in security time window.",
+      "memberId": 33887
+    },
+    {
+      "const": "statusEnumSet.encryptionNotConfigured",
+      "title": "Device not configured to handle security encryption.",
+      "memberId": 33888
+    },
+    {
+      "const": "statusEnumSet.encryptionRequired",
+      "title": "Security encryption required.",
+      "memberId": 33889
+    },
+    {
+      "const": "statusEnumSet.incorrectKey",
+      "title": "Incorrect security key.",
+      "memberId": 33890
+    },
+    {
+      "const": "statusEnumSet.invalidKeyData",
+      "title": "Security key contains invalid data.",
+      "memberId": 33891
+    },
+    {
+      "const": "statusEnumSet.keyUpdateInProgress",
+      "title": "Security key update already in progress.",
+      "memberId": 33892
+    },
+    {
+      "const": "statusEnumSet.malformedMessage",
+      "title": "Message size invalid or security parameters missing or malformed.",
+      "memberId": 33893
+    },
+    {
+      "const": "statusEnumSet.notKeyServer",
+      "title": "Request requires key server to process.",
+      "memberId": 33894
+    },
+    {
+      "const": "statusEnumSet.securityNotConfigured",
+      "title": "Device not configured for security at port.",
+      "memberId": 33895
+    },
+    {
+      "const": "statusEnumSet.sourceSecurityRequired",
+      "title": "Request requires security or encryption from source.",
+      "memberId": 33896
+    },
+    {
+      "const": "statusEnumSet.tooManyKeys",
+      "title": "Configuration error, too many security keys provided.",
+      "memberId": 33897
+    },
+    {
+      "const": "statusEnumSet.unknownAuthenticationType",
+      "title": "Unknown Security authentication method.",
+      "memberId": 33898
+    },
+    {
+      "const": "statusEnumSet.unknownKey",
+      "title": "Unknown Security key.",
+      "memberId": 33899
+    },
+    {
+      "const": "statusEnumSet.unknownKeyRevision",
+      "title": "Security key revision unknown.",
+      "memberId": 33900
+    },
+    {
+      "const": "statusEnumSet.unknownSourceMessage",
+      "title": "Security violation, not from claimed source.",
+      "memberId": 33901
+    },
+    {
+      "const": "statusEnumSet.securityCertificateExpired",
+      "title": "The operational certificate file has expired or is not yet valid.",
+      "memberId": 33992
+    },
+    {
+      "const": "statusEnumSet.securityCertificateInvalid",
+      "title": "The operational certificate file cannot be validated by any configured issuer certificate.",
+      "memberId": 33993
+    },
+    {
+      "const": "statusEnumSet.securityCertificateMalformed",
+      "title": "The operational certificate file contains an encoding error.",
+      "memberId": 33994
+    },
+    {
+      "const": "statusEnumSet.securityCertificateRevoked",
+      "title": "The operational certificate file has been revoked.",
+      "memberId": 33995
+    },
+    {
+      "const": "statusEnumSet.securityUnknownCertificateKey",
+      "title": "The operational certificate file does not match a private key.",
+      "memberId": 33996
+    },
+    {
+      "const": "statusEnumSet.servicesOther",
+      "title": "General Services Error",
+      "memberId": 34048
+    },
+    {
+      "const": "statusEnumSet.fileAccessDenied",
+      "title": "File access denied",
+      "memberId": 34053
+    },
+    {
+      "const": "statusEnumSet.inconsistentParameters",
+      "title": "Inconsistent parameters",
+      "memberId": 34055
+    },
+    {
+      "const": "statusEnumSet.invalidFileAccessMethod",
+      "title": "Invalid file access method",
+      "memberId": 34058
+    },
+    {
+      "const": "statusEnumSet.invalidFileStartPosition",
+      "title": "Invalid file start position",
+      "memberId": 34059
+    },
+    {
+      "const": "statusEnumSet.invalidParameterDataType",
+      "title": "Invalid parameter data type",
+      "memberId": 34061
+    },
+    {
+      "const": "statusEnumSet.invalidTimeStamp",
+      "title": "Invalid time stamp",
+      "memberId": 34062
+    },
+    {
+      "const": "statusEnumSet.missingRequiredParameter",
+      "title": "Missing required parameter",
+      "memberId": 34064
+    },
+    {
+      "const": "statusEnumSet.propertyIsNotAList",
+      "title": "Property is not a list",
+      "memberId": 34070
+    },
+    {
+      "const": "statusEnumSet.serviceRequestDenied",
+      "title": "Service request denied",
+      "memberId": 34077
+    },
+    {
+      "const": "statusEnumSet.valueOutOfRangeService",
+      "title": "Value out of range - Service",
+      "memberId": 34085
+    },
+    {
+      "const": "statusEnumSet.characterSetNotSupported",
+      "title": "Character set not supported",
+      "memberId": 34089
+    },
+    {
+      "const": "statusEnumSet.covSubscriptionFailed",
+      "title": "A Change of Value subscription request failed.",
+      "memberId": 34091
+    },
+    {
+      "const": "statusEnumSet.optFuncNotSupportedServices",
+      "title": "Optional functionality not supported - Services",
+      "memberId": 34093
+    },
+    {
+      "const": "statusEnumSet.invalidConfigurationData",
+      "title": "The configuration data provided was invalid or corrupt.",
+      "memberId": 34094
+    },
+    {
+      "const": "statusEnumSet.duplicateName",
+      "title": "An attempt was made to write an object name that already exists.",
+      "memberId": 34096
+    },
+    {
+      "const": "statusEnumSet.duplicateObjectId",
+      "title": "An attempt was made to write an object identifier that already exists.",
+      "memberId": 34097
+    },
+    {
+      "const": "statusEnumSet.serviceInvalidTag",
+      "title": "A request was received that contains an improper tag.",
+      "memberId": 34105
+    },
+    {
+      "const": "statusEnumSet.invalidEventState",
+      "title": "Acknowledged event state doesn't match the alarm event state.",
+      "memberId": 34121
+    },
+    {
+      "const": "statusEnumSet.unknownSubscriptionServ",
+      "title": "Unknown subscription",
+      "memberId": 34127
+    },
+    {
+      "const": "statusEnumSet.parameterOutOfRangeServ",
+      "title": "Parameter out of range",
+      "memberId": 34128
+    },
+    {
+      "const": "statusEnumSet.listElementNotFound",
+      "title": "An attempt was remove a list element that was not present.",
+      "memberId": 34129
+    },
+    {
+      "const": "statusEnumSet.communicationDisabledServ",
+      "title": "Communication disabled",
+      "memberId": 34131
+    },
+    {
+      "const": "statusEnumSet.inconsistentObjectType",
+      "title": "Service not supported by object.",
+      "memberId": 34178
+    },
+    {
+      "const": "statusEnumSet.invalidDataEncoding",
+      "title": "Invalid data type encoding for service parameter.",
+      "memberId": 34190
+    },
+    {
+      "const": "statusEnumSet.noVtSessionsAvailable",
+      "title": "No VT sessions available",
+      "memberId": 34325
+    },
+    {
+      "const": "statusEnumSet.unknownVtClass",
+      "title": "Unknown VT class",
+      "memberId": 34338
+    },
+    {
+      "const": "statusEnumSet.unknownVtSession",
+      "title": "Unknown VT session",
+      "memberId": 34339
+    },
+    {
+      "const": "statusEnumSet.vtSessionAlreadyClosed",
+      "title": "VT session already closed",
+      "memberId": 34342
+    },
+    {
+      "const": "statusEnumSet.vtSessionTerminationFailure",
+      "title": "VT session termination failure",
+      "memberId": 34343
+    },
+    {
+      "const": "statusEnumSet.commTimeout",
+      "title": "A service request to a remote device timed out.  The device did not respond in the time allotted for the request.",
+      "memberId": 34590
+    },
+    {
+      "const": "statusEnumSet.abortBufferOverflow",
+      "title": "The input buffer capacity has been exceeded.",
+      "memberId": 34611
+    },
+    {
+      "const": "statusEnumSet.abortInvalidAdpuInThisState",
+      "title": "A communication message was unexpected in the current state of the transaction.",
+      "memberId": 34612
+    },
+    {
+      "const": "statusEnumSet.abortPreemptedByHigherTask",
+      "title": "A communication message was aborted to permit higher priority processing.",
+      "memberId": 34613
+    },
+    {
+      "const": "statusEnumSet.abortSegmentationNotSupported",
+      "title": "The remote device does not support breaking up large communication messages into smaller messages.",
+      "memberId": 34614
+    },
+    {
+      "const": "statusEnumSet.abortProprietary",
+      "title": "A communication message was aborted with a proprietary reason.",
+      "memberId": 34615
+    },
+    {
+      "const": "statusEnumSet.abortOther",
+      "title": "A communication message was aborted.",
+      "memberId": 34616
+    },
+    {
+      "const": "statusEnumSet.commInvalidTag",
+      "title": "A response was received that contains an improper tag.",
+      "memberId": 34617
+    },
+    {
+      "const": "statusEnumSet.commNetworkDown",
+      "title": "The local network connection was not established when the request was initiated.",
+      "memberId": 34618
+    },
+    {
+      "const": "statusEnumSet.rejBufferOverflow",
+      "title": "An input buffer capacity was exceeded.",
+      "memberId": 34619
+    },
+    {
+      "const": "statusEnumSet.rejInconsistentParameters",
+      "title": "The requested service was rejected by the remote device because it found inconsistent parameters.",
+      "memberId": 34620
+    },
+    {
+      "const": "statusEnumSet.rejInvalidParameterType",
+      "title": "The requested service was rejected by the remote device because it found invalid data type in the parameters of the request.",
+      "memberId": 34621
+    },
+    {
+      "const": "statusEnumSet.rejInvalidTag",
+      "title": "The remote device encountered an error while parsing the communication message.",
+      "memberId": 34622
+    },
+    {
+      "const": "statusEnumSet.rejMissingRequiredParameter",
+      "title": "The remote device encountered a missing parameter in the communication message.",
+      "memberId": 34623
+    },
+    {
+      "const": "statusEnumSet.rejParameterOutOfRange",
+      "title": "The remote device encountered a parameter with a value out of range in the communication message.",
+      "memberId": 34624
+    },
+    {
+      "const": "statusEnumSet.rejTooManyArguments",
+      "title": "The remote device encountered an error in the communication message because it contains too many parameters.",
+      "memberId": 34625
+    },
+    {
+      "const": "statusEnumSet.rejUndefinedEnumeration",
+      "title": "The remote device rejected the value contained in the communication message as undefined by the type specified in the parameter",
+      "memberId": 34626
+    },
+    {
+      "const": "statusEnumSet.rejUnrecognizedService",
+      "title": "The remote device does not support the requested service.",
+      "memberId": 34627
+    },
+    {
+      "const": "statusEnumSet.rejProprietary",
+      "title": "The remote device rejected the communication message with a proprietary error.",
+      "memberId": 34628
+    },
+    {
+      "const": "statusEnumSet.rejOther",
+      "title": "The remote device rejected the communication.",
+      "memberId": 34629
+    },
+    {
+      "const": "statusEnumSet.unknownDevice",
+      "title": "The remote device could not be found.",
+      "memberId": 34630
+    },
+    {
+      "const": "statusEnumSet.unknownRoute",
+      "title": "The communication path to the remote device's network could not be found.",
+      "memberId": 34631
+    },
+    {
+      "const": "statusEnumSet.valueNotInitializedComm",
+      "title": "Attribute value has not been initialized.",
+      "memberId": 34632
+    },
+    {
+      "const": "statusEnumSet.notRouterToDnet",
+      "title": "Send failed, router unable to forward the message.",
+      "memberId": 34670
+    },
+    {
+      "const": "statusEnumSet.commRouterBusy",
+      "title": "Send failed, router busy.",
+      "memberId": 34671
+    },
+    {
+      "const": "statusEnumSet.unknownNetworkMessage",
+      "title": "Unknown network message received",
+      "memberId": 34672
+    },
+    {
+      "const": "statusEnumSet.messageTooLong",
+      "title": "Message too long for message route.",
+      "memberId": 34673
+    },
+    {
+      "const": "statusEnumSet.securityError",
+      "title": "Security error along message route.",
+      "memberId": 34674
+    },
+    {
+      "const": "statusEnumSet.addressingError",
+      "title": "Send failed, addressing error.",
+      "memberId": 34675
+    },
+    {
+      "const": "statusEnumSet.writeBdtFailed",
+      "title": "Unable to update Broadcast Distribution Table.",
+      "memberId": 34676
+    },
+    {
+      "const": "statusEnumSet.readBdtFailed",
+      "title": "Unable to read Broadcast Distribution Table.",
+      "memberId": 34677
+    },
+    {
+      "const": "statusEnumSet.registerForeignDeviceFailed",
+      "title": "Unable to register foreign device",
+      "memberId": 34678
+    },
+    {
+      "const": "statusEnumSet.readFdtFailed",
+      "title": "Unable to read Foreign Device Table.",
+      "memberId": 34679
+    },
+    {
+      "const": "statusEnumSet.deleteFdtEntryFailed",
+      "title": "Unable to delete device from Foreign Device Table.",
+      "memberId": 34680
+    },
+    {
+      "const": "statusEnumSet.distributeBroadcastFailed",
+      "title": "BBMD broadcast request failed",
+      "memberId": 34681
+    },
+    {
+      "const": "statusEnumSet.abortApduTooLong",
+      "title": "Message too large to send.",
+      "memberId": 34683
+    },
+    {
+      "const": "statusEnumSet.abortApplicationExceededRetryTime",
+      "title": "Application exceeded allowed response time.",
+      "memberId": 34684
+    },
+    {
+      "const": "statusEnumSet.abortOutOfResources",
+      "title": "Message aborted, out of resources.",
+      "memberId": 34685
+    },
+    {
+      "const": "statusEnumSet.abortTsmTimeout",
+      "title": "Transaction aborted, timeout exceed.",
+      "memberId": 34686
+    },
+    {
+      "const": "statusEnumSet.abortWindowSizeOutOfRange",
+      "title": "Illegal proposed segmentation window size.",
+      "memberId": 34687
+    },
+    {
+      "const": "statusEnumSet.abortInsufficientSecurity",
+      "title": "Illegal security change in transaction.",
+      "memberId": 34695
+    },
+    {
+      "const": "statusEnumSet.abortSecurityError",
+      "title": "Security error detected.",
+      "memberId": 34696
+    },
+    {
+      "const": "statusEnumSet.commBvlcFunctionUnknown",
+      "title": "The indicated BVLC function is unknown.",
+      "memberId": 34703
+    },
+    {
+      "const": "statusEnumSet.commBvlcProprietaryFunctionUnknown",
+      "title": "The indicated BVLC proprietary function is unknown.",
+      "memberId": 34704
+    },
+    {
+      "const": "statusEnumSet.commHeaderEncodingError",
+      "title": "A header of the message has encoding errors.",
+      "memberId": 34705
+    },
+    {
+      "const": "statusEnumSet.commHeaderNotUnderstood",
+      "title": "A message header that must be understood is not supported.",
+      "memberId": 34706
+    },
+    {
+      "const": "statusEnumSet.commMessageIncomplete",
+      "title": "A message was presented that is incomplete.",
+      "memberId": 34707
+    },
+    {
+      "const": "statusEnumSet.commNotABacnetScHub",
+      "title": "The node received a message that would require it to be a hub, but the node is not a hub.",
+      "memberId": 34708
+    },
+    {
+      "const": "statusEnumSet.commPayloadExpected",
+      "title": "A payload was expected to be present in the message.",
+      "memberId": 34709
+    },
+    {
+      "const": "statusEnumSet.commUnexpectedData",
+      "title": "Data was found that was not expected.",
+      "memberId": 34710
+    },
+    {
+      "const": "statusEnumSet.commNodeDuplicateVmac",
+      "title": "A duplicate VMAC has been detected.",
+      "memberId": 34711
+    },
+    {
+      "const": "statusEnumSet.commHttpUnexpectedResponseCode",
+      "title": "Server reports unexpected response code.",
+      "memberId": 34712
+    },
+    {
+      "const": "statusEnumSet.commHttpNoUpgrade",
+      "title": "Server does not accept upgrade to the WebSocket protocol.",
+      "memberId": 34713
+    },
+    {
+      "const": "statusEnumSet.commHttpResourceNotLocal",
+      "title": "Redirect to another location of the peer WebSocket port received.",
+      "memberId": 34714
+    },
+    {
+      "const": "statusEnumSet.commHttpProxyAuthenticationFailed",
+      "title": "Proxy Authentication failed.",
+      "memberId": 34715
+    },
+    {
+      "const": "statusEnumSet.commHttpResponseTimeout",
+      "title": "No response from server within timeout.",
+      "memberId": 34716
+    },
+    {
+      "const": "statusEnumSet.commHttpResponseSyntaxError",
+      "title": "Syntax error in HTTP response received.",
+      "memberId": 34717
+    },
+    {
+      "const": "statusEnumSet.commHttpResponseValueError",
+      "title": "Errors in values of the HTTP response received.",
+      "memberId": 34718
+    },
+    {
+      "const": "statusEnumSet.commHttpResponseMissingHeader",
+      "title": "Missing header fields in response.",
+      "memberId": 34719
+    },
+    {
+      "const": "statusEnumSet.commHttpWebsocketHeaderError",
+      "title": "Response contains any other error in HTTP header fields.",
+      "memberId": 34720
+    },
+    {
+      "const": "statusEnumSet.commHttpUpgradeRequired",
+      "title": "No upgrade request was received by the server.",
+      "memberId": 34721
+    },
+    {
+      "const": "statusEnumSet.commHttpUpgradeError",
+      "title": "Upgrading to the WebSocket protocol failed.",
+      "memberId": 34722
+    },
+    {
+      "const": "statusEnumSet.commCommHttpTemporaryUnavailable",
+      "title": "No more HTTP connections are available currently.",
+      "memberId": 34723
+    },
+    {
+      "const": "statusEnumSet.commHttpNotAServer",
+      "title": "No inbound requests are supported. The host is not an HTTP server.",
+      "memberId": 34724
+    },
+    {
+      "const": "statusEnumSet.commHttpError",
+      "title": "An error occurred in HTTP.",
+      "memberId": 34725
+    },
+    {
+      "const": "statusEnumSet.commWebsocketSchemeNotSupported",
+      "title": "The WebSocket URI presented to the WebSocket port has a protocol scheme not supported by the port.",
+      "memberId": 34726
+    },
+    {
+      "const": "statusEnumSet.commWebsocketUnknownControlMessage",
+      "title": "A WebSocket control message was received that was not understood.",
+      "memberId": 34727
+    },
+    {
+      "const": "statusEnumSet.commWebsocketCloseError",
+      "title": "An error occurred in closing the WebSocket connection.",
+      "memberId": 34728
+    },
+    {
+      "const": "statusEnumSet.commWebsocketClosedByPeer",
+      "title": "The WebSocket connection was closed by the peer.",
+      "memberId": 34729
+    },
+    {
+      "const": "statusEnumSet.commWebsocketEndpointLeaves",
+      "title": "An endpoint is going away, such as a server going down or a client left the WebSocket connection.",
+      "memberId": 34730
+    },
+    {
+      "const": "statusEnumSet.commWebsocketProtocolError",
+      "title": "An endpoint has closed the WebSocket connection due to a protocol error.",
+      "memberId": 34731
+    },
+    {
+      "const": "statusEnumSet.commWebsocketDataNotAccepted",
+      "title": "An endpoint has closed the WebSocket connection due to data of a type not accepted.",
+      "memberId": 34732
+    },
+    {
+      "const": "statusEnumSet.commWebsocketClosedAbnormally",
+      "title": "The WebSocket connection was closed abnormally.",
+      "memberId": 34733
+    },
+    {
+      "const": "statusEnumSet.commWebsocketDataInconsistent",
+      "title": "The WebSocket connection was closed due to receiving data inconsistent with the message type.",
+      "memberId": 34734
+    },
+    {
+      "const": "statusEnumSet.commWebsocketDataAgainstPolicy",
+      "title": "The WebSocket connection was closed due to receiving data that violates its policy.",
+      "memberId": 34735
+    },
+    {
+      "const": "statusEnumSet.commWebsocketFrameTooLong",
+      "title": "An endpoint has closed the WebSocket connection due to data received that is too long to be processed.",
+      "memberId": 34736
+    },
+    {
+      "const": "statusEnumSet.commWebsocketExtensionMissing",
+      "title": "The WebSocket connection failed due to initiating peer extensions not confirmed by the answering peer.",
+      "memberId": 34737
+    },
+    {
+      "const": "statusEnumSet.commWebsocketRequestUnavailable",
+      "title": "The WebSocket connection was closed due to a condition that prevented executing the request received.",
+      "memberId": 34738
+    },
+    {
+      "const": "statusEnumSet.commWebsocketError",
+      "title": "A WebSocket error occurred, and the WebSocket connection is closed.",
+      "memberId": 34739
+    },
+    {
+      "const": "statusEnumSet.commTlsClientCertificateError",
+      "title": "The client certificate contains an error that prevents it from being authenticated.",
+      "memberId": 34740
+    },
+    {
+      "const": "statusEnumSet.commTlsServerCertificateError",
+      "title": "The server certificate contains an error that prevents it from being authenticated.",
+      "memberId": 34741
+    },
+    {
+      "const": "statusEnumSet.commTlsClientAuthenticationFailed",
+      "title": "Authentication of the client failed.",
+      "memberId": 34742
+    },
+    {
+      "const": "statusEnumSet.commTlsServerAuthenticationFailed",
+      "title": "Authentication of the server failed.",
+      "memberId": 34743
+    },
+    {
+      "const": "statusEnumSet.commTlsClientCertificateExpired",
+      "title": "Client certificate validity window does not include current time.",
+      "memberId": 34744
+    },
+    {
+      "const": "statusEnumSet.commTlsServerCertificateExpired",
+      "title": "Server certificate validity window does not include current time.",
+      "memberId": 34745
+    },
+    {
+      "const": "statusEnumSet.commTlsClientCertificateRevoked",
+      "title": "Client certificate is revoked.",
+      "memberId": 34746
+    },
+    {
+      "const": "statusEnumSet.commTlsServerCertificateRevoked",
+      "title": "Server certificate is revoked.",
+      "memberId": 34747
+    },
+    {
+      "const": "statusEnumSet.commTlsError",
+      "title": "An error occurred in TLS.",
+      "memberId": 34748
+    },
+    {
+      "const": "statusEnumSet.commDnsUnavailable",
+      "title": "The DNS name resolution service is unavailable.",
+      "memberId": 34749
+    },
+    {
+      "const": "statusEnumSet.commDnsNameResoltuionFailed",
+      "title": "The DNS host name resolution failed.",
+      "memberId": 34750
+    },
+    {
+      "const": "statusEnumSet.commDnsResolverFailure",
+      "title": "The DNS resolver failed.",
+      "memberId": 34751
+    },
+    {
+      "const": "statusEnumSet.commDnsError",
+      "title": "A DNS error occurred.",
+      "memberId": 34752
+    },
+    {
+      "const": "statusEnumSet.commTcpConnectTimeout",
+      "title": "The TCP connection could not be established due to no response within timeout.",
+      "memberId": 34753
+    },
+    {
+      "const": "statusEnumSet.commTcpConnectionRefused",
+      "title": "The TCP connection is not accepted by the peer.",
+      "memberId": 34754
+    },
+    {
+      "const": "statusEnumSet.commTcpClosedByLocal",
+      "title": "The TCP connection was closed by the local endpoint",
+      "memberId": 34755
+    },
+    {
+      "const": "statusEnumSet.commTcpClosedOther",
+      "title": "The TCP connection was closed due to some unspecified reason.",
+      "memberId": 34756
+    },
+    {
+      "const": "statusEnumSet.commTcpError",
+      "title": "An error occurred in TCP.",
+      "memberId": 34757
+    },
+    {
+      "const": "statusEnumSet.commIpAddressNotReachable",
+      "title": "The IP address of the peer is not reachable.",
+      "memberId": 34758
+    },
+    {
+      "const": "statusEnumSet.commIpError",
+      "title": "An error occurred on the IP protocol level.",
+      "memberId": 34759
+    },
+    {
+      "const": "statusEnumSet.bacaother",
+      "title": "General abort.",
+      "memberId": 49152
+    },
+    {
+      "const": "statusEnumSet.bacabufoverflow",
+      "title": "Aborted due to buffer overflow.",
+      "memberId": 49153
+    },
+    {
+      "const": "statusEnumSet.bacainvapdustate",
+      "title": "Aborted due to communication state.",
+      "memberId": 49154
+    },
+    {
+      "const": "statusEnumSet.bacapreempted",
+      "title": "Aborted due to higher priority task.",
+      "memberId": 49155
+    },
+    {
+      "const": "statusEnumSet.bacasegnotsuppt",
+      "title": "Aborted due to long message size without segmentation.",
+      "memberId": 49156
+    },
+    {
+      "const": "statusEnumSet.bacSecurityError",
+      "title": "Aborted due to security error.",
+      "memberId": 49157
+    },
+    {
+      "const": "statusEnumSet.bacInsufficientSecurity",
+      "title": "Aborted due to insufficient security.",
+      "memberId": 49158
+    },
+    {
+      "const": "statusEnumSet.bacWinsizeOutofrange",
+      "title": "Aborted due to communication segmentation window size.",
+      "memberId": 49159
+    },
+    {
+      "const": "statusEnumSet.bacAppExceedReplyTime",
+      "title": "Aborted due to no reply with data.",
+      "memberId": 49160
+    },
+    {
+      "const": "statusEnumSet.bacOutOfResources",
+      "title": "Aborted due to low resources.",
+      "memberId": 49161
+    },
+    {
+      "const": "statusEnumSet.bacTsmTimeout",
+      "title": "Aborted due to communication timeout.",
+      "memberId": 49162
+    },
+    {
+      "const": "statusEnumSet.bacApduTooLong",
+      "title": "Aborted due to long communication packet.",
+      "memberId": 49163
+    }
+  ]
+}

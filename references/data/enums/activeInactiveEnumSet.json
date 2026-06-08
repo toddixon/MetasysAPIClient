@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Active Inactive",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/activeInactiveEnumSet",
+  "setId": 69,
+  "oneOf": [
+    {
+      "const": "activeInactiveEnumSet.0",
+      "title": "Active",
+      "memberId": 0
+    },
+    {
+      "const": "activeInactiveEnumSet.1",
+      "title": "Inactive",
+      "memberId": 1
+    },
+    {
+      "const": "activeInactiveEnumSet.2",
+      "title": "Hold",
+      "memberId": 2
+    }
+  ]
+}

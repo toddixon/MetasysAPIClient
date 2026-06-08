@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Focus",
+    "views": [
+      {
+        "title": "Basic",
+        "views": [
+          {
+            "title": "Object",
+            "properties": [
+              "name",
+              "description",
+              "bacnetObjectType",
+              "objectCategory"
+            ],
+            "id": "viewGroupEnumSet.objectGrp"
+          },
+          {
+            "title": "Setup",
+            "properties": [
+              "deviceAddress",
+              "broadcastAddress",
+              "addressLength",
+              "networkAddress",
+              "maxApduLength",
+              "apduSegmentTimeout",
+              "apduTimeout",
+              "apduRetries",
+              "bacnetIpPort"
+            ],
+            "id": "viewGroupEnumSet.setupGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.basicGrpType"
+      },
+      {
+        "title": "Advanced",
+        "views": [
+          {
+            "title": "Engineering Values",
+            "properties": [
+              "itemReference",
+              "version",
+              "id"
+            ],
+            "id": "viewGroupEnumSet.engValuesGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.advancedGrpType"
+      },
+      {
+        "title": "Key",
+        "views": [
+          {
+            "title": "None",
+            "properties": [
+              "status",
+              "attrChangeCount",
+              "defaultAttribute"
+            ],
+            "id": "viewGroupEnumSet.noGrp"
+          }
+        ],
+        "id": "groupTypeEnumSet.keyGrpType"
+      }
+    ],
+    "id": "viewNameEnumSet.focusView"
+  }
+]

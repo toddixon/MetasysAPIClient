@@ -1,0 +1,11 @@
+{
+  "id": "3e4eaf8f-9927-597f-bf78-75040e674078",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "extension",
+  "name": "Memory Usage Alarm",
+  "label": "Memory Usage Alarm",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Memory Usage Alarm",
+  "objectType": "objectTypeEnumSet.aaClass",
+  "objectTypeVersion": "1.0"
+}

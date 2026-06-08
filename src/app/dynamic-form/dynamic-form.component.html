@@ -1,0 +1,241 @@
+@let objStatus = objectStatus$ | async;
+@if(nodeData$ | async; as node) {
+
+<div class="display-page__header" [ngClass]="getStatusClass(objStatus?.status, objStatus?.alarmState)">
+  <h4 class="item-fqr">{{node.itemReference}}</h4>
+  @let statusClass = getStatusClass(objStatus?.status, objStatus?.alarmState);
+  @if(statusClass) {
+  <span class="status-badge" [ngClass]="statusClass" role="status">
+    {{getStatusLabel(objStatus?.status, objStatus?.alarmState)}}
+  </span>
+  }
+  @if(isMulti) {
+  <button class="card-collapse__button" mat-icon-button type="button"
+    [attr.aria-label]="cardCollapsed() ? 'Expand object' : 'Collapse object'" (click)="toggleCardCollapse()">
+    <mat-icon>{{cardCollapsed() ? 'unfold_more' : 'unfold_less'}}</mat-icon>
+  </button>
+  }
+</div>
+<h2>{{node.name}}</h2>
+
+
+}
+<!-- @let test = false; -->
+<!-- @if(test) { -->
+@if(!cardCollapsed()) {
+<div class="form-content" animate.enter="form-expand" animate.leave="form-collapse">
+  @if(displayViews$ | async; as displayPage) {
+
+  <mat-tab-group class="dynamic-form__tabs" animationDuration="150ms">
+
+    <!-- Default view tab -->
+    <mat-tab label="Default">
+      <form class="" (submit)="onSaveClick().subscribe()" [formGroup]="mainForm">
+        @if(displayPage.keyView) {
+
+        <form class="key-form" [formGroup]="displayPage.keyView.group" animate.enter="enter-animation--top">
+          @let objCmds$ = objectCommands$ | async;
+          @if(displayPage.keyView.keyAttribute) {
+          @let control = getControl(displayPage.keyView.group, displayPage.keyView.keyAttribute);
+
+          <div class="key-form__control key-form__command">
+            @if(control) {
+
+            <!-- <span class="dev">Disabled:{{control.disabled}}</span> -->
+            <span><strong>{{control.title}}:</strong></span>
+            @if(isObservable(control.type)) {
+              @let t = control.type | async;
+            }
+            } <!--* Control exists -->
+
+            <div class="command--style" [ngClass]="getStatusClass(objStatus?.status, objStatus?.alarmState)"
+              [class.key-value--flash]="keyFlash()" [matMenuTriggerFor]="objCmds$ ? commandMenu : placeholder" matRipple
+              [matRippleRadius]="controlRippleRadius" [matRippleColor]="controlRippleColor">
+              @if(isFloatType(control.type) && control.type.precision) {
+              <div divFormControl contenteditable="true" [formControlName]="displayPage.keyView.keyAttribute"
+                [class.value--updated]="keyFlash()" [displayPrecision]="control.type.precision">
+                {{displayPage.keyView || 'what?'}}
+              </div>
+              } @else {
+              <div divFormControl contenteditable="true" [formControlName]="displayPage.keyView.keyAttribute"
+                [class.value--updated]="keyFlash()">
+                {{displayPage.keyView || 'what?'}}
+              </div>
+              }
+              @if(isFloatType(control.type) && control.type.units) {
+              <div class="units__value">{{control.type.units}}</div>
+              }
+            </div>
+          </div>
+
+          } @else {
+          @if(objCmds$ && objCmds$.length) {
+          <div #keyControl class="key-form__control key-form__command" [matMenuTriggerFor]="commandMenu" matRipple
+            [matRippleRadius]="controlRippleRadius" [matRippleColor]="controlRippleColor">
+            <div class="command--style no-title">
+              Command
+            </div>
+          </div>
+          }
+
+          }
+
+          <mat-menu #placeholder="matMenu" class="placeholder" yPosition="below" xPosition="after"></mat-menu>
+
+          <mat-menu #commandMenu="matMenu" yPosition="below" xPosition="after">
+            @for(command of objCmds$; track command) {
+            <button mat-menu-item (click)="openCommandDialog(command, displayPage.keyView!)">
+              <span>{{command.title}}</span>
+            </button>
+            }
+          </mat-menu>
+
+          @for(field of displayPage.keyView.properties; track field) {
+
+          @let control = getControl(displayPage.keyView.group, field);
+          <div class="key-form__control">
+            <span class="control__name"><strong>{{control.title}}:</strong></span>
+
+            @if(isObservable(control.type)) {
+
+            @if(control.type | async; as type) {
+            <div class="key-form__control" divFormControl contenteditable="false" [formControlName]="field">
+              <span>{{type}}</span>
+            </div>
+            } @else {
+            <ngx-skeleton-loader class="key-form__control skeleton-loader"
+              [theme]="ngxSkeletonThemes.valueHeightSkeletonTheme"></ngx-skeleton-loader>
+            }
+
+            } @else {
+            <div class="key-form__control" divFormControl contenteditable="false" [formControlName]="field">
+              <span>{{control.value}}</span>
+            </div>
+
+            }
+          </div>
+
+          }
+        </form>
+
+
+
+        }
+
+        @for (view of displayPage.views; track view.id) {
+        @if(view.views.length !== 0) {
+        <div class="display-view__container">
+          <div class="display-view__header" (click)="toggleViewCollapse(view.id)">
+            <h2 class="display-view__title">{{view.title}}</h2>
+            <button class="view-collapse__button" mat-icon-button type="button"
+              [attr.aria-expanded]="!isViewCollapsed(view.id)"
+              [attr.aria-label]="(isViewCollapsed(view.id) ? 'Expand' : 'Collapse') + ' ' + view.title">
+              <mat-icon>{{isViewCollapsed(view.id) ? 'expand_more' : 'expand_less'}}</mat-icon>
+            </button>
+          </div>
+
+          <div class="view-collapse__content" [class.collapsed]="isViewCollapsed(view.id)">
+            <div class="view-collapse__inner">
+              @for(controlGroup of view.views; track controlGroup.id) {
+              <!-- @if(controlGroup.fields.length > 0) { -->
+              <app-control-group [group]="controlGroup"
+                (objectReferencePickerRequested)="onObjectReferencePickerRequested($event)"></app-control-group>
+              <!-- } -->
+              } <!-- END controlGroup loop -->
+            </div>
+          </div>
+
+        </div>
+        }
+
+        } <!-- END view loop -->
+        <button matButton="filled" type="submit" [disabled]="disableSave()">Save</button>
+      </form>
+    </mat-tab> <!-- /Default view tab -->
+
+    <!-- Alternative view tabs, loaded eagerly in background after default view renders -->
+    @for (viewItem of altViewList(); track viewItem.id) {
+    <mat-tab [label]="viewIdToLabel(viewItem.id)">
+      @if (altViewsLoading().has(viewItem.id)) {
+      <div class="alt-view__loading">
+        <mat-progress-spinner mode="indeterminate" diameter="36"></mat-progress-spinner>
+        <span>Loading view…</span>
+      </div>
+      } @else {
+      @let altPage = altViewPages().get(viewItem.id);
+      @if (altPage) {
+      @if (altPage.keyView) {
+      <app-control-group [group]="altPage.keyView"
+        (objectReferencePickerRequested)="onObjectReferencePickerRequested($event)"></app-control-group>
+      }
+      @for (view of altPage.views; track view.id) {
+      @if(view.views.length > 0) {
+      <div class="display-view__container">
+        <div class="display-view__header" (click)="toggleViewCollapse(view.id)">
+          <h2 class="display-view__title">{{view.title}}</h2>
+          <button class="view-collapse__button" mat-icon-button type="button"
+            [attr.aria-expanded]="!isViewCollapsed(view.id)"
+            [attr.aria-label]="(isViewCollapsed(view.id) ? 'Expand' : 'Collapse') + ' ' + view.title">
+            <mat-icon>{{isViewCollapsed(view.id) ? 'expand_more' : 'expand_less'}}</mat-icon>
+          </button>
+        </div>
+        <div class="view-collapse__content" [class.collapsed]="isViewCollapsed(view.id)">
+          <div class="view-collapse__inner">
+            @for (group of view.views; track group.id) {
+            <!-- @if(group.fields.length > 0) { -->
+            <app-control-group [group]="group"
+              (objectReferencePickerRequested)="onObjectReferencePickerRequested($event)"></app-control-group>
+            <!-- } -->
+            }
+          </div>
+        </div>
+      </div>
+      }
+      }
+      } @else {
+      <span class="alt-view__error">Failed to load this view.</span>
+      }
+      }
+    </mat-tab>
+    }
+
+  </mat-tab-group>
+
+
+  } @else {
+
+  <div class="skeleton-displayView">
+    <div class="skeleton-form">
+      <div class="key-skeleton__command">
+        <ngx-skeleton-loader class="command__title" [theme]="ngxSkeletonThemes.titleBoxWide"></ngx-skeleton-loader>
+        <ngx-skeleton-loader [theme]="ngxSkeletonThemes.CommandSkeletonTheme"></ngx-skeleton-loader>
+      </div>
+      <ngx-skeleton-loader class="key-skeleton__controls" [theme]="ngxSkeletonThemes.skeletonTheme"
+        count="2"></ngx-skeleton-loader>
+    </div>
+    <ngx-skeleton-loader class="skeleton-view__title" [theme]="ngxSkeletonThemes.skeletonTheme"></ngx-skeleton-loader>
+    @for(view of skeletonViewCount; track $index) {
+    <div class="view-group__wrapper">
+      <mat-divider vertical="false" />
+      <ngx-skeleton-loader class="view-group__title" [theme]="ngxSkeletonThemes.skeletonTheme"></ngx-skeleton-loader>
+      <div class="skeleton-view-group">
+        <ngx-skeleton-loader class="skeleton-view-group__titles grid-column" [theme]="ngxSkeletonThemes.titleBoxWide"
+          count="4"></ngx-skeleton-loader>
+
+        <ngx-skeleton-loader class="skeleton-view-group__properties grid-column"
+          [theme]="ngxSkeletonThemes.inputValueBoxWide" count="4"></ngx-skeleton-loader>
+
+        <ngx-skeleton-loader class="skeleton-view-group__right-column"
+          [theme]="ngxSkeletonThemes.fillContainerTheme"></ngx-skeleton-loader>
+
+      </div>
+
+    </div>
+
+    }
+    <ngx-skeleton-loader class="save__button" [theme]="ngxSkeletonThemes.saveButton"></ngx-skeleton-loader>
+  </div>
+
+  }
+</div> <!-- /.form-content -->
+} <!-- @if(!cardCollapsed()) -->

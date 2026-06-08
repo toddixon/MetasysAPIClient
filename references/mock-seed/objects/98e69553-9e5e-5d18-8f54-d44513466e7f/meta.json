@@ -1,0 +1,11 @@
+{
+  "id": "98e69553-9e5e-5d18-8f54-d44513466e7f",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "test",
+  "label": "test",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.test",
+  "objectType": "objectTypeEnumSet.aiMapperClass",
+  "objectTypeVersion": "1.0"
+}

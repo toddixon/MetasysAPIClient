@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Routing Mode",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/routingModeEnumSet",
+  "setId": 1233,
+  "oneOf": [
+    {
+      "const": "routingModeEnumSet.rmRoutingFullDisable",
+      "title": "Disabled",
+      "memberId": 0
+    },
+    {
+      "const": "routingModeEnumSet.rmRoutingFullEnable",
+      "title": "Enabled",
+      "memberId": 1
+    },
+    {
+      "const": "routingModeEnumSet.rmRoutingNoBroadcast",
+      "title": "Enabled Without Broadcast",
+      "memberId": 2
+    }
+  ]
+}

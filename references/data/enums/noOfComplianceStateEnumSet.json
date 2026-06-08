@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COMPLIANCE STATE",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/noOfComplianceStateEnumSet",
+  "setId": 40532,
+  "oneOf": [
+    {
+      "const": "noOfComplianceStateEnumSet.nonCompliantUnlicensed",
+      "title": "Non-Compliant (Unlicensed)",
+      "memberId": 0
+    },
+    {
+      "const": "noOfComplianceStateEnumSet.nonCompliantLicensed",
+      "title": "Non-Compliant (Licensed)",
+      "memberId": 1
+    },
+    {
+      "const": "noOfComplianceStateEnumSet.compliantLicensed",
+      "title": "Compliant (Licensed)",
+      "memberId": 2
+    }
+  ]
+}

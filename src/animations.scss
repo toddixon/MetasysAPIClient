@@ -1,0 +1,262 @@
+@mixin slideFadeIn($posStart, $vertical) {
+  // animation: #{$name} 10s;
+
+  // @if $vertical {
+  @keyframes slideFadeIn {
+    from {
+      opacity: 0;
+
+      @if $vertical {
+        transform: translateY($posStart);
+      }
+
+      @else {
+        transform: translateX($posStart);
+      }
+
+    }
+
+    to {
+
+      opacity: 1;
+
+      @if $vertical {
+        transform: translateY(0);
+      }
+
+      @else {
+        transform: translateX(0);
+      }
+
+    }
+
+
+  }
+
+}
+
+@mixin slideFadeOut($posEnd, $vertical: true) {
+  // animation: slideFadeOut 4s;
+
+  //Make both mixins able to work with X and Y axis
+  // @if $vertical {
+  @keyframes slideFadeOut {
+    @if $vertical {
+
+      from {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateY($posEnd);
+      }
+    }
+
+    @else {
+
+      from {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateX($posEnd);
+      }
+    }
+
+  }
+}
+
+
+
+@mixin keyFrames($name) {
+
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+// mixin to apply the animations
+@mixin animate($animation-name, $duration, $method: linear, $times: 1) {
+  animation: #{$animation-name} $duration $method $times; // Use interpolation to reference the keyframe name
+}
+
+
+@mixin backgroundTransition($duration: 0.5s) {
+  transition: background-color 1s ease;
+
+}
+
+
+.enter-animation {
+  &--top {
+    @include keyFrames(slideFadeInTop) {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+
+    @include animate(slideFadeInTop, 0.5s, linear);
+  }
+
+  &--bottom {
+    @include keyFrames(slideFadeInBottom) {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+
+    @include animate(slideFadeInBottom, 0.5s, linear);
+  }
+
+  &--left {
+    @include keyFrames(slideFadeInLeft) {
+      from {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+
+    @include animate(slideFadeInLeft, 0.5s, linear);
+  }
+
+  &--right {
+    @include keyFrames(slideFadeInRight) {
+      from {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+
+    @include animate(slideFadeInRight, 0.5s, linear);
+  }
+
+  &--shrink {
+    @include keyFrames(expandFadeIn) {
+      from {
+        opacity: 0;
+        position: absolute;
+        transform: scale(0);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+  }
+
+
+}
+
+
+
+.leave-animation {
+
+  &--top {
+    @include keyFrames(slideFadeOutTop) {
+      from {
+        opacity: 1;
+        position: absolute;
+        transform: translateY(0px);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+    }
+
+    @include animate(slideFadeOutTop, 0.5s, linear);
+  }
+
+  &--bottom {
+    @include keyFrames(slideFadeOutBottom) {
+      from {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+
+    @include animate(slideFadeOutBottom, 0.5s, linear);
+  }
+
+  &--left {
+    @include keyFrames(slideFadeOutLeft) {
+      from {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+    }
+
+    @include animate(slideFadeOutLeft, 0.5s, linear);
+  }
+
+  &--right {
+    @include keyFrames(slideFadeOutRight) {
+      from {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+    }
+
+    &--shrink {
+      @include keyFrames(shrinkFadeOut) {
+        from {
+          opacity: 1;
+          transform: scale(1);
+        }
+
+        to {
+          opacity: 0;
+          transform: scale(0);
+        }
+      }
+
+    }
+
+    @include animate(slideFadeOutRight, 0.5s, linear);
+  }
+
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MSTPDL Baud Rate",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/mstpdlBaudRateEnumSet",
+  "setId": 300,
+  "oneOf": [
+    {
+      "const": "mstpdlBaudRateEnumSet.mstpdlBaudAuto",
+      "title": "Auto",
+      "memberId": 0
+    },
+    {
+      "const": "mstpdlBaudRateEnumSet.mstpdlBaud1200",
+      "title": "1200",
+      "memberId": 1
+    },
+    {
+      "const": "mstpdlBaudRateEnumSet.mstpdlBaud9600",
+      "title": "9600",
+      "memberId": 2
+    },
+    {
+      "const": "mstpdlBaudRateEnumSet.mstpdlBaud19200",
+      "title": "19200",
+      "memberId": 3
+    },
+    {
+      "const": "mstpdlBaudRateEnumSet.mstpdlBaud38400",
+      "title": "38400",
+      "memberId": 4
+    },
+    {
+      "const": "mstpdlBaudRateEnumSet.mstpdlBaud76800",
+      "title": "76800",
+      "memberId": 5
+    }
+  ]
+}

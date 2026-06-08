@@ -1,0 +1,853 @@
+{
+  "objectType": "objectTypeEnumSet.avClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/f45c66c1-59be-52a6-b549-a15b3c359239",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "item": {
+    "id": "e7735c88-18ed-5c3b-b3f7-843f2937d91e",
+    "name": "AV1 test",
+    "label": "AV1",
+    "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.AV1",
+    "objectType": "objectTypeEnumSet.avClass",
+    "status": "objectStatusEnumSet.osOperatorOverride",
+    "alarmState": "objectStatusEnumSet.osNormal",
+    "description": "A description for av1 updated 748924321",
+    "bacnetObjectType": "objectTypeEnumSet.bacAvClass",
+    "objectCategory": "objectCategoryEnumSet.custom99Category",
+    "outOfService": false,
+    "reliability": "reliabilityEnumSet.reliable",
+    "currentCommandPriority": 8,
+    "overrideExpirationTime": {
+      "date": null,
+      "time": null
+    },
+    "presentValueWritable": "objectModeEnumSet.presentValueWritableWithPriority",
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "prioritySupported": true,
+    "minPresValue": -1000.00549,
+    "maxPresValue": 250011104,
+    "units": "unitEnumSet.degCPerSec",
+    "displayPrecision": "displayPrecisionEnumSet.displayPrecisionPt00001",
+    "covIncrement": 0.0000999999975,
+    "connectedToInternalApplication": "noYesEnumSet.fanNo",
+    "presentValue": 0,
+    "attrChangeCount": 49,
+    "defaultAttribute": "attributeEnumSet.presentValue",
+    "relinquishDefault": 0,
+    "restoreCommandPriority": [
+      [
+        "restorePriorityEnumSet.7",
+        true
+      ],
+      [
+        "restorePriorityEnumSet.10",
+        false
+      ],
+      [
+        "restorePriorityEnumSet.12",
+        false
+      ],
+      [
+        "restorePriorityEnumSet.15",
+        false
+      ]
+    ],
+    "connectedTo": null,
+    "direction": "connectionDirectionSet.notConnected",
+    "connectedStatus": "statusEnumSet.ok",
+    "statusFlags": [
+      [
+        "bacstatusFlagsEnumSet.inAlarmEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.faultEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.overridenEnum",
+        false
+      ],
+      [
+        "bacstatusFlagsEnumSet.outOfServiceEnum",
+        false
+      ]
+    ],
+    "eventState": "baceventstateEnumSet.bacevntNormal",
+    "bacnetExposed": true,
+    "propertyRefValue": null,
+    "monitorOnly": false,
+    "priorityForWritingToConnected": 16,
+    "internalUnits": "unitEnumSet.degCPerSec",
+    "intrinsicAlarmingDefined": false,
+    "defaultValue": 0,
+    "remoteObjectReference": {
+      "instance": 0,
+      "bacnetObjectType": "objectTypeEnumSet.noClass"
+    },
+    "targetReference": 0,
+    "lastExecutedTime": 21,
+    "referencedValue": null,
+    "referencedReliability": null,
+    "referencedValueCosCount": null,
+    "failsoft": null,
+    "failsoftCurrentlyActive": null,
+    "outOfServiceExpirationTime": null,
+    "priorityArray": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "intrinsicAlarmDisabled": false,
+    "eventEnable": [
+      [
+        "baceventBitsEnumSet.baceventToOffnormal",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToFault",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToNormal",
+        true
+      ]
+    ],
+    "limitEnable": [
+      [
+        "bacLimitEnableEnumSet.bacLowLimitEnable",
+        true
+      ],
+      [
+        "bacLimitEnableEnumSet.bacHighLimitEnable",
+        true
+      ]
+    ],
+    "highLimit": 70,
+    "lowLimit": 65,
+    "bacnetDeadband": 0,
+    "timeDelay": 0,
+    "notificationObjRef": null,
+    "notificationClass": 4194303,
+    "notifyType": "bacNotifyTypeEnumSet.bacNotifyAlarm",
+    "eventDetectionEnable": false,
+    "ackedTransitions": [
+      [
+        "baceventBitsEnumSet.baceventToOffnormal",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToFault",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToNormal",
+        true
+      ]
+    ],
+    "eventTimeStamps": [
+      {
+        "type": "bacnetTimestampEnumSet.timedateBactimestamp",
+        "timestamp": [
+          {
+            "item": null,
+            "schema": {
+              "metasysType": "date",
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "metasysType": "date",
+                  "properties": {
+                    "year": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "ushort",
+                          "minimum": 1900,
+                          "maximum": 2154
+                        },
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 0,
+                          "maximum": 254
+                        }
+                      ]
+                    },
+                    "month": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 12
+                        },
+                        {
+                          "allOf": [
+                            {
+                              "type": "string",
+                              "metasysType": "enum",
+                              "lastMember": "monthEnumSet.monthDec"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "dayOfMonth": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 31
+                        },
+                        {
+                          "allOf": [
+                            {
+                              "type": "string",
+                              "metasysType": "enum",
+                              "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "dayOfWeek": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 7
+                        },
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "const": 255
+                        },
+                        {
+                          "type": "string",
+                          "metasysType": "string",
+                          "const": "any"
+                        },
+                        {
+                          "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "year",
+                    "month",
+                    "dayOfMonth"
+                  ],
+                  "display": [
+                    "year",
+                    "month",
+                    "dayOfMonth"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          },
+          {
+            "item": null,
+            "schema": {
+              "oneOf": [
+                {
+                  "allOf": [
+                    {
+                      "$ref": "#metasys-time"
+                    },
+                    {
+                      "required": [
+                        "hour",
+                        "minute",
+                        "second"
+                      ],
+                      "display": [
+                        "hour",
+                        "minute",
+                        "second"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "metasysType": "time"
+            }
+          }
+        ]
+      },
+      {
+        "type": "bacnetTimestampEnumSet.timedateBactimestamp",
+        "timestamp": [
+          {
+            "item": null,
+            "schema": {
+              "metasysType": "date",
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "metasysType": "date",
+                  "properties": {
+                    "year": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "ushort",
+                          "minimum": 1900,
+                          "maximum": 2154
+                        },
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 0,
+                          "maximum": 254
+                        }
+                      ]
+                    },
+                    "month": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 12
+                        },
+                        {
+                          "allOf": [
+                            {
+                              "type": "string",
+                              "metasysType": "enum",
+                              "lastMember": "monthEnumSet.monthDec"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "dayOfMonth": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 31
+                        },
+                        {
+                          "allOf": [
+                            {
+                              "type": "string",
+                              "metasysType": "enum",
+                              "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "dayOfWeek": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 7
+                        },
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "const": 255
+                        },
+                        {
+                          "type": "string",
+                          "metasysType": "string",
+                          "const": "any"
+                        },
+                        {
+                          "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "year",
+                    "month",
+                    "dayOfMonth"
+                  ],
+                  "display": [
+                    "year",
+                    "month",
+                    "dayOfMonth"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          },
+          {
+            "item": null,
+            "schema": {
+              "oneOf": [
+                {
+                  "allOf": [
+                    {
+                      "$ref": "#metasys-time"
+                    },
+                    {
+                      "required": [
+                        "hour",
+                        "minute",
+                        "second"
+                      ],
+                      "display": [
+                        "hour",
+                        "minute",
+                        "second"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "metasysType": "time"
+            }
+          }
+        ]
+      },
+      {
+        "type": "bacnetTimestampEnumSet.timedateBactimestamp",
+        "timestamp": [
+          {
+            "item": null,
+            "schema": {
+              "metasysType": "date",
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "metasysType": "date",
+                  "properties": {
+                    "year": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "ushort",
+                          "minimum": 1900,
+                          "maximum": 2154
+                        },
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 0,
+                          "maximum": 254
+                        }
+                      ]
+                    },
+                    "month": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 12
+                        },
+                        {
+                          "allOf": [
+                            {
+                              "type": "string",
+                              "metasysType": "enum",
+                              "lastMember": "monthEnumSet.monthDec"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/monthEnumSet"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "dayOfMonth": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 31
+                        },
+                        {
+                          "allOf": [
+                            {
+                              "type": "string",
+                              "metasysType": "enum",
+                              "lastMember": "bacnetDayOfMonthEnumSet.bdom31"
+                            },
+                            {
+                              "$ref": "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "dayOfWeek": {
+                      "oneOf": [
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "minimum": 1,
+                          "maximum": 7
+                        },
+                        {
+                          "type": "integer",
+                          "metasysType": "byte",
+                          "const": 255
+                        },
+                        {
+                          "type": "string",
+                          "metasysType": "string",
+                          "const": "any"
+                        },
+                        {
+                          "$ref": "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "year",
+                    "month",
+                    "dayOfMonth"
+                  ],
+                  "display": [
+                    "year",
+                    "month",
+                    "dayOfMonth"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          },
+          {
+            "item": null,
+            "schema": {
+              "oneOf": [
+                {
+                  "allOf": [
+                    {
+                      "$ref": "#metasys-time"
+                    },
+                    {
+                      "required": [
+                        "hour",
+                        "minute",
+                        "second"
+                      ],
+                      "display": [
+                        "hour",
+                        "minute",
+                        "second"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "metasysType": "time"
+            }
+          }
+        ]
+      }
+    ],
+    "eventMessageTexts": [
+      "",
+      "",
+      ""
+    ],
+    "eventMessageTextsConfig": [
+      "",
+      "",
+      ""
+    ],
+    "alarmMessageText": null,
+    "graphic": null,
+    "graphicAlias": null,
+    "storedEventEnable": [
+      [
+        "baceventBitsEnumSet.baceventToOffnormal",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToFault",
+        true
+      ],
+      [
+        "baceventBitsEnumSet.baceventToNormal",
+        true
+      ]
+    ],
+    "useCovMinSendTime": null,
+    "refreshTimer": false,
+    "userNameIsBacnetObjName": false,
+    "objectName": "DESKTOP-VM/Programming.AV1",
+    "enabled": true,
+    "executionPriority": "executionPriorityEnumSet.normalPriority",
+    "objectIdentifier": {
+      "instance": 3000013,
+      "bacnetObjectType": "objectTypeEnumSet.bacAvClass"
+    },
+    "propertyList": [
+      "attributeEnumSet.presentValue",
+      "attributeEnumSet.reliability",
+      "attributeEnumSet.outOfService",
+      "attributeEnumSet.statusFlags",
+      "attributeEnumSet.eventState",
+      "attributeEnumSet.presentValueWritable",
+      "attributeEnumSet.connectedToInternalApplication",
+      "attributeEnumSet.bacnetExposed",
+      "attributeEnumSet.maxPresValue",
+      "attributeEnumSet.minPresValue",
+      "attributeEnumSet.covIncrement",
+      "attributeEnumSet.units",
+      "attributeEnumSet.displayPrecision",
+      "attributeEnumSet.propertyRefValue",
+      "attributeEnumSet.connectedTo",
+      "attributeEnumSet.priorityForWritingToConnected",
+      "attributeEnumSet.connectedStatus",
+      "attributeEnumSet.direction",
+      "attributeEnumSet.prioritySupported",
+      "attributeEnumSet.defaultValue",
+      "attributeEnumSet.relinquishDefault",
+      "attributeEnumSet.restoreCommandPriority",
+      "attributeEnumSet.priorityArray",
+      "attributeEnumSet.overrideExpirationTime",
+      "attributeEnumSet.intrinsicAlarmDisabled",
+      "attributeEnumSet.eventEnable",
+      "attributeEnumSet.limitEnable",
+      "attributeEnumSet.highLimit",
+      "attributeEnumSet.lowLimit",
+      "attributeEnumSet.bacnetDeadband",
+      "attributeEnumSet.timeDelay",
+      "attributeEnumSet.notificationObjRef",
+      "attributeEnumSet.notificationClass",
+      "attributeEnumSet.notifyType",
+      "attributeEnumSet.eventDetectionEnable",
+      "attributeEnumSet.ackedTransitions",
+      "attributeEnumSet.eventTimeStamps",
+      "attributeEnumSet.eventMessageTexts",
+      "attributeEnumSet.eventMessageTextsConfig",
+      "attributeEnumSet.alarmMessageText",
+      "attributeEnumSet.graphic",
+      "attributeEnumSet.graphicAlias",
+      "attributeEnumSet.storedEventEnable",
+      "attributeEnumSet.currentCommandPriority",
+      "attributeEnumSet.itemReference",
+      "attributeEnumSet.name",
+      "attributeEnumSet.description",
+      "attributeEnumSet.status",
+      "attributeEnumSet.enabled",
+      "attributeEnumSet.executionPriority",
+      "attributeEnumSet.objectCategory",
+      "attributeEnumSet.alarmState"
+    ],
+    "internalOid": 75,
+    "deviceName": {
+      "objectReference": "DESKTOP-VM:DESKTOP-VM",
+      "referencedObject": {
+        "objectName": "DESKTOP-VM",
+        "objectUrl": "https://desktop-vm/api/v6/objects/1dd8657b-33b5-591e-b8aa-4a86ced81bec"
+      }
+    },
+    "referenceCount": 3,
+    "isContainer": true,
+    "childList": [
+      {
+        "functionalName": "Alarm1",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000318,
+          "bacnetObjectType": "objectTypeEnumSet.aaClass"
+        },
+        "isReference": false,
+        "internal": false
+      },
+      {
+        "functionalName": "Trend1_copy",
+        "referenceName": null,
+        "childOid": {
+          "instance": 3000386,
+          "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass"
+        },
+        "isReference": false,
+        "internal": false
+      }
+    ],
+    "pmiRefresh": null,
+    "internal": false,
+    "archiveObject": true,
+    "commandList": [
+      "commandIdEnumSet.adjustCommand",
+      "commandIdEnumSet.overrideCommand",
+      "commandIdEnumSet.temporaryOverrideCommand",
+      "commandIdEnumSet.overrideReleaseCommand",
+      "commandIdEnumSet.releaseCommand",
+      "commandIdEnumSet.releaseAllCommand",
+      "commandIdEnumSet.enableAlarmsCommand",
+      "commandIdEnumSet.disableAlarmsCommand"
+    ],
+    "objectCanNotBeDeleted": false,
+    "objectOrder": 0
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "JCI AV",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "presentValue": {
+        "title": "Present Value",
+        "readOnly": true,
+        "prioritized": true,
+        "dynamic": true,
+        "displayPrecisionSource": "displayPrecision",
+        "maxPresValueSource": "maxPresValue",
+        "minPresValueSource": "minPresValue",
+        "unitsSource": "units",
+        "metasysType": "float",
+        "type": "number",
+        "minimum": -1000.00549,
+        "maximum": 250011104,
+        "displayPrecision": {
+          "id": "displayPrecisionEnumSet.displayPrecisionPt00001",
+          "displayMultipleOf": 0.00001
+        },
+        "unit": {
+          "id": "degCPerSec",
+          "title": "deg C/s"
+        }
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Trend",
+      "views": [
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "presentValue",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.trendView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

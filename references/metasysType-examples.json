@@ -1,0 +1,367 @@
+### Examples of metasysType=attributeReference
+
+{
+  title: "Command Reference",
+  oneOf: [
+    {
+      type: "null",
+    },
+    {
+      $ref: "#attribute-reference",
+    },
+  ],
+  metasysType: "attributeReference",
+  attributeFilter: "basic",
+}
+
+{
+  title: "Input Reference",
+  readOnly: true,
+  metasysType: "attributeReference",
+  oneOf: [
+    {
+      $ref: "#attribute-reference",
+    },
+  ],
+}
+
+
+### Example of objectReference
+
+{
+  title: "Device Name",
+  readOnly: true,
+  metasysType: "objectReference",
+  oneOf: [
+    {
+      $ref: "#object-reference",
+    },
+  ],
+}
+
+{
+  title: "Graphic",
+  oneOf: [
+    {
+      type: "null",
+    },
+    {
+      $ref: "#object-reference",
+    },
+  ],
+  metasysType: "objectReference",
+  objectTypes: [
+    "graphicClass",
+    "xamlGraphicClass",
+  ],
+}
+
+
+### Example of metasysType=ListOf
+
+{
+  title: "Alarm Values",
+  category: "attributeCategoryEnumSet.alarmValuesCategory",
+  type: "array",
+  metasysType: "listof",
+  items: {
+    type: "object",
+    metasysType: "struct",
+    properties: {
+      state: {
+        category: "attributeCategoryEnumSet.parentalInputCategory",
+        enumSetSource: "attributeEnumSet.statesText",
+        allOf: [
+          {
+            type: "string",
+            metasysType: "enum",
+          },
+          {
+            $ref: "https://desktop-vm/api/v6/schemas/enums/closeOpenEnumSet",
+          },
+        ],
+        title: "State",
+      },
+      priority: {
+        metasysType: "byte",
+        type: "integer",
+        minimum: 0,
+        maximum: 255,
+        title: "Priority",
+      },
+      almMsgTxt: {
+        category: "attributeCategoryEnumSet.alarmValuesTextCategory",
+        type: "string",
+        metasysType: "string",
+        maxLength: 16383,
+        title: "Alarm Message Text",
+      },
+    },
+  },
+}
+
+{
+  title: "Child List",
+  readOnly: true,
+  type: "array",
+  metasysType: "listof",
+  items: {
+    type: "object",
+    metasysType: "struct",
+    properties: {
+      functionalName: {
+        type: "string",
+        metasysType: "string",
+        title: "Functional Name",
+      },
+      referenceName: {
+        metasysType: "objectReference",
+        oneOf: [
+          {
+            $ref: "#object-reference",
+          },
+        ],
+        title: "Reference Name",
+      },
+      childOid: {
+        metasysType: "bacOid",
+        oneOf: [
+          {
+            $ref: "#bacoid",
+          },
+        ],
+        title: "Child OID",
+      },
+      isReference: {
+        type: "boolean",
+        metasysType: "bool",
+        title: "Is Reference",
+      },
+      internal: {
+        type: "boolean",
+        metasysType: "bool",
+        title: "Internal",
+      },
+    },
+  },
+}
+
+{
+  title: "Unbound References",
+  readOnly: true,
+  type: "array",
+  metasysType: "listof",
+  items: {
+    metasysType: "objectReference",
+    oneOf: [
+      {
+        $ref: "#object-reference",
+      },
+    ],
+  },
+}
+
+### Exampte of metasysType=array (looks like the metasysType is array if the array entries are of primitive types, and a listOf if the array entries are of complex types)
+
+{
+  category: "attributeCategoryEnumSet.ipAddressCategory",
+  type: "array",
+  metasysType: "array",
+  items: {
+    metasysType: "byte",
+    type: "integer",
+    minimum: 0,
+    maximum: 255,
+  },
+  maxItems: 4,
+  minItems: 4,
+  title: "IP Address",
+}
+
+
+### Example of metasysType=date
+
+{
+  title: "Date",
+  readOnly: true,
+  metasysType: "date",
+  oneOf: [
+    {
+      type: "null",
+    },
+    {
+      type: "object",
+      metasysType: "date",
+      properties: {
+        year: {
+          oneOf: [
+            {
+              type: "integer",
+              metasysType: "ushort",
+              minimum: 1900,
+              maximum: 2154,
+            },
+            {
+              type: "integer",
+              metasysType: "byte",
+              minimum: 0,
+              maximum: 254,
+            },
+          ],
+        },
+        month: {
+          oneOf: [
+            {
+              type: "integer",
+              metasysType: "byte",
+              minimum: 1,
+              maximum: 12,
+            },
+            {
+              allOf: [
+                {
+                  type: "string",
+                  metasysType: "enum",
+                  lastMember: "monthEnumSet.monthDec",
+                },
+                {
+                  $ref: "https://desktop-vm/api/v6/schemas/enums/monthEnumSet",
+                },
+              ],
+            },
+          ],
+        },
+        dayOfMonth: {
+          oneOf: [
+            {
+              type: "integer",
+              metasysType: "byte",
+              minimum: 1,
+              maximum: 31,
+            },
+            {
+              allOf: [
+                {
+                  type: "string",
+                  metasysType: "enum",
+                  lastMember: "bacnetDayOfMonthEnumSet.bdom31",
+                },
+                {
+                  $ref: "https://desktop-vm/api/v6/schemas/enums/bacnetDayOfMonthEnumSet",
+                },
+              ],
+            },
+          ],
+        },
+        dayOfWeek: {
+          oneOf: [
+            {
+              type: "integer",
+              metasysType: "byte",
+              minimum: 1,
+              maximum: 7,
+            },
+            {
+              type: "integer",
+              metasysType: "byte",
+              const: 255,
+            },
+            {
+              type: "string",
+              metasysType: "string",
+              const: "any",
+            },
+            {
+              $ref: "https://desktop-vm/api/v6/schemas/enums/dayOfWeekEnumSet",
+            },
+          ],
+        },
+      },
+      required: [
+        "year",
+        "month",
+        "dayOfMonth",
+      ],
+      display: [
+        "year",
+        "month",
+        "dayOfMonth",
+      ],
+      additionalProperties: false,
+    },
+  ],
+}
+
+
+### Example of metasysType=time
+
+{
+  title: "Alarm Time",
+  readOnly: true,
+  oneOf: [
+    {
+      allOf: [
+        {
+          $ref: "#metasys-time",
+        },
+        {
+          required: [
+            "hour",
+            "minute",
+            "second",
+          ],
+          display: [
+            "hour",
+            "minute",
+            "second",
+          ],
+        },
+      ],
+    },
+    {
+      type: "null",
+    },
+  ],
+  metasysType: "time",
+}
+
+
+### Example of metasysType=bacOid
+
+{
+  title: "Object Identifier",
+  readOnly: true,
+  metasysType: "bacOid",
+  oneOf: [
+    {
+      $ref: "#bacoid",
+    },
+  ],
+}
+
+
+### Example of metasysType=struct
+
+{
+  title: "Version",
+  readOnly: true,
+  category: "attributeCategoryEnumSet.versionStructCategory",
+  type: "object",
+  metasysType: "struct",
+  properties: {
+    major: {
+      metasysType: "byte",
+      type: "integer",
+      minimum: 0,
+      maximum: 255,
+      title: "Major",
+    },
+    minor: {
+      metasysType: "byte",
+      type: "integer",
+      minimum: 0,
+      maximum: 255,
+      title: "Minor",
+    },
+  },
+}

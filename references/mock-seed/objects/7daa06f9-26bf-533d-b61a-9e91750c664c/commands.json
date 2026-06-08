@@ -1,0 +1,119 @@
+{
+  "self": "https://desktop-vm/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c/commands",
+  "items": [
+    {
+      "id": "commandIdEnumSet.disableCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c/commands/commandIdEnumSet.disableCommand",
+      "title": "Disable",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.enableCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c/commands/commandIdEnumSet.enableCommand",
+      "title": "Enable",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.resetFieldDeviceCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c/commands/commandIdEnumSet.resetFieldDeviceCommand",
+      "title": "Reset Field Device",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.rediscoverTextStringsCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c/commands/commandIdEnumSet.rediscoverTextStringsCommand",
+      "title": "Rediscover Text Strings",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    },
+    {
+      "id": "commandIdEnumSet.syncFieldDeviceTimeCommand",
+      "invokeUrl": "https://desktop-vm/api/v6/objects/7daa06f9-26bf-533d-b61a-9e91750c664c/commands/commandIdEnumSet.syncFieldDeviceTimeCommand",
+      "title": "Sync Field Device Time(s)",
+      "commandBodySchema": {
+        "type": "object",
+        "metasysType": "struct",
+        "properties": {
+          "annotation": {
+            "title": "Annotation",
+            "type": "string",
+            "metasysType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "definitions": null
+      }
+    }
+  ],
+  "effectivePermissions": {
+    "canInvoke": [
+      "commandIdEnumSet.disableCommand",
+      "commandIdEnumSet.enableCommand",
+      "commandIdEnumSet.resetFieldDeviceCommand",
+      "commandIdEnumSet.rediscoverTextStringsCommand",
+      "commandIdEnumSet.syncFieldDeviceTimeCommand"
+    ]
+  }
+}

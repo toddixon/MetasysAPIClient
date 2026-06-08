@@ -1,0 +1,148 @@
+{
+  "objectType": "objectTypeEnumSet.trendLogClass",
+  "objectTypeVersion": "1.0",
+  "parentUrl": "https://mock.local/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceUrl": "https://mock.local/api/v6/networkDevices/44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "item": {
+    "id": "009f8dad-15bf-50fa-b79f-3104db6e2ae2",
+    "name": "Event Rate Trend Log",
+    "label": "Event Rate Trend Log",
+    "itemReference": "DESKTOP-VM:NS-NAE01/Event Rate Trend Log",
+    "objectType": "objectTypeEnumSet.trendLogClass",
+    "status": "objectStatusEnumSet.osAlarm",
+    "alarmState": "objectStatusEnumSet.osAlarm",
+    "description": "",
+    "bacnetObjectType": "objectTypeEnumSet.bacTrendLogClass",
+    "enable": true,
+    "recordCount": 192,
+    "bufferState": "bufferStateEnumSet.operational",
+    "reliability": "reliabilityEnumSet.reliable",
+    "startTime": {
+      "date": null,
+      "time": null
+    },
+    "stopTime": {
+      "date": null,
+      "time": null
+    },
+    "bufferSize": 192,
+    "stopWhenFull": false,
+    "totalRecordCount": 6407,
+    "sampleInterval": 900,
+    "clientCovIncrement": null,
+    "repositoryEnabled": false,
+    "transferSetpoint": 130,
+    "nextTransferCount": 192,
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "inputRef": {
+      "objectReference": "DESKTOP-VM:NS-NAE01",
+      "referencedObject": {
+        "objectUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+        "attributeUrl": "https://desktop-vm/api/v6/objects/44fc78fc-a5c2-5c61-9c10-d3f9443622c2/attributes/presentValue",
+        "objectName": "NAE01"
+      },
+      "attribute": "attributeEnumSet.alarmRate"
+    },
+    "attrChangeCount": 43,
+    "defaultAttribute": "attributeEnumSet.recordCount"
+  },
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "JCI Trend Log",
+    "version": "1.0",
+    "properties": {
+      "id": {
+        "title": "ID",
+        "readOnly": true,
+        "type": "string",
+        "metasysType": "string"
+      },
+      "recordCount": {
+        "title": "Record Count",
+        "dynamic": true,
+        "metasysType": "ulong",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 5000
+      },
+      "status": {
+        "title": "Status",
+        "readOnly": true,
+        "dynamic": true,
+        "numberOfStates": 120,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum",
+            "lastMember": "objectStatusEnumSet.osShutdown"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectStatusEnumSet"
+          }
+        ]
+      },
+      "attrChangeCount": {
+        "title": "Attr Change Count",
+        "readOnly": true,
+        "dynamic": true,
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "defaultAttribute": {
+        "title": "Default Attr Number",
+        "readOnly": true,
+        "allOf": [
+          {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+          }
+        ]
+      }
+    }
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Key",
+          "views": [
+            {
+              "title": "None",
+              "properties": [
+                "recordCount",
+                "status",
+                "attrChangeCount",
+                "defaultAttribute"
+              ],
+              "id": "viewGroupEnumSet.noGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.keyGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    }
+  ],
+  "effectivePermissions": {
+    "canDelete": true,
+    "canModify": true
+  }
+}

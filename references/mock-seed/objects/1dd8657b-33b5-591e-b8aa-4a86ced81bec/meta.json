@@ -1,0 +1,11 @@
+{
+  "id": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "parentId": "42fa0447-23d0-5b6b-80b1-b20014d62ee5",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "server",
+  "name": "DESKTOP-VM",
+  "label": "DESKTOP-VM",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM",
+  "objectType": "objectTypeEnumSet.adsClass",
+  "objectTypeVersion": "46.0"
+}

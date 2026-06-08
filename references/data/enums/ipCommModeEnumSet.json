@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BACnet IP Communication Mode",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/ipCommModeEnumSet",
+  "setId": 1210,
+  "oneOf": [
+    {
+      "const": "ipCommModeEnumSet.bacnetScOnlyMode",
+      "title": "Secure Connect Only Mode",
+      "memberId": 0
+    },
+    {
+      "const": "ipCommModeEnumSet.bacnetIpOnlyMode",
+      "title": "Ethernet IP Only Mode",
+      "memberId": 1
+    },
+    {
+      "const": "ipCommModeEnumSet.bacnetScIpMode",
+      "title": "Dual SC and IP Mode",
+      "memberId": 2
+    },
+    {
+      "const": "ipCommModeEnumSet.bacnetNoneMode",
+      "title": "None",
+      "memberId": 3
+    }
+  ]
+}

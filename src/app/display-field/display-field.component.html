@@ -1,0 +1,11 @@
+<div [formControlName]="control.name">
+  @if (type$ | async; as type) {
+  @if (control.readonly) {
+  <input matInput [value]="control.value" />
+  } @else {
+  <span>{{control.value}}</span>
+  }
+  } @else {
+  <ngx-skeleton-loader [theme]="{ height: '32px', 'margin-bottom': '16px' }"></ngx-skeleton-loader>
+  }
+</div>

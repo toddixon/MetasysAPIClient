@@ -1,0 +1,11 @@
+{
+  "id": "5f1d345e-bf0c-51ff-ad7a-ed60f1655a12",
+  "parentId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "networkDeviceId": "44fc78fc-a5c2-5c61-9c10-d3f9443622c2",
+  "classification": "extension",
+  "name": "Board Temperature Alarm",
+  "label": "Board Temperature Alarm",
+  "itemReference": "DESKTOP-VM:NS-NAE01/Board Temperature Alarm",
+  "objectType": "objectTypeEnumSet.aaClass",
+  "objectTypeVersion": "1.0"
+}

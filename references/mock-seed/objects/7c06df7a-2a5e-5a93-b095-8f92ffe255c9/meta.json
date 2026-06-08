@@ -1,0 +1,11 @@
+{
+  "id": "7c06df7a-2a5e-5a93-b095-8f92ffe255c9",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "PRV10-C",
+  "label": "PRV10-C",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.PRV10-C",
+  "objectType": "objectTypeEnumSet.boMapperClass",
+  "objectTypeVersion": "1.0"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BACnet Network Port Commands",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/bacnetNetworkPortCmdEnumSet",
+  "setId": 1840,
+  "oneOf": [
+    {
+      "const": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdIdle",
+      "title": "Idle",
+      "memberId": 0
+    },
+    {
+      "const": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdDiscardChanges",
+      "title": "Discard changes",
+      "memberId": 1
+    },
+    {
+      "const": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdRenewFdRegistration",
+      "title": "Renew foreign device registration",
+      "memberId": 2
+    },
+    {
+      "const": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdRestartSubordinateDiscovery",
+      "title": "Restart subordinate discovery",
+      "memberId": 3
+    },
+    {
+      "const": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdRenewDhcp",
+      "title": "Renew DHCP",
+      "memberId": 4
+    },
+    {
+      "const": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdRestartAutonegotiation",
+      "title": "Restart auto-negotiation",
+      "memberId": 5
+    },
+    {
+      "const": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdDisconnect",
+      "title": "Disconnect",
+      "memberId": 6
+    },
+    {
+      "const": "bacnetNetworkPortCmdEnumSet.bacnetNetworkPortCmdRestartPort",
+      "title": "Restart port",
+      "memberId": 7
+    }
+  ]
+}

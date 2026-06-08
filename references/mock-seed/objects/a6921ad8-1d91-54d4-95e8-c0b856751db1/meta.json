@@ -1,0 +1,11 @@
+{
+  "id": "a6921ad8-1d91-54d4-95e8-c0b856751db1",
+  "parentId": "85242ad3-6347-54dc-8596-183e3a2c6403",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "extension",
+  "name": "Trend - Present Value",
+  "label": "Trend1",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.NAE01.AHU-1.OA-T.Trend1",
+  "objectType": "objectTypeEnumSet.trendLogClass",
+  "objectTypeVersion": "1.0"
+}

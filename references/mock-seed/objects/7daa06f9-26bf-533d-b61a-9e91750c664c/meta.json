@@ -1,0 +1,11 @@
+{
+  "id": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "parentId": "fba10b59-f3d9-58d5-b541-19d75967d806",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "controller",
+  "name": "M4-CGM",
+  "label": "M4-CGM",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM",
+  "objectType": "objectTypeEnumSet.fieldDeviceClass",
+  "objectTypeVersion": "1.0"
+}

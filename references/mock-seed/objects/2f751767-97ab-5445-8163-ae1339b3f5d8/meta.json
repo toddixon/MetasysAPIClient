@@ -1,0 +1,11 @@
+{
+  "id": "2f751767-97ab-5445-8163-ae1339b3f5d8",
+  "parentId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "networkDeviceId": "1dd8657b-33b5-591e-b8aa-4a86ced81bec",
+  "classification": "object",
+  "name": "Eth IP DataLink",
+  "label": "Eth IP DataLink",
+  "itemReference": "DESKTOP-VM:DESKTOP-VM/Eth IP DataLink",
+  "objectType": "objectTypeEnumSet.ethIpClass",
+  "objectTypeVersion": "1.0"
+}

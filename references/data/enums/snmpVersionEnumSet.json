@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SNMP Version",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/snmpVersionEnumSet",
+  "setId": 710,
+  "oneOf": [
+    {
+      "const": "snmpVersionEnumSet.snmpVer1",
+      "title": "v1",
+      "memberId": 0
+    },
+    {
+      "const": "snmpVersionEnumSet.snmpVer2C",
+      "title": "v2c",
+      "memberId": 1
+    },
+    {
+      "const": "snmpVersionEnumSet.snmpVer3",
+      "title": "v3",
+      "memberId": 2
+    }
+  ]
+}

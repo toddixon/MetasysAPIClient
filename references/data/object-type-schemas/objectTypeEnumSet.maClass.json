@@ -1,0 +1,415 @@
+{
+  "schema": {
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "language": "en-US",
+    "title": "Multistate Alarm",
+    "version": "1.0",
+    "$id": "https://desktop-vm/api/v6/schemas/objectTypes/maClass",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "category": "attributeCategoryEnumSet.nameCategory",
+        "type": "string",
+        "metasysType": "string",
+        "maxLength": 400,
+        "default": ""
+      },
+      "description": {
+        "title": "Description",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 64
+      },
+      "bacnetObjectType": {
+        "title": "Object Type",
+        "readOnly": true,
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/objectTypeEnumSet"
+          }
+        ],
+        "default": "objectTypeEnumSet.maClass"
+      },
+      "enabled": {
+        "title": "Enabled",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": true
+      },
+      "inputReference": {
+        "title": "Input Reference",
+        "metasysType": "attributeReference",
+        "oneOf": [
+          {
+            "$ref": "#attribute-reference"
+          }
+        ]
+      },
+      "eventEnable": {
+        "title": "Event Enable",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": true
+      },
+      "reportDelay": {
+        "title": "Report Delay",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        },
+        "default": 0
+      },
+      "normalState": {
+        "title": "Normal State",
+        "category": "attributeCategoryEnumSet.parentalInputCategory",
+        "enumSetSource": "attributeEnumSet.statesText",
+        "allOf": [
+          {
+            "type": "string",
+            "metasysType": "enum"
+          },
+          {
+            "$ref": "https://desktop-vm/api/v6/schemas/enums/statesEnumSet"
+          }
+        ],
+        "default": "statesEnumSet.state0"
+      },
+      "delayTime": {
+        "title": "Reference Delay Time",
+        "metasysType": "ushort",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 65535,
+        "unit": {
+          "id": "second",
+          "title": "seconds"
+        },
+        "default": 0
+      },
+      "commandReference": {
+        "title": "Command Reference",
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#attribute-reference"
+          }
+        ],
+        "metasysType": "attributeReference",
+        "attributeFilter": "basic"
+      },
+      "captureChanges": {
+        "title": "Capture Changes",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": false
+      },
+      "faultAckRequired": {
+        "title": "Alarm Ack Required",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": true
+      },
+      "faultPriority": {
+        "title": "Alarm Priority",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255,
+        "default": 70
+      },
+      "normAckRequired": {
+        "title": "Normal Ack Required",
+        "type": "boolean",
+        "metasysType": "bool",
+        "default": false
+      },
+      "normPriority": {
+        "title": "Normal Priority",
+        "metasysType": "byte",
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255,
+        "default": 200
+      },
+      "alarmMessageText": {
+        "title": "Alarm Message Text",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 256
+      },
+      "alarmValues": {
+        "title": "Alarm Values",
+        "category": "attributeCategoryEnumSet.alarmValuesCategory",
+        "type": "array",
+        "metasysType": "listof",
+        "items": {
+          "type": "object",
+          "metasysType": "struct",
+          "properties": {
+            "state": {
+              "category": "attributeCategoryEnumSet.parentalInputCategory",
+              "enumSetSource": "attributeEnumSet.statesText",
+              "allOf": [
+                {
+                  "type": "string",
+                  "metasysType": "enum"
+                },
+                {
+                  "$ref": "https://desktop-vm/api/v6/schemas/enums/statesEnumSet"
+                }
+              ],
+              "title": "State"
+            },
+            "priority": {
+              "metasysType": "byte",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 255,
+              "title": "Priority"
+            },
+            "almMsgTxt": {
+              "category": "attributeCategoryEnumSet.alarmValuesTextCategory",
+              "type": "string",
+              "metasysType": "string",
+              "maxLength": 16383,
+              "title": "Alarm Message Text"
+            }
+          }
+        },
+        "default": []
+      },
+      "graphic": {
+        "title": "Graphic",
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#object-reference"
+          }
+        ],
+        "metasysType": "objectReference",
+        "objectTypes": [
+          "graphicClass",
+          "xamlGraphicClass"
+        ]
+      },
+      "graphicAlias": {
+        "title": "Graphic Alias",
+        "category": "attributeCategoryEnumSet.editableReferenceCategory",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "metasysType": "string",
+        "maxLength": 256
+      }
+    },
+    "definitions": {
+      "object-reference": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#object-reference",
+        "title": "Object reference data type",
+        "type": "object",
+        "oneOf": [
+          {
+            "properties": {
+              "objectReference": {
+                "format": "fully-qualified-reference",
+                "type": "string"
+              },
+              "referencedObject": {
+                "type": "object",
+                "properties": {
+                  "objectName": {
+                    "type": "string"
+                  },
+                  "objectUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "readOnly": true
+              }
+            },
+            "required": [
+              "objectReference"
+            ]
+          },
+          {
+            "properties": {
+              "objectBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              },
+              "deviceAddress": {
+                "readOnly": true,
+                "type": "string"
+              },
+              "deviceBACoid": {
+                "readOnly": true,
+                "oneOf": [
+                  {
+                    "$ref": "#bacoid"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "objectBACoid"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "attribute-reference": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "#attribute-reference",
+        "title": "Attribute reference data type",
+        "type": "object",
+        "metasysType": "attributeReference",
+        "allOf": [
+          {
+            "$ref": "#object-reference"
+          },
+          {
+            "type": "object",
+            "required": [
+              "attribute"
+            ],
+            "properties": {
+              "attribute": {
+                "$ref": "https://desktop-vm/api/v6/schemas/enums/attributeEnumSet"
+              },
+              "referencedObject": {
+                "readOnly": true,
+                "type": "object",
+                "properties": {
+                  "attributeUrl": {
+                    "type": "string",
+                    "metasysType": "string",
+                    "format": "uri"
+                  },
+                  "attributeName": {
+                    "type": "string",
+                    "metasysType": "string"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "enabled",
+      "inputReference",
+      "eventEnable",
+      "reportDelay",
+      "normalState",
+      "delayTime",
+      "captureChanges",
+      "faultAckRequired",
+      "faultPriority",
+      "normAckRequired",
+      "normPriority",
+      "alarmValues"
+    ]
+  },
+  "views": [
+    {
+      "title": "Configuration",
+      "views": [
+        {
+          "title": "Basic",
+          "views": [
+            {
+              "title": "Reference",
+              "properties": [
+                "name",
+                "description",
+                "bacnetObjectType",
+                "enabled",
+                "inputReference"
+              ],
+              "id": "viewGroupEnumSet.referenceGrp"
+            },
+            {
+              "title": "Alarm State",
+              "properties": [
+                "eventEnable",
+                "reportDelay"
+              ],
+              "id": "viewGroupEnumSet.alarmStateGrp"
+            },
+            {
+              "title": "Engineering Values",
+              "properties": [
+                "normalState",
+                "delayTime",
+                "commandReference",
+                "captureChanges"
+              ],
+              "id": "viewGroupEnumSet.engValuesGrp"
+            },
+            {
+              "title": "Alarm Setup",
+              "properties": [
+                "faultAckRequired",
+                "faultPriority",
+                "normAckRequired",
+                "normPriority",
+                "alarmMessageText",
+                "alarmValues",
+                "graphic",
+                "graphicAlias"
+              ],
+              "id": "viewGroupEnumSet.alarmSetupGrp"
+            }
+          ],
+          "id": "groupTypeEnumSet.basicGrpType"
+        },
+        {
+          "title": "Advanced",
+          "views": [],
+          "id": "groupTypeEnumSet.advancedGrpType"
+        }
+      ],
+      "id": "viewNameEnumSet.configView"
+    }
+  ]
+}

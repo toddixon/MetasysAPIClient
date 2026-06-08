@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Controller Status",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/controllerStatusEnumSet",
+  "setId": 43,
+  "oneOf": [
+    {
+      "const": "controllerStatusEnumSet.csOffline",
+      "title": "Offline",
+      "memberId": 0
+    },
+    {
+      "const": "controllerStatusEnumSet.csOnline",
+      "title": "Online",
+      "memberId": 1
+    },
+    {
+      "const": "controllerStatusEnumSet.csPassthru",
+      "title": "Pass Through",
+      "memberId": 2
+    },
+    {
+      "const": "controllerStatusEnumSet.csCommDisable",
+      "title": "Comm Disabled",
+      "memberId": 3
+    },
+    {
+      "const": "controllerStatusEnumSet.csCommEnable",
+      "title": "Comm Enabled",
+      "memberId": 4
+    }
+  ]
+}

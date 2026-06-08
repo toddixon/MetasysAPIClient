@@ -1,0 +1,12 @@
+{
+  "/api": {
+    "target": "http://localhost:3018",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "headers": {
+      "Origin": "https://localhost:3018",
+      "Referer": "https://localhost:3018"
+    }
+  }
+}

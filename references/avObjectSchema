@@ -1,0 +1,67 @@
+// schema =
+//   { type: 'object', $schema: 'http://json-schema.org/draft-07/schema#', language: 'en-US', title: 'JCI AV', version: '1.0', … }
+// $id =
+//   'https://desktop-vm/api/v6/schemas/objectTypes/avClass'
+// $schema =
+//   'http://json-schema.org/draft-07/schema#'
+// definitions =
+//   { object- reference: {… }, attribute - reference: {… }}
+// language =
+//   'en-US'
+// properties =
+//   { name: {… }, description: {… }, bacnetObjectType: {… }, objectCategory: {… }, prioritySupported: {… }, … }
+// required =
+//   (12)['name', 'objectCategory', 'prioritySupported', 'minPresValue', 'maxPresValue', 'units', 'displayPrecision', 'covIncrement', 'relinquishDefault', 'restoreCommandPriority', 'direction', 'priorityForWritingToConnected']
+// 0 =
+//   'name'
+// 1 =
+//   'objectCategory'
+// 2 =
+//   'prioritySupported'
+// 3 =
+//   'minPresValue'
+// 4 =
+//   'maxPresValue'
+// 5 =
+//   'units'
+// 6 =
+//   'displayPrecision'
+// 7 =
+//   'covIncrement'
+// 8 =
+//   'relinquishDefault'
+// 9 =
+//   'restoreCommandPriority'
+// 10 =
+//   'direction'
+// 11 =
+//   'priorityForWritingToConnected'
+// length =
+//   12
+//   [[Prototype]] =
+//   Array(0)
+//   [[Prototype]] =
+//   Object
+// title =
+//   'JCI AV'
+// type =
+//   'object'
+// version =
+//   '1.0'
+//   [[Prototype]] =
+//   Object
+// views =
+//   (1)[{… }]
+// 0 =
+//   { title: 'Configuration', views: Array(2), id: 'viewNameEnumSet.configView' }
+// id =
+//   'viewNameEnumSet.configView'
+// title =
+//   'Configuration'
+// views =
+//   (2)[{… }, {… }]
+//   [[Prototype]] =
+//   Object
+// length =
+//   1
+

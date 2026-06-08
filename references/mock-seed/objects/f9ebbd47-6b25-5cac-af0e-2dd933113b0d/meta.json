@@ -1,0 +1,11 @@
+{
+  "id": "f9ebbd47-6b25-5cac-af0e-2dd933113b0d",
+  "parentId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "networkDeviceId": "7daa06f9-26bf-533d-b61a-9e91750c664c",
+  "classification": "point",
+  "name": "PRV9-S",
+  "label": "PRV9-S",
+  "itemReference": "DESKTOP-VM:NS-NAE01/FC-1.M4-CGM.PRV9-S",
+  "objectType": "objectTypeEnumSet.biMapperClass",
+  "objectTypeVersion": "1.0"
+}

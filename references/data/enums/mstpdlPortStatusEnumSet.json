@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MSTPDL Port Status",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/mstpdlPortStatusEnumSet",
+  "setId": 302,
+  "oneOf": [
+    {
+      "const": "mstpdlPortStatusEnumSet.mstpdlPortStatusNotConfigured",
+      "title": "Not Configured",
+      "memberId": 0
+    },
+    {
+      "const": "mstpdlPortStatusEnumSet.mstpdlPortStatusActive",
+      "title": "Active",
+      "memberId": 1
+    },
+    {
+      "const": "mstpdlPortStatusEnumSet.mstpdlPortStatusWaitingForPfm",
+      "title": "Waiting For Poll For Manager",
+      "memberId": 2
+    },
+    {
+      "const": "mstpdlPortStatusEnumSet.mstpdlPortStatusNotRecdTokenForLong",
+      "title": "Not Received Token For Long",
+      "memberId": 3
+    },
+    {
+      "const": "mstpdlPortStatusEnumSet.mstpdlPortStatusDuplicateMacAddress",
+      "title": "Duplicate MAC Address",
+      "memberId": 4
+    },
+    {
+      "const": "mstpdlPortStatusEnumSet.mstpdlPortStatusForcingBaud",
+      "title": "Forcing BAUD",
+      "memberId": 5
+    },
+    {
+      "const": "mstpdlPortStatusEnumSet.mstpdlPortStatusRemoteTrunk",
+      "title": "Remote Trunk",
+      "memberId": 6
+    }
+  ]
+}

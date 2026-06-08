@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Off On",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/offonEnumSet",
+  "setId": 83,
+  "oneOf": [
+    {
+      "const": "offonEnumSet.0",
+      "title": "Off",
+      "memberId": 0
+    },
+    {
+      "const": "offonEnumSet.1",
+      "title": "On",
+      "memberId": 1
+    },
+    {
+      "const": "offonEnumSet.2",
+      "title": "Hold",
+      "memberId": 2
+    }
+  ]
+}

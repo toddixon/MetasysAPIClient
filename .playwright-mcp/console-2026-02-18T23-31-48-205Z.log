@@ -1,0 +1,747 @@
+[     443ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:4200/api/v6/stream:0
+[     452ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:4200/api/v6/refreshToken:0
+[     454ms] [ERROR] Error refreshing token:, 401 @ http://localhost:4200/main.js:4403
+[     456ms] [ERROR] No access token found @ http://localhost:4200/main.js:4488
+[   19251ms] [ERROR] ERROR Lost stream connection. Please reconnect @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  468739ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  468757ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  479228ms] [ERROR] TimeoutErrorImpl @ http://localhost:4200/main.js:4488
+[  583333ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/warningBannerEnumSet:0
+[  583934ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  583940ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/warningBannerEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  584048ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584056ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/objects:0
+[  584057ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/2f751767-97ab-5445-8163-ae1339b3f5d8/objects:0
+[  584063ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/objects:0
+[  584070ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/8bebf072-2aeb-5220-b580-c33adcad95d3/objects:0
+[  584350ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584352ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584355ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584357ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584359ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584362ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584364ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584367ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  584387ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581475ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  581482ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581489ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581500ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/2f751767-97ab-5445-8163-ae1339b3f5d8/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  581508ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581516ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/2f751767-97ab-5445-8163-ae1339b3f5d8/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581550ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  581558ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581566ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581583ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/8bebf072-2aeb-5220-b580-c33adcad95d3/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  581593ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581603ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/8bebf072-2aeb-5220-b580-c33adcad95d3/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581662ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581680ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581692ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581703ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581713ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581723ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581733ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581743ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  581756ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581776ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581812ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581823ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581844ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581855ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581865ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581881ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  581890ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  582229ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/objects:0
+[  582230ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/8bebf072-2aeb-5220-b580-c33adcad95d3/objects:0
+[  582231ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/commands:0
+[  582232ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[  582233ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectTypeEnumSet:0
+[  582236ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectCategoryEnumSet:0
+[  582243ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet:0
+[  582245ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/ethernetPortTypeEnumSet:0
+[  582248ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/jciNetworkPortTypeEnumSet:0
+[  582258ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  582259ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  582260ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  582271ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  582272ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  582274ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  582275ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582282ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/8bebf072-2aeb-5220-b580-c33adcad95d3/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582291ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  582296ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/commands Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  582303ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  582308ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  582314ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  582319ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectTypeEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  582331ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  582337ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectCategoryEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  582342ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  582344ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  582349ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/objectStatusEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  582357ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  582361ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/ethernetPortTypeEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  582368ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  582373ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/jciNetworkPortTypeEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  582379ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582387ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  582389ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582396ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582404ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582412ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582422ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582436ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  582453ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  586877ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  586881ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects:0
+[  586884ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  586900ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  586910ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  586913ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  586916ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  586921ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  586935ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  586939ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects:0
+[  586944ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  586945ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  586947ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects:0
+[  586949ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  586958ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  586960ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  586962ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  586969ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  586970ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects:0
+[  586971ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects:0
+[  586973ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  586976ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  586981ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  586983ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  586984ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  586990ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  586994ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  586995ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  586997ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  587002ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  587004ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  587006ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  587010ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  587012ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  587016ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  587130ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587132ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587145ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects:0
+[  587147ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587151ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587155ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587203ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects:0
+[  587205ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587214ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587220ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587225ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587236ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects:0
+[  587238ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587240ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587244ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects:0
+[  587247ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587254ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587261ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587267ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects:0
+[  587270ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  587369ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587371ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587388ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects:0
+[  587390ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587392ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587397ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587441ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects:0
+[  587443ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/6a0c78ff-84a6-5fc8-9002-c39f978f4698/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587481ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587490ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587495ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587497ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects:0
+[  587499ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587501ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587508ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/fba10b59-f3d9-58d5-b541-19d75967d806/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587514ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587521ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects:0
+[  587524ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects:0
+[  587526ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/e9219e9d-276c-500f-9e3e-73fbac51c5eb/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587530ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/019591ae-cde6-50ea-a8f8-09f974569063/objects Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  587603ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  587628ms] [ERROR] [ERROR] Request Failed: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 @ http://localhost:4200/main.js:3982
+[  587638ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ff42561-6707-54a9-b898-b2096b8bb209/objects:0
+[  587639ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  598742ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/objects:0
+[  598748ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/2f751767-97ab-5445-8163-ae1339b3f5d8/objects:0
+[  598750ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/objects:0
+[  598752ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/8bebf072-2aeb-5220-b580-c33adcad95d3/objects:0
+[  598754ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/f45c66c1-59be-52a6-b549-a15b3c359239/objects:0
+[  598755ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/ff7a01f1-ec75-54e9-81ed-ac16964acd51/objects:0
+[  598756ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4d529b96-ca18-5f6d-873f-dd4e7d27651f/objects:0
+[  598898ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  598901ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  598903ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  598904ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  598906ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  598908ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  598909ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  598921ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  598927ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599022ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/09a6bb56-b5ff-525f-9ed3-7d2f2bbb48c5/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599036ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/2f751767-97ab-5445-8163-ae1339b3f5d8/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  599042ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599048ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/2f751767-97ab-5445-8163-ae1339b3f5d8/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599061ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  599068ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599075ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/9c8b245e-6b37-51ed-b436-d150d186208b/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599084ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/8bebf072-2aeb-5220-b580-c33adcad95d3/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  599090ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599096ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/8bebf072-2aeb-5220-b580-c33adcad95d3/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599108ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/f45c66c1-59be-52a6-b549-a15b3c359239/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  599115ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599121ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/f45c66c1-59be-52a6-b549-a15b3c359239/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599130ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/ff7a01f1-ec75-54e9-81ed-ac16964acd51/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  599136ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599143ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/ff7a01f1-ec75-54e9-81ed-ac16964acd51/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599153ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/4d529b96-ca18-5f6d-873f-dd4e7d27651f/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[  599158ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599164ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4d529b96-ca18-5f6d-873f-dd4e7d27651f/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599198ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599205ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599213ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599221ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599228ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599237ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599245ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[  599276ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599285ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599293ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599301ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599320ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599328ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599339ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  599559ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  599562ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  599573ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  599577ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  599584ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  599589ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 2 @ http://localhost:4200/main.js:3977
+[  599796ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  599799ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  599816ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  599818ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[  599877ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[  599879ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 3 @ http://localhost:4200/main.js:3977
+[ 1410109ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/timeSyncEnumSet:0
+[ 1410112ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/timeZoneEnumSet:0
+[ 1410115ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/timeSyncMethodTypeEnumSet:0
+[ 1410117ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/pollRateEnumSet:0
+[ 1410119ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/securityLevelEnumSet:0
+[ 1410121ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/bacnetEncodingEnumSet:0
+[ 1411094ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1411108ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/timeSyncEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1411128ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1411288ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/timeZoneEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1411316ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1411330ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/timeSyncMethodTypeEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1411347ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1411383ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/pollRateEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1411418ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1411465ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/securityLevelEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1411486ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1411497ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/bacnetEncodingEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1413719ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1413732ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/42fa0447-23d0-5b6b-80b1-b20014d62ee5?includeSchema=true Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1413752ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for /api/v6/objects/42fa0447-23d0-5b6b-80b1-b20014d62ee5/objects: 0 undefined @ http://localhost:4200/main.js:3983
+[ 1413764ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1413786ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects/42fa0447-23d0-5b6b-80b1-b20014d62ee5/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1413799ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=9e00035a:3149
+[ 1413817ms] [WARNING] [WARN] Request retry: Endpoint: /api/v6/objects Status: 0 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1418067ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/warningBannerEnumSet:0
+[ 1418839ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1418846ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/warningBannerEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1419263ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects:0
+[ 1419267ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects:0
+[ 1419288ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1419290ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1419293ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1419310ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/ad0f05b6-844a-583f-8da3-045d8e5bc37a/objects:0
+[ 1419312ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1419322ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects: 403 Forbidden @ http://localhost:4200/main.js:3983
+[ 1419329ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1419336ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1419348ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects: 403 Forbidden @ http://localhost:4200/main.js:3983
+[ 1419355ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1419363ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1419385ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1419395ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1419404ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1419415ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/ad0f05b6-844a-583f-8da3-045d8e5bc37a/objects: 403 Forbidden @ http://localhost:4200/main.js:3983
+[ 1419423ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1419430ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/ad0f05b6-844a-583f-8da3-045d8e5bc37a/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1419441ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1419461ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1419475ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1419483ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1419494ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680027ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/warningBannerEnumSet:0
+[ 1680072ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680111ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680137ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680182ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680230ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680269ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680312ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680347ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680383ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680408ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680429ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680445ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680457ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680466ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680473ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/warningBannerEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1680483ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680599ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1680620ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at BaseAnimationRenderer.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/@angular_platform-browser_animations.js?v=bf44e422:3862:21)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11617:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1681256ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects:0
+[ 1681272ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects:0
+[ 1681283ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1681285ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1681287ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1681296ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/ad0f05b6-844a-583f-8da3-045d8e5bc37a/objects:0
+[ 1681324ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects: 403 Forbidden @ http://localhost:4200/main.js:3983
+[ 1681331ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1681339ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1681364ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects: 403 Forbidden @ http://localhost:4200/main.js:3983
+[ 1681371ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1681377ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1681396ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1681408ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1681423ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1681433ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/ad0f05b6-844a-583f-8da3-045d8e5bc37a/objects: 403 Forbidden @ http://localhost:4200/main.js:3983
+[ 1681440ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1681446ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/ad0f05b6-844a-583f-8da3-045d8e5bc37a/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3978
+[ 1681469ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1681478ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1681489ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1686584ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/schemas/enums/warningBannerEnumSet:0
+[ 1686638ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1686678ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1686705ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1686758ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1686819ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1686880ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1686919ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1686961ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687002ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687021ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687047ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687063ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687075ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687085ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687093ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/schemas/enums/warningBannerEnumSet Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[ 1687101ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687220ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687236ms] [ERROR] ERROR RuntimeError: NG05105: Unexpected synthetic property @badgePop found. Please make sure that:
+  - Make sure `provideAnimationsAsync()`, `provideAnimations()` or `provideNoopAnimations()` call was added to a list of providers used to bootstrap an application.
+  - There is a corresponding animation configuration named `@badgePop` defined in the `animations` field of the `@Component` decorator (see https://angular.dev/api/core/Component#animations).
+    at checkNoSyntheticProp (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:622:11)
+    at EmulatedEncapsulationDomRenderer2.setProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-LRLQ6YV3.js?v=bf44e422:586:86)
+    at setDomProperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5137:14)
+    at setPropertyAndInputs (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5125:3)
+    at Module.ɵɵproperty (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:14442:5)
+    at ObjectComponent_Conditional_11_Template (http://localhost:4200/main.js:11616:10)
+    at executeTemplate (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5059:5)
+    at refreshView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5719:7)
+    at detectChangesInView (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5859:5)
+    at detectChangesInViewIfAttached (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-SKE5UY7L.js?v=bf44e422:5842:3) @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687867ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects:0
+[ 1687882ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects:0
+[ 1687899ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1687901ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1687902ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:4200/api/v6/objects/batch:0
+[ 1687931ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[ 1687938ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687944ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/4ee305fe-f9f9-5963-8e4e-456412476844/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[ 1687961ms] [ERROR] [ERROR] NavigationTreeService getNode Error: Http failure response for http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects: 403 Forbidden @ http://localhost:4200/main.js:3982
+[ 1687969ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1687976ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/c8ff4a80-8be2-5053-9ba8-d5b84fb69c88/objects Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[ 1687992ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[ 1688000ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[ 1688013ms] [WARNING] [WARN] Request retry: Endpoint: http://localhost:4200/api/v6/objects/batch Status: 403 RetryCount: 1 @ http://localhost:4200/main.js:3977
+[ 1688039ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1688050ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149
+[ 1688061ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=bf44e422:3149

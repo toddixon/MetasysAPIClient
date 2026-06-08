@@ -1,0 +1,1102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Two State",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/twostateEnumSet",
+  "setId": 801,
+  "oneOf": [
+    {
+      "const": "twostateEnumSet.bacpolarityEnumSet",
+      "title": "Normal Reverse",
+      "memberId": 3,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.binarypvEnumSet",
+      "title": "Inactive Active",
+      "memberId": 6
+    },
+    {
+      "const": "twostateEnumSet.degfDegcEnumSet",
+      "title": "DegF DegC",
+      "memberId": 11
+    },
+    {
+      "const": "twostateEnumSet.degcDegfEnumSet",
+      "title": "DegC DegF",
+      "memberId": 12
+    },
+    {
+      "const": "twostateEnumSet.clockwiseEnumSet",
+      "title": "Clockwise Counterclockwise",
+      "memberId": 48
+    },
+    {
+      "const": "twostateEnumSet.closedMinimumEnumSet",
+      "title": "Closed Minimum",
+      "memberId": 57
+    },
+    {
+      "const": "twostateEnumSet.nightDayEnumSet",
+      "title": "Night Day",
+      "memberId": 66
+    },
+    {
+      "const": "twostateEnumSet.activeInactiveEnumSet",
+      "title": "Active Inactive",
+      "memberId": 69
+    },
+    {
+      "const": "twostateEnumSet.offonEnumSet",
+      "title": "Off On",
+      "memberId": 83,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.stopstartEnumSet",
+      "title": "Stop Start",
+      "memberId": 84
+    },
+    {
+      "const": "twostateEnumSet.opencloseEnumSet",
+      "title": "Open Close",
+      "memberId": 85
+    },
+    {
+      "const": "twostateEnumSet.coolheatEnumSet",
+      "title": "Cool Heat",
+      "memberId": 86
+    },
+    {
+      "const": "twostateEnumSet.automanualEnumSet",
+      "title": "Auto Manual",
+      "memberId": 87
+    },
+    {
+      "const": "twostateEnumSet.absentpresentEnumSet",
+      "title": "Absent Present",
+      "memberId": 88
+    },
+    {
+      "const": "twostateEnumSet.falsetrueEnumSet",
+      "title": "False True",
+      "memberId": 90,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.offonLineEnumSet",
+      "title": "Offline Online",
+      "memberId": 91,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.disenAbleEnumSet",
+      "title": "Disable Enable",
+      "memberId": 92,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.unlocklockEnumSet",
+      "title": "Unlock Lock",
+      "memberId": 93
+    },
+    {
+      "const": "twostateEnumSet.noyesEnumSet",
+      "title": "No Yes",
+      "memberId": 94
+    },
+    {
+      "const": "twostateEnumSet.normalAlarmEnumSet",
+      "title": "Normal Alarm",
+      "memberId": 95
+    },
+    {
+      "const": "twostateEnumSet.normalOverrideEnumSet",
+      "title": "Normal Override",
+      "memberId": 96
+    },
+    {
+      "const": "twostateEnumSet.unoccOccEnumSet",
+      "title": "Unocc Occ",
+      "memberId": 106
+    },
+    {
+      "const": "twostateEnumSet.onoffEnumSet",
+      "title": "On Off",
+      "memberId": 153
+    },
+    {
+      "const": "twostateEnumSet.summerwinterEnumSet",
+      "title": "Summer Winter",
+      "memberId": 154
+    },
+    {
+      "const": "twostateEnumSet.forwardreverseEnumSet",
+      "title": "Forward Reverse",
+      "memberId": 155
+    },
+    {
+      "const": "twostateEnumSet.standbyrunEnumSet",
+      "title": "Standby Run",
+      "memberId": 156
+    },
+    {
+      "const": "twostateEnumSet.localremoteEnumSet",
+      "title": "Local Remote",
+      "memberId": 157
+    },
+    {
+      "const": "twostateEnumSet.daynightEnumSet",
+      "title": "Day Night",
+      "memberId": 158
+    },
+    {
+      "const": "twostateEnumSet.heatcoolEnumSet",
+      "title": "Heat Cool",
+      "memberId": 159
+    },
+    {
+      "const": "twostateEnumSet.stoprunEnumSet",
+      "title": "Stop Run",
+      "memberId": 160
+    },
+    {
+      "const": "twostateEnumSet.okfaultEnumSet",
+      "title": "Ok Fault",
+      "memberId": 161
+    },
+    {
+      "const": "twostateEnumSet.lagleadEnumSet",
+      "title": "Lag Lead",
+      "memberId": 162
+    },
+    {
+      "const": "twostateEnumSet.naresetEnumSet",
+      "title": "NA Reset",
+      "memberId": 163
+    },
+    {
+      "const": "twostateEnumSet.lowhighEnumSet",
+      "title": "Low High",
+      "memberId": 164
+    },
+    {
+      "const": "twostateEnumSet.bacActionEnumSet",
+      "title": "Direct Reverse",
+      "memberId": 166
+    },
+    {
+      "const": "twostateEnumSet.lockUnlockEnumSet",
+      "title": "Lock Unlock",
+      "memberId": 179
+    },
+    {
+      "const": "twostateEnumSet.closeOpenEnumSet",
+      "title": "Close Open",
+      "memberId": 180,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.noflowFlowEnumSet",
+      "title": "NoFlow Flow",
+      "memberId": 234
+    },
+    {
+      "const": "twostateEnumSet.normalDisableEnumSet",
+      "title": "Normal Disable",
+      "memberId": 263
+    },
+    {
+      "const": "twostateEnumSet.flowNoflowEnumSet",
+      "title": "Flow NoFlow",
+      "memberId": 266
+    },
+    {
+      "const": "twostateEnumSet.comfortEconomyEnumSet",
+      "title": "Comfort Economy",
+      "memberId": 268
+    },
+    {
+      "const": "twostateEnumSet.slowFastEnumSet",
+      "title": "Slow Fast",
+      "memberId": 278
+    },
+    {
+      "const": "twostateEnumSet.damperValveEnumSet",
+      "title": "Damper Valve",
+      "memberId": 283
+    },
+    {
+      "const": "twostateEnumSet.permanentTemporaryEnumSet",
+      "title": "Permanent Temporary",
+      "memberId": 292
+    },
+    {
+      "const": "twostateEnumSet.state0State1EnumSet",
+      "title": "State0 State1",
+      "memberId": 305
+    },
+    {
+      "const": "twostateEnumSet.onOffFloatingEnumSet",
+      "title": "On/Off Floating",
+      "memberId": 361
+    },
+    {
+      "const": "twostateEnumSet.reheatTimeEnumSet",
+      "title": "Reheat Time",
+      "memberId": 368
+    },
+    {
+      "const": "twostateEnumSet.noNcEnumSet",
+      "title": "NO NC",
+      "memberId": 369
+    },
+    {
+      "const": "twostateEnumSet.fscsPanelEnableEnumSet",
+      "title": "FSCS Panel Enable",
+      "memberId": 419
+    },
+    {
+      "const": "twostateEnumSet.fscsProgramModeEnumSet",
+      "title": "FSCS Program Mode",
+      "memberId": 420
+    },
+    {
+      "const": "twostateEnumSet.normalReplaceEnumSet",
+      "title": "Normal Replace",
+      "memberId": 530
+    },
+    {
+      "const": "twostateEnumSet.presentAbsentEnumSet",
+      "title": "Present Absent",
+      "memberId": 585
+    },
+    {
+      "const": "twostateEnumSet.manualAutoEnumSet",
+      "title": "Manual Auto",
+      "memberId": 586
+    },
+    {
+      "const": "twostateEnumSet.dirtyCleanEnumSet",
+      "title": "Dirty Clean",
+      "memberId": 587
+    },
+    {
+      "const": "twostateEnumSet.minimumClosedEnumSet",
+      "title": "Minimum Closed",
+      "memberId": 588
+    },
+    {
+      "const": "twostateEnumSet.valveDamperEnumSet",
+      "title": "Valve Damper",
+      "memberId": 589
+    },
+    {
+      "const": "twostateEnumSet.reverseDirectEnumSet",
+      "title": "Reverse Direct",
+      "memberId": 590
+    },
+    {
+      "const": "twostateEnumSet.enableDisableEnumSet",
+      "title": "Enable Disable",
+      "memberId": 591
+    },
+    {
+      "const": "twostateEnumSet.trueFalseEnumSet",
+      "title": "True False",
+      "memberId": 592
+    },
+    {
+      "const": "twostateEnumSet.reverseForwardEnumSet",
+      "title": "Reverse Forward",
+      "memberId": 593
+    },
+    {
+      "const": "twostateEnumSet.leadLagEnumSet",
+      "title": "Lead Lag",
+      "memberId": 594
+    },
+    {
+      "const": "twostateEnumSet.remoteLocalEnumSet",
+      "title": "Remote Local",
+      "memberId": 595
+    },
+    {
+      "const": "twostateEnumSet.highLowEnumSet",
+      "title": "High Low",
+      "memberId": 596
+    },
+    {
+      "const": "twostateEnumSet.disableNormalEnumSet",
+      "title": "Disable Normal",
+      "memberId": 597
+    },
+    {
+      "const": "twostateEnumSet.resetNaEnumSet",
+      "title": "Reset NA",
+      "memberId": 598
+    },
+    {
+      "const": "twostateEnumSet.yesNoEnumSet",
+      "title": "Yes No",
+      "memberId": 599
+    },
+    {
+      "const": "twostateEnumSet.alarmNormalEnumSet",
+      "title": "Alarm Normal",
+      "memberId": 600
+    },
+    {
+      "const": "twostateEnumSet.replaceNormalEnumSet",
+      "title": "Replace Normal",
+      "memberId": 601
+    },
+    {
+      "const": "twostateEnumSet.reverseNormalEnumSet",
+      "title": "Reverse Normal",
+      "memberId": 602
+    },
+    {
+      "const": "twostateEnumSet.onlineOfflineEnumSet",
+      "title": "Online Offline",
+      "memberId": 603
+    },
+    {
+      "const": "twostateEnumSet.faultOkEnumSet",
+      "title": "Fault OK",
+      "memberId": 604
+    },
+    {
+      "const": "twostateEnumSet.fastSlowEnumSet",
+      "title": "Fast Slow",
+      "memberId": 605
+    },
+    {
+      "const": "twostateEnumSet.runStandbyEnumSet",
+      "title": "Run Standby",
+      "memberId": 606
+    },
+    {
+      "const": "twostateEnumSet.runStopEnumSet",
+      "title": "Run Stop",
+      "memberId": 607
+    },
+    {
+      "const": "twostateEnumSet.startStopEnumSet",
+      "title": "Start Stop",
+      "memberId": 608
+    },
+    {
+      "const": "twostateEnumSet.winterSummerEnumSet",
+      "title": "Winter Summer",
+      "memberId": 609
+    },
+    {
+      "const": "twostateEnumSet.occUnoccEnumSet",
+      "title": "Occ Unocc",
+      "memberId": 610
+    },
+    {
+      "const": "twostateEnumSet.lowNormalEnumSet",
+      "title": "Low Normal",
+      "memberId": 611
+    },
+    {
+      "const": "twostateEnumSet.normalLowEnumSet",
+      "title": "Normal Low",
+      "memberId": 612
+    },
+    {
+      "const": "twostateEnumSet.setResetEnumSet",
+      "title": "Set Reset",
+      "memberId": 613
+    },
+    {
+      "const": "twostateEnumSet.resetSetEnumSet",
+      "title": "Reset Set",
+      "memberId": 614
+    },
+    {
+      "const": "twostateEnumSet.mechanicalFreeEnumSet",
+      "title": "Mechanical Free",
+      "memberId": 615
+    },
+    {
+      "const": "twostateEnumSet.freeMechanicalEnumSet",
+      "title": "Free Mechanical",
+      "memberId": 616
+    },
+    {
+      "const": "twostateEnumSet.offAutoEnumSet",
+      "title": "Off Auto",
+      "memberId": 617
+    },
+    {
+      "const": "twostateEnumSet.autoOffEnumSet",
+      "title": "Auto Off",
+      "memberId": 618
+    },
+    {
+      "const": "twostateEnumSet.offResetEnumSet",
+      "title": "Off Reset",
+      "memberId": 619
+    },
+    {
+      "const": "twostateEnumSet.resetOffEnumSet",
+      "title": "Reset Off",
+      "memberId": 620
+    },
+    {
+      "const": "twostateEnumSet.disableManEnumSet",
+      "title": "Disable Man",
+      "memberId": 621
+    },
+    {
+      "const": "twostateEnumSet.manDisableEnumSet",
+      "title": "Man Disable",
+      "memberId": 622
+    },
+    {
+      "const": "twostateEnumSet.shutdownclosedShutdownopenEnumSet",
+      "title": "ShutdownClosed ShutdownOpen",
+      "memberId": 623
+    },
+    {
+      "const": "twostateEnumSet.shutdownopenShutdownclosedEnumSet",
+      "title": "ShutdownOpen ShutdownClosed",
+      "memberId": 624
+    },
+    {
+      "const": "twostateEnumSet.localExternalEnumSet",
+      "title": "Local External",
+      "memberId": 628
+    },
+    {
+      "const": "twostateEnumSet.snvtSwitchAccessSecureEnumSet",
+      "title": "SNVT Access Secure",
+      "memberId": 629
+    },
+    {
+      "const": "twostateEnumSet.counterclockwiseEnumSet",
+      "title": "Counterclockwise Clockwise",
+      "memberId": 640
+    },
+    {
+      "const": "twostateEnumSet.secureAccessEnumSet",
+      "title": "Secure Access",
+      "memberId": 641
+    },
+    {
+      "const": "twostateEnumSet.externalLocalEnumSet",
+      "title": "External Local",
+      "memberId": 642
+    },
+    {
+      "const": "twostateEnumSet.coldHotTwoStEnumSet",
+      "title": "Cold Hot",
+      "memberId": 669
+    },
+    {
+      "const": "twostateEnumSet.normalEnergyholdoffEnumSet",
+      "title": "Normal EnergyHoldOff",
+      "memberId": 670
+    },
+    {
+      "const": "twostateEnumSet.normalLowlimitEnumSet",
+      "title": "Normal LowLimit",
+      "memberId": 671
+    },
+    {
+      "const": "twostateEnumSet.normalTriggerTwoStEnumSet",
+      "title": "Normal Trigger",
+      "memberId": 672
+    },
+    {
+      "const": "twostateEnumSet.notavailableAvailableEnumSet",
+      "title": "NotAvailable Available",
+      "memberId": 673
+    },
+    {
+      "const": "twostateEnumSet.shutdownEnableTwoStEnumSet",
+      "title": "Shutdown Enable",
+      "memberId": 674
+    },
+    {
+      "const": "twostateEnumSet.tecUnitsEnumSet",
+      "title": "TEC Units",
+      "memberId": 776,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.tecOutputConfigurationEnumSet",
+      "title": "Output Configuration",
+      "memberId": 787,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.cleanDirtyEnumSet",
+      "title": "Clean Dirty",
+      "memberId": 810
+    },
+    {
+      "const": "twostateEnumSet.offonholdEnumSet",
+      "title": "Off/On/Hold",
+      "memberId": 841,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.unityD1KSubsystemCommunicationEnumSet",
+      "title": "Unity D1K Subsystem Communication",
+      "memberId": 1068,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.damperSuppHeatFsmEnumSet",
+      "title": "Damper Supp Heat FSM States",
+      "memberId": 1289,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.bvSetpointOptionEnumSet",
+      "title": "BV Setpoint Function",
+      "memberId": 1321
+    },
+    {
+      "const": "twostateEnumSet.bvFanOptionsEnumSet",
+      "title": "BV Fan Options",
+      "memberId": 1322
+    },
+    {
+      "const": "twostateEnumSet.bvAutoFanEnumSet",
+      "title": "BV Auto Fan",
+      "memberId": 1323
+    },
+    {
+      "const": "twostateEnumSet.normalFanonly2EnumSet",
+      "title": "Normal FanOnly",
+      "memberId": 1702
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvAutomanualEnumSet",
+      "title": "OptiView BV Auto Manual",
+      "memberId": 2004,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvOffonEnumSet",
+      "title": "OptiView BV Off On",
+      "memberId": 2005,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvOpenclosedEnumSet",
+      "title": "OptiView BV Open Closed",
+      "memberId": 2006,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvStoprunEnumSet",
+      "title": "OptiView BV Stop Run",
+      "memberId": 2007,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvDisabledenabledEnumSet",
+      "title": "OptiView BV Disabled Enabled",
+      "memberId": 2008,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvNotrunningrunningEnumSet",
+      "title": "Optiview BV Not Running Running",
+      "memberId": 2009,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvAutofixedEnumSet",
+      "title": "Optiview BV Auto Fixed",
+      "memberId": 2010,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvStartenabledstopEnumSet",
+      "title": "Optiview BV Start Enabled Stop",
+      "memberId": 2011,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.optiviewBvDeltappcurrentEnumSet",
+      "title": "Optiview BV Delta P/P Current",
+      "memberId": 2012,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.yt2DataSourceEnumSet",
+      "title": "YT2 Data Source",
+      "memberId": 2014,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.yt2DataUnitsEnumSet",
+      "title": "YT2 Data Units",
+      "memberId": 2015,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.stcChilledLiquidTypeEnumSet",
+      "title": "STC Chilled Liquid Type",
+      "memberId": 2016,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.rvsAlarmEnumSet",
+      "title": "Reverse Alarm",
+      "memberId": 2099,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.lysMinLoadCtrlSrcEnumSet",
+      "title": "LYS Minimum Load Control Source",
+      "memberId": 2101,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.stcLeadSysNumberEnumSet",
+      "title": "York STC Lead System Number",
+      "memberId": 2105,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.stcAmbientCtrlModeEnumSet",
+      "title": "York STC Ambient Control Mode",
+      "memberId": 2106,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.stcExpansionValveTypeEnumSet",
+      "title": "York STC Expansion Valve Type",
+      "memberId": 2108,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.stcChillerHeatpumpModeEnumSet",
+      "title": "York STC Chiller Heatpump Mode",
+      "memberId": 2109,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.yvwaCompressorTypeEnumSet",
+      "title": "YVWA Compressor Type",
+      "memberId": 2111,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.stcYcxsRefrigerantTypeEnumSet",
+      "title": "York YCAS YCWS YCRS Refrigerant Type",
+      "memberId": 2112,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.stcYcxsUnitTypeEnumSet",
+      "title": "York YCAS YCWS YCRS Unit Type",
+      "memberId": 2113,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacySurgeTypeEnumSet",
+      "title": "York LTC Legacy Surge Type",
+      "memberId": 2115,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYpcEnergySupplyEnumSet",
+      "title": "York LTC Legacy YPC Energy Supply",
+      "memberId": 2117,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyDataSourceEnumSet",
+      "title": "York LTC Legacy Data Source",
+      "memberId": 2118,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyDriveSelectEnumSet",
+      "title": "York LTC Legacy Drive Selection",
+      "memberId": 2119,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJ50StatEnumSet",
+      "title": "York LTC Legacy YIA J50 Status",
+      "memberId": 2121,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJ51StatEnumSet",
+      "title": "York LTC Legacy YIA J51 Status",
+      "memberId": 2122,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJ52StatEnumSet",
+      "title": "York LTC Legacy YIA J52 Status",
+      "memberId": 2123,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJ54StatEnumSet",
+      "title": "York LTC Legacy YIA J54 Status",
+      "memberId": 2124,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJ55StatEnumSet",
+      "title": "York LTC Legacy YIA J55 Status",
+      "memberId": 2125,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJ57StatEnumSet",
+      "title": "York LTC Legacy YIA J57 Status",
+      "memberId": 2126,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJ12ExioStatEnumSet",
+      "title": "York LTC Legacy YIA J12 Exio Status",
+      "memberId": 2127,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJp1StatEnumSet",
+      "title": "York LTC Legacy YIA JP1 Status",
+      "memberId": 2129,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJp3StatEnumSet",
+      "title": "York LTC Legacy YIA JP3 Status",
+      "memberId": 2130,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ltcLegacyYiaJp1ExioStatEnumSet",
+      "title": "York LTC Legacy YIA JP1 Exio Status",
+      "memberId": 2131,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ycweChillerTypeEnumSet",
+      "title": "YCWE Chiller Type",
+      "memberId": 2140,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.crRefrigTypeEnumSet",
+      "title": "Competitive Retrofit Refrigerant Type",
+      "memberId": 2148,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ydCompressorOpModeEnumSet",
+      "title": "YD Compressor Operation Mode",
+      "memberId": 2158,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.ydUnitModCompTypeEnumSet",
+      "title": "YD Unit Mod Compressor Type",
+      "memberId": 2161,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.ykMotorVibrationProtectionEnumSet",
+      "title": "YK Motor Vibration Protection",
+      "memberId": 2164,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.cykFaultContactEnumSet",
+      "title": "CYK Fault Contact",
+      "memberId": 2305,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.cykCommunicationsUnitsEnumSet",
+      "title": "CYK Communication Units",
+      "memberId": 2306,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.cykStartEnumSet",
+      "title": "CYK Start",
+      "memberId": 2307,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.cykStopEnumSet",
+      "title": "CYK Stop",
+      "memberId": 2308,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.cykResetEnumSet",
+      "title": "CYK Reset",
+      "memberId": 2309,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.yvaaBAlarmEnumSet",
+      "title": "YVAA-B System Alarm",
+      "memberId": 2311,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.yvaaBTubeEnumSet",
+      "title": "YVAA-B Tube Type",
+      "memberId": 2312,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.amPmEnumSet",
+      "title": "AM PM",
+      "memberId": 2501
+    },
+    {
+      "const": "twostateEnumSet.hourFormatEnumSet",
+      "title": "Hour Format",
+      "memberId": 2502
+    },
+    {
+      "const": "twostateEnumSet.legacyBacnetEncodingTypeEnumSet",
+      "title": "Legacy BACnet Encoding Type",
+      "memberId": 2503
+    },
+    {
+      "const": "twostateEnumSet.electricHeatTypeEnumSet",
+      "title": "Electric Heat Type",
+      "memberId": 2572,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.binaryInputPolarityEnumSet",
+      "title": "Binary Input Polarity",
+      "memberId": 2573,
+      "setSize": 2
+    },
+    {
+      "const": "twostateEnumSet.normalFireEnumSet",
+      "title": "Normal Fire",
+      "memberId": 40000
+    },
+    {
+      "const": "twostateEnumSet.oacoolingAirconditioningEnumSet",
+      "title": "OA Cooling Air Conditioning",
+      "memberId": 40002
+    },
+    {
+      "const": "twostateEnumSet.airconditioningOacoolingEnumSet",
+      "title": "Air Conditioning OA Cooling",
+      "memberId": 40003
+    },
+    {
+      "const": "twostateEnumSet.controlExclusionEnumSet",
+      "title": "Control Exclusion",
+      "memberId": 40004
+    },
+    {
+      "const": "twostateEnumSet.breakMakeEnumSet",
+      "title": "Break Make",
+      "memberId": 40006
+    },
+    {
+      "const": "twostateEnumSet.makeBreakEnumSet",
+      "title": "Make Break",
+      "memberId": 40007
+    },
+    {
+      "const": "twostateEnumSet.thermalstorageThermaldissipationEnumSet",
+      "title": "Thermal Storage Thermal Dissipation",
+      "memberId": 40010
+    },
+    {
+      "const": "twostateEnumSet.thermaldissipationThermalstorageEnumSet",
+      "title": "Thermal Dissipation Thermal Storage",
+      "memberId": 40011
+    },
+    {
+      "const": "twostateEnumSet.outInEnumSet",
+      "title": "Out In",
+      "memberId": 40012
+    },
+    {
+      "const": "twostateEnumSet.normalBlackoutEnumSet",
+      "title": "Normal Blackout",
+      "memberId": 40014
+    },
+    {
+      "const": "twostateEnumSet.no1No2EnumSet",
+      "title": "No1 No2",
+      "memberId": 40016
+    },
+    {
+      "const": "twostateEnumSet.no2No1EnumSet",
+      "title": "No2 No1",
+      "memberId": 40017
+    },
+    {
+      "const": "twostateEnumSet.weakStrongEnumSet",
+      "title": "Weak Strong",
+      "memberId": 40020
+    },
+    {
+      "const": "twostateEnumSet.releaseLockEnumSet",
+      "title": "Release Lock",
+      "memberId": 40022
+    },
+    {
+      "const": "twostateEnumSet.lockReleaseEnumSet",
+      "title": "Lock Release",
+      "memberId": 40023
+    },
+    {
+      "const": "twostateEnumSet.manualControlEnumSet",
+      "title": "Manual Control",
+      "memberId": 40024
+    },
+    {
+      "const": "twostateEnumSet.dischargeChargeEnumSet",
+      "title": "Discharge Charge",
+      "memberId": 40026
+    },
+    {
+      "const": "twostateEnumSet.exitEnterEnumSet",
+      "title": "Exit Enter",
+      "memberId": 40028
+    },
+    {
+      "const": "twostateEnumSet.releaseStopEnumSet",
+      "title": "Release Stop",
+      "memberId": 40030
+    },
+    {
+      "const": "twostateEnumSet.hangupCallEnumSet",
+      "title": "Hang Up Call",
+      "memberId": 40032
+    },
+    {
+      "const": "twostateEnumSet.suspendStartEnumSet",
+      "title": "Suspend Start",
+      "memberId": 40034
+    },
+    {
+      "const": "twostateEnumSet.summerOrWinterSpringOrFallEnumSet",
+      "title": "Summer or Winter Spring or Fall",
+      "memberId": 40036
+    },
+    {
+      "const": "twostateEnumSet.springOrFallSummerOrWinterEnumSet",
+      "title": "Spring or Fall Summer or Winter",
+      "memberId": 40037
+    },
+    {
+      "const": "twostateEnumSet.chilledwaterHotwaterEnumSet",
+      "title": "Chilled Water Hot Water",
+      "memberId": 40038
+    },
+    {
+      "const": "twostateEnumSet.fullyopenedFullyclosedEnumSet",
+      "title": "Fully Opened Fully Closed",
+      "memberId": 40040
+    },
+    {
+      "const": "twostateEnumSet.controlFullyclosedEnumSet",
+      "title": "Control Fully Closed",
+      "memberId": 40042
+    },
+    {
+      "const": "twostateEnumSet.controlFullyopenedEnumSet",
+      "title": "Control Fully Opened",
+      "memberId": 40044
+    },
+    {
+      "const": "twostateEnumSet.normalOacoolingEnumSet",
+      "title": "Normal OA Cooling",
+      "memberId": 40046
+    },
+    {
+      "const": "twostateEnumSet.normalFreezeEnumSet",
+      "title": "Normal Freeze",
+      "memberId": 40048
+    },
+    {
+      "const": "twostateEnumSet.depletionNormalEnumSet",
+      "title": "Depletion Normal",
+      "memberId": 40050
+    },
+    {
+      "const": "twostateEnumSet.normalDepletionEnumSet",
+      "title": "Normal Depletion",
+      "memberId": 40051
+    },
+    {
+      "const": "twostateEnumSet.normalFullwaterEnumSet",
+      "title": "Normal Full Water",
+      "memberId": 40052
+    },
+    {
+      "const": "twostateEnumSet.fullwaterNormalEnumSet",
+      "title": "Full Water Normal",
+      "memberId": 40053
+    },
+    {
+      "const": "twostateEnumSet.lightsOutLightingEnumSet",
+      "title": "Lights-Out Lighting",
+      "memberId": 40054
+    },
+    {
+      "const": "twostateEnumSet.lightingLightsOutEnumSet",
+      "title": "Lighting Lights-Out",
+      "memberId": 40055
+    },
+    {
+      "const": "twostateEnumSet.airconditionVentilationEnumSet",
+      "title": "Air Conditioning Ventilation",
+      "memberId": 40056
+    },
+    {
+      "const": "twostateEnumSet.ventilationAirconditionEnumSet",
+      "title": "Ventilation Air Conditioning",
+      "memberId": 40057
+    },
+    {
+      "const": "twostateEnumSet.deviceDisableEnableEnumSet",
+      "title": "Device Disable Enable Hold",
+      "memberId": 40553,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.deviceProofEnumSet",
+      "title": "Device Proof",
+      "memberId": 40554,
+      "setSize": 3
+    },
+    {
+      "const": "twostateEnumSet.boilerSequenceStepEnumSet",
+      "title": "Boiler Sequence Step",
+      "memberId": 40555,
+      "setSize": 8
+    },
+    {
+      "const": "twostateEnumSet.chillerSequenceStepEnumSet",
+      "title": "Chiller Sequence Step",
+      "memberId": 40557,
+      "setSize": 12
+    },
+    {
+      "const": "twostateEnumSet.customEnumSet30000",
+      "title": "customEnum",
+      "memberId": 30000
+    }
+  ]
+}

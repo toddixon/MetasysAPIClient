@@ -1,0 +1,32 @@
+{
+  "total": 2,
+  "self": "https://desktop-vm/api/v6/objects/828d2053-4e99-5511-93fb-bb5063033e83/trendedAttributes",
+  "items": [
+    {
+      "samplesUrl": "https://desktop-vm/api/v6/objects/828d2053-4e99-5511-93fb-bb5063033e83/trendedAttributes/presentValue/samples?startSampleTime=2025-10-27T23:32:36.153Z&endSampleTime=2025-10-28T23:32:36.153Z&sort=-sampleTime",
+      "attribute": "attributeEnumSet.presentValue",
+      "attributeSchema": {
+        "type": "number",
+        "metasysType": "float"
+      },
+      "sampledBy": [
+        {
+          "self": "https://desktop-vm/api/v6/objects/d6595568-c631-51ae-b3e9-12fe3ea13b89",
+          "item": {
+            "id": "d6595568-c631-51ae-b3e9-12fe3ea13b89",
+            "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.simulated-OA-T.Trend1",
+            "name": "Trend - Present Value",
+            "enable": true
+          }
+        },
+        {
+          "self": "https://desktop-vm/api/v6/objects/afbbd08f-18a0-5627-a965-c0d4bf8f3fed",
+          "item": {
+            "id": "afbbd08f-18a0-5627-a965-c0d4bf8f3fed",
+            "itemReference": "DESKTOP-VM:DESKTOP-VM/Programming.simulated-OA-T.Trend3",
+            "name": "Trend - Present Value",
+            "enable": true
+          }
+        }
+      ]
+    }

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Email Authenication Type",
+  "$id": "https://desktop-vm/api/v6/schemas/enums/emailAuthEnumSet",
+  "setId": 1056,
+  "oneOf": [
+    {
+      "const": "emailAuthEnumSet.eatNone",
+      "title": "None",
+      "memberId": 0
+    },
+    {
+      "const": "emailAuthEnumSet.eatSmtp",
+      "title": "SMTP",
+      "memberId": 1
+    },
+    {
+      "const": "emailAuthEnumSet.eatPopBeforeSmtp",
+      "title": "POP-before-SMTP",
+      "memberId": 2
+    }
+  ]
+}

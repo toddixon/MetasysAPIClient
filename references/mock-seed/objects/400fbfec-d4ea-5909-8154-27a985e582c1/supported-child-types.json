@@ -1,0 +1,142 @@
+[
+  {
+    "objectType": "containerClass",
+    "description": "Folder",
+    "version": "1.0",
+    "classification": "folder",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "aiMapperClass",
+    "description": "AI",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "aoMapperClass",
+    "description": "AO",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "avMapperClass",
+    "description": "AV",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "biMapperClass",
+    "description": "BI",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "boMapperClass",
+    "description": "BO",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "bvMapperClass",
+    "description": "BV",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "msvMapperClass",
+    "description": "MV",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "pcMapperClass",
+    "description": "Accumulator",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "trendMapperClass",
+    "description": "Trend Log",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "scheduleMapperClass",
+    "description": "Schedule",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "calendarMapperClass",
+    "description": "Calendar",
+    "version": "2.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "notificationClassMapperClass",
+    "description": "Notification",
+    "version": "1.0",
+    "classification": "point",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "trendLogClass",
+    "description": "Trend",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "maClass",
+    "description": "Alarm",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "aaClass",
+    "description": "Alarm",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "averagingClass",
+    "description": "Averaging",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "totaClass",
+    "description": "Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "toteClass",
+    "description": "Event Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  },
+  {
+    "objectType": "totrClass",
+    "description": "Runtime Totalization",
+    "version": "1.0",
+    "classification": "extension",
+    "isAuthorized": true
+  }
+]

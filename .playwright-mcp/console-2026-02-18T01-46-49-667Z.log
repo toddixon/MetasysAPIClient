@@ -1,0 +1,330 @@
+[  309251ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309255ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309258ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309262ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309265ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309271ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309277ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309283ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309290ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309296ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309303ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309309ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309314ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309317ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309321ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309324ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309328ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309332ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309336ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309340ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309344ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309347ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309350ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309352ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309357ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309359ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309362ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309366ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309368ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
+[  309371ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+    at http://localhost:4200/main.js:4254:150
+    at Array.find (<anonymous>)
+    at http://localhost:4200/main.js:4254:131
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:2489:31
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:3108:68
+    at OperatorSubscriber2._this._next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:796:9)
+    at Subscriber2.next (http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:499:12)
+    at http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-RSS3ODKE.js?v=15c9d0e2:1037:22 @ http://localhost:4200/@fs/home/dev/MetasysAPIClient/.angular/cache/21.0.5/MetasysAPIClient/vite/deps/chunk-U5UNODTX.js?v=15c9d0e2:3149
