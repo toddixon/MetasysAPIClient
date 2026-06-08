@@ -60,5 +60,4 @@ copilot-instructions.md
 
 MetasysAPIClient.code-workspace
 src/environment/environment.development.ts
-src/environment/environment.development.ts
 src/environment/environment.mock-api.ts
