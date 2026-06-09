@@ -1270,6 +1270,7 @@ export class FormService {
         tap((enumMembers) => {
 
           if (value) {
+            const controlKey = key;
             //* Depending on whether the control is readonly or not, the control value will be patched with a different value (true == member.title, false == member.const) 
             const member = enumMembers.find(e => e.const == value)!;
             if (member) {

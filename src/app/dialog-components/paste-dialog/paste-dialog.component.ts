@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, computed, inject, OnInit, signal } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MatDialogActions, MatDialogClose, MatDialogContent, MatDialogTitle } from '@angular/material/dialog';
+import { MatDialog, MatDialogActions, MatDialogClose, MatDialogContent, MatDialogTitle } from '@angular/material/dialog';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -15,12 +15,13 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { AbstractControl, FormArray, FormBuilder, FormGroup, ReactiveFormsModule, ValidationErrors, Validators } from '@angular/forms';
-import { catchError, concatMap, forkJoin, finalize, from, map, of, switchMap, take, toArray, tap } from 'rxjs';
+import { catchError, concatMap, filter, forkJoin, finalize, from, map, of, switchMap, take, toArray, tap } from 'rxjs';
 import { GetObjectsResponseItemsInner, PostObjectsBatch200Response, PostObjectsBatch200ResponseResponsesInner, PostObjectsBatchRequestRequestsInner } from '../../api';
 import { isObjectEntityInTree } from '../../api-extensions';
 import { ControlGroupComponent } from '../../control-group/control-group.component';
 import { FormService } from '../../form.service';
-import { FormControlWithMetaData } from '../../models/formControlWithMetadata.model';
+import { FormControlWithMetaData, ObjectReferenceEditorConfig } from '../../models/formControlWithMetadata.model';
+import { FormGroupWithMetaData } from '../../models/formGroupWithMetadata.model';
 import { DisplayGroup, isFloatType, ViewConfigGroup } from '../../models/object-views.models';
 import { getMainPageUniqueProperties, MainPageUniqueProperty, ObjectSnapshot, parseBatchAttributeResponse } from '../../models/copied-object.models';
 import { ObjectOperation } from '../../models/dialog.models';
@@ -30,6 +31,9 @@ import { ObjectOperationsService } from '../../object-operations.service';
 import { ObjectManagerService } from '../../objectManager.service';
 import { IconService } from '../../icon.service';
 import { environment } from '../../../environments/environment.development';
+import { ObjectReferencePickerDialogComponent, ObjectReferencePickerDialogResult } from '../object-reference-picker-dialog/object-reference-picker-dialog.component';
+import { isItemSelectedData } from '../../models/event.models';
+import { ItemData } from '../../models/display.models';
 
 const IDENTIFIER_PATTERN = /^[^\x00-\x1F\x7F\x22#'*,./:<>?@[\\\]|]+$/;
 const MAIN_PAGE_UNIQUE_PROPERTY_SET = new Set<MainPageUniqueProperty>(['instanceNumber', 'macAddress', 'trunkNumber']);
@@ -71,6 +75,7 @@ interface SnapshotDisplayMeta {
   styleUrl: './paste-dialog.component.scss',
 })
 export class PasteDialogComponent extends DeleteDialogComponent implements OnInit, AfterViewInit {
+  private _dialog = inject(MatDialog);
   private _fb = inject(FormBuilder);
   private _formService = inject(FormService);
   private _objectOpsService = inject(ObjectOperationsService);
@@ -202,6 +207,94 @@ export class PasteDialogComponent extends DeleteDialogComponent implements OnIni
 
   public objArr(obj: any): Array<any> {
     return Object.entries(obj);
+  }
+
+  private _buildPickerItemData(): ItemData {
+    const fallback = this.data.pasteItems?.[0];
+    return {
+      id: fallback?.sourceObjectId ?? '',
+      parentId: fallback?.sourceParentId ?? this.data.pasteParentId ?? '',
+      objectType: fallback?.objectType ?? '',
+      classification: fallback?.classification,
+      itemReference: fallback?.itemReference ?? '',
+      name: fallback?.name ?? fallback?.label ?? '',
+    };
+  }
+
+  public onObjectReferencePickerRequested(controlOrGroup: FormControlWithMetaData | FormGroupWithMetaData): void {
+    let editorConfig: ObjectReferenceEditorConfig | undefined;
+    let title: string;
+    let initialSelection: string[] = [];
+
+    if (controlOrGroup instanceof FormGroupWithMetaData) {
+      editorConfig = controlOrGroup.contextualEditor;
+      title = controlOrGroup.title;
+      const refControl = controlOrGroup.get('objectReference') as FormControlWithMetaData | null;
+      const currentValue = refControl?.value;
+      initialSelection = Array.isArray(currentValue)
+        ? currentValue.filter((item): item is string => typeof item === 'string' && item.length > 0)
+        : typeof currentValue === 'string' && currentValue.length > 0
+          ? [currentValue]
+          : [];
+    } else {
+      editorConfig = controlOrGroup.contextualEditor;
+      title = controlOrGroup.title;
+      const currentValue = controlOrGroup.value;
+      initialSelection = Array.isArray(currentValue)
+        ? currentValue.filter((item): item is string => typeof item === 'string' && item.length > 0)
+        : typeof currentValue === 'string' && currentValue.length > 0
+          ? [currentValue]
+          : [];
+    }
+
+    if (!editorConfig) {
+      return;
+    }
+
+    const dialogRef = this._dialog.open(ObjectReferencePickerDialogComponent, {
+      width: '80vw',
+      maxWidth: '1100px',
+      data: {
+        title,
+        type: editorConfig.type,
+        objectTypes: editorConfig.objectTypes,
+        selectionMode: editorConfig.selectionMode,
+        allowClear: !!editorConfig.allowClear,
+        initialSelection,
+        itemData: this._buildPickerItemData(),
+        referencedObject: controlOrGroup.contextualEditor?.referencedObject ?? undefined,
+      },
+      enterAnimationDuration: '200ms',
+      exitAnimationDuration: '160ms',
+    });
+
+    dialogRef.afterClosed().pipe(
+      filter((result: ObjectReferencePickerDialogResult | undefined) => {
+        return result?.selectedObjects?.every((res) => isItemSelectedData(res)) ?? false;
+      }),
+      tap((result) => {
+        if (controlOrGroup instanceof FormGroupWithMetaData) {
+          const refControl = controlOrGroup.get('objectReference') as FormControlWithMetaData | null;
+          const attributeControl = controlOrGroup.get('attribute') as FormControlWithMetaData | null;
+          refControl?.patchValue(result?.selectedObjects[0]?.itemReference ?? null, { emitEvent: true });
+
+          const attributeValue = result?.attribute ? `attributeEnumSet.${result.attribute}` : null;
+          attributeControl?.patchValue(attributeValue, { emitEvent: true });
+        } else {
+          if (editorConfig?.selectionMode === 'multi') {
+            controlOrGroup.patchValue(result?.selectedObjects.map((res) => res.itemReference), { emitEvent: true });
+          } else {
+            controlOrGroup.patchValue(result?.selectedObjects[0]?.itemReference ?? null, { emitEvent: true });
+          }
+        }
+
+        if (controlOrGroup.contextualEditor?.referencedObject) {
+          controlOrGroup.contextualEditor.referencedObject.objectName = result?.selectedObjects[0]?.name ?? '';
+          controlOrGroup.contextualEditor.referencedObject.objectUrl = result?.selectedObjects[0]?.id ?? '';
+          controlOrGroup.contextualEditor.referencedObject.attributeUrl = result?.attribute ? `attributeEnumSet.${result.attribute}` : '';
+        }
+      }),
+    ).subscribe();
   }
 
 

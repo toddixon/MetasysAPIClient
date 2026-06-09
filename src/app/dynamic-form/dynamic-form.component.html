@@ -30,7 +30,7 @@
 
     <!-- Default view tab -->
     <mat-tab label="Default">
-      <form class="" (submit)="onSaveClick().subscribe()" [formGroup]="mainForm">
+      <form class="primary-form" (submit)="onSaveClick().subscribe()" [formGroup]="mainForm">
         @if(displayPage.keyView) {
 
         <form class="key-form" [formGroup]="displayPage.keyView.group" animate.enter="enter-animation--top">
@@ -44,7 +44,7 @@
             <!-- <span class="dev">Disabled:{{control.disabled}}</span> -->
             <span><strong>{{control.title}}:</strong></span>
             @if(isObservable(control.type)) {
-              @let t = control.type | async;
+            @let t = control.type | async;
             }
             } <!--* Control exists -->
 

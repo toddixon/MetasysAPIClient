@@ -131,6 +131,12 @@
   }
 }
 
+.primary-form {
+  overflow-y: clip;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
 .command--style {
   background-color: $light-blue-1;
   border-radius: 40px;

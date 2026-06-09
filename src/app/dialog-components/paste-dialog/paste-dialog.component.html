@@ -262,12 +262,14 @@
           <div class="display-view__container">
             <h3 class="display-view__title">{{ configGroup.title }}</h3>
             @if (configGroup.page.keyView; as keyView) {
-            <app-control-group [group]="keyView"></app-control-group>
+            <app-control-group [group]="keyView"
+              (objectReferencePickerRequested)="onObjectReferencePickerRequested($event)"></app-control-group>
             }
             @for (view of configGroup.page.views; track view.id) {
             <h4 class="display-view__subtitle">{{ view.title }}</h4>
             @for (group of view.views; track group.id) {
-            <app-control-group [group]="group"></app-control-group>
+            <app-control-group [group]="group"
+              (objectReferencePickerRequested)="onObjectReferencePickerRequested($event)"></app-control-group>
             } @empty {
             <h5 class="display-view__title">I'm empty!</h5>
             }
@@ -275,7 +277,7 @@
           </div>
           }
 
-          @if ((childPageGroups?.length ?? 0) > 0) {
+          @if (childPageGroups.length > 0) {
           <mat-divider class="paste-dialog__divider"></mat-divider>
           <p class="paste-dialog__children-heading">Child Objects</p>
           <mat-accordion multi>
@@ -313,12 +315,14 @@
               <div class="display-view__container">
                 <h3 class="display-view__title">{{ configGroup.title }}</h3>
                 @if (configGroup.page.keyView; as keyView) {
-                <app-control-group [group]="keyView"></app-control-group>
+                <app-control-group [group]="keyView"
+                  (objectReferencePickerRequested)="onObjectReferencePickerRequested($event)"></app-control-group>
                 }
                 @for (view of configGroup.page.views; track view.id) {
                 <h4 class="display-view__subtitle" [style.background]="'#5191db'">{{ view.title }}</h4>
                 @for (group of view.views; track group.id) {
-                <app-control-group [group]="group"></app-control-group>
+                <app-control-group [group]="group"
+                  (objectReferencePickerRequested)="onObjectReferencePickerRequested($event)"></app-control-group>
                 }
                 }
               </div>
